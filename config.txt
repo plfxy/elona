@@ -35,7 +35,7 @@ ignoreDislike.	"1"		1=displace harmless NPCs like town children when moving
 
 
 (Screen)
-fullscreen.	"1"
+fullscreen.	"0"
 windowX.	"0"
 windowY.	"0"
 windowW.	"800"		screen width (min 800 dots) must be a multiple of 4
