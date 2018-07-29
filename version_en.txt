@@ -1,0 +1,181 @@
+This is the update history of the head family elona.
+Update history of elonaplus is untranslated.
+
+
+##### Version 1.20-1.22(Beta)
+
+Please note that this is a beta version and many features are not completed/implemented yet. 
+If you are going to use your previous save-game, please note that:
+	1.You need to save your game in a town before applying the update.
+	2.Your shopkeepers and breeders will be sent to town after the update.
+
+ [Added]
+
+* Added a setting option which enables you to skip certain random events.
+
+* Integrated the new blending system into to old blending(dip) menu(default:b key).
+
+* Updated the in-game map editor for modders/developers.
+
+* Slightly altered the appearance of the interface.
+
+* Added some simple item descriptions.
+ 
+-1.21
+
+* Some item enchantments can be attaced to food now.
+
+* Added some new items and an item enchantment -God bane.
+
+* Adjusted the game balance slightly.
+
+-1.22
+
+* Added food enchantments.
+
+-1.23
+
+* Each recipe has a different price and rarity now.
+
+* Added few more recipes to test.
+
+ [Fixed]
+
+* Fixed a bug where version-incompatible items had been causing CTD errors.
+
+* Fixed a bug where on rare occasions opening the new year's pack could cause a CTD error. 
+
+* Fixed a bug where the "murderer" random event could cause a CTD error.
+
+-1.23
+
+Thanks! Elvenspirit, Everyone
+
+
+##### Version 1.19(Beta) 2010/04/12
+
+Please note that this is a beta version and many features are not completed/implemented yet. 
+If you are going to use your previous save-game, please note that:
+	1.You need to save your game in a town before applying the update.
+	2.Your shopkeepers and breeders will be sent to town after the update.
+
+ [Added]
+ 
+ [Fixed]
+
+* Fixed a bug where the game crashes when entering the world map after the update?
+
+* Fixed a bug where the artifact conversion didn't propery work sometimes.
+
+* Fixed a bug where the sister mansion was displayed on global map.
+
+* Fixed some graphical glitches.
+
+* Other small fixes.
+
+Thanks! Everyone
+
+
+##### Version 1.18(Beta) 2010/04/11
+
+Please note that this is a beta version and many features are not completed/implemented yet. 
+If you are going to use your previous save-game, please note that:
+	1.You need to save your game in a town before applying the update.
+	2.Your shopkeepers and breeders will be sent to town after the update.
+
+ [Added]
+ 
+* Replaced some more item graphics. 
+
+ [Fixed]
+
+* Fixed a CTD bug from 1.17.
+
+* Fixed some graphical glitches.
+
+* Other small fixes.
+ 
+Thanks! Everyone
+
+
+##### Version 1.17(Beta) 2010/04/10
+
+If you are going to use your previous save-game, please save your game in a town before updating the game.
+
+ [Added]
+
+* Added a few new items.
+ 
+* Some NPCs will go frenzy when attacked now. 
+
+* Material spots no longer appear on global maps. (Materials will be eventually removed from the game due to changes in the production system.)
+
+* The map of North Tyris has been slightly altered. If one of your buildings is on an inaccessible tile, it will be automatically moved to an empty tile. 
+
+* Added Palmia borders and a map of South Tyris. Note that South Tyris is totally empty right now.
+
+* Fixed and improved shadows cast by items.
+
+* (Japanese Version) Added several tones of voices for NPCs.
+
+* Replaced some graphics of items and map tiles.
+
+* The amount of money required for thieves' guild quest has been increased. Platinum coins given upon completing the guild quests have been slightly decreased.
+
+* You no longer get 5% guaranteed spell-casting success chance. Also, the difficulties of Wish spell and Harvest spell will increase as the spell levels go up now.
+
+* When you die in a quest map, you will loose some willpower and charisma now.
+
+* The amount of money a wallet contains no longer depends on PC's level.
+
+* Guards will be suspicious if you give them wallets frequently.
+
+* Reduced the amount of bonus given by NPC's Negotiation skill in PC's shop. Also, a NPC shopkeeper in PC's shop will develop his Negotiation skill 3 times faster now.
+
+* The spell of dominate creatures no longer works in the void.
+
+* Like other NPCs, adventurers will be also able to call guards or attack you if you fail to steal.
+
+* You will need slightly more Performer skill levels to satisfy audience.
+
+* Shopkeepers will refresh their inventories after 7 days instead of 3 days.
+
+* Cats and dogs have a hand instead of an arm now.
+
+* Other small balance adjustments.
+
+ [Fixed]
+
+* Fixed a bug where the graphics of CNPCs were corrupted if you had more than 33 of them.
+
+* Several bugs related to the holy festival have been fixed.
+
+* Fixed an exploit where you could make NPCs drink any potion.
+
+* Fixed some overflows.
+
+* Fixed a bug where you could make a CNPC cast spells like Wish and Harvest.
+
+* Fixed a bug where you could exploit shelters to make some money.
+
+* (Japanese Version) Fixed a bug where portrait graphics in cut-scenes were corrupted.
+
+* Fixed a bug where you were given a random religion at the beginning of the game.
+
+* Other small fixes and improvements.
+
+* (English Version) Fixed the dialogue of the secret event of Lomias and Larneire.
+
+Thanks! Everyone
+Special Thanks: Elvenspirit (Mapper)
+
+
+##### 2009 Christmas Edition
+ 
+* Added New Year's monetary gift. Given from friendly adventurers in January.
+
+* Holy Night Festival in Noyel.
+
+* Other small bonuses.
+
+Thanks! Everyone

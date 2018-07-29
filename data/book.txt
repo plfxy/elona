@@ -1,0 +1,3234 @@
+
+################# Definition ########
+/Note/
+Number,Japanese title,English title,		1=randomly generated
+
+%DEFINE
+0,日记,My Diary,				1
+1,给迷路士兵的指南书,Beginner's Guide,	0
+2,出错了,It's a bug,				0
+3,不要看,Don't read this,			1
+4,博物馆经营指南,Museum Guide,		1
+5,库莱姆莓中毒,Crimberry Addict,		1
+6,世界在旋转,Cat's Cradle,			1
+7,灵草的作用,Herb Effect,			1
+8,店的运作指南,Shopkeeper Guide,		1
+9,第一次的自家栽培,Easy Gardening,		1
+10,珍惜水源！,Water!,				1
+11,对畜牧的建议,Breeder's Guide,		1
+12,神秘的手记,Strange Diary,			1
+13,来自金字塔的挑战书,Pyramid Invitation,	0
+14,卡牌游戏的规则书,Card Game Manual,	1
+15,地下城的运作指南,Dungeon Guide,	1
+16,被隐藏的木加弗定理,Wily Mujaf's Thesis,		0
+17,奈菲亚综合症,A Review on Nefian Psychosis,		1
+18,送礼的礼仪,Gifting Gifts,		1
+19,集团活动训练,An Exercise in Team-Building,	1
+20,冒险生活　＜518／春号＞,Adventurers Quarterly Spring '18,	1
+21,仇恨笔记,Bitter Last Words,		0
+22,作战指示书,Mission Briefing,			1
+23,又是这一阶段？,Mission Briefing,		1
+24,死灵术说明书,Mission Briefing,		1
+25,日志的秘密,Secret of the journal,	0
+26,魔术讲义发布资料,Witchcraft lecture handouts,		1
+27,采掘好啊,Mining is wonderful,		1
+28,哇娱乐项目？,What is entertainment?,		1
+%END
+
+/Translation Note
+Text written after %**,EN will be displayed in the English version of Elona.
+
+#####################################
+%0,JP
+
+
+
+从今天开始养成每天都写日记的习惯吧。
+（书本可以在游戏目录下的book.txt内编辑）
+%END
+
+%0,EN
+
+
+
+I'll start writing in my diary from 
+today on!
+%END
+
+
+
+#####################################
+%1,JP
+给迷路士兵的指南书
+	written by 艾沃达纳的将军
+（注）非艾沃达纳士兵不得阅读！
+
+　迷路的诸位士兵们，茫然于该如何行动的
+诸位士兵们、你们不需要任何担心。和队伍
+走散的时候该如何行动，就由我来作个简单
+的说明吧。
+
+■该如何行动
+
+　首先从战场上逃离，向着东南的煤矿城镇
+韦尔尼斯前进即可。镇里有食物供给，如果
+攒了一笔小钱的话也可以购买其他的物资。
+
+　做了适当的准备之后、即可朝着镇东附近
+的洞窟出发。那里对于想积累经验的新兵来
+说是最合适的地方，也能稍微赚到一些钱。
+
+■不该采取的行动
+
+　不要轻率地到处乱闯。新手不小心闯进陌
+生的迷宫后，立刻被恐怖的危险生物杀掉的
+事情时有发生。
+
+　要一直留意食物的储备量。
+食物很贵，但对于生存是必须的。虽然除了
+买取以外还有不少获得食物的方式，但随时
+注意肚子的饥饿程度仍是必须的。
+
+■最终的目的是？
+
+　积累了足够的经验的话、就以莱希墨苏洞
+穴为目标吧。那是奈菲亚的遗迹群之一，据
+说其中隐藏着能将我等艾沃达纳人引向繁荣
+的重大秘密。
+
+　至今为止仍没有人能到达洞穴最下层并
+活着归来。谁能解开这个迷宫的秘密，就
+会获得巨额的赏金。
+
+最后祝诸君马到成功！
+%END
+
+%1,EN
+Beginner's Guide
+	Author: An Old Adventurer
+
+<This book is weathered and yellow
+with age>
+	
+I leave this book here in the off
+chance that should I not survive my
+final adventure, others may learn
+from my trials and tribulations.
+
+I have lived many years and have
+done many deeds. I have seen much
+what this world has to offer.
+
+This cave has been my hideaway in the
+last few seasons, though if you are
+reading this, it is most likely now
+yours to reside in. I don't mind as
+I'm either dead or fabulously rich.
+
+Still, if you are planning on going
+into the same trade as I and are not
+the local scamps just playing at it,
+some advice should be parted to you.
+
+Now where to begin?
+
+I won't know from which way you came
+from so it's best to give you the 
+local landmarks;
+
+If you follow the trail from here to
+the South-East you find Vernis. It's
+a mining town, but it should still
+have some shops, a tavern and an inn.
+You should be able to find some work
+there, as well as food, gear, and 
+even a friend or two. The innslady I
+recall was having some trouble with
+local ruffians the last time I was
+there. 
+
+East of Vernis is what the locals 
+call the "Puppy Cave". It's well...
+always changing. A local mage called
+it a "Hausdorff-Besicovitch fractal
+plane", whatever that means. 
+If you leave the cave and come back, 
+or go up or down floors, it will
+change all the creatures, items, 
+walls, and exits. You can find quite 
+a bit of stuff if you don't mind 
+hopping in and out. 
+
+The "Puppy" of this cave is fairly
+deep in, and a child in town would
+love to get it back, but it kept
+getting itself killed when I tried.
+It always reappeared on that floor 
+when I left and came back, but I 
+gave up after a few tries. Maybe
+you can do it. Just don't get lost.
+
+Once you are a bit tougher and better
+geared, the Gray cave of Lesimas
+might be be another good spot. It's
+one of the more ancient ruins of
+Nefia, and there's bound to be
+something interesting in there. If
+you ignore the roads, it's almost due
+south of this cave.
+
+No doubt all around the land there
+will be caves and forests spawning
+with loathsome critters. Just don't
+go blindly into them, check them out
+BEFORE going in. Preparation is a key
+difference from a live Adventurer and
+a dead one. 
+         -== Geography ==-
+If you follow the roads from Vernis:
+-Port Kapul is to the west. 3-5 days
+  Good Business there as it's a port
+  Fighters Guild and an Arena
+  
+-Palmia is to the East. 2-3 days
+  Big City, lots to see and do
+  King lives here
+  Has Arena
+  
+-Yowyn is to the South-East. 2-3 days
+  Farm Town, not a lot to do unless
+  you like turnips and Harvesting.
+  Note to self: Clean out Yeek's Nest
+  AGAIN... worse than rabbits they be
+  
+-Lumiest is South-East of Palmia
+  On an Island
+  Lots of mages live there
+  
+-Derphy is South-west of Vernis
+  No roads lead there
+  Wretched hive of scum and villainy
+  Steer clear of Dragon's Nest!
+
+-Noyel is Far FAR to the east
+  Bring a sandwich, it's a long walk
+  Snow is slow going
+  Don't poke the Fire Giant. Bad juju
+  
+      -== Work and Jobs ==-
+While you may want to go about
+slaying dragons and saving damsels,
+it's best to start small. Being an
+adventurer means you'll do jobs that
+no one else wants to do.
+
+Deliveries are a good way to start
+out in this business. Example:
+     Accept job
+  -->GET THE ITEM AT YOUR FEET!<--
+     Deliver item to recipient
+     Collect reward
+Note that forgetting the item to 
+deliver is very BAD, but not the end 
+of the world. If you are very lucky,
+the local shops or fields may have
+what you are looking for. They won't
+know the difference, trust me. 
+Also note how many days you have to
+deliver things. Running from Lumiest
+to Port Kapul is NOT fun, and you may
+simply not be fast enough yet to do
+the really high paying ones. 
+
+Hunting can range from easy to very
+VERY hard. The money offered is a 
+good way to tell how bad it will be.
+Be careful doing these, as it takes
+just one nasty critter to get you.
+
+Gift getting also ranges from easy
+to absurd. Just remember that if you
+accept the job, running from town to
+home and back takes time, and you may
+not have that long to do it.
+
+Cooking requests are only good if you
+can cook, have the items, and can
+deliver before the food rots. But if
+you check out the local bakery before
+accepting, you may just be able to
+buy what you need before doing the
+job.
+
+Harvesting LOOKS easy, but it can be 
+very hard. Waste no time, and go as
+unburdened as possible. Speed is the
+key for these jobs.
+Finally, try not to fail a job, it's
+a black stain on your record, and too
+many of those can get the guards on
+you. Use you noggin BEFORE accepting
+any job. Can I do it? Will I have the
+time? Who gets their kid garbage on
+their birthday?
+
+      -== Advice and Tips ==-
+And now a few nuggets of wisdom:
+
+-Cargos of food are cheap, and you'll
+eat them as you travel overland. But
+you cannot eat them inside towns or
+dungeons. If you are hungry just exit
+the town or dungeon, eat, and enter.
+
+-Be cheap. 'b'ash fruit bearing trees
+in towns and fields for fruit, and 
+scavenge whatever plantlife you can
+outside. That armor is not going to
+come to you if you keep eating cakes
+and pies. 
+
+-The meat of many monsters is edible.
+Women love Putit flesh for what it 
+does for their skin. Some isn't so
+good for you, but if you're hungry...
+
+-While succulent and tasting of young
+pork, the flesh of man should not be
+eaten. Only crazy people eat people,
+and you aren't crazy are you?
+
+-Innkeepers for coin can feed you
+quite nicely. They have beds too.
+
+-Until you can buy/find/steal a bed
+for your home, stay at inns when you
+are tired. A sleeping bag is a good
+idea for deep dungeon trekking.
+
+-Should a pet or ally fall in battle,
+most towns have a bartender who can
+bring them back for a price.
+
+-Check your 'j'ournal! It has all the
+information about quests you are on,
+jobs you are doing, events, your own
+reputation and bills. Check it often.
+
+-On the subject of bills. When you
+become famous enough, you'll get a
+salary of money and items twice a
+month. The salary will be dropped off
+in the chest in your home. However,
+with salary also comes taxes. Take 
+the bill in hand and cash in pocket 
+to the local embassy just north of 
+Palmia and pay it there. Don't let 
+your bills add up as the taxmen are 
+worse than any dragon or demon.
+
+-Should your skills start to plateau,
+seek a trainer. There is one in every
+town, and will sharpen your existing
+skills. They also have skills you do
+not yet possess and for a price will
+teach you them. Beware though, they
+only accept platinum coins, and those
+are in short supply these days.
+
+-And finally, beware the weather. Oh,
+a little rain may have never killed
+anybody, but with heavy rain comes 
+lightning that can blind you and the
+great thunder which can confuse you.
+Try not to get lost while in one.
+Sometimes, the best thing to do is
+stay in place till your head clears.
+Rarely, but with increasing fervor is
+the dreaded Etherwind. Beware this.
+A friend of mine was stuck outside in
+it and could barely be called human
+when he finally staggered inside.
+When it comes, FIND SHELTER! I cannot
+stress this enough. Hide in a cave if
+the monsters inside won't tear you to
+bits. If you are in a town you are by
+no means safe. Run to the innkeeper
+and demand Shelter. Wait out the evil
+storms, and only after it passes can
+you return to your duties.
+
+
+
+
+
+
+
+In closing, I hope this is of some
+use to you, and I hope my final
+adventure is a good one. Now if you
+will excuse me, I have a fort to
+conquer. How bad could it be?
+
+Good luck to you and your travels.
+%END
+
+
+
+#####################################
+%2,JP
+
+
+　这本书会在道具生成失败的时候出现。如
+果您对产生这种现象的原因：诸如采取了什
+么特别的行动、或者发生了什么bug之类原
+因有头绪的话，还希望您能提交报告。如果
+不明白原因的话请直接忽略它，这对游戏的
+进行不会产生影响。
+%END
+
+%2,EN
+
+	Author: <Madness!>
+
+This book is generated when item
+generation fails. If you find this
+book and have an idea as to what
+could be causing the bug that made
+it appear, please report it.
+
+If you have no idea what could have
+caused it, then don't worry about it.
+This shouldn't affect gameplay in
+any way.
+--The Management
+%END
+
+
+
+#####################################
+%3,JP
+
+
+你看了啊？
+%END
+
+%3,EN
+
+
+I warned you.
+%END
+
+
+
+#####################################
+%4,JP
+博物馆经营指南
+	written by 标本狂
+
+　对经营博物馆很好奇？给想经营博物馆
+的你几条建议。
+
+　博物馆，是通过向来客展示稀有的标本
+和卡片来赚取收入的设施。不管在博物馆
+里的哪都可以，只要把上述物品摆放出来
+就应该可以确认到博物馆当前的排名了。
+
+　每只标本或卡片都有着各自不同的稀有
+度。越是巨大的标本、越是难以获得的
+独特卡片，就越有其稀有价值。
+
+　需要注意的是，重叠在一起的物品将无
+法被展出。并且，所有种类重复的道具的
+稀有价值，将从第二个开始降低。
+
+那么，请努力经营吧。我期待着你的博物
+馆成为人们的话题传到我耳中的那天哦。
+
+ps. 喔喔、差一点就忘了。初建时的博物
+馆很狭窄，觉得地方不够用的时候，就挖
+开墙壁来扩建吧。
+%END
+
+%4,EN
+Museum Administration Manual Mk.II
+ReWritten by Curator Schmidt
+
+So you want to run a Museum do you?
+
+Young Sir/Lady, it takes some hefty
+capital to purchase such a deed, but
+if you have the time, patience, and
+money this old curator will help you
+out with this handy, unbiased manual.
+
+In your wanton and overly hedonistic
+destruction of the local flora and 
+fauna (henceforth known in this guide
+as "adventuring") you might have come
+across some of the following:
+
+Item a.) Figure of <Fauna>
+Item b.) Card   of <Fauna>
+
+If so, then you may have barely given
+them a glance before shoving them in
+your sack if ill-gotten gains and 
+simply gone back to "adventuring".
+No doubt you have sold them for more
+tankards of ale and legs of mutton,
+but the more intelligent among you
+might collect them into a pile and 
+ponder "Why do monsters have these?"
+
+The answer: Vanity! And Magic!
+
+And it is these things that we shall
+profit from. And it's so simple even
+an adventurer can do it!
+
+Still, just in case, I have written 
+down the exact steps to minimize any
+unfortunate mishaps that might arise.
+
+Step 1.) Purchase a deed of a Museum.
+   This step is what chokes out the
+   small fry from the serious doers.
+   
+Step 2.) 'r'ecite the deed upon the
+   spot on the world you wish your
+   museum to be. Let the gnomes do
+   the building, it won't take long.
+
+Step 3.) Aesthetically place all the 
+   Cards and Figures you have found
+   inside the museum. Neatness is a
+   virtue, though not necessary.
+
+Step 4.) Profit!
+
+That should do it as far as the basic
+setup requires. If you want even more
+information about specific queries, 
+merely read on to learn more!
+      -== Notes and Caveats ==-
+
+Whilst having more than one museum is
+certainly possible, only your first
+one will make any money. 
+
+Figures are worth more than cards
+most times anyway.
+
+Don't pile multiple items upon one
+space. It is entirely unprofessional,
+and utterly ineffectual.
+
+The mightier the monster, the better
+value the card and Figure. Rare are
+the Cards with a Name or Title on 
+them. These indeed are best.
+
+While having a dragon's card is nice.
+having ten is just tacky. Variety is
+key. The more duplicates you have,
+the less they are worth.
+
+Oh and one more thing... the gnomes
+that build your museum have somewhat,
+oh, narrow tastes. you may have to 
+purchase a <designer board> to sculpt
+it into your own grandiose vision.
+
+            -== Errata ==-
+Base cost: 		140,000 gp
+Maintenance cost:    1500 gp/month
+Income per rank:      100 gp/month
+
+**Figures above are approximates only
+
+
+Happy Curating!
+%END
+
+
+
+#####################################
+%5,JP
+库莱姆莓中毒
+
+
+　所谓库莱姆莓，是一种能够引发幻觉的
+名叫库莱姆的植物的果实。对库莱姆莓的
+滥用，主要体现在把晒干的果实当成嗜好
+品来使用。库莱姆莓中含有名为酩紫红质
+和酊清蛋白的麻药成分。
+
+　持续滥用的人，会变得无法仅仅满足于
+库莱姆莓的效果，有转向投用大麻和苏库
+麻等违禁药物的危险。
+
+　库莱姆莓中的酩紫红质和酊清蛋白会作
+用于人的中枢神经，引发中枢神经的兴奋
+和麻痹，从而造成幻觉。主要症状为产生
+幻觉、陷入酩酊、发狂发热等等。症状会
+在吃下果实的１５～６０分钟后产生。
+
+%END
+
+%5,EN
+Crimberry Addiction and You	
+A Schmidt Education Pamphlet
+
+Every year more and more people are
+becoming addicted to the seemingly
+harmless Crimberry.
+
+Known by an ancient Nefian dialect as
+Kur-amu-beri, which should just go to
+show its long and sordid history with
+our land and peoples, the Crimberry 
+is a strong hallucinogen with many
+different applications.
+
+Simply eating a berry can cause the
+following symptoms in 15 to 60mins:
+- Hallucinations
+- Impairment like Drunkenness
+- Raving like a loon
+- Fever-like motor-control failure.
+Crimberries are highly addictive, and
+should the addict fail to get his
+next "Crim", he will either turn to
+other narcotics, or become a threat
+to our community.
+
+And of course, no one thinks of the
+poor children who get involved in our
+seemingly "adult" activities. They've
+even created a new way to "enjoy" the
+devilish berries; 
+
+They copy the wild yeeks and dry them
+then shove the dried berry up their
+nose. This "snorting" of Crimberries
+will lead to the proliferation of 
+excess aggression, and will lead more
+desparate individuals to become known
+as "adventurers" commiting insane
+deeds to get their next fix.
+While some of the older, long haired
+Wizards demand that Crimberries remin
+legalized, if only for their sacred
+"rituals", this must stop!
+
+        FOR OUR CHILDREN!
+        
+        FOR OUR FUTURE!
+        
+CONTACT YOUR LOCAL MAGISTRATE TODAY!
+	Petition the King!
+%END
+
+
+
+#####################################
+%6,JP
+
+
+
+
+世界在旋转，世界在旋转，世界在旋转 
+%END
+
+%6,EN
+Round Eyes! Round Eyes! Round Eyes!
+%END
+
+
+
+#####################################
+%7,JP
+灵草的作用
+	written by 灵草帝
+
+●箭毒草
+具体效果依然不明。不过临床实验已经证
+明，万灵草对所有的能力都有良好的作用。
+
+●巨人力士
+这个就已经确认了。可以提高力量和耐久
+的能力以及它们的潜在能力。
+
+●梦魔草
+效果和巨人力士类似，不过看样子影响的是
+精神方面的能力。
+
+●费力野草
+还不是十分明确。在近年来的学说中一般
+被认为有着增强感觉、感受神经能力的作
+用。
+
+●铝镭尼亚
+将荷尔蒙活性化，让人变得非常想要H……
+…咳咳。也有着提高记忆力的效果。
+
+●饱腹草
+这灵草的效果就是让你的肚子饱到像是要
+胀开一样。
+%END
+
+%7,EN
+Blessed Herbs
+Chronicled by Dr. Schmidt, PhDM
+
+* Curaria [KYURARIA AQUIFOLIUM]
+Effect is well known and medicinal.
+However, the ability of said effects
+is based entirely on it's so called
+"consecrated" state, which has been 
+clinically proven to be a real effect
+and not merely a placebo.
+Effect Status: Life Restorant
+
+* Morgia [MOJIA DIPSACUS PILOSUS]
+Massive hormone Stimulant. Increases 
+muscle mass, strength and endurance.
+Blind-Test subjects recieved various
+"consecrated" state herbs and thusly
+recieved differing returns. This only
+goes to prove that Gods do in fact
+exist, and that all our science is 
+meaningless in their might.
+Effect Status: Strength and Endurance
+	       enhancers
+
+* Mareilon [MAREIRON DIPSACUS FEROX]
+Neuro-Chemical stimulant. Increases
+cognitive abilities. Level of effect
+entirely on "consecrated" state.
+Effect Status: Mental Enhancement
+
+* Spenseweed [SUPENSUUIDO LONGIFOLIA]
+All effects as of yet are unknown,
+though it has been noted that those
+who ingest it seem to be more "aware"
+and levels of perception may be up.
+More testing is needed to determine
+all side effects.
+Effect Status: Enchanced Perception
+
+
+
+* Alraunia [ARURONIA MARTYNIA LUTEA]
+Hormone-activated. Aphrodiasiac. 
+Thus extremely popular with the 
+locals. Oddly enough, it also appears
+to have some ability at improving 
+memory. Research still pending grant.
+Effect Status: Memory improvement,
+               Libido enhancement
+
+* Stomafilla [SUTOMAFIRIA HYPOGAEA]
+Upon contact with the stomach, the
+herb expands and fills the cavity,
+leading the consumer to feel very 
+"bloated". Long term use and the 
+nutritional level of the plant has
+yet to be verified. 
+
+Effect Status: Very Filling
+
+
+As more specimens are brought in and
+tested, so shall we update this brief
+guide.
+
+Until then,
+Dr. Schmidt
+	Philosophiae Doctor Magus
+%END
+
+
+
+#####################################
+%8,JP
+店的运作指南
+	written by 熟练的店长
+
+　店的运作没有你想象中的那么困难。先把
+商品陈列好，再雇个有魅力的店长，然后就
+可以坐等定期的销售报告了。写长篇大论实
+在太麻烦了，所以就只写几条提示好了。
+
+* 来客的人数和店主的魅力，以及店面的等
+级成正比。
+
+* 店面的等级，会随着贩卖品的数量达到一
+定程度而上升。
+
+* 店面的等级越高，来客就会带着越鼓的钱
+包来消费。
+
+* 因此，店面等级低的时候，高价的道具是
+无法卖去的。
+
+* 家具和货车里的货物不能拿来卖。
+
+　最后提醒一下，落到商店地面上的物品是
+会被自动当成商品的，千万不要因此而丢失
+了重要的物品。
+%END
+
+%8,EN
+Shop Owning and Operational manual
+ReWritten by Schmidt the Fence
+
+So, you think you can own a shop? I
+know, sitting on your arse all day
+hawking wares seems easy enough. 
+
+But then riddle me this genius:
+If it's so easy, why is there only 
+one shop per type in every town?
+
+The answer is simple: 
+      Only the strong Survive!
+(Well, that and the high taxes...)
+
+Store operation is so difficult, 
+only the meanest and cut-throat can
+survive in town. You however, have 
+an advantage over us town-shops:
+     You will be outside!
+And while that sounds less than ideal
+right now, your monthly payments to
+the crown are cut down to a mere
+Five Thousand Gold Pieces a Month
+(5000gp/Month)
+Which is peanuts to what us city
+shops have to pay, believe you me.
+
+     -== Setting up a Shop ==-
+Step 1.) Buy a deed of a shop.
+ (A Mere 200,000gp at a base price.)
+
+Step 2.) 'r'ead the deed aloud on the
+spot of the world you would like it
+to be built on.
+
+Step 3.) Set up the shop (see below)
+
+Step 4.) Caveat Emptor!
+
+     -== Running your Shop ==-
+Your shop is up and now it must be
+run, which is a separate process.
+
+First you need a shopkeeper. Now this
+cannot be you, as you have to out and
+get the things to sell. So you have
+to go and get one of your companions
+to do it. You should choose a worker
+based on how good they look, and how
+good a negotiator they are, as they
+are the vital two things in any good
+sale. Now that you have such a goon,
+go to the register in the shop.
+Assign that person to the job. 
+
+The other part is also simple, to 
+SELL Stuff you need to HAVE stuff.
+So go get stuff and and leave it in
+your shop. The better stuff should
+be out on display, the less good bits
+should be in a pile in the back in 
+your shop strongbox.
+
+-== Little Golden Nuggets of Info ==-
+
+Your Salesperson stays at the shop
+and cannot come with you.
+
+Selling stuff makes money(natch) but
+it also improves your rank, which can
+make you even more money.
+
+Due to a vicious spat with the local
+Furniture Union, we cannot sell any
+spare furniture out of town. We in
+town can still buy and sell it. 
+
+Anything else, garbage, junk, even
+rotten stuff can be sold if you can 
+find a sucker for it.
+
+Investigate your allies to find the
+prettiest and bestest negotiator. It
+may be 10,000gp to do so, but having
+the best salesperson available will
+make up for it in the long run.
+
+The Embassy north of Palmia sells a
+fair bit of equipment for shops if
+you need anything.
+
+Due to your shop permit, you can ONLY
+sell a maximum of 10 items at a time.
+You can expand on this for a mere
+2000gp for an additional ten slots,
+and every subsequent 1000gp for each
+10 slots after.
+
+
+       -== Fiscal Information ==-
+Base cost:            200,000 gp
+Maintenance cost:     5,000 gp/month
+Income per rank:      ??? gp/month**
+
+**Why ??? for income? 'Cause that's 
+where you come in bub!
+
+With luck, you too will be living
+large like me!
+
+Remember: The GP stops here!
+
+Good Business to you!
+%END
+
+
+
+#####################################
+%9,JP
+第一次的自家栽培
+	written by 农民
+
+　自给自足…真是一个好词。想把农业当成
+副业或是趣味来玩玩看？那我就来教你一些
+简单的自家栽培方法吧。
+
+　首先，比什么都重要的是选择好种植的时
+期和地点。时期能选在下雨的时候是最好不
+过的，地点的话当然是选在农田里了。在下
+雨的日子里播种的种子不容易枯萎，而农田
+的土地会增加收获果实时留下种芽的概率。
+
+　成功地完成了播种之后，就关注着种子的
+成长吧。顺利的话，种子会在土中生出根来
+经过半个月到一个月的时间后结出果实。栽
+培技术低的时候，经常会发生种子在成长中
+途干枯的情况，这时候请不要灰心。
+
+　最后就是翘首以盼的收获了。嗯…先把这
+点记住吧：已经结出果实的种子是不会枯萎
+的。
+
+　收获是最考验栽培能力的时候，如果你的
+技巧相当高，说不定收获后植物会留下新芽。
+
+栽培能力越高收获的蔬菜或者水果的品质就
+越高。不过相应的，会引来以上等作物为目
+标的野生动物。击退一次的话暂时就不会再
+过来了…。
+
+在南提里斯有很多奇妙的植物种子。有机会
+的话请务必买来种在自己的田里，开始享受
+起自给自足的新生活吧。
+
+ps  也有雨天更适合进行收获的传闻。实际
+上有没有效果完全是个谜。搞不好只是当事
+人的心理作用。
+%END
+
+%9,EN
+Crop Growin' Fer City-Slickers
+by Jebediah Schmidt
+
+So you reckon on joining us good folk
+in doin' an honest days work do ya?
+
+Well, you adventurers-types with yer
+big-ol' swords and fancy armor, might
+not got enough grit ta get the job
+done right, but we'll give you a shot
+at join us humble folk.
+
+Ta start, you need ta have a green-
+Thumb, or "Gardening Skills" in your
+fancy city speak. If ya don't have 
+that skill afore a-startin' out ya
+gots a Yeek's chance on a skillet to
+get any plantin' done. So go get ta
+learnin' that first.
+
+Next, since we got all the good land
+near the towns, ya'll have to set up
+elsewhere. Now, I could go on all day
+about what my Pappy and his Pappy say
+about soil, but I know you won't get
+but a yeek bite's worth of it, so 
+allow me to "summ-ar-ize" it fer ya:
+
+Time and Place. Them's crucial.
+
+Ya'll might've noticed it rains more
+at certain times of the year. Thems
+the seasons, and the rainier it is,
+the better fer yer crops. 
+
+Place is easy. You might notice we
+like to plant on flat plains. There's
+a good reason fer it, and ya'll soon
+prolly figger out what it is. Avoid
+Snow, Mountains, and the only good
+thing that came from a forest is more
+trees, not crops.
+
+Now buy a deed and claim yer land.
+Come Hell or High Ether it's yers!
+
+But Jebidah, ya sez, I ain't gots no
+seeds tah plant! Kin I have some o'
+yers? I'd say heck no! Seeds is the 
+lifeblood of any crop! Go finds yer
+own! Ya get seeds rarely, unless you 
+heads North near the Alter and finds 
+ya some.
+
+Once ya got some seeds, ya needs ta
+plant 'em. Now I like doin' it in the
+rain, as I reckon it's better for em.
+Jes stand in yer fields and 't'ool em
+into the soil all gentle like. Easy.
+Now, after that, ya gotta wait, as 
+they take time ta grow. 
+
+Thanks to that there Etherwind, crops
+only take about a week or so nowadays
+which gets my Pappy all in a tiff it
+does, as he reckons it oughta take a
+whole season like it did in his time
+and his Pappy's time. Anyhoo, after 
+they grow and get ripe, ya gots ta 
+pick em. At first ya'll bumble a bit,
+but once you get good enough, ya jus'
+might find more seeds once ya pick em
+rightly good enough.
+
+Then ya'll go and do it again!
+
+     -== Bits from my Pappy ==-
+Now some crops'll wither, and that's 
+life, so no grumblin' about fate and
+the winds and all that hackey-dackey.
+It'll happen less if ya bless ya seed
+AFORE ya go and plant it! Practice
+also helps keep the wither away too.
+
+'g'et yer crops when theys ripe, also
+'g'et yer withered ones away too as
+ya never know if it's a catchy sick.
+
+Seed Types:
+Fruit seed: grows them there fruits
+Vegetable seed: grows them vegetables
+Herb seed: Ah reckon it grows herbs
+Gem seed: grow ores and gems, honest!
+Unknown seed: ? Never Grew one o dese
+Artifact seed: Grows Fancy artifacts
+
+If ya needs seeds, and I know no real
+farmer that dain't, ya should worship
+Kumiromi. She likes her offerings all
+mushy-like, and there's always scraps
+ya don't need much.
+
+My Pappy's Unca once said that if ya
+'g'et yer crops in the rain it's gets 
+ya right better crop. Now I never was
+one to go pickin' in the rain, so's I
+don'ts knows fer sure iffin it's true
+or not. 
+
+      -== Them Numbery Bits ==-
+Deed: Bout' Forty Thousand or so
+      Pends on your yackin' n' dackin
+Now my Grammy, she could get a deal.
+Ya shoulda seen her get TWO sacks a
+Potatah's for one jug o' CrimShine.
+Course', our Still was made by my
+Pappy's Cousin's Unca. Still, with
+Crimberries bein' frowned on as crops
+ya have ta plant them all sneaky like
+in the back behind squash...
+%END
+
+
+
+#####################################
+%10,JP
+珍惜水源！
+	written by 愤怒的小艾歌
+
+　毫不珍惜地把水丢掉什么的最讨厌了！
+要知道，虽然会稍微费点事，但水是可以变
+成那个珍贵的物品呢。
+
+　要怎么做才能变成？那种事情不要问人
+家啊！说好了要保密的！
+%END
+
+%10,EN
+You Water Wasting Jackals! Curse you!
+By Schmidt the Water Bandit
+
+Where I come from water is life! 
+Waterholes are protected to the death
+down to the last woman and child!
+
+I come to this country, and what do I
+see? Water, nay, LIFE, being wasted!
+You people, who live in such lushes,
+waste so much it's sinful!
+
+Water should be blessed, given to all
+your gods as tribute! Do you people
+even know all the things you can do
+with dirty water? 
+
+I suspect not.
+
+Nor will you if you simply toss it 
+all away like dung from a diseased
+camel.
+
+May all who waste water wither like
+grass in a drought, and may what you
+issue from your loins be as sand!
+
+Damn you all!
+%END
+
+
+
+#####################################
+%11,JP
+对畜牧的建议
+	written by 畜牧大师
+
+　嗯…其实我不擅长写书的…不过想赚些版
+费…而且也闲得没事干…
+
+　说起畜牧……我最早继承家业的时候也曾有
+过浪漫的梦想，但现实只是接连不断的给我
+这个新手带来教训。首先。不得不跨越的第
+一道难关是要想办法得到畜种。畜种是啥…？
+顾名思义，就是能不断产下新的幼仔的生物
+把生物登陆为畜种之后，这个物种就会随着
+时间推移逐渐变得兴旺起来。
+
+　刚开始的时候，推荐养鸡啊羊啊之类的野
+声动物。野生动物的繁殖能力基本上都很强
+怪兽的话，越强的生物，繁殖成功的概率似
+乎就越低。
+
+　虽然家畜只要进行放牧，它就会自由的生
+活，但是如果想要获得健康的肉质最好用家
+畜用的大型刷子来定期的为它刷洗，温柔的
+抚摸这类的养殖技巧也是必要的。
+
+  具有特性的家畜有时也会增加。具有什么
+样的特性，要在刷洗的时候通过触诊来判断
+就会明白。根据作为种畜的家畜的状态不同
+能够发挥出的特性遗传给后代的也不同。  
+
+　尽量让牧场中保持整洁。因为产蛋和榨取
+乳汁是需要用到一定空间的…还有，家畜如
+过实在太多的话，也是会让产蛋产乳率下降
+的。20匹左右差不多是恰当的数量吧？适当
+地弃掉一些幼仔也是可以的。
+
+　家畜增加之后能用来做什么呢，随你喜欢
+了…因为家畜随时都可以带出来，卖给奴隶商
+人也可以哦。或者杀掉家畜剥下肉来，这样
+就不用担心食物的问题了。肉腐烂了？…没那
+回事…那种时候就要…（字太脏了无法阅读）
+
+　宰杀家畜的时候，偶尔会让其他家畜变得
+躁动不安，这种时候只要离开牧场一次再回
+来，一切就都会平复下来了。
+
+　说明大概就是这么多了吧…反正畜牧也不
+会花太多的工夫，你也考虑一下把畜牧当
+成副业吧？
+%END
+
+%11,EN
+A Ranching guide for the Greenhorns
+	2nd Edition
+	By Cattle Baron Schmidt
+
+Howdy all! I write this guide for the
+same reason I rustle cattle about:
+Money. Plenty of good royalties to be
+had if one takes the time to put pen
+to paper. Still, while I can't give
+ALL my secrets to you as it'd put me
+out of business, but I can't get you
+to by my next book if I don't give at
+least the basics.
+
+To begin with, you'll at least eighty
+thousand or so to purchase a deed to
+a ranch. Less, if you are a good 
+talker or rather attractive.
+
+
+Then, with deed in hand, find the 
+best place for it you can find. While
+it cannot be within town limits, as
+you do NOT want people asking nosy
+questions on what exactly it is you 
+are breeding, or other such moral or 
+ethical-type dilemmas.
+
+Once you are at the spot of choice,
+merely 'r'ead the deed and claim your
+land.
+
+-== The Joys & Perils of Breeding ==-
+
+Good Breeding is a fine art, and is
+what separates us from the savages.
+No where more true is this rule than
+at a ranch.
+
+
+Any animal assigned to be a "breeder"
+will stay on the ranch, and, in time,
+produce milk, eggs, shit, and other
+bits. And no, I am not going to try 
+to explain how mammals will lay eggs
+or how exactly you milk a twenty-ton
+firebreathing lizard. I don't rightly
+try to answer those sort of questions
+and frankly, neither should you.
+Just accept the fact and move on.
+
+Now, those items can be sold for fair
+coin, but the real profit is in the
+breeding and rightly so. This isn't a
+farm after all. Now, with the coming 
+of the Etherwind, breeding has become
+a very simple process. Not like the
+old days, when you had to keep track
+of bloodlines, and breeding seasons,
+and listen to the mating howls, and
+the awful thumping of not one but two
+Twenty-ton Carnivores going at it.
+All. Night. Long.
+
+But I digress. Now all you do is just
+assign it breeding duties, and let it
+be. Soon, there will be more of them.
+Mitosis? Magic? Again these are the
+questions you should not rightly ask.
+
+Generally speaking, wild animals -
+chickens, sheep, rabbits and the like
+- breed like rabbits. Heh. Another
+thing to keep in mind is that the
+more powerful a monster is, the
+slower it'll breed on your ranch.
+That's something to remember when
+choosing what to breed if you need a
+gazillion more of them.
+
+I did say that all you have to do to
+get them to breed is to leave them
+to their own devices. But. If you
+want to get really good quality stuff,
+what you have to do is brush them
+once in a while. Grab a big brush,
+and give them a nice rubbing. Of
+course, you need to know how to
+do the Rub special 'a'ction in order
+for you to do that.
+
+Sometimes you'll manage to breed
+one of them farm animals that are
+really good at something. I don't
+mean maths or anything. They might
+be good at putting out oodles and
+oodles of milk or eggs. Or maybe
+they'll have good meat or skin.
+You'll know what they're good or bad
+at by paying attention during
+brushing. Those qualities will be
+exhibited while they're on the
+ranch. If they're the breeder, they'll
+produce more animals with similar
+qualities.
+
+You'll want to keep the ranch clean.
+Ranch animals need space to lay
+eggs and uh... milk themselves. Can't
+do that if there's shit all over the
+place, can they?
+
+It's a good idea to keep an eye on
+the number of animals on the ranch.
+They don't breed as fast and also
+produce less milk and eggs when
+the ranch is full of animals. I find
+20 animals optimal number. See if
+you can't find a nice balance for
+your ranches too.
+
+    -== Fruits of Your Labour ==-
+
+Now, these... offspring, can be used
+in several ways, which I shall list
+below:
+
+'i'nteract with it and get it to join
+you on your travels.
+
+Gene Engineering with zero risk to 
+the originals.
+
+Profit by taking it to a slave trader
+if, I might add, you know where to go
+where no one asks any questions.
+
+Or you can kill it and the odds of a
+carcass being salvageable is much 
+better than duking it out in the wild.
+
+-== The Drydock. Waste Nothing ==-
+
+A benefit of having a ranch is having
+a drydock at your disposal. Now I put
+mine in the southeast corner so the 
+wind will blow the stench away from
+my estate. I assume it will be the 
+same for you (you'd best hope so).
+In any other trade a rotten carcass
+would be nothing but a loss. Not so
+with a ranch, where nothing goes to
+waste. Simply dump your rotten meat
+into the drydock to cure, and in no
+time at all you'll have delicious,
+lightweight, adventurer-sought-after
+Jerky!
+
+
+
+	-== In Conclusion ==-
+
+At this point a wise man would stop
+writing here, and just let you dream.
+Simply imagine the possibilities, and
+then grasp them.
+
+In my next book, which will be soon
+available, I will highlight the more
+subtle tricks to the trade, like how
+exactly you prevent a twenty-ton, 
+fire-breathing, living force of
+Destruction and Death from simply
+leaving the ranch after setting all
+to the flame and devouring you on the
+spot for asking it to sit there and
+breed.
+
+Until then Partners!
+%END
+
+
+
+#####################################
+%12,JP
+
+
+
+（多处的字迹无法辨认）
+
+蕾切尔…你的…无法忘记。
+
+为了让记忆……留下来…
+
+你的病…现代的医学……无能为力。
+
+我没有了…的话就…
+
+所以
+
+永远地…把你的回忆…
+
+秘密的庭院…雪原上…
+
+场所在…从…北方2…方4…
+
+最爱的妹妹啊…我…
+
+安静地沉睡吧…
+%END
+
+%12,EN
+[You cannot make out who owns this]
+Written by Rachel's brother <damaged>
+
+<Within this rotted book is a Letter>
+<The Letter is faded Everywhere>
+
+Rachel<damaged> I'll forget.
+
+In order to retain memory of<damaged>
+
+Your disease <damaged>
+by modern medicine.
+
+<damaged> himself out of hand.
+
+No, I'm<damaged>
+
+So
+
+Your memories forever<damaged>
+
+Secret Garden in the snowy field...
+
+The location is the north 2<damaged>
+And from the 4<damaged>
+
+My sister is<damaged>
+Requiescat in pace...
+%END
+
+
+
+#####################################
+%13,JP
+来自金字塔的挑战书
+	written by 金字塔之主徒瘟
+
+　汝作为有名的勇士，有权被招待至吾所
+居之金字塔中。
+
+　尽管把这招待当作一种游戏即是。以汝
+之骁勇睿智，是能够漂亮地攻破吾之先祖
+所创之迷宫、还是就这样和多数的勇者一
+起败死，化作金字塔内之土灰？
+
+　理所当然地，吾之迷宫隐藏着与其危险
+性相应的财宝。记清这一点吧。
+
+　对了，还有一点。汝无须预约葬礼。因
+沉眠于金字塔之守护兽，必将一点不剩地
+将汝之躯体吞噬。
+%END
+
+%13,EN
+You have been cordially invited hero,
+RSVP not required, but come prepared.
+
+<This has been written on papyrus>
+
+You have gotten a bit of a name for 
+yourself young one, and you are even
+now growing stronger. Soon I, in my
+age beyond ages, might not be a match
+for you. And sensibly, I won't take
+that risk later. But I do so love a 
+fresh challenge every now and then. 
+
+So hear this.
+
+Seek my Pyramid! Challenge my maze!
+
+Of course you should have a reason
+more than simply my word of challenge.
+
+How about treasure? Ah, I knew that 
+would do it. Within my Labyrinth lies
+much treasure if you can find it. It
+lies within much risk, but any reward
+without risk is hollow and cold as is.
+
+And there is what I carry as well, 
+though I feel it fair to warn you
+that I have played this game for a
+long, long time and have yet to lose.
+
+Oh and one more thing, should you not
+be properly entered within the great 
+Book of the Dead before entering, 
+those within shall ensure that you
+become so, promptly indeed.
+
+Face me if you dare!
+
+%END
+
+
+
+#####################################
+
+%14,JP
+卡牌游戏的规则书（暂定）
+	written by 卡片达人
+
+·各玩家组成包含30张卡片的卡组来进
+行游戏。
+
+·卡片基本上分为生物和咒语两种类。
+
+·卡片由各自神之领域（domain）的不
+同来划分，进行游戏的期间，玩家的信
+仰为对该神之领域主神的信仰。
+
+·玩家开始游戏时分配的卡数和生命点
+数将和卡组里存在的神域的种类数成反
+比关系。（信仰的神越多神力越弱）
+
+·首先将对手的生命点减到0的玩家获得
+胜利。抽卡时卡组里没卡的场合，该玩
+家的生命点变成0
+
+·游戏开始时双方首先从卡组中分配一定
+数量的卡。
+
+·玩家的回合由开始阶段、抽卡阶段、主
+要阶段、结束阶段四个阶段组成。
+
+·玩家在回合的开始阶段时，得到相当与
+自己魔力收入份量的魔力。另外，玩家
+自己场上的所有生物的HP恢复到最大值
+行动结束状态的怪兽恢复重置为行动状
+态。
+
+·玩家在自己的抽卡阶段从卡组里抽取一
+张卡片。
+
+·手持7张手牌的时候进行抽卡，需要在
+抽卡后把手牌中最左边的卡弃入墓地。
+
+·玩家在自己的主要阶段，可以消费魔力
+让生物出场，也可以发动咒语或是能力
+还可以让生物进行攻击。
+
+·消费COST上的背景颜色是彩虹色的卡片
+必须要在自己场上拥有和COST数量一致的
+资源地卡时才能出场。
+
+·玩家在自己的回合仅有一次，可以把手
+牌中的一张卡奉纳给神。被奉纳的卡片将
+变为该卡片所属神域的资源地卡，并且额
+外再得到一点魔力。
+
+·变为资源地卡的卡片，直到游戏结束前
+都当作资源地卡。每一张资源地卡产生一
+点的收入能力。
+
+·被破坏的卡以及咏唱结束的咒语卡要送
+去墓地。卡组没有卡的时候玩家无法进行
+抽卡。
+
+·资源地卡以外的卡在场上最多只能存在
+8张，在场地没有空余的状态下，无论如
+何也无法使用更多卡片。
+
+·生物进行了攻击、防御、能力发动中的
+任意一种行动后，就会变成行动结束状态
+直到下次自己的回合之前都无法再行动。
+
+·刚召唤的生物在那一回合被当成行动结
+束的状态，但是可以进行防御。
+
+·当玩家指定生物进行攻击时，可以对对
+方的生命点数进行攻击。
+
+·防御方的玩家，如果场上又未行动的生
+物，可以用来防御对方的攻击。
+
+·攻击被防御的场合，防御方的生命点数
+不会减少。但是进行防御的生物要扣掉相
+当于对方攻击生物攻击力的HP。同时攻击
+方的怪兽也要受到相当于防御生物攻击力
+的HP伤害。
+
+·在魔力足够的情况下，防御方也可以从
+手中打出一张卡片来代替场上的怪兽进行
+防御。
+
+·生物的HP被扣到0时，将从场上消灭送入
+墓地。
+
+·操作说明
+决定键	选择
+取消键	略过/防御
+s键		投降
+
+·卡片的说明
+左上（赤）攻击力
+右上（绿）ＨＰ
+左下（青）使用时要消费的魔力
+右下（灰）发动能力时要消费的魔力
+
+·玩家卡片的说明
+上（绿）生命点数
+下（青）现有魔力/每回合的魔力收入
+
+·COST为0的生物还未实装。
+
+·咒语卡片的入手办法，主要是从店里
+购买增强卡包来获得。每个卡包里有5
+张随机卡片。卡包购买等，有关卡片的
+交易是通过叫做「Trade.Token(TT)」
+的货币进行的。TT主要通过与冒险者的
+卡片对决或是参加卡片大会的结果来获
+得或是失去。
+
+%END
+
+%14,EN
+Action! Adventure! It's Card Battles!
+<By DeckMaster Schmidt>
+
+Have you been looking for a game that
+your kids can play that doesn't 
+involve lawn darts, a dead yeek, and
+a bit of twine? 
+
+WELL SEEK NO MORE!
+
+Coming Soon to the Country of North
+Tyris, a brand new game involving
+gathering cards, duels, and bizarre
+hairstyles that require exstensive
+Gene-engineering to even be possible!
+
+Sequal to the once popular game
+Monster Duels, which is in turn 
+the sequal to Wizards & Magic!
+
+Become the King of Games!
+
+- Coming as soon as the Etherwind
+permits long-haul cargo. -
+%END
+
+
+
+#####################################
+
+%15,JP
+地下城的运作指南
+	written by 地下城领主
+
+　再稍微…多等一下哦！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+　多等一下哦！
+
+%END
+
+%15,EN
+Seek Ye the Secretes of yon Dungeons?
+<Schmidt the XVII, Duke of Intrigue>
+
+Then send ten gold to:
+Spelunkers Monthly Scrolls
+Care Of:
+Samisel
+South Tyris, Elona
+%END
+
+#####################################
+%16,JP
+隐藏起来的木加弗定理
+	written by 卡因
+
+藏不住了啊我就全说了吧。独
+
+角兽到底在哪儿啊不是说在七
+
+色彩虹的尽头有神的宝物吗？
+
+可是大地在撼动，世界的迷宫
+
+以奈菲亚之名不断更替，亦或
+
+许有着千千万万的生命向神祈
+
+愿着噩梦的终止。。（无后续）
+
+
+
+
+
+
+
+
+
+
+
+
+
+异世界的侵略者离我们越来越近了，还开始变
+形储存力量。他们凶暴无比，还要救观光客是
+神的试炼吗。在这种时候，就算是国王也离开
+殿堂象猪一样的乞讨，想到就让人哭笑不得。
+向哪里走都能见到浑身是血的灾民，真不是东
+西，就连女友都没能回来，太伤心了。要是掉
+10亿gp下来买酒把这一切都忘掉就好了（结束）
+
+
+%END
+
+%16,EN
+Wily Mujaf's Thesis
+	by <Caim>
+
+I saw the town get turned into a 
+smouldering pile of rubble. I was
+hoping for just one more chance.
+Fact is, I didn't get it. Because
+over and over again she fought lions,
+refusing to die. Look, her rib cage's
+still intact and everything. Didn't
+eat into it at all. Good as new.
+Crazy stuff, if you ask me. Now, you
+receive four options. First is 
+especially attractive and will not
+try to kill you. Next up, stunning...
+character to go with her looks. Third
+has a habit of lazing around. Lastly,
+a loyal mage who will go walk over
+red-hot embers for you. I wish I were
+anywhere but here. Actually, I
+CAN run away. RIGHT NOW. Alright,
+time to haul butt. You guys aren't
+ever taking me alive. I'm gonna keep
+running. Over and out.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10 thousand gp. More than enough to
+wash away everything. I want to
+forget these memories that are still
+raw. Seems like it was just the
+other day when it happened. But as
+much I would like to forget, I can't.
+Could I have stopped everything that
+happened? She's never coming back
+anyway. I would have gone insane
+over the sight of people bleeding,
+scratching their faces off. Flecks of
+skin flying. It was quite the
+headache for everyone in town, from
+royalty to the peasants. Now
+if only aliens were violent tourist
+neighbours, storing shapeshifting
+energy. Watching. Waiting. (The end.)
+%END
+
+
+
+
+
+#####################################
+%17,JP
+奈菲亚综合症
+	written by 泽那恩精神医生
+
+奈菲亚综合症，就是在奈菲亚内出现的一种
+精神疾病。
+
+·症状
+　大概有三个阶段，再之后会生命垂危。
+
+
+阶段１
+　判断力降低。
+　其降低会有个体差异、经常有无视迷宫
+内有益道具，变得会经常冲入敌阵中央，
+但是不会影响到城镇内的生活。这个阶段
+的多为活跃着的冒险者。
+
+阶段２
+　认知力降低，变得无法客观的看待事物。
+有很多人变得不能认知到楼梯，因此困在
+迷宫里回不了家。
+
+阶段３
+　攻击性增强。
+　在这个阶段的同族或同伴会变得积极的向
+你攻击。
+　原理不明，相同阶段3的人基本不会自相残
+杀。虽然发病者有时会形成群体，但互相看起
+来并不认识。
+　本身攻击性极低的人在这个阶段看起来没有
+变化。
+
+
+　阶段2的患者会一直在奈菲亚内徘徊，有时
+地壳变动后会与奈菲亚一起沉入地底。不过也
+有不少逃出迷宫的人。
+
+·大致原因
+　有人说原因是奈菲亚的魔力，有人说是地磁
+力，哪种看起来似乎都有可能，但缺乏证据。
+　长久居住会引起症状恶化，但个体差异十分
+明显。
+　特别是冒险者与一些又名号的人，大多都处
+在阶段1。不明原因发病的人也有不少。
+　不管怎样，只要不是易感体质，就能好好的
+作为冒险者活动。
+
+·对策
+　现在并没有治疗方法。
+　但有进行高耐性体质者与其他人的研究。
+　比如失去统帅的部队很容易发病，所以精
+神状态会影响病症。
+　发病的人离开奈菲亚的话症状就会减轻。
+
+·大众认知
+　从古代开始人们就认为奈菲亚很危险，但
+不是基于奈菲亚综合症的判断。
+　认为清理奈菲亚内怪物没有什么危险的人
+也很多，过于自信结果发病的人从古至今都
+是源源不断的。（＊１）。
+　一些国家禁止国民踏足奈菲亚，也会让军
+队做一些处理，但还远远不够。
+
+
+
+
+
+
+
+
+
+
+
+
+
+＊１　
+　最早的记录是三千年前的文献上记载的，在
+奈菲亚内变奇怪了的英雄被人们恐惧的称作
+【迷宫附体】，最后被处刑了。
+
+%END
+
+%17,EN
+A Review on Nefian Psychosis
+	by a Zanan Psychologist
+
+Nefian Psychosis is a mental disorder
+that develops in some people when
+they are within a Nefia (commonly
+known as a dungeon).
+
+       -=Signs and symptoms=-
+The disorder presents itself in three
+stages, each of which are described
+below, with the latter stages being
+more serious.
+
+       -=Stage 1 psychosis=-
+Characterized by lowered cognitive
+ability. The decrease in cognitive
+ability varies between patients, but
+they will typically be lacking in
+their object recognition ability and
+ignore useful items on the ground or
+charge blindly into enemies.
+
+Nevertheless, many adventurers are
+able to maintain a high quality of
+life in towns while afflicted with
+this stage of the disorder.
+
+       -=Stage 2 psychosis=-
+Extremely low object recognition
+ability, with a complete inability
+to recognize some classes of objects.
+Many afflicted by this stage of the
+disorder are unable to recognize
+staircases, and experience great
+difficulty in finding their way home.
+
+
+
+
+       -=Stage 3 psychosis=-
+Marked by increased aggressiveness.
+At this stage, patients actively
+target and exhibit aggression towards
+other people, including acquaintances
+and former allies. For reasons yet
+unknown, Stage 3 patients do not
+attack one another.
+
+Some of the afflicted band together
+to form working groups, so it appears
+that they are somehow able to
+recognize one another. It has also
+been observed that individuals who
+displayed no aggressive behaviour
+before the onset of the disorder do
+not display any aggression whatsoever
+even at this stage.
+
+Many individuals suffering from Stage
+2 psychosis may get trapped in
+dungeons, but there are many reports
+of such individuals suddenly
+reappearing aboveground when the
+dungeon sinks into the crust.
+
+          -=Hypothesis=-
+Two hypotheses have offered to
+explain this phenomenon, namely that
+it results either from exposure to
+mana in dungeons or to a particular
+type of magnetic field. Neither of
+these explanations, however, have
+proved to be completely satisfactory.
+Though is indeed a strong and
+positive correlation between the
+amount of time spent in dungeons and
+the severity of psychosis, it does
+not account for the high variability
+in the speed and severity of onset of
+psychosis between individuals.
+
+Many afflicted adventurers also never
+progress beyond Stage 1, and many
+more never develop psychosis at all.
+It is possible that individuals who
+become adventurers are inherently less
+likely to be predisposed to the
+disorder.
+
+ -=Prevention of Nefian Psychosis=-
+There is no cure for Nefian Psychosis
+at the time of writing. However,
+research has shown that recruiting
+allies who are not predisposed to
+psychosis can offer some protection
+against the disorder. There has also
+been a case where an entire group of
+individuals developed the disorder
+after losing their commander, so it
+is commonly thought that mood and
+the mental state of individuals
+play an important part in both
+the progression and prevention of
+the disorder.
+
+Some individuals also experience an
+improvement in their condition after
+avoiding dungeons for a period of
+time.
+
+       -=Public perception=-
+The notion that dungeons are
+dangerous is well-entrenched in
+society since ancient times, but few
+will associate Nefian Psychosis
+with that danger. It is a common
+misconception that dungeons are
+innocuous without the monsters that
+reside within them, as there have
+been many documented cases of
+skilled dungeon-delvers coming down
+with the disorder since ancient
+times (see footnote 1).
+ 
+For that reason, some countries
+forbid entrance to dungeons while
+others limit dungeon access to
+the military, but these measures
+still fall short of preventing
+cases of Nefian Psychosis.
+
+
+
+
+
+
+
+
+
+Footnote 1:
+The earliest record of such a case
+was an inscription discovered in
+Kjaraht, dating back to 3000 years
+ago. A well-known dungeon conquerer
+became deranged and it was suspected
+that he was possessed by a dungeon,
+leading to his eventual execution.
+%END
+
+
+#####################################
+%18,JP
+送礼的礼仪
+	written by 旅行商人
+
+　你把物品交给对方时，是怎么做的呢？
+有没有过觉得放下去太麻烦了就直接交给别
+人了呢？
+  
+　如果对方是很亲密的人，或者很急的时候
+那就没办法了，也有很多在意对年长者的直
+接递交的人。
+　
+  在大部分地区，不把礼品放到对方脚下的
+话都是很无礼的行为。当然，家人的话不这
+么做也是可以的。
+　
+  送礼时要留意，艾索里亚大陆的一些地区，
+放在脚下反而是无礼的，在这里被不认识的
+人用手递交了物品，也不能生气。
+
+　不同地方有不同的礼仪，旅行之前请好好
+确认当地礼仪吧。
+
+
+
+%END
+
+%18,EN
+Gifting Gifts
+	by a Travelling Merchant
+
+What is it that you do when you would
+like to give someone a gift? Do you
+sometimes get lazy and give it to
+them by hand instead of placing it
+at their feet?
+
+If it's for someone close like a Soul
+Mate, or if you are in a terrible
+hurry, then that's fair enough.
+However, many of the elderly find it
+rather offensive to be handed items.
+
+It is polite to place items at
+peoples' feet in most areas. Of
+course, you don't have to go that far
+for your family members.
+
+One thing you should keep in mind is
+that it is rude to place items at
+peoples' feet in parts of the
+Asserian continent. When visiting
+these areas, you must not get angry
+when strangers pass items to you by
+hand.
+
+Like they say, when in Palmia, do as
+the Palmians do. Remember, always
+read up on the culture before
+visiting a place!
+%END
+
+
+#####################################
+%19,JP
+集团活动训练
+	written by 引率教官
+
+　今天大家就来两人一组的行动吧。
+
+　好！关系好的两人组队试试吧，左边的
+人要负责移动。
+
+　在地城战斗的时候，要好好看组合对手
+的动作哦！特别在与强敌的战斗，那会成
+为很好的经验。
+
+　受到攻击的时候，体力更多的一方要保
+护同伴。
+　当然了，捡到钱的话一定要两人平分！
+
+　那边，两人一定要保持相同步调，啊，
+没有必要把两人的脚绑在一起的。
+
+　咦？没有人和你一组吗？那就教官我和
+你训练吧。
+
+
+%END
+
+%19,EN
+An Exercise in Team-Building
+	by Lead Instructor
+
+For today's practice, you will be
+pairing up with someone else to form
+a tag team.
+
+Now grab a buddy. The one on the left
+will be in charge of movement.
+
+If you're fighting a battle in a tag
+team, watch how your partner moves.
+If you're fighting someone strong,
+pay special attention to how you move
+during the fight, and I guarantee
+you'll learn lots from it.
+
+When taking fire, whoever has the
+most health at that moment should
+take damage for the other. And don't
+forget! Split any gold you pick up
+with your partner.
+
+Walk at the same speed to make sure
+you don't trip. You there, you don't
+have to tie your legs together! Put
+that rope away.
+
+What? You don't have a partner?
+Alright, you can tag with me.
+%END
+
+
+#####################################
+%20,JP
+冒险生活　＜518／春号＞
+	written by 女仆小姐 12岁
+
+　对冒险生活有帮助的各种情报，就由一直
+都见证关注大家的新人女仆来介绍吧。
+
+　如果被询问到自家必不可缺，经常使用的
+家具，你会先联想到什么呢。
+ 　
+  寝具，餐具，收纳家具，无论哪个都是丰
+富生活的重要的家具。
+　
+  ＜使用＞家具就可以发挥其效果，无论冰
+箱，书柜还是收纳家具，能让生活空间
+更加宽适，大家都想更加以活用呢。
+
+　在打算添加新物件转换心情前，推荐先从好
+好环视家中进行整理开始哦。
+
+
+%END
+
+%20,EN
+Adventurers Quarterly (Spring 518)
+	by Edelia the maid, age 12
+
+Hello there. I am Edelia the maid.
+How do you do? Today I bring to you
+advice that will hopefully prove to be
+of use in your adventures.
+
+There are many types of furniture
+that are indispensable to every
+home. No home should be without beds,
+cooking utensils, and storage
+containers.
+
+Some furniture like bookshelves can
+be used as a (t)ool. Yet others -
+fridges for example - are storage
+containers that can be (o)pened.
+These will prove useful in keeping
+your home clutter-free.
+
+Before buying a new deed and moving
+house for a change of pace, how about
+looking over your house and seeing
+if you can't sort things out?
+
+%END
+
+
+#####################################
+%21,JP
+仇恨的笔记本
+	written by 泽那恩研究员
+
+　今天，被所长叫过去，还以为有什么事， 
+原来是去别研究所的转属命令
+　现在的工作是昆虫兵器的研究。虽说只是
+下层人员，身为这里担当者的我不在的话会
+人手不足的。而且听说转属地是做利用菌强
+化人体的研究。
+总觉得很危险啊…。
+　虽然我坚决拒否，但那已是决定了的事情
+我的想法就被那样轻视。打心底不可原谅。
+---------------------------------------
+
+　新的研究所里，都是比之前那些更加疯狂
+的家伙。我还想究竟是从哪里收集到这些实
+验体的，没想到居然是从那些用欺诈行为使
+之破产的家庭那里强行买来的。
+仔细看被验者中连小孩子都有。
+打心底不可原谅。
+　用欺诈集来的钱做预算多了一大把，那所
+长很开心的说着。这什么职场啊！一想到在
+这种地方工作…真是流亡他国的心情都有。
+　但是全副武装的守卫都擦亮了眼睛，可能
+是戒备着发生生化危机，连一只蚂蚁出去的
+缝隙都不留。看来不打倒守卫，或破坏墙壁
+就没法逃出去了…。
+---------------------------------------
+
+　被验者们被关在名为个室的独房里，被用
+号码称呼，监视着。这简直是是囚犯啊。明
+明只是受到欺诈什么事都没做错啊，我向前
+辈们说过之后，得到了被骗的家伙才有错的
+这种胡话。
+　结果，既然你同情那就去和它们一起愉快
+聊天吧，就这样我强行变成了今晚检查被验
+者的值班了。打心底不可原谅。
+---------------------------------------
+
+　我勉强着去检查，发现了我的被验者们一
+个个都对我破口大骂。虽然我对他们什么都
+没做，但从他们来看我也是敌人吧。什么叫
+一起愉快聊天啊。
+　回去时，在走廊深处传来了哭泣以及安慰
+它的声音。说来有对兄妹是被相邻收容起来
+了。
+　虽是紧揪胸口的思想，但我还是怕回去对
+话后，被他们责怪。
+…我，对这样的自己打心底不可原谅。
+---------------------------------------
+
+　怎么会这样，在这里研究的居然是魔蝎拉
+的人体控制！虽然确实是菌没错，但这和军
+方提出的资料不一样啊。
+　好像是打算做魔蝎拉的研究却被制止过，
+即使如此现在还在背后秘密的进行研究，就
+是说，打算弄出莫大的成果让军方哑口无言
+吧。
+　感觉还会出什么问题。还是先看看吧。
+---------------------------------------
+
+　还想着到底如何控制魔蝎拉，看来是以神
+经系统的强化为主。对肉体的变化毫不出手
+干涉，还反过来直接利用那点。
+　因细菌侵蚀神经后身体会擅自动起来，这
+貌似是通过人体改造和药物投用来进行控制。
+现阶段可以说，全员都是已经过改造手术的
+了。
+　理论上是可行的，但在成功之时被验者岂
+不是会不听我们话暴动起来呢？
+刚想了下，实际利用这个技术的应该是士兵。
+被验者充其量只是弃子一旦确保技术就会被
+当做垃圾处理了吧。打心底不可原谅。
+---------------------------------------
+
+　今天所内都手忙脚乱。中午突然从军方本
+部有人来视察了。
+看来是非常急忙焦虑，连让新人的我都帮忙
+做些隐蔽的工作了。我知道了那些过程。令
+人作呕般打心底不可原谅的黑色问题不停的
+涌出。
+我一边进行作业，让那些谨记于头脑。
+---------------------------------------
+
+　来视察的，据说是那位红之英雄的部下，
+说到红之英雄那是一位普通有名的军人，
+在研究员之间那可是能令人怀疑生化兵器的
+实用性而出名之人。曾经我也有因昆虫兵器
+的预算被消减而有过痛苦的回忆。
+　不管什么都好，这可是能捣毁这腐败研究
+所的机会啊！我急忙把所有的问题点都写下，
+成功把它交给了正在回去的视察官。总算是
+赶上了。
+　这就是所谓的内部告发吧。自从来到这里
+就一直是与世隔离无法和外部取得联系的状
+态，也只有这样做了。
+　接下来就只有祈祷别让人发现是我告发的，
+和在被验者中出现牺牲之前能了结此事了…。
+---------------------------------------
+
+　糟了。所长看来对这次的视察感到了焦虑
+加速实验把它提前了。
+　可恶，前辈们在喊快去做实验的准备。
+就没有什么办法吗!
+
+
+
+---------------------------------------
+
+　…结果，我没法立刻着手工作只能按照指
+示做着准备。
+　全被验者的魔蝎拉都活性化后，向他们投
+下了药物。如果是没有经过改造的人类一下
+子就会变成废人了，看来这烈药可不是虚有
+其表，马上全员都开始痛苦了。虽然也可能
+是魔蝎拉的作用反应。
+　除我之外的研究员全部，都用期待的眼神
+看着痛苦不堪的被验者们。虽然着手兵器开
+发的我没有资格谈论人道，但总觉得莫名火
+大。打心底不可原谅。
+---------------------------------------
+
+　实验开始经过2小时后，出现了变化。
+有的体色出现了变化，有的长出了触手。他
+们用所长的说法貌似是「适配率低的渣屑」。
+人渣是你才对。
+　在其他的被验者痛苦之时，只有14号倒地
+不起一动不动。身体没有出现任何变异被认
+为是适合体，总觉得有些奇怪。收到指令，
+为了调查所以要把他搬到别室。
+　真没办法，稍微去下吧。
+---------------------------------------
+
+　我们在把他搬出隔离区域的瞬间，14号一
+跃而起！看来那是所谓的装死。虽然是老办
+法，但在这个状况可以说是效果拔群。
+　14号用不可置信的怪力打飞了守卫，就算
+受到了攻击也会瞬间治愈。
+　他的话是不是可以强行正面突破逃出呢？
+抱有此想法的我，马上指着出口大叫到。
+别让他逃了，加固防守出口。
+　看来14号理解了出口的位置，把聚集起来
+的守卫一个个打倒出去了。看来一切顺利。
+---------------------------------------
+
+　啊啊啊啊啊啊啊啊啊！我真是笨蛋！！
+那么强的话说不定可以一个人就压制这个研
+究所啊！
+　14号好像逃过了追兵，但这让研究所的警
+备系统大幅强化了。这样下去16号…救他的
+妹妹也会很困难吧。
+　这哪里是一切顺利，啊。为什么我那时没
+有想到这点呢。打心底不可原谅…。
+---------------------------------------
+
+　现在，我对人类的丑陋已感到厌倦。
+
+
+　实验开始已经过了12小时，或许还有其他
+适合者于是开始了再次巡逻。我也是其人员
+之一。
+　边想着如果有适合者该怎么把他带出隔离
+区域边来到了独房前，发生了令人惊愕的事。
+　被验者们的身体已经开始变异成茧的姿态。
+其他的研究员叫喊道。这个形态是预想之外
+的，12小时能变异到此程度也是预想之外。
+　急急忙忙用无线电向外面的家伙传达了现
+在的状况后，响起了很大的声音。以为发生
+什么而巡视四周的我们，看到了隔离区的隔
+壁降了下来。最尾端的研究员急忙跑过来时，
+隔壁已经完全降了下来。
+　无线电、没有回复。
+---------------------------------------
+
+　对绝望的我们，茧毫不留情的伸出触手向
+我们来袭。。总算是全员都避开致命伤后退
+到了隔壁附近，这样下去谁都无法得救。
+　从深处，传来了某种冲击音。
+是被验者暴走，在敲打墙壁吗？
+虽然很在意怎么回事，但我还是没有避开那
+些触手潜入深处的勇气。
+　我抛下那些开始发狂大笑的家伙，躲在角
+落的家伙，写着这文章。
+---------------------------------------
+
+　可恶　外面那群家伙，居然用毒气了啊
+身体开始麻痹了　手 麻 掉 了 没法
+　　　　　　　　　　　　　　　　　好
+好写 字 　
+
+　　我会就这样　死去　吗
+
+这种事　我　打心底　无法　　
+　　　　　　　　　　　　原
+
+
+
+
+%END
+
+%21,EN
+Bitter Last Words
+	of a Zanan Researcher
+
+The chief called me in today. Turns
+out I'm going to be transferred to
+another research facility. Why?
+We're so close to perfecting our
+weaponized insects! I may be low on
+the management hierarchy, but I'm
+still the one in charge of my team.
+We're not going to have enough
+people here if I get transferred.
+What's worse is that this facility
+I'm going to is conducting research
+on bacterial human augmentation.
+That term itself gives me the chills.
+
+This is an order so I can't just say
+no to it, but it really pisses me
+off how they made that decision
+without consulting me. And now
+they mention it to me in passing
+as if it were no big deal.
+
+Damn it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -------------------
+
+The people at this new facility are
+crazy. And considering where I used
+to work, that's saying a lot. I
+wondered where they were getting
+their subjects from. Turns out they
+swindled money from people, then
+forced them to sell their family
+members when they couldn't pay up.
+
+I can't believe that they're
+experimenting on kids too.
+
+Damn these people.
+
+How do I know this? Because the
+chief was so happy after counting
+the gold he had siphoned off of
+families that he just had to tell me
+about it. Can you believe that? I'm
+seriously thinking of defecting to
+another country, because there is
+no way I want to work here.
+
+I can't escape though. The armed
+guards are always watching. They
+call it the biohazard containment
+protocol, and it's so strict that
+not even an ant could get out from
+here. I'd have to overpower the
+guards somehow or punch a hole in
+the wall in order to get out...
+
+
+
+
+
+
+
+        -------------------
+
+The subjects are referred to by
+numbers, held in single cells (which
+they call "Suites"), and are kept
+under constant surveillance. They're
+prisoners, guilty of nothing except
+for the sin of falling for a scam.
+
+I told that to a co-worker of mine,
+and he said that it's their fault
+for falling for it. He seriously
+said that.
+
+To top it off, they just stuck
+inspection duty on me. Saying that
+I could go chat with them if I
+liked them so much.
+
+Damn these people.
+        -------------------
+
+So I sucked it up and did the
+inspection rounds. The subjects
+cussed at me the moment they saw me.
+I didn't do anything to them, but I
+guess I'm the enemy from their
+perspective. So much for chatting
+with them, huh. While heading back,
+I heard someone sobbing in the cell
+at the end of the corridor and what
+sounded like someone else trying to
+console the person who was crying.
+I did hear something about a pair
+of siblings - brother and sister to
+be exact - having their cells next
+to each other.
+
+
+
+It's heartbreaking, but I can't
+possibly tell anyone or do anything
+about that. I'm such a coward.
+
+Damn myself.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -------------------
+
+You have got to be kidding me. They
+are trying to control human-meshera
+homunculi here! I mean, it
+technically IS bacteria, but it's
+completely different from what the
+reports we're sending to the
+military say!
+
+They tried to research meshera once
+but the plug got pulled on it. The
+fact that they're doing it in secret
+now must mean they're be looking to
+find results important enough to
+make the military shut up.
+
+There's probably more to this. I'm
+going to keep looking.
+
+        -------------------
+
+Seems like they plan on controlling
+the meshera with altered nerve
+fibres. They expose the body to
+meshera and allow it to transform,
+then use it like a puppet when it's
+done.
+
+The bacteria assumes motor control
+and attempts to move the body when
+it invades the nerves, and they
+prevent that with drugs and surgical
+intervention. They have already
+completed the surgery on every
+subject here.
+
+This works in theory, but what if
+the subjects go out of control
+after the procedure is done? Turns
+out the subjects get culled with gas
+after the procedure. They're going
+to use this on soldiers only after
+they get the technique right.
+
+Damn it. This is unforgivable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -------------------
+
+Everybody is running around with
+their hair on fire today. I heard
+the big shots from the military's
+HQ are inspecting this place in the
+afternoon. They must be really
+desperate to hide everything,
+because even a newcomer like me got
+roped in to help cover up. And
+thanks to that, I now know just how
+far they went in their research.
+Damn this place to hell. The stuff
+they do here is so sickening that I
+feel like throwing up. This research
+is off the deep end.
+
+I've memorized the documents I saw
+today.
+
+        -------------------
+
+The person who came to inspect
+turned out to be a subordinate of
+the Crimson Hero. The Crimson of
+Zanan is quite famous as a military
+man, but in the research circles he's
+famous for his mistrust of biological
+weapons. He's the very same person
+who cut my insect research budget
+down to nothing.
+
+Anyway. This is my chance to make
+this hellhole disappear! I scribbled
+down everything I knew about this
+place on to a piece of paper and
+managed to slip it to the inspector
+as he was leaving.
+
+
+Guess this is what they call
+whistleblowing. This is all I can
+do. I've been cooped up in this
+place ever since I got here. Time to
+pray that they don't find out I was
+the one to report it, and that they
+get here before the subjects get
+sacrificed...
+
+
+
+
+
+
+
+
+
+
+
+
+        -------------------
+
+This is bad. The chief must feel
+that something is wrong with
+upcoming inspection, because he
+pushed the experiment forward. Damn,
+they're already calling me, telling
+me to get ready to start the
+experiment. I have to do something!
+
+
+
+
+
+
+
+
+
+
+
+        -------------------
+
+I couldn't do anything. Didn't have
+time to do anything. Could only
+follow orders. After the subjects'
+meshera was activated, we
+administered the drugs.
+
+The drugs were unfortunately not
+potent enough to turn people into
+vegetables, and all of them started
+writhing in pain. Or it could have
+been due to the meshera. I don't
+know.
+
+All the other researchers looked at
+the writhing subjects expectantly.
+It's probably not my place to say
+this because I'm a weapons
+researcher, but their indifference
+pisses me off.
+
+Damn these people. Damn them all.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -------------------
+
+Two hours after the experiment began,
+the changes began to show. Some of
+subjects' bodies began to change
+colour while others grew tentacles.
+The chief called them "low-
+compatibility trash". Well guess
+what, you're the ones who are trash.
+While all other subjects were
+convulsing, Subject #14 just keeled
+over and stopped moving. His body
+remained unchanged so they assumed
+he was compatible, but something
+seemed off to me. He was wheeled
+off into another room for further
+examination. Alright, I gotta go too.
+
+
+
+        -------------------
+
+The moment we carried him into
+another room, Subject #14 leapt up.
+Seems like he was just playing dead.
+Oldest trick in the book, but it
+sure was effective.
+
+With his superhuman strength, he
+tossed the guards away as if they
+were rag dolls, and his wound healed
+instantaneously.
+
+Could he be strong enough to force
+his way out of this compound? I
+shouted at the guards and told
+them to guard the door, pointing
+at the exit.
+
+It seemed like #14 understood,
+because he made a beeline towards
+the exit while mowing down the guards
+on his way out. Alright.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -------------------
+
+Damn it, I'm an idiot! He could've
+cleaned out the entire complex by
+himself if he was that strong!
+
+#14 had evaded his pursuers, but the
+security alarm has been set off.
+Rescuing #16 - his sister - is going
+to be a lot more difficult now.
+
+Why did I not thing of this? Damn
+it, I'm such an idiot!
+
+
+
+
+
+
+
+        -------------------
+
+People disgust me. I'm sick and
+tired of everything.
+
+It's been 12 hours since the
+experiment. Some people including
+myself were sent off to look to see
+if there were any other compatible
+subjects.
+
+My head was filled with thoughts of
+how I was going to escape from the
+quarantine facility if there was
+another compatible subject there.
+Before I knew it, I had already
+arrived at the suites, and I was not
+prepared for what I saw there.
+
+
+The subjects' bodies had transformed
+into cocoons. The other researchers
+were shouting something. That this
+was too fast and that they shouldn't
+be transforming in a mere 12 hours.
+
+They frantically tried to contact
+those outside on the comms, but then
+there was a loud noise. It was the
+sound of the containment barriers
+closing around the quarantine
+facility. The researcher standing
+right at the back of the group ran
+to try to get out, but the walls
+were already down.
+
+The comms was silent.
+
+
+
+        -------------------
+
+While we despaired, the cocoons
+started assaulting us with
+tentacles. We managed to retreat all
+the way to the containment wall
+though pretty much everyone had
+sustained serious injuries. We are
+trapped here. There is no way out.
+
+We heard a loud noise deep in the
+facility. Was it another subject on
+a rampage, striking the walls? I was
+curious, but with the tentacles
+trapping us here, there was no way I
+would ever be able to make it there
+to find out.
+
+Some of the researchers have lost
+their minds and are laughing, and
+the others have barricaded
+themselves in a corner. Me? I'm
+writing this.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -------------------
+
+Damn it, they're gassing us all
+Hand  go ng numb
+    t write
+am I  in  die here
+damn       to hel
+%END
+
+
+
+#####################################
+%22,JP
+作战指示书
+	written by 耶鲁士军少尉
+
+　本策略存在的目的是为了向和我们一
+同作战的冒险者说明如何服从命令，和
+传达与作战相关的注意事项。
+
+  首先的话是关于进行全体指令的话请
+用<指挥旗>。进行个人指令的话，请用
+技能来进行＜战斗指示＞
+
+  接下来是各种指示的内容。
+  
+  首先是＜突击姿势＞，这是最大限度
+的进行索敌行动，积极对敌人进行追击
+火力全开，将所有敌人一个不剩的杀戮
+殆尽的指令。 
+
+  然后是＜防御姿势＞，禁止一切攻击
+行动。注意敌人的行动。经常进行维持
+战线的妨碍或扰乱行动。遭到敌人的攻
+击会原地全力防守，等待我方支援。 
+
+  最后是＜迎击姿势＞，进行周围的索
+敌行动。发现敌人就开始攻击。一定会
+留守在指令范围内，为了等待其他的指
+令而进行战力的温存。不会对敌人穷追
+猛打。
+
+   没有接受过培训的诸位，很难进行
+比这些更详细的指示了。关于更多详细
+的作战内容，我会在现场说明。以上。
+
+
+%END
+
+%22,EN
+Mission Briefing
+	prepared by:
+	Second Lieutenant Gornock, Yerles Army
+
+In today's exercise, you adventurers
+will be mobilized along with my
+platoon. You will follow my orders.
+
+See this? This is the command flag.
+I will be using this to give
+Directives to each and everyone of
+you.
+
+Directives are simple, and there
+are only three of them.
+
+First off is "Onslaught". It means
+search and destroy. When I give
+this order, everyone of you should
+keep moving while searching for
+enemies. Destroy every enemy that
+you come across. Be on the offensive
+and pursue your targets. Use
+everything you got, and leave no
+enemy standing. 
+
+Next is "Defense". Do not attack.
+Under no circumstances will any of
+you engage the enemy when this
+Directive is given. Watch for enemy
+movements, and sabotage or distract
+the enemy when you can, but hold
+your fire. If you are under fire,
+hold your position the best you can,
+and wait for further orders.
+
+Lastly, we have "Intercept". Engage
+only enemies that are close by. Any
+skirmishes must be within range of
+the commander. If I don't see the
+enemy, neither do you. Is that clear?
+Do not over-extend. Conserve your
+resources and wait for new orders.
+Do not pursue any enemy out of range.
+
+You have not been trained, so the
+instructions you will receive are
+simple and few. You will receive
+further orders on the field. That is
+all.
+%END
+
+#####################################
+%23,JP
+又是这一阶段？
+	written by 自称被选中的人
+
+  各位之中有看过那玩意的人么，那到底叫啥
+啊。在人的脚底下闪光的东西。我叫它「斗志」
+  
+  我啊自己也觉得看到那个很苦恼呢。只要看
+到就觉得介意，那东西在战斗中，要是情绪高
+涨就会达到极限，另一方面，也可以被小心的
+抑制住。
+　
+  到极限了就会闪着白色的光。那时候就可以
+吧自己所有的力量倾注出去，发挥出极限性能
+的一击。简单来说……就是很强力的追加攻击的
+预兆。
+  
+  或许是我的错觉吧。但是感好像还有一个阶
+段。超越了临界点的斗志会放着淡绿色的光。
+能够让你在战斗中一瞬间支配时间的流动。
+  
+  有一天你们也会达到这个阶段吧。但是。
+我觉得我会在这里等很久。  
+　
+%END
+
+%23,EN
+
+
+
+
+
+%END
+
+
+#####################################
+%24,JP
+死灵术说明书
+	written by 无聊的死灵法师
+
+　最近已经受够了玩棋了。
+  总觉得就么把降灵术这种过去的遗物之类的
+东西，大胆的放在手里读的人。我给你这样的
+人传授初级的死灵术的话，还是挺有趣的。
+  
+  最初在棺材里加入适当的残骸，以魔力结晶
+为核心，利用棺材来培养尸体残骸从而构成死
+灵们的临时的躯壳。要诀就是要体会这里面隐
+藏的恶意。
+  炼金术已经足以作为操作大量乱七八糟的尸
+体技术的代用品了。
+  
+  作为真正艺术与性感的死灵术的完全的知识，
+需要经验的积累。「零件」的严格筛选对于新
+手还早100年呢。专用的纳米机械还有黏菌，现
+在估计哪里都得不到了吧。
+  
+  制作出来的不死者的种类，因为残害的质地而
+不同，如果拿不好的残骸，勉强的做出形体的话
+也会因强度不足而自我崩坏。
+   
+   一度完成的不死者的棺材，可以加入其他的
+残骸来强化，根据种类，也会有不同的强化效果
+尽量的试一试吧。
+　
+   毕竟是没有进行自我意志移植的不死者，脑
+袋并不聪明，连袭击人类也要你指挥才行。当然
+如果能好好利用的话，你也能获得不错的经验。
+
+  用来奴役的死尸们。请在事前就准备好，看
+着对手被这些打到了也会不断扑上来的死尸包
+围的绝望吧。
+
+  当然，作为法师的自己也会因此被削弱恢复
+和强化的行动。如果碰到一骑当千的对手的话
+可能一下就完蛋了。
+  这个时候就最好让它们去进行自爆特攻。看
+着被污秽的爆炸火花削弱的强者们，实在是相
+当愉快的事情。
+
+ ……差不多就这样吧？好了，你也快试试吧死
+灵术！ 
+
+%END
+
+%24,EN
+
+
+
+
+%END
+
+
+
+
+#####################################
+%25,JP
+日志的秘密
+	written by 真之记者
+
+　现在每家一册的必需品就是自动日志：
+日志。你知道它的机能是怎么用的么？
+
+　日志会自动记录接受的委托和工作，同时
+推测它们的难度。 
+  这里写的○等级相当，是说讨伐对象的级别
+并不是冒险者自己的等级，所以自己的等级
+并不一定需要那么高。
+　准备齐全，等级大概在记录上显示的六成
+左右，你应该就可以完成那个任务了，有的
+任务完全不需要战斗。
+　 
+　另外，日志持有人的行动一部分自动会被
+记录。这些设定的表示与否可以在记录表示
+的项目里进行确认和变更。
+
+  其他的在情报的链接里看同业者新闻，确认
+现在的各种指标与排名。
+  不知道该做什么的时候，就再看一下这个吧。
+%END
+
+%25,EN
+
+
+
+
+%END
+
+#####################################
+%26,JP
+魔术讲义发布资料
+	written by 艾沃达纳中央学院初等部
+
+·玛娜
+　是世界中普遍存在的原始的力量之源。海
+中也好，大气中也罢，大地之中都是存在的。
+各种生物也会在身体内积蓄玛娜的力量通过
+捕食对方来让玛娜移动。这就是魔力的连锁。
+只是，生物所持有的玛娜是有上限的，多余
+的会被释放出体外。
+  完全死掉之后，虽然尸体会留下少量的
+玛娜，但大部分会回归世界。
+  
+  因为主要是用于魔力转换，魔法师间经常
+把玛娜≒魔力这样有微妙区别的词汇通用。
+　
+·魔力
+  为了方便魔术使用而把玛娜变换了形式的
+能源。玛娜直接使用的话作为魔术能源效率
+很低。所以很少有人直接按原始的方法去用。
+  魔术的素养，就被称呼为魔力，这种比较
+新的称呼在最近100年间广泛流传。
+
+·ＭＰ
+  魔法数值。魔力（能源方面）的量的具体
+数值。
+
+·神力
+  神使用能力的必要能源。从贡品中抽取的信
+仰心和玛娜的化合物。和魔力是似是而非的东
+西。我国魔法师并不能再现。
+　
+  玛娜是水的话，魔力就是水管里的饮用水
+（有水压）ＭＰ是水量，神力就是柠檬汽水
+的感觉来记忆就好了。  
+%END
+
+%26,EN
+
+
+
+
+%END
+
+#####################################
+%27,JP
+采掘好啊
+	written by 凿岩机先生
+
+  我是博鲁代伊！我自己来讲我就是个把采掘
+发挥到极致的人。
+
+　 开采很好哦。锻炼耐久力同时也能找到了
+物品。挖掘前进突破墙壁！自己的道路，要
+自己开拓！
+
+  对了。知道开采中从墙壁出来的道具根据
+地点不同吗？
+
+  洞窟的话会有矿石，能确保大地神和治愈
+女神的贡品！原石加工也能卖好价钱！
+  深林的墙壁是食物的宝库，高价的黄金橡果
+四叶草之类都可能找到。  
+  
+  塔楼·岩寨型的则可以获得石材，可以进行
+雕刻，不过我对艺术一窍不通！有可能找到别
+人藏着的金库呢。
+  还有……城市的墙壁里，藏着村民的钱啊，金
+块都会出来,放在衣橱里容易被偷，所以现在都
+流行放在墙壁里了。
+　
+  好了，你也快挖，挖啊挖啊，比我挖的更深
+更强！成为这样吧！  
+%END
+
+%27,EN
+
+
+
+
+%END
+
+#####################################
+%28,JP
+呃娱乐项目？
+	written by 无名的旅行艺人
+
+  艺人招募委托的达成方法每个人不同
+整理好的结果，不要忘记。
+  不仅仅是一次，对方也很满意钱好几
+次都要披露新诀窍…有人这说了。但是
+速度不够！
+
+○演奏：演奏选择的乐器。会场虽然有乐器
+，但由于配备在范围上很不方便，携带一些
+比较好。用哪种乐器客人的满意度也不同。
+高兴的话钱和物品都会给你。
+并且，幻之乐器钉头史特拉第瓦里能把
+演奏的质量提高…。
+
+○合奏：和同伴一起合唱也是不错的经验。
+不需要乐器，和同伴一起的话比较容易成功
+，也不需要乐器，成功的话技能和演奏质量
+都会上升。但是需要的时间就多，速度不快
+就很难赚钱得到高评价分。
+
+○传教：神的美好，通过热情而灵巧的话语来
+演讲。也能让同伴获得经验的样子。满足的
+话，就能拿到布施的钱。异教徒都能顺利皈依
+，看上去比较容易能得到满足。
+
+○魅惑之舞：比演奏更短时间，简单的满足
+观众，来赚取点数的技巧。有魅力的话就容易
+成功，但是大家都看傻了的话，就拿不到什么
+了。
+ 
+○喷火杂耍：燃烧起来了。被烫伤，明明努力
+了，却没有人表扬我…。
+  一流的艺人能给大家带来满足的笑容，但是
+失败的话，就要被丢石头。已经不想被当傻瓜
+了。
+  最近妈妈也回老家去了……
+
+（笔记在这里结束了）
+%END
+
+%28,EN
+
+
+
+
+%END

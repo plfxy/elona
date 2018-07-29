@@ -1,0 +1,575 @@
+* この説明書は暫定版です。より見やすい説明書や、簡単なスクリプトを書いて
+いただけるやさしいかたがいましたら、とてもかんしゃします
+
+カスタムNPCは、プレイヤーが自由に作成できるNPCです。
+作成の手順は以下の通りです。
+
+1.NPC情報を記入したtxtファイルと、キャラ画像のbmpファイルを用意する。
+2.ゲーム内でF8を押し、「カスタムNPCの作成」を選択する。
+3.ファイル選択ダイアログが開くので、用意したtxtファイルとbmpファイルを選択する。
+
+■サンプルを作ってみる
+txtファイルにこのフォルダのnpc_template.txtを、bmpファイルにelona/graphicフォルダ
+の適当なファイルを選択すれば作成できます。
+
+■使用する·配布する
+カスタムNPCを作成すると、○○.npcというファイルがuserフォルダに作成されます。
+userフォルダの中の*.npcファイルは、自動的に読み込まれ、ゲームにNPCが登場します。
+また、あるアイテムをショウルームのマップに配置することで、ショウルームを訪れた
+プレイヤーも、マップ内のカスタムNPCを自分のゲームに登場させることができます。
+
+■bmpファイルについて
+x48,y48 もしくはx48,y96 の画像ならばなんでもokです。透過色は黒(RGB0:0:0)です。
+
+■txtファイルについて
+このフォルダにあるnpc_template.txtを参考にして下さい。
+各項目の説明は以下の通りです。
+
+
+author.		"だれか"
+カスタムNPCの作者の名前を記入してください。
+
+name.		"younger brother,おとおと"
+左側に英語の名前を、右側に日本語の名前を記入してください。英語の名前はそのまま
+ファイル名としても使われます。
+
+race.		"norland"
+種族を記入してください。(種族一覧を参照)
+
+class.		"gunner"
+職業を記入してください。(クラス一覧を参照)
+
+filter.		"/man/"
+NPCの属性です。関係のありそうなものを属性一覧から選んでください。
+例えば「火竜」なら"/fire/dragon/"です。属性の両端はスラッシュで囲んでください。
+
+level.		"16"
+NPCの初期レベルです。
+
+relation.	"0"
+初期敵対関係です。(-3=敵対 -2=敵対一歩寸前 -1=無関心 0=中立 10=友好)
+
+sex.		"-1"
+NPCの性別です。(-1=ランダム 0=男 1=女)
+
+fixLv.		"4"
+NPCの生成レベルです。(0=ランダム 1=Bad 2=Normal 3=Good 4=Great 5=Godly 6=Unique)
+
+rare.		"100"
+NPCの生成頻度です。値が小さいほど出現しにくく、大きいほどよく出現します。
+(ゴールドベル級=5 爆弾岩級=25 リッチ級=60 イーク級=100)
+
+spawnType.	"0"
+NPCが生成される条件です。(spawnType一覧を参照)
+街中に生成したい時は5を指定します。0か5以外は今はほぼ指定する意味はありません。
+
+aiCalm.		"1"
+非戦闘時のAIタイプです。数値で指定して下さい。(AIタイプ一覧を参照)
+
+aiMove.		"80"
+戦闘時、敵との距離が適正距離でない場合にNPCが移動する確率です。(0%-100%)
+
+aiDist.		"2"
+NPCの適正距離です。2の場合、敵と1マス離れた距離を好みます。
+
+aiHeal.		"0"
+NPCの体力が低い時に選択する行動です。回復以外でも良いです。(行動一覧を参照)
+
+aiAct.		"-1,-1,-2,651,0"
+NPCが敵に対して取る行動です。(行動一覧を参照)
+例の場合、2/5の確率で近接攻撃(-1)を試み、1/5で確率で遠隔攻撃(-2)、
+1/5の確率で食料を奪い取ろうとします(651)。
+
+aiActSubFreq.	"20"
+NPCが下記のサブ行動を取る確率です。(0%-100%)
+
+aiActSub.	"610,610,0,0,0"
+NPCが敵に対して取るサブ行動です。(行動一覧を参照)
+例の場合、20%の確率でサブ行動をとり、さらに2/5の確率で
+毒のブレス(610)をはきます。
+
+meleeElem.	"61,200"
+NPCが素手で攻撃した際に付与される攻撃属性とその威力です。(耐性一覧を参照)
+例の場合、切り傷属性(61)でパワー200の攻撃を行います。
+
+resist.		"50,3,51,-2"
+NPCの耐性を、耐性ID、効果、耐性ID、効果…の順に指定します。(耐性一覧を参照)
+例の場合、火炎耐性(50)が(3)ランク上がり、冷気耐性(51)が(-2)下がります。
+
+bitOn.		"5,23"
+指定した番号のbitをオンにします。(bit一覧を参照)
+例の場合、npcは浮遊(5)し、さらに分裂(23)します。
+
+■種族一覧
+コボルト		kobolt
+オーク		orc
+巨獣		largeanimal
+竜人		lizardman
+ミノタウロス	minotaur
+イェルス		yerles
+ノーランド		norland
+エウダーナ	eulderna
+妖精		fairy
+阿修羅		asura
+スライム		slime
+犬の神		doggod
+丘の民		dwarf
+ジューア		juere
+ゾンビ		zombie
+エレア		elea
+ウサギ		rabbit
+羊		sheep
+蛙		frog
+ワーム		worm
+かたつむり	snail
+マンドレイク	mandrake
+昆虫		beetle
+きのこ		mushroom
+コウモリ		bat
+エント		ent
+リッチ		lich
+メシェーラ		meshera
+幽霊		ghost
+精霊		spirit
+目		eye
+魔人		mazin
+ワスプ		wasp
+巨人		giant
+悪魔		imp
+手		hand
+蛇		snake
+亜竜		drake
+ゴブリン		goblin
+熊		bear
+鎧		armor
+メデューサ		medusa
+天使		cupid
+カルーン		karune
+鳥人		harpy
+ドラゴン		dragon
+恐竜		dinosaur
+幻獣		beast
+蜘蛛		spider
+ゴーレム		golem
+鉱物		rock
+ザナン		zanan
+骸骨		skeleton
+駒		piece
+猫		cat
+犬		dog
+ローラン		roran
+ねずみ		rat
+甲殻		shell
+猫の神		catgod
+機械の神		machinegod
+死霊の神		undeadgod
+機械		machine
+ウィスプ		wisp
+鳥		bird
+海魔		seamonster
+ケモビト		catsister
+カオスシェイプ	mutant
+イーク		yeek
+異星主		yith
+神の化身		servant
+馬		horse
+神		god
+クイックリング	quickling
+メタル		metal
+乗用機械		behicle
+
+
+
+■クラス一覧
+戦士		warrior
+遺跡荒らし	thief
+魔法使い		wizard
+農民		farmer
+プレデター		predator
+狩人		archer
+魔法戦士		warmage
+観光客		tourist
+ピアニスト		pianist
+機工兵		gunner
+プリースト		priest
+クレイモア		claymore
+
+
+
+■属性一覧
+man
+dragon
+undead
+slime
+fire
+sf
+yeek
+mino
+wild
+pawn
+shopguard
+rogue
+cat
+ether
+horse
+spirit
+
+■spawnType一覧
+0	通常
+1 	fltSp
+2	fltUnique
+3	fltSpUnique
+4	fltFriend
+5	fltTown		街中に生成
+6	fltSfTown
+7	fltShop
+8	fltSnow
+9	fltTownSp
+
+■AIタイプ一覧
+1	aiRoam
+2	aiDull
+3	aiStand
+4	aiFollow
+
+
+■行動一覧
+面倒なので番号をふってませんが、連番です。
+*が付いているものは、バランスを崩す行動のため、選択できません。
+
+0	何もしない
+-1	近接攻撃
+-2	遠隔攻撃
+-3	接近待ち
+-4	ランダムな方向に移動
+
+400	 spHealLight	
+	 spHealCritical
+	 spHeal	
+	 spHealAll	
+	 spHealRain
+	 spHealTouch
+	 spRemoveHex
+	 spVanishHex
+	 spTeleportSelf
+	 spTeleportOther
+410	 spShortTeleport
+	 spIdentify
+	 spUncurse	
+	 spRevealArtifact 
+	 spMagicArrow
+	 spNetherArrow
+	 spNerveArrow
+	 spChaosArrow
+	 spDarknessArrow
+420	 spIceBolt
+	 spFireBolt
+	 spLightningBolt
+	 spDarknessBolt
+	 spMindBolt
+	 spSummon
+	 spSummonWild
+	 spSummonFire
+	 spSummonPawn
+	 spReturn
+	 spMagicMap
+430	 spObjectMap
+	 spIceBall
+	 spFireBall
+	 spChaosBall
+	 spSoundBall
+	 spCharm
+	 spWeb
+	 spMist
+	 spMakeWall
+	 spRestoreBody
+440	 spRestoreSpirit
+	 *spWish
+	 spHolyShield
+	 spDaze
+	 spRegeneration
+	 spResEle
+	 spSpeedUp
+	 spSpeedDown
+	 spHero
+	 spWeakArmor
+450	 spWeakEle
+	 spHolyVeil
+	 spNightmare
+	 spKnowledge
+	 spMutation
+	 spAcidGround
+	 spFireWall
+	 spMakeDoor
+	 spIncognito
+	 spMagicLaser
+460	 spMagicBall
+	 spResurrect
+	 spContingency
+	 spPocket
+	 *spHarvest
+	 spMeteor
+	 spGravity
+	 spSummonSpirit
+	 spFeather
+	 spDarkBall
+470	 spLightningBall
+	 spNetherBall
+	 spMist2
+	 spPoisonBall
+	 spConcentration
+	 spHydroBolt
+	 spBubbleBall
+
+
+600
+601	 actDrainBlood
+	 actBreathFire
+	 actBreathCold
+	 actBreathLightning
+	 actBreathDarkness
+	 actBreathChaos
+	 actBreathSound
+	 actBreathNether
+	 actBreathNerve
+610	 actBreathPoison
+	 actBreathMind
+	 actBreath
+	 actTouchWeaken
+	 actTouchHunger
+	 actTouchPoison
+	 actTouchNerve
+	 actTouchFear
+	 actTouchSleep
+	 actTeleportTarget
+620	 actDraw
+	 actRestoreMP
+	 actPunish
+	 actHealJure
+	 actAbsorbMana
+	 actGodWind
+	 actKnowSelf
+	 actShortTeleport	
+	 actChangeCreature
+	 actAbsorbCharge
+630	 actPutCharge
+	 actAttackAll
+	 actMutation
+	 actGazeEther
+	 actEtherGround
+	 actSteal
+	 actGazeInsane
+	 actMassHealInsane
+	 actGazeDim
+	 actSummonCat
+640	 actSummonYeek
+	 actSummonPawn
+	 actSummonFire
+	 actSummonSister
+	 actSuicide
+	 actCurse
+	 actDeath
+	 actBoost
+	 actInsult
+	 actAttackDist4
+650	 actAttackDist7
+	 actEatFood
+	 actGazeMana
+	 actVanish
+	 actPregnant
+	 actGrenade
+	 actLeaderShip
+	 *actEhekatl
+	 actFinish
+	 actDropMine
+660	 *actDisassemble
+	 *actSoulHarvest
+	 *actTyousindouken
+	 *actTempestArrow
+	 *actExcessiveHeal
+	 *actSnail
+	 actHouzanha
+	 actManaBurst
+	 *actElementia
+	 actRampage
+670	 *actGold
+	 actKizuna
+	 actKiss
+	 actClearMind
+	 actPress
+	 actSummonChaos
+	 actEnsemble
+	 actRegeneS
+	 actDefenseD
+	 actSong
+680	 actProvoke
+	 actBind
+	 actBrowbeat
+	 actGazeWash
+	 actCall
+	 actBaku
+	 actCharge
+	 actLSkill
+	 actMSkill
+	 actHSkill
+690	 actNothing	：本当に何もしないでそのままターン終了
+	 actGpress
+	 actAttri
+	 actVolley
+	 actAutoGuard
+	 actMegid
+	 actHold
+	 actHispd
+	 actBreathVar
+	 actSinki
+700	 actZero
+	 actNade
+	 actrsLong
+	 actrsShort
+	 actrsAxe
+	 actrsBlunt
+	 actrsPole
+	 actrsStave
+	 actrsMartial
+	 actMoment
+710	 actSqueeze
+	 actHalf
+	 actTree
+	 actSepou
+	 actBeast
+	 *actConverge
+	 *actTokinami
+	 *actZero2
+	 *actrsMagic
+	 *actRaceSlime
+720	 *actRaceMachine
+	 *actRaceWild
+	 *actRaceSnail
+	 *actRaceGhost
+	 *actRaceRock
+	 *actRaceBug
+	 *actRaceSnake
+	 *actRaceShell
+	 *actrsGaze
+	 *actrsHand
+730	 *actrsGravity
+	 *actrsKama
+	 actCollect
+	 actSpace
+	 actAttackDist3
+	 *actSpin
+	 actProtect
+	 actZlai
+	 actSout
+	 actFawnOn
+740	 actSRush
+	 actTforce
+	 actBodyB
+	 actNforce
+	 actCSuicide
+	 actKnockout
+	 actOver
+	 actCrush
+	 actFang
+	 actrsShield
+750	 actGauge
+	 actRain
+	 actDread
+	 actPSY
+	 actBook
+	 actLong
+	 actDupli
+	 actBreak
+	 actDelete
+	 actWind
+760	 actSutemi
+	 actDeathSong
+	 actHoming
+	 actMBreath
+	 actUnity
+	 actOcean
+	 actEfish
+	 actSexy
+	 actJiujitsu
+	 actBWire
+770	 actEWire
+	 actGazeStiffen
+	 actGazeIllusion
+	 actBreathAll
+	 actHand
+	 actMaterial
+	 actSmile
+	 actSmileF
+	 actGazeAdd
+	 actSSkill
+780	 actRocket
+	 actRocketA
+	 actDefStorm
+	 actAccel
+	 actGGPress
+	 actVine
+	 actMistel
+	 actAroma
+	 actSmoke
+	 *actTezca
+790	 actSPknow
+	 actMelt
+	 actFormless
+	 actBStream
+	 actRage
+
+-10000	 headActThrow
+-9999	 actThrowPotionMinor
+-9998	 actThrowPotionMajor
+-9997	 actThrowPotionGreater
+-9996	 actThrowSalt
+
+
+■攻撃属性一覧
+50	 rsResFire
+	 rsResCold
+	 rsResLightning
+	 rsResDarkness
+	 rsResMind
+	 rsResPoison
+	 rsResNether
+	 rsResSound
+	 rsResNerve
+	 rsResChaos
+60	 rsResMagic
+	 rsResCut
+	 rsResEther
+	 rsResAcid
+
+
+■bit一覧
+5	 cFloat
+	 cInvisi
+	 cSeeInvisi
+	 cResConfuse
+	 cResBlind
+10	 cResFear
+	 cResSleep
+	 cResParalyze
+	 cResPoison
+	 cEater
+	 cResSteal
+	 cIncognito
+	 cDropGold
+	 cSuicide
+	 cDeathMaster
+20	 cRapidMagic
+	 cLayHand
+	 cHorse
+	 cSplit
+	 cEncCurse
+	 cNoHorse
+	 cResEle
+	 cSplit2
+	 cMetal
+	 cCureBleeding
+30	 cPowerBash
+	 cImmuneMine
+	 cTemper
+	 cArmour
+

@@ -1,0 +1,255 @@
+%Elona Custom Npc
+
+author.		"だれか"
+name.		"younger brother,おとおと"
+race.		"norland"
+class.		"predator"
+filter.		"/man/cnpc/"
+level.		"1"
+relation.	"-1"
+sex.		"-1"
+fixLv.		"1"
+rare.		"100"
+spawnType.	"0"
+aiCalm.		"4"
+aiMove.		"100"
+aiDist.		"1"
+aiHeal.		"640"
+aiAct.		"-1,-1,-2,651,0"
+aiActSubFreq.	"20"
+aiActSub.	"610,610,0,0,0"
+meleeElem.	"61,200"
+resist.		"50,3,51,-5"
+bitOn.		"5,23"
+
+%txtCalm,JP    //非戦闘待機時のセリフ
+「わーい」{Fun}
+「{onii}ちゃん！」
+
+%txtCalm,EN
+"Weee."
+"Brother!"
+
+%txtAggro,JP    //交戦時のセリフ
+「てめー」
+
+%txtAggro,EN
+"Scum!"
+
+%txtDead,JP    //死亡時のセリフ
+「ちんだ」
+
+%txtDead,EN
+"I'm dead."
+
+%txtKilled,JP    //敵殺害時のセリフ
+「ころしたよー」
+
+%txtKilled,EN
+"I killed it."
+
+%txtWelcome,JP    //帰宅出迎えのセリフ
+「おかえり」
+
+%txtWelcome,EN
+"Welcome back."
+
+%txtDialog,JP    //話しかけた時のセリフ
+なあに？{Question}
+（おとおとはあなたをじっとみている){Embarrassment}
+%txtDialog,EN
+Hi.
+What's up?
+Dude...
+
+%txtMaterial,JP    //マテリアル受取時のセリフ
+「これあげるねっ」
+「ほら！いっぱいあつめたんだよー！」
+%txtMaterial,EN
+"I'll give this to you!"
+
+%txtBfast,JP    //朝食イベント発生時のセリフ
+「{onii}ちゃんおはよー！」
+%txtBfast,EN
+"Good morning!"
+
+%txtNight,JP    //添い寝イベント発生時のセリフ
+「えへへ」
+（おとおとはぐぅぐぅねむっている)
+%txtNight,EN
+"ZZZ.."
+
+%txtInsult,JP    //罵倒技能時のセリフ·攻め寄りの状態で鞭で叩いた時のセリフ
+「ばーか」
+%txtInsult,EN
+"You suck!"
+"You will die alone."
+
+%txtInsult2,JP    //鞭で叩いてもらうようにねだった時のセリフ
+「うっわー…」
+%txtInsult2,EN
+"You suck!"
+"You will die alone."
+
+%txtDiscipline,JP    //鞭でアイテム拾い禁止、拾い食い禁止した時のセリフ
+「いたっ！」
+%txtDiscipline,EN
+"Stop!"
+
+%txtDiscipline2,JP    //叩き慣れした状態で鞭で叩いた時のセリフ
+「くうん…·」
+%txtDiscipline2,EN
+"Stop!"
+
+%txtDisciplineOff,JP    //アイテム拾い禁止解除、拾い食い禁止解除時のセリフ
+「も、もうやめて…」{Embarrassment}
+%txtDisciplineOff,EN
+"Please...stop..."
+
+%txtDisciplineEat,JP    //拾い食い禁止状態で食事を与えた時のセリフ
+「たべていいの？」
+%txtDisciplineEat,EN
+"Can I eat this food?"
+
+%txtMeal,JP    		//「一緒に食事する」時のセリフ
+コレおいしいねー！
+はい·{onii}ちゃんもあーんして！
+%txtMeal,EN
+"This is delicious!"
+
+%txtCharge,JP    //味方がチャージ技能を発動した時のセリフ
+「ぼくが…まもるんだーっ！」
+%txtCharge,EN
+"I will protect you!"
+
+%txtChargeS,JP    //本人がチャージ技能を発動した時のセリフ
+「チャージ！」
+%txtCharge,EN
+"I started to charge from now."
+
+%txtChargeA,JP    //本人がチャージ効果の乗った攻撃をする時のセリフ
+「いけぇっ！」
+%txtCharge,EN
+"How about this attack?"
+
+%txtKizuna,JP    //味方が魂のシンクロ技能を発動した時のセリフ
+「まだまけてないもん」
+%txtKizuna,EN
+"I will fight with you to the last...!"
+
+%txtSpecial,JP    //ゲージ技を発動する時のセリフ
+「くらえー」
+%txtSpecial,EN
+"Weee."
+
+%txtKiss,JP    //口づけされた時のセリフ
+「ちゅー」
+%txtKiss,EN
+"Woohoo!"
+
+%txtChoco,JP    //２月にチョコをもらった時のセリフ
+「たべて！」
+%txtChoco,EN
+"Woohoo!"
+
+%txtNade,JP    //魂の友以上の友好度でＰＣから愛撫の手を受けた時のセリフ
+「もう、くすぐったいよぉ」
+%txtNade,EN
+"Weee."
+
+%txtHug,JP    //魂の友以上の友好度でＰＣからスクイーズを受けた時のセリフ
+「{onii}ちゃん…すき」
+%txtHug,EN
+"Weee."
+
+%txtFawnOn,JP    //ファノーン技能に抵抗できずメロメロになってる時のセリフ
+「かわいー！」
+「わ…さわってもいい？」
+%txtFawnOn,EN
+"Weee."
+
+%txtMidNight,JP    //強制的に添い寝させられて怒っている時のセリフ
+「{onii}ちゃん、ひどいことしないで…」
+%txtMidNight,EN
+"ZZZ.."
+
+%txtRideOff,JP    //乗馬解除（ＰＣが乗っている場合）時のセリフ
+「つかれたぁ」
+%txtRideOff,EN
+"Weee."
+
+%txtRideOffPC,JP    //乗馬解除（ＰＣが乗られている場合）時のセリフ
+「また、おうまさんごっこしようね！」{Fun}
+%txtRideOffPC,EN
+"Weee."
+
+%txtRideOn,JP    //乗馬開始（ＰＣが乗る場合）時のセリフ
+「むぎゅう」
+%txtRideOn,EN
+"Weee."
+
+%txtRideOnPC,JP    //乗馬開始（ＰＣが乗られる場合）時のセリフ
+「わーい！」
+%txtRideOnPC,EN
+"Weee."
+
+%txtLimit,JP    //添い寝時に眠気が限界に来た時のセリフ
+「{onii}ちゃん…ぼく、もう…！」
+%txtLimit,EN
+"Weee."
+
+%txtMultiple,JP    //多重詠唱魔法に参加する時のセリフ
+「ささやき、いのり、えいしょう、ねんじろー！」
+%txtMultiple,EN
+"Weee."
+
+%txtDrain,JP    //友好度：親友以上または主従度：従順以上でＰＣに吸血される時のセリフ
+「やさしくしてね…」
+%txtDrain,EN
+"Weee."
+
+%txtCreate,JP    //夜なべして防具作った時のセリフ
+「ちょっとよふかししちゃったけど、へーきだから」
+%txtCreate,EN
+"Weee."
+
+%txtEXAct,JP    //添い寝時の専用行動選択肢　変換タグ無効
+目隠しする
+%txtEXAct,EN
+To blindfold
+
+%txtEXReact,JP    //上記行動を選択した時の反応
+「{onii}ちゃん、どこ…」
+%txtEXReact,EN
+"Weee."
+
+%txtDialogB,JP    //evochat開始時のセリフ
+なんだかきんちょうするね？
+{onii}ちゃん…。
+%txtDialogB,EN
+I am somewhat pounding.
+
+%txtDialogE,JP    //evochat時、困らせた場合のセリフ
+もー！やめてよー。
+いじわるしないで…。
+%txtDialogE,EN
+Please do not be mean...
+
+%txtDialogF,JP    //evochat時、喜ばせた場合のセリフ
+えへへ。
+やさしい{onii}ちゃんすきー！
+%txtDialogF,EN
+I'm fun!
+
+%txtDialogH,JP    //evochat時、機嫌が最大の場合のセリフ
+しあわせー！
+うれしいなぁ…うれしいなぁ！
+%txtDialogH,EN
+Very happy!
+
+%txtShift,JP    //変異殻使用時のセリフ
+「へんしんっ！」{Fun}
+%txtShift,EN
+"Weee."
+
+%endTxt

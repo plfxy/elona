@@ -1,0 +1,305 @@
+以下は本家elonaのreadmeを流用したものです。
+閉鎖によって権利関係が確認できなくなったものは
+素材を差し替えるとともに表記からも除いてあります。
+なお、elonaplus開発者とelona原作者は別ですので、誤解なきようお願いします。
+
+	######### Elona ##########
+
+＊本作品には一部、性的、暴力的、グロテスクな表現や記述が含まれています。
+	
+■目次
+	·紹介
+	·インストールとバージョンアップの仕方など
+	·アンインストール
+	·序盤の進め方
+	·簡単なFAQ
+	·設定の適当な説明
+	·著作権·素材作者情報(敬称略)
+	·連絡先
+	·転載、掲載など
+	
+	
+■紹介	
+
+		今はもう忘れ去られた昔
+	イルヴァの地に十の文明の残骸が埋もれ
+	レム·イドの傷跡が癒えぬまま迎えた十一紀、
+	最も多くを破壊し生み出したと語られる時代
+		シエラ·テールの物語。	
+
+	あなたはノースティリスの地に流れ着いた冒険者です。
+	洞窟の探索、依頼の遂行、生産など、自由に行動し、
+	イルヴァの大地に自分なりの足跡を残しましょう。	
+
+
+■インストールとバージョンアップの仕方など
+
+	インストールは特に必要ありません。フォルダを適当な場所に解凍し、
+	elona.exeを実行することでゲームは始まります。
+	
+	古いバージョンから新しいバージョンにデータを移行する際は、
+	まず全ての依頼を終わらせてから、
+	新しいバージョンのフォルダの中のsaveフォルダ（例 c:\elona\save）に、
+	古いバージョンのsaveフォルダをコピーして下さい。
+
+	元のセーブデータは、バックアップをとって置く事をお勧めします。	
+
+	また、バージョンアップ時に限らず、セーブデータをコピーする時に、
+	コピー先に同名のセーブ(sav_***)が既に存在する場合は、
+	必ずコピー先のセーブを先に削除して下さい。
+	上書きコピーをすると予期しないエラーが発生する恐れがあります。
+
+
+■アンインストール
+
+	ElonaではWindowsのレジストリを使用しておりません。また、
+	DLLなどのファイルを他のフォルダにコピーしたりすることも
+	ありませんので、アンインストールはElonaのフォルダを削除
+	するだけで完了します。
+
+
+■序盤の進め方	
+
+	冒険者の作成は、自由な組み合わせができますが、飛び道具が使えると
+	序盤は楽です。種族と職業で得られる初期スキルと初期能力の値は、
+	以後の成長に非常に大きく関わるので重要です。	
+	リロールでの能力値は成長には影響しません。
+	
+	冒険者を作成したら、ヴェルニースの街を拠点に、低レベルの洞窟を
+	探索したり、簡単な依頼をこなしキャラを強化します。
+	洞窟等は、入る前に「入り口の危険度○階相当」と警告が出ます。
+	○階が自分のレベルより高ければ、入らない方が無難です。
+
+	ある程度強くなったら、ヴェルニースの南にあるレシマスへ行きます。
+	三階の昇り階段付近に固定NPCがおり、話しかけるとメインクエストが
+	進行します。また、幾らかのアイテムが手に入ります。
+
+	
+■簡単なFAQ
+
+	ゲーム内マニュアルにあるFAQも参照してください。
+	
+	Q:音楽ファイルに変更を加えたらエラーがでるようになる。
+	  elona/originalフォルダのmusiclist.txtを
+	  elona/user/musicフォルダにコピーしてください。
+	
+	Q:「d3d9.dll」が無いとエラーが表示されてゲームが起動しない。
+	A:DirectX9がインストールされていない可能性があります。
+	  下記Microsoftのページより、DirectX最新版をインストールしてください。
+	   http://www.microsoft.com/japan/windows/directx/default.mspx
+
+	Q:画面のサイズは変えられますか？
+	A:config.txtのwindowWとwindowHを変更してください。
+	  infVerTypeを変えるとインターフェースの位置が変更できます。
+	  まだ本格的にいじっていないので、不具合があるかもしれません。
+	  
+	Q:フルスクリーンでプレイできません。
+	  フルスクリーンで表示するためには、800*600 , 1024*768など
+	  windowWとwindowHを対応した幅と高さに変える必要があります。
+	
+	Q:キーの挙動がおかしいのですが？
+	A:config.txtのキー記述にエラーがある可能性があります。
+	  記述を見直すか、デフォルトのファイルを上書きしてください。
+	  
+	Q:「シフトキーでキャンセル」を無効にできますか？
+	A:config.txtの「key_tCancel.」の項目を"0"にしてください。
+	
+	Q:名前を変えることはできますか？
+	A:Iキーを押して、自分か対象を選択するとできます。
+	  
+	Q:利用用途のわからないアイテムがあります。
+	A:ver1ではゲームの基礎の完成を目指しています。アイテムやシステム
+	  の中には、ver1以降での利用を予定して作られているものがあります。
+
+	  
+■言葉の説明
+
+	イルヴァ		世界の名前です。
+	十一の文明		世界に存在した文明の数です。
+	エイス·テール		第七紀、機械文明です。
+	レム·イド		第十紀、生化学文明です。
+	シエラ·テール		第十一紀、現在の文明です。
+	メシェーラ		レム·イドを滅ぼした謎の災厄です。
+	ネフィア		ノースティリスに存在する古代の迷宮群を指します。
+	ヴィンデール		エレアが生息する森です。
+	異形の森		ヴィンデールの呼称です。
+	異形の民		エレアの呼称です。
+	エーテル		光り輝く謎の気体です。
+
+	主要国の名前
+
+	イェルス		東の大陸の大国で、新王国とも呼ばれています。
+	エウダーナ	東の大陸の大国で、長い歴史を持っています。
+	ザナン		西の大陸の中立国で、元はエウダーナの領地です。
+	パルミア		西の大陸の中立国で、冒険の舞台になります。
+	カルーン		東の大陸の小国で、異形の森の被害を受けています。
+
+	さらに詳しく知るには、ゲーム内の会話や書物が役立ちます。
+
+
+■著作権·素材作者情報(敬称略)
+
+	Elonaでは多くのフリー素材を使わせて頂いています。
+	素材の作者の皆様には、大変な感謝を申し上げます。
+	素材はゲームに合せて、サイズの変更など改変させて頂いています。
+
+
+	音楽提供  Aquanote 
+	製作者	: 西尾周一郎 様
+	URL	: http://sozai.dtm-creator.com/free.html
+	
+	音楽提供  Atelier Nonta
+	製作者	: Nonta	様
+	URL	: http://www.ateliernonta.com/index.html
+
+	音楽提供  Meteoric Stream
+	製作者	: HRK 様
+	URL	: http://meteoricstream.com/midi/index.html
+	
+	効果音提供（一部加工）  On-Jin ～音人～
+	製作者	: 笠畑 栄樹 様
+	URL 	: http://www.yen-soft.com/ssse/index.html
+
+	効果音提供（一部加工）  WEB WAVE LIB
+	製作者	: WEB WAVE LIB 運営委員会
+	URL	: http://www.s-t-t.com/wwl/
+
+	効果音提供 音の杜
+	製作者	: ミカミチヤ 様
+	URL	: http://www.mmworks.info/otonomori/
+　		　http://www.otonomori.info/index.html
+
+	画像提供（サイズなど改変） material world
+	製作者	: hide 様
+	URL	: http://members.jcom.home.ne.jp/hide.mats/
+	
+	画像提供（サイズなど改変） 【Ｒド】
+	製作者	: monta! 様
+	URL	: http://www.geocities.co.jp/Milano-Cat/3319/
+
+	画像提供（サイズなど改変） WILD PUDDING'S TERRITORY
+	メール	: yebuding@hotmail.com
+	URL	: http://wild-pd.hp.infoseek.co.jp/（閉鎖）
+
+	画像提供（サイズなど改変） フォトスク
+	URL	: http://photosku.com/
+
+	画像提供（サイズなど改変） ＰＨＯＴＯＳ８
+	URL	: http://photos8.org/
+
+	画像提供（サイズなど改変） 背景写真補完の会
+	URL	: http://www.globetown.net/~katokiti/furemu.html
+　		　http://masato.ciao.jp/haikei/
+
+	画像提供（サイズなど改変） 背景素材店
+	管理人名: 入江ささ 様
+	URL	: http://shass.sakura.ne.jp/（閉鎖）
+	
+	画像提供（サイズなど改変） ハードボイルドはないちもんめ
+	管理人名: 岩根雅明 様	
+	URL	: http://www.geocities.jp/iwanemasaaki/index.html
+		
+	画像提供 とらねこさんの小屋
+	管理人	: 宮波笹 様
+	URL	: http://www.k3.dion.ne.jp/~toraneko/
+	
+	画像提供  Loose Leaf
+	管理人	: Mack 様
+	URL	: http://www.mogunet.net/~mack/looseleaf/（閉鎖）
+		
+	画像提供  白螺子屋
+	管理人	: ヒラノ 様
+	URL	: http://hirano79.hp.infoseek.co.jp/index.html（閉鎖）
+	
+	画像提供  すきまの素材
+	
+	画像提供　Reiner`s Tilesets
+	URL	: http://reinerstileset.4players.de/
+	
+	画像提供（サイズなど改変） 十二星座の欠片
+	管理人	: 辰一 様
+	URL	: http://zodiacfragment.sakura.ne.jp/index.html（閉鎖）
+
+	画像提供　貪藻矢射妥←（ダイヤモンド）の魔
+	製作者	: 貪藻矢射妥 様
+	URL	: http://diamond.iza-yoi.net/
+	
+	画像提供  あひる小屋
+	製作者	: よつば 様
+	URL	: http://momomohouse.jugem.jp/
+
+	画像提供  沙夢
+	製作者	: 亀高　聖（かめたか　ひじり）様
+	URL	: http://sunayume.jp/
+
+	画像提供　
+	製作者	: もやしほわいと 様
+	URL	: http://whitecafe.sakura.ne.jp/index.html
+	画像提供 Inquisitor's tileset
+	
+	画像提供　臼井の会
+	製作者	: 香月清人 様
+	URL	: http://usui.moo.jp/
+
+	画像提供 Inquisitor's tileset
+	
+	画像提供 PI Diagona Icons Pack 1.0
+
+	画像提供  ＷＮ－長髪の閲覧者さん、teatさん、テス?さん、TOMさん
+		  葱丸さん、しおさばさん、なすさん、おくらさん、おがくずさん
+
+	画像提供 (一部加工)  REFMAP - First Seed Material
+	このソフトは、REFMAPが配布しているフリー画像素材を使用してます。
+	このソフト内で使用されている画像を、
+	このゲームを遊ぶ以外の用途には使用しないで下さい。
+	一部加工しています。
+	URL	: http://www.tekepon.net/fsm/（閉鎖）
+
+
+
+	スクリプト zlib 汎用データ圧縮  MIA's HomePage 
+	製作者	: MIA
+	URL	: http://diry.net/mia/
+
+	DLL EXrand v1.00  D.N.A.Softwares
+	製作者	: サークル「D.N.A. Softwares」
+	URL	: http://www.dna-softwares.com/
+	
+	DLL hspext_ext.dll
+	製作者	: スポイル厨さん
+	
+	Part of (or All) the graphic tiles used in this program is the public 
+	domain roguelike tileset "RLTiles".
+	Some of the tiles have been modified.
+
+	You can find the original tileset at:
+	URL	: http://rltiles.sf.net/
+
+	zlib.h -- interface of the 'zlib' general purpose compression library
+	version 1.1.4, March 11th, 2002
+	Copyright (C) 1995-2002 Jean-loup Gailly and Mark Adler
+
+	MGRP_Labさんのアイコン
+
+	また、Elonaフォーラムで募集した素材も使用させて頂いています。
+	提供者：ゲストさん、uonaさん、saladさん、ろりんげさん、何処かの誰かさん
+	unyoさん、Annaさん、だったんさん、お茶の人、ドリンコさん、000さん
+	nyarさん、monmonさん、mさん
+
+	*表記に間違いや欠陥がありましたら、お知らせください。
+
+
+■連絡先
+
+	スパムが多いため、メールアドレスは公開しておりません。
+	下記のアドレスの連絡用フォーム、または
+	ＨＰのフォーラムから作者に連絡ができます。
+	http://homepage3.nifty.com/rfish/info.html
+	http://ylvania.org/jp/
+	原作者 のあ
+
+■転載·掲載など
+
+	ファイルの転載や、商用誌·企業サイトなどへの掲載は
+	事前か事後にご一報下さい。	
+	

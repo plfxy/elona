@@ -1,0 +1,264 @@
+####################### Reference #######################
+
+	/Japanese Conversion List
+{ある}		ある、あります
+{う}		う、います
+{か}		か、ですか
+{が}		が、ですが、けど
+{かな}		かな、ですか、かしら	
+{くれ}		くれ、ください
+{た}		た、しました
+{だ}		だ、です
+{だな}		だな、ですね
+{だろ}		だろう、でしょう
+{たのむ}	たのむ、お願いします
+{のだ}		のだ、んだ、のです
+{よ}		よ、ですよ
+{な}		な、ね、ですね
+{る}		る、ます
+
+
+	/Translation Note/
+Text written after %xxx,x,EN will be displayed in the English version of Elona.
+See /Vernis for example. The translation doesn't have to be precise.
+You can even add your own sentences if you like to. 
+
+You can completely ignore the use of『{}』 when translating. (ie.『{だ}』,{だな}』 )
+Those are structures which are used for some Japanese conversions.
+They also convert the code into designated in-game variable. 
+The codes are listed below.
+
+{player}	player's name
+{aka}		player's nickname(aka)
+{npc}		the name of the person player is talking to
+{me}		"I"
+{you}		"you"
+{objective}	quest:objective
+{reward}	quest:reward
+{ref}		quest:refer
+{map}		quest:map name
+{client}	quest:client name
+
+####################### Begin ######################
+
+
+%COOK,GENERAL,JP
+料理家的野心:我正在研究新的料理。作为料理的参考，请把『{objective}』带过来，我用『{reward}』作为报酬和你交换。
+想吃好东西:我想吃『{objective}』了呢。如果把料理送过来的话，作为报酬，我会给你『{reward}』哦。
+%END
+
+%COOK,GENERAL,EN
+A new recipe!:As in the capacity of a cooking master, I'm always eager to learn a new recipe. Bring me 『{objective}』 and I'll pay you『{reward}』.
+%END
+
+%COOK,1,JP
+肉！:超想吃肉的说！对了，做一道『{objective}』就行。报酬的话就『{reward}』好了！
+请客招待:今天请了重要的人一起吃饭。我想用荤菜来招待他、请帮我做一道『{objective}』。『{reward}』的报酬如何？
+%END
+
+%COOK,1,EN
+A reception:We will be hosting this very important reception tonight. The guests must be satisfied and made to feel gorgeous. I want you to prepare 『{objective}』 and『{reward}』 are yours.
+%END
+
+%COOK,2,JP
+减肥套餐:吃蔬菜对减肥有帮助是常识吧。送一道『{objective}』过来吧。报酬就『{reward}』好了。
+治好挑食的毛病:用『{reward}』作为报酬够了吧？孩子们老是不吃蔬菜，真是让我头疼啊。请做一道『{objective}』送过来吧，这菜说不定他们会尝尝看。
+%END
+
+%COOK,2,EN
+On a diet:Vegetables are essential parts of a healthy diet. Cook 『{objective}』 for me. Your rewards are『{reward}』.
+%END
+
+%COOK,3,JP
+晚餐的点心:用『{reward}』作为报酬够了吧？今天晚餐的点心我想吃『{objective}』，请把它送过来。
+水果料理:我想在派对上用水果料理来招待人家。如果能送来『{objective}』的话，我会用『{reward}』来感谢你的。
+%END
+
+%COOK,3,EN
+Cocktail party!:Run a small errand for us and earn『{reward}』. We need a wicked relish for our cocktail party. Say,  『{objective}』 sounds decent.
+%END
+
+%COOK,4,JP
+甜食党的喜好:想吃很甜～的点心！给我『{objective}』的话我就给你『{reward}』哦。
+孩子的点心:想用『{objective}』来作为孩子的点心。如果带来的话，就给你『{reward}』。
+%END
+
+%COOK,4,EN
+Sweet sweet:I prefer cakes and candies to alcoholic drinks. You want『{reward}』? Gimme 『{objective}』!
+%END
+
+%COOK,5,JP
+面条狂:报酬是『{reward}』。意大利面、拉面、荞麦面…深爱面条的{me}很想吃『{objective}』啊！
+一想到那个口感就忍不住了！:想吃能被滋溜一下吞下去的『{objective}』。我给你『{reward}』，请帮我送过来吧。
+%END
+
+%COOK,5,EN
+I love noodles!:I love noodles! Is there anyone that hates noodles? I want to eat 『{objective}』 now! Rewards? Of course. 『{reward}』 sound good? 
+%END
+
+%COOK,6,JP
+营养套餐:鱼对身体来说很有营养。如果能帮我做一道『{objective}』来的话我会给你『{reward}』以示感谢。
+想让孩子吃鱼:虽然想让孩子吃鱼，但是他因为挑食所以不怎么吃。如果是『{objective}』的话，他说不定会吃，拜托了。报酬的话，『{reward}』如何？
+%END
+
+%COOK,6,EN
+Fussy taste:My children won't eat fish. It's killing me. I'm gonna give『{reward}』 to anyone that makes 『{objective}』 delicious enough to sweep their fuss!
+%END
+
+%COOK,7,JP
+面包党:{you}是面包党？还是米饭党？{me}的话肯定认为面包比较好。给你『{reward}』，帮我做个『{objective}』。
+野餐的供应:报酬是『{reward}』，不能再加了。明天野餐想带『{objective}』去，拜托了。
+%END
+
+%COOK,7,EN
+Going on a picnic:First off, the rewards are no more than『{reward}』, ok? My kid needs 『{objective}』 for a picnic tomorrow. Please hurry.
+%END
+
+%COOK,8,JP
+料理家的野心:我正在研究新的料理。作为参考，请把『{objective}』带过来，我用『{reward}』作为报酬和你交换。
+想吃好东西:我想吃『{objective}』了呢。如果把料理送过来的话，作为报酬，我会给你『{reward}』哦。
+%END
+
+%COOK,8,EN
+My stomach!:My stomach growls like I'm starving to death habitually. Will you bring a piece to this beast? Maybe 『{objective}』 will do the job. I can give you『{reward}』 as a reward.
+%END
+
+%COLLECT,JP
+超想要的东西:『{client}』最近一直拿着『{ref}』到处晒。{me}也超想要啊！总之你能把那东西拿到手的话，我就给你『{reward}』。
+盯上的猎物:『{client}』手上有『{ref}』这件事你知道吧。出于某种原因，那东西对我来说非常重要。如果可以搞到的话我就给你『{reward}』。
+%END
+
+%COLLECT,EN
+I want it!:Have you seen『{client}』's『{ref}』? I want it! I want it! Get it for me by fair means or foul! I'll give you『{reward}』.
+%END
+
+%DELIVER,64000,JP
+珍品的运送:不知道要用来做什么，『{client}』买下了『{ref}』。能不能把这东西送到『{map}』呢？这样的话就给你『{reward}』吧。
+废品回收:知道吗？住在『{map}』的『{client}』好像正在回收废品。因为可能有点麻烦，所以给你『{reward}』，帮我把『{ref}』送过去吧。
+%END
+
+%DELIVER,64000,EN
+Ecologist:My friend in『{map}』 is collecting waste materials. The name is『{client}』. If you plan to visit『{map}』, could you hand him『{ref}』? I'll pay you『{reward}』.
+%END
+
+%DELIVER,60000,JP
+家具的运送:帮我为『{objective}』吧。如果能在期限内帮我送到的话就给你『{reward}』作为报酬。
+贺礼:朋友『{client}』在『{map}』建了新家，想把『{ref}』作为礼物来祝贺他。给你『{reward}』，能不能帮我送到那边？
+%END
+
+%DELIVER,60000,EN
+A present:My uncle『{client}』 has built a house in『{map}』 and I'm planning to send『{ref}』 as a gift. I have『{reward}』 in reward.
+%END
+
+%DELIVER,54000,JP
+见习魔术师的请求:在『{map}』有个叫『{client}』的人，像是在学习魔法的样子。如果能把『{ref}』完好无损的交给他的话，就给你『{reward}』作为报酬。
+归还书籍:我从住在『{map}』的『{client}』那里借来的『{ref}』，能不能帮我还给他？报酬就『{reward}』好了。
+珍贵书籍的运送:最近入手了一本『{ref}』，想把它送给之前就很想要这东西的『{client}』。以『{reward}』作为报酬如何？能不能帮我送到『{map}』？
+%END
+
+%DELIVER,54000,EN
+Book delivery:Can you take『{ref}』 to a person named『{client}』 who lives in『{map}』? I'll pay you『{reward}』.
+%END
+
+%DELIVER,77000,JP
+给矿石收集家的东西:在『{map}』有个叫『{client}』的矿石收集家。能不能帮我把『{ref}』交给他？报酬是『{reward}』。
+石材的运送:在『{map}』，好像有以『{ref}』为素材的雕刻比赛。能不能帮我找到那里的负责人『{client}』并把这东西交给他。作为回报，给你『{reward}』如何。
+矿石的礼物:作为长年友好的证明，我想把『{ref}』送给『{map}』的『{client}』。报酬是『{reward}』，不送到那人手上是拿不到的哟。
+%END
+
+%DELIVER,77000,EN
+A small token:As a token of our long lasting friendship, I decided to give『{ref}』 to『{client}』 who lives in『{map}』. I'll arrange『{reward}』 for your reward.
+%END
+
+%SUPPLY,JP
+送给恋人的礼物:给恋人的礼物到底送什么好呢？总之给你『{reward}』，帮我拿个『{objective}』过来吧。
+给自己的礼物:最近遇到了点好事，所以想送给自己个『{objective}』。报酬的话，『{reward}』如何？
+孩子的生日:我给你『{reward}』作为报酬，比较妥当吧？想送给孩子『{objective}』当作生日礼物。
+研究的素材:我正在研究『{objective}』。可是研究材料用尽了，给你『{reward}』，能不能帮我搞个过来。
+收集者的请求:对{me}的收集品来说，『{objective}』是必要的。总之给你『{reward}』，请务必帮我收集到这个东西！
+道具的收取:稍微有点事情，『{objective}』对我来说很重要。能在期限内帮我拿到吗？给你『{reward}』。
+%END
+
+%SUPPLY,EN
+Birthday:I want to give my kid 『{objective}』 as a birthday present. If you can send me this item, I'll pay you『{reward}』 in exchange.
+%END
+
+%HUNT,JP
+清理森林:森林里现在很危险。附近的森林里面好像有怪物出现。给你『{reward}』，能不能帮我们清除他们？
+消灭魔物:报酬是『{reward}』的话比较妥当吧，帮我把某个地方的魔物给消灭掉。
+家周围的怪物:自家旁边出现的怪物让我很困扰啊。如果能帮我消灭他们的话，支付给你『{reward}』如何？
+%END
+
+%HUNT,EN
+Hunting:Filthy creatures are spawning in a forest nearby this city. I'll give you『{reward}』 if you get rid of them.
+%END
+
+%HUNTEX,JP
+小镇危机:听好了，有一群等级为『{ref}』的『{objective}』亚种在小镇的各地出没。如果这样下去的话{me}就不能维护这个小镇的和平了。拜托了，帮我消灭他们。作为小镇的代表，我会以『{reward}』当做酬谢。
+水井的诅咒:不知道是哪个混蛋往水井里面倒入了奇怪的液体！拜他所赐，村上出现了等级『{ref}』相当的『{objective}』。村委会为了解决这件事情，筹集了『{reward}』。请快点帮我们除掉那些怪物吧！
+以太变异体:不好啦！不好啦！{me}的邻居一家因为感染了以太病，全部变异成了『{objective}』！看到它们的时候，大概差不多有『{ref}』级强。总之帮我消灭它们。报酬是『{reward}』。
+%END
+
+%HUNTEX,EN
+Panic:Help! Our town is being seized by several subspecies of 『{objective}』 which are expected to be around『{ref}』 level. Eliminate them all and I'll reward you with『{reward}』 on behalf of all the citizen.
+%END
+
+%HARVEST,JP
+帮忙农作:快到了收获农作物的季节了呢。到『{map}』附近的田里去，帮我挖差不多『{ref}』重的农作物吧。报酬就给『{reward}』好了。
+代替收获:每到这个时期，总觉得会很郁闷呢。田里的农作物，要是不挖很多出来的话就不行呢。给你『{reward}』，能不能帮我收获差不多『{ref}』重的农作物呢？
+收获期:一直等待的收获期总算来了！不过一个人是做不过来的，『{reward}』作为报酬如何？嗯，{you}需要分担的重量差不多是『{ref}』。
+%END
+
+%HARVEST,EN
+The harvest time:At last, the harvest time has come. It is by no means a job that I alone can handle. You get『{reward}』 if you can gather grown crops weighting『{ref}』.
+%END
+
+%PARTY,JP
+宝贝！:嘿，宝贝！耶～，{me}现在的情绪非常的高涨哟！{you}到{me}的派对玩吧！报酬？才没有那种俗气的东西呢。表演能达到『{ref}』的话，会送白金币哦！耶～！
+名人派对:知道{me}的名字吗？原来这个世界上还真有不知道的人啊。{me}可是能止小儿夜啼的超级明星哦！这附近派对里面的客人正在募集一些能让他们乐呵乐呵的艺人。达到『{ref}』程度的话，就会送你白金币哟。
+招募替身艺人:啊啊，拜托了，能不能代替{me}到那个聚会上表演呢？我太害怕听众们的反应了，所以根本不敢上台表演。总之如果能得到『{ref}』分的话，就会送你白金币。
+%END
+
+%PARTY,EN
+Party time!:I'm throwing a big party today. Many celebrities are going to attend the party so I need someone to keep them entertained. If you successfully gather『{ref}』, I'll give you a platinum coin. You'll surely be earning tons of tips while you work, too.
+%END
+
+%ESCORT,0,JP
+护卫使者:嘘！别这么大声。我们必须要把一位重要的使者送到『{map}』去。报酬是『{reward}』!{me}的性命可是关乎这次行动的啊，绝对不要搞砸了！
+太过美丽的人:人太美也是罪过啊。{me}的恋人正因为被以前有过交往但现在已经断绝关系的变态盯着而烦恼。可能这次会成为一次危险的旅行吧，我给你『{reward}』，帮我把我的恋人安全送到『{map}』。
+阻止暗杀:那位大人的性命被别人给盯上了这件事你知道吧。这是一件危险的任务。如果能帮我把他安全送到『{map}』的话，我就给你『{reward}』。
+%END
+
+%ESCORT,0,EN
+Beauty and the beast:Such great beauty is a sin...My girl friend is followed by her ex-lover and needs an escort. If you safely bring her to『{map}』, I'll give you『{reward}』. Please, protect her from the beast.
+%END
+
+%ESCORT,1,JP
+紧急护卫:总之现在有一个人急需送到『{map}』。报酬为『{reward}』。请务在时间期限內达成任务。
+死之前还想去一次:不用我说你也清楚了吧。{me}最爱的人就快要死了。我想带她去『{map}』，在她的生命的最后时光里再去一次我们回忆之中的小城『{map}』。收下『{reward}』吧！
+太晚了就来不及了:不好了！{me}的父亲中了非常严重的毒！拜托了，请帮我把他送到住在『{map}』的名医那里，务必尽快送到！作为谢礼{me}将所有财产『{reward}』送给你！
+%END
+
+%ESCORT,1,EN
+Before it's too late:Terrible thing happened! My dad is affected by a deadly poison. Hurry! Please take him to his doctor in 『{map}』. I'll let you have『{reward}』 if you sucssed!
+%END
+
+%ESCORT,2,JP
+护卫需求:因为某种理由要护卫某人直到『{map}』，虽说不可能会有什么危险，但如果成功的话就会给你『{reward}』。对于冒险者来说，这是很简单的任务吧。
+给观光客当向导:有一个奇怪的观光客一直缠着我，很麻烦诶。我付给你『{reward}』，你能不能帮我把他送到『{map}』呢？
+简单的护卫:{me}有一个非常要好的亲戚想去『{map}』。可惜我现在腾不出手来，如果能帮我在期限内送到的话我就送你『{reward}』。
+%END
+
+%ESCORT,2,EN
+Escort needed:We have this client secretly heading to『{map}』 for certain reasons. We offer you『{reward}』 if you succeed in escorting this person.
+%END
+
+%CONQUER,JP
+讨伐任务:这是只交给熟练的冒险者的任务。『{objective}』的变种被确认正在向小镇前进。如果能消灭它的话就给你『{reward}』。这并不是普通的任务。这怪物的强度估计不会在『{ref}』级以下。
+救命！:我的一个朋友开着玩笑把变异药水喝下去了，然后他就变成了『{objective}』！是差不多『{ref}』级的怪物！为了小镇的和平，请一刻也不要迟疑！报酬？啊，当然，『{reward}』已经准备好了。
+特殊指令:威胁的幼芽总是要尽早的扼杀在摇篮里。军方的实验体从笼子里面逃了出来，正在这个小镇里肆虐。给你『{reward}』，去帮我讨伐那个怪物。根据研究数据，这个『{objective}』拥有可以和『{ref}』级的怪物匹敌的强度，请务必小心。
+%END
+
+%CONQUER,EN
+Challenge:Only experienced adventurers should take this task. An unique mutant of 『{objective}』 has been sighted near the town. Slay this monster and we'll give you『{reward}』. This is no ordinary mission. The monster's leve is expected to be around 『{ref}』.
+%END

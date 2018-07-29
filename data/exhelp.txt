@@ -1,0 +1,501 @@
+/Translation Note
+Text written after %**,EN will be displayed in the English version of Elona.
+Putting an empty line will pause the conversation and ask players to hit a key.
+
+#####################################
+%1,JP
+嗨，你好。你大概就是那位新来的吧。
+欢迎来到伊尔瓦，西埃尔·泰尔的时代。
+我是你的向导、导游诺伦。
+我的工作就是为你们旅行者服务。必要的时候会给你建议哦。请多关照吧。
+
+首先给你个简单的小提示。
+道具可是有<emp1>重量的<def>，拿得太多了的话可是会让速度变慢的哟。
+家里面放着的道具都是会被安全保管的，所以时不时的要来把多出来的道具放在这里哦。
+
+
+我听说一些比较懒的导游经常和别人说在家里看书很安全，因为读书会发生危险的事故，有时会吸干你的MP，有时会让你头晕目眩。
+不要相信他们！
+读书有时也会召唤出强力的怪兽。你可不想它们用华丽的喷火表演把你珍贵的家具烧掉吧？
+
+另外，你在家里可以种些花花草草，练习吟唱等等，总之做什么都可以。
+%END
+
+%1,EN
+Hi there, you must be the new face my folks were
+talking about. 
+Welcome to Irva, the era of Sierra Terre.
+I'm Norne known as a guide. 
+Helping you travelers is my job.
+
+Here's my first tip for you.
+Having too much stuff in your inventory burdens
+you and <emp1>slows your actions.<def>
+Use your home as a safe storage since the items 
+dropped in your home won't disappear.
+
+I heard some lazy guides are telling novices to 
+read spellbooks in your home because <emp1>reading
+a difficult book sometimes results in nasty
+errors <def>which put you in danger like draining
+your MPs or confusing you for a while.
+
+...Don't trust them! 
+
+Sometimes failure of reading also leads
+devastating monsters to appear.
+You don't want them smashing and breath-firing
+on your valuable stuff in your house, don't you?
+%END
+
+
+
+#####################################
+%2,JP
+你现在所处的地方是<emp1>世界地图<def>。在世界地图中，时间流逝的速度是平时的十倍，而且一些道具和魔法在这里是不能使用的。
+如果想要使用那些道具或者魔法的话，在世界地图的任意地方按下<emp2>空格键<def>，就能进入区域地图。
+
+看吧~<emp2>空格键<def>可是很有用的呢。它还可以判断脚下的东西，来选出合适的行动呢。如果你不知道如何是好的时候，那就按下空格键吧。
+
+如果在世界地图上还有不明白的地方的话，按下<emp2>帮助按钮<def>就能随时随地地查看帮助事项了哟。哼哼~，别看我这么厉害，其实我的建议基本上在<emp1>帮助事项<def>里面都有写。记住咯！一定要给我好好看这里面的东西，不记住的话可是不行的！
+
+因为你还是个菜鸟的关系，在世界地图上我建议你还是走在那些看得见的<emp1>道路<def>上比较好。在道路上碰到的敌人会比较弱，而且碰到的机会也少很多。不光如此，有时候还会碰到旅行商人呢。虽然他们卖的东西很贵，不过那可是一分价钱一分货哦。
+%END
+
+%2,EN
+In the world map, time passes at a lot faster
+rate. And you can't use certain items and
+skills in the world map. If you want to use
+them, you need to enter the local map mode
+<emp1>by pressing the space bar.<def>
+
+If you want to know more about the world map,
+press ? to read the in-game help. The help
+contains variety of useful information
+throughout your journey.
+
+Remember to stay on road as monsters are
+weaker than those in the wilderness. And
+occasionally, you will encounter wandering
+merchants who will sell you quality but
+expensive wears.
+%END
+
+
+#####################################
+%3,JP
+到城镇了！看，来往的人很多吧。
+在城镇里面，只要你不攻击他，他就<emp1>不会主动攻击<def>你哦，所以放心吧。
+
+在这里你可以进行道具买卖、训练、交易、赌博、接任务、回复等行动。
+这些行动到底有着什么用处呢？你可以随着冒险的进行来好好的理解他们。哦，对了！你好像还没有钱去做那些事情呢。
+
+如果你想要钱和装备的话，可以看看那边的<emp1>城镇公告栏<def>吧。那牌子很大，你应该可以很快找到它。
+%END
+
+%3,EN
+It's a town! The streets are crowded with
+people. Don't worry, they won't bite if you
+don't bother them.
+
+Towns offer many services such as training,
+trading, gambling, quests, etc...
+If you are in need of money or equipment, <emp1>go<def>
+<emp1>check the town board.<def>
+It's a big board, you won't miss it.
+%END
+
+
+
+#####################################
+%4,JP
+在这个公告栏上，有小镇里面人们各种各样的请求哦。
+接受了委托之后，可要好好的确认一下委托的内容和报酬。
+
+任务的★记号和左边的数值以及任务的颜色，代表着<emp1>任务的难易度。<def>
+你还是选择和你等级差不多的任务比较好。如果在公告栏上只有那些高难度的委托的话，过几天再来看应该会有别的任务出现。所以如果暂时没有好任务的话，那就等等看吧。
+
+%END
+
+%4,EN
+You can view sub quests here. Think
+carefully before accepting any of them.
+Some can be quite dangerous.
+
+The $ mark and its color indicates how
+difficult the task is. <emp1>Green is easy.<def>
+<emp1>Blue, harder and red is risky.<def>
+%END
+
+
+
+#####################################
+%5,JP
+你现在所站的地方，叫做<emp1>采取点<def>。
+在<emp1>采取点<def>，你可以按下<emp2>空格键<def>便可以进行探索或者采取了哟。
+
+探索的话主要会得到称之为<emp1>材料<def>的东西。<emp1>材料<def>可以进行道具的生产，还可以在赌场的扭蛋机使用哦。这些采集点被完全搜索之后，会在其他的地方刷新，所以快点找到它们，尽量多收集点材料吧。
+
+在探索过程中<emp1>时间会自动地流动<def>，所以先确认好周围的环境再进行搜索吧。正所谓三思而后行吗~
+%END
+
+%5,EN
+You are standing on the <emp1>material spot.<def>
+<emp1>By pressing the space bar<def>, you will
+automatically collects materials here.
+
+Materials are mainly used for producting
+items. Some materials like casino chips can be
+used for gambling.
+
+Be careful as while collecting the materials,
+you can't move.
+%END
+
+
+
+#####################################
+%6,JP
+你现在所在的地方，便是<emp1>随机迷宫<def>。
+想要进入<emp1>随机迷宫<def>的话，请注意一下它的<emp1>危险度<def>吧。<emp1>危险度<def>通常被表示为相当于O层。如果O层比自己的等级要高的话那这个迷宫对你来说就很危险了。
+
+在迷宫的最深处有着这个迷宫的BOSS，打倒他的话可是又很多奖励的哟。当然迷宫的BOSS也不是省油的灯，不妨在迷宫里面多多练级吧。
+%END
+
+%6,EN
+You are standing on a <emp1>random area icon.<def>
+Before entering a random area, watch for the
+<emp1>approximate danger level.<def>
+You might want to avoid areas with higher level
+than you.
+
+At the bottom of each random area, a lord of
+the dungeon awaits you. They are powerful but
+posess greater loot.
+%END
+
+
+
+#####################################
+%7,JP
+在旅馆的话可以吃很多好吃的东西呢。如果你你没有固定的食物来源的话，一开始我建议你还是去旅馆吃东西比较好。这样就能把宝贵的食物留在旅途中食用了。
+
+碰到恶劣天气或者是刮以太风的时候，旅馆的<emp1>避难所<def>可是免费开放的哟。到了那时候可要赶快进去，不然出什么事情我可不管。
+%END
+
+%7,EN
+You can have a square meal at the inns.
+If you don't have a source of food,
+you should regularly visit the inns and
+save your valuable food for your journey.  
+
+Inns also offer <emp1>shelter service<def> during
+bad weather and Etherwind for free. 
+Just ask the innkeepers.
+%END
+
+
+
+#####################################
+%8,JP
+从训练师那里，既可以学到新的技能，也可以锻炼旧有的技能哦。
+如果想要接受训练的话，<emp1>白金币<def>可是很重要的。不过<emp1>白金币<def>很难入手，所以要学习哪个技能还是要好好考虑一番的。
+%END
+
+%8,EN
+The trainer is where you go to learn
+new skills, and improve your knowledge
+in existing skills. For training, 
+<emp1>platinum coins are required.<def>
+
+These coins are hard to come by,
+but without them it is impossible to
+learn new skills!
+%END
+
+
+
+#####################################
+%9,JP
+哎呀，你好象很困了嘛。
+当然，你也需要<emp1>定期的睡眠<def>。画面左下角有时候会出现<emp1>睡眠可<def>的提示，虽说这个时候即使不睡也没什么关系，不过这种状态下休息的话说不定就会睡着吧。
+
+当出现<emp1>要睡眠<def>的时候，如果可以的话请尽早的休息。如果不这样做的话，身体将会变得非常疲惫，<emp1>体力和魔力的回复也会停止<def>。
+如果想要睡觉的话，<emp2>使用(空格键)<def>睡袋或者床就行了。如果超想睡觉却又找不到地方的话，按下<emp2>休息(R键)<def>就可以随时随地的睡着了。不过虽然想这么说，但是如果这样休息的话，被别人打扰也是无法入睡的哦，特别是在野外的时候。
+
+入睡后，根据梦境你能的到很多东西哦，<emp1>里面可以得到有经验，属性，技能，法术等等。当然，如果做恶梦的话也会有坏事降临。<def>
+还有，一定要留意寝具的使用哦？如果谁在不好的寝具上，梦境就会缩水。通常，越好的床就会有越好的梦境。
+%END
+
+%9,EN
+Hey, you look sleepy!
+Of course, <emp1>you need to sleep regularly.<def>
+When you are sleepy, you can use beds to
+sleep. Or simply resting may draw you into
+a dream.
+
+When you gain enough experiences and sleep,
+your potentials of primary attributes
+will increase. You might also encounter
+several events during your sleep.
+%END
+
+
+
+#####################################
+%10,JP
+肚子饿了吗？
+确保食物的充足可是很重要的说。如果你很长时间不吃东西的话，不仅仅会变虚弱，到最后可是会<emp1>饿死<def>的呢！为了不让这种杯具发生，请好好确认一下干粮还有多少吧。
+
+根据吃下去食物的种类，你的能力值也会得到其应有的增长。虽然大部分场合这点增长你根本看不到，不过积沙成塔嘛，总有一天你会发觉能力有所提高的。
+当然，你也可以吃那些你所打死生物的肉。其中有一部分可以大幅度提高你的能力值，或者得到一些抗性。不过有时候也会起到负效果。吃的时候可要小心咯~
+%END
+
+%10,EN
+You are hungry huh?
+If you don't eat, you'll be worn out and
+eventually <emp1>die of hunger.<def>
+So always keep your stomach full!
+
+Various types of food result in different
+effects. In most cases, the effect is
+paltry but many small make a great. 
+
+You can also eat corpses.
+Some will greatly increase your stats or
+even grant you certain resistance.
+%END
+
+
+
+#####################################
+%11,JP
+诶~？下大雨了啦！
+在这种恶劣天气下到外面去可只有傻瓜才会这么做。下雨的时候在世界地图上移动的话会比平常更花时间的说。
+
+在下雷暴雨的时候会出现各种不适症状，到达目的地的时间可能回比平常要多花几倍呢。不仅如此，还会在暴雨中迷路，找不到北的情况也会发生。
+如果你所携带的干粮不多，又或者是委托的期限快到了的话，一定要注意一下天气情况哦！
+
+啊，对了！天气不好的时候，<emp1>和旅馆的主人对话的话就可以进入避难所<def>了呢。请妥善使用吧。
+%END
+
+%11,EN
+What a downpour! You shouldn't go outside
+in bad weather. It will take you more time to
+travel and even you may lose your way.
+
+And did I tell you that you can seek shelter
+in inns when in bad weather? Use the
+opportunity wisely!
+%END
+
+
+
+#####################################
+%12,JP
+下雪了耶~
+虽然这么说，下雪对于旅人而言可是非常麻烦的事情。在那些积雪很厚的地方行走可是非常困难的。下雪的时候，在世界地图上移动会变得很耗时间。
+
+不过还好，在提里斯北部雪天不会持续很长时间。通常情况下你可以在一个地方耐心等待一段时间，直到雪停了之后再继续旅程。
+不过，如果有委托任务的话请注意好期限哦！
+
+对了！像是这种坏天气，<emp1>和旅馆的老板对话的话就能进入避难所<def>哦。请好好利用这个地方吧。
+%END
+
+%12,EN
+It's snowing outside! I'm excited!
+But...Snow is tricky stuff for 
+ravelers. Deep snow is difficult to walk
+through. While there is snow on the
+world map, it takes extra time to move
+from place to place.
+
+Fortunately, snow in North Tyris
+doesn't last that long. You can usually
+wait in one place and take it easy, and
+eventually it will melt and you can
+continue travel.
+
+During poor weather conditions such
+as this, the city inkeepers can bring
+you to the town shelter. 
+You should make good use of it.
+%END
+
+
+
+#####################################
+%13,JP
+以太风来了...
+这风可是会带来不得了的影响啊。如果被这种风吹到了，会有一定的几率<emp1>突然变异<def>的，还<emp1>会让以太病更快的侵蚀你的身体<def>。在城镇外面的野外，碰到变异之后变得危险的怪物的几率也会提高不少。
+
+不过，由于以太风发生的时期是确定的，所以回避这种灾难天气也并不难。以太风<emp1>每到以3为倍数的月份，那个月的1日到10日<def>就会出现。一定要给我好好记住！
+
+和别的恶劣天气不一样，以太风吹拂的时候，大地图上的移动速度会比平时的要快。如果有可以抵抗或者抑制以太病的手段的话，说不定也能利用这种特点。
+
+还有，如果碰到恶劣气候的话，、<emp1>和旅馆的老板对话就能进入避难所了。<def>要给我好好利用哦。
+%END
+
+%13,EN
+Etherwind...
+The wind is a serious problem. 
+Exposed to the wind for a certain time,
+you will mutate, and more importantly you
+will start to be affected by the erosive
+ether disease. 
+
+The wilderness will be more dangerous
+during the wind too. However, it is known
+when this wind blows. It only spawns
+<emp1>in a month multiples of 3 and<def>
+<emp1>in days between 1-10. <def>
+You really need to remember it.
+
+Unlike with other bad weather, if the
+ether wind is blowing when on the world map,
+you can move faster than normal. If you can
+somehow control mutation and the Ether Disease,
+this wind might be actually useful to you.
+
+During poor weather conditions such as this,
+the city inkeepers can bring you to the
+town shelter. You should make good use of it.
+%END
+
+
+
+#####################################
+%14,JP
+关于避难所我得要说明一下呢。
+避难所是为了让人们躲避像是以太风或者雷暴雨之类的恶劣天气下而建的。
+
+在避难所里面，<emp1>室外恶劣天气流逝的时间<def>是普通时间的十倍，而且你也不用担心自己会饿肚子。当天气恢复正常以后，时间流逝会恢复正常，免费的食物也不会供应了，这点务必要注意。
+%END
+
+%14,EN
+Here's a little explanation of shelters.
+The town shelter is a safe place from
+the ether wind. It's also a safe place
+during thunderstorms and snow, too.
+
+In the shelter time progresses dozens
+of times faster than normal, and you will
+automatically eat food supplies. 
+
+Once the weather is back to normal,
+time progresses normally again, and you
+won't be able to eat food supplies.
+%END
+
+
+
+#####################################
+%15,JP
+嗯，你得病了呢...
+不用害怕。即使什么都不做，以太病也会逐渐随着时间的流逝侵蚀你的身体的。虽说如此，如果你一直把以太病的症状无视的话，这种病也会恶化成不得了的疾病的。
+
+以太病分为20个阶段，每个阶段会产生一个新的症状，一直到最后你死去为止...所以在生命逝去之前尽快找到解药吧。
+
+不过也不用太担心，时间对你来说有的是。只要格外小心以太风，它会加速你的病情。所以在患病后尽量避免被以太风吹拂是个明智的选择。
+
+以太风吹拂的时候，找到避难所就行了。<emp1>每个旅馆内都有免费的避难所<def>，这肯定会对你有所帮助。
+%END
+
+%15,EN
+At last, you are taken with the disease...
+Don't be surprised, the corruption of
+ether slowly advances over time si it
+is very common in Irva.
+Your symptom is still negligible small.
+
+Disease progression is divided into
+20 stages. As it progresses, your
+condition becomes more fatal and may even
+leads you to death eventually.
+
+Don't worry! You have enough time to
+deal with. Be warned though, Ether Wind
+is different. It will significantly
+worsen your disease. You should evacuate
+when the wind spawns.
+%END
+
+
+
+#####################################
+%16,JP
+终于到了发薪日了呢！
+每月的1日和15日都是发薪日。根据你的名声和排名，你就能拿到相应的钱和补给品哦。
+
+薪水会直接放到家里的薪水箱里面，打开它的话就能拿到。如果想知道能拿多少钱的话，就在旅途之中看看你的排名吧。
+
+除了薪水，每月的1日都会有一张<emp1>税单<def>送到你的薪水箱里。缴税的地点在帕罗米亚城的北面。记住了，要把税单放到税务所的收税盒中才能算缴税哦！
+虽说税务所不要求你立刻缴税，但是如果拖欠了4、5个月的税款就会被视为犯罪。所以，请小心吧。
+%END
+
+%16,EN
+Long-awaited payday!
+The 1st and 15th of every month is payday.
+Depending on your rank and fame,
+you will get paid in gold and goods.
+
+This salary can be picked up from your
+salary box in your house. You can also check
+your rank and  salary in your journal.
+
+In addition to salary, on the first day of
+each month a tax invoice is sent. You need
+to pay this invoice at the embassy north of
+Palmia. You have 4 or 5 months to pay it
+before you'll be labeled a criminal. 
+%END
+
+
+
+#####################################
+%17,JP
+唔哦哦！是传送门腋！
+传送门是别的冒险者，大部分是已经经验丰富的魔法使为了移动而召唤出来的。由于传送门的关闭需要一点时间，所以你也可以跟随他们进入，但是...
+
+但是，我听到不好的传言。有人说进去后会看到<emp1>岩浆<def>，有时追着可爱的女孩子屁股后面进去的话，<emp1>在传送门后面会有一大群强盗等着你<def>，又或者是被传送到无边无际的荒野<emp1>再也回不来了。<def>
+
+哼哼~骗你的啦。吓了你一跳真是抱歉~那种坏人其实并不是很多啦，如果有空的话不妨进去看看哦。
+%END
+
+%17,EN
+Oh, it's a moongate!
+Moongate is used by expericed wizards to
+travel distance. You can follow them if
+you want...
+%END
+
+
+
+#####################################
+%18,JP
+狂热！！
+随机奈菲亚地城在非3的倍数的月，15日到月末都会进入狂热状态。值得注意的是<emp1>固定奈菲亚地城就没有这个状态。<def>狂热状态下<emp1>级别高的道具和采取点素材都会比较容易出现。<def>
+
+对道具收集有帮助，时钟上红色的灯火亮起时就去奈菲亚地城吧。<emp1>狂热状态会在4，5天结束<def>所以，挑战奈菲亚地城的话，可不要太过徘徊来徘徊去的。
+
+啊啊，狂热状态下，地城里的怪物也不会加强。放心吧。
+%END
+
+%18,EN
+Fever!!
+It is fever mode of Nefia. 
+Fever mode only starts
+in a month <emp1>not multiples of 3<def> 
+and <emp1>in days between 15-24.<def>
+You really need to remember it.
+
+During fever mode, Nefia will produce 
+high level items and many material spots.
+Fever mode ends in 4 or 5 days.
+%END
+
+
+
+#####################################
+
+

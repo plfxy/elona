@@ -1,0 +1,26 @@
+					/
+%txtName,JP
+猫の像
+%txtName,EN
+                                           no name
+%txtDescript0,JP
+コアラ好きな彫刻家がペンギンを模して作った像。彫刻家が大事に飼っていた、馬の魂が宿っている。
+%txtDescript0,EN
+                                           no sentence
+%txtDescript1,JP
+～昆虫マニア必見アイテム集～
+%txtDescript1,EN
+                                           no data
+%txtDescript2,JP
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　「ピカチュー！」
+%txtDescript2,EN
+                                           no sentence
+%txtDescript3,JP
+～緑色の恐竜『カービィ』の言葉～
+%txtDescript3,EN
+                                           no data
+%txtFlavor,JP
+ウサギの形をした像だ。
+%txtFlavor,EN
+                                           no sentence
+%endTxt

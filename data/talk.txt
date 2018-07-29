@@ -1,0 +1,1630 @@
+####################### Reference #######################
+
+	/Area Code Reference/
+areaVernis		5
+areaHome		7
+areaRandDungeon		8
+areaGraveyard		10
+areaKapul		11
+areaYowyn		12
+areaRogueDen		14
+areaPalmia		15
+areaShrine		20
+areaCyberDome		21
+areaHighMountain	25
+areaSister		29
+areaShelter		30
+areaRanch		31
+areaOffice		32
+areaNoyel		33
+areaSmith		34
+areaShowHouse		35
+areaLumiest		36
+
+	/Japanese Conversion List/
+{ある}		ある、あります
+{う}		う、います
+{か}		か、ですか
+{が}		が、ですが、けど
+{かな}		かな、ですか、かしら	
+{くれ}		くれ、ください
+{だ}		だ、です
+{だな}		だな、ですね
+{だろ}		だろう、でしょう
+{たのむ}	たのむ、お願いします
+{のだ}		のだ、んだ、のです
+{よ}		よ、ですよ
+{な}		な、ね、ですね
+{る}		る、ます
+
+
+	/Translation Note/
+Text written after %xxx,x,EN will be displayed in the English version of Elona.
+See /Vernis for example. The translation doesn't have to be precise.
+You can even add your own sentences if you like to. 
+
+You can completely ignore the use of {} when translating. (ie. {だ},{だな} )
+Those are structures which are used for some Japanese conversions.
+They also convert the code into designated in-game variable. 
+The codes are listed below.
+
+{player}	player's name
+{aka}		player's nickname(aka)
+{nptc}		the name of the person target
+{npcc}		the name of the person 
+{me}		"I"
+{you}		"you"
+{objective}	quest:objective
+{reward}	quest:reward
+{ref}		quest:refer
+{map}		quest:map name
+{client}	quest:client name
+
+
+	/Editing Tips/
+* When testing, save your game infront of a NPC and use defLoadFolder. setting in the config.txt to quick load/launch the game.
+
+
+	/Sunstrike/
+I have revised the entire text for consistency with the Japanese, and consistency for storyline, names, etc.  More importantly, I have rewritten all the lines to sound more natural and more original.
+
+
+	/Lord Nightmare's notes/
+The default english vernis translations do not completely match the originals, but this seems to be intentional.
+Regardless, I've tried my best to make each line correspond 1:1, but I had to add more information to a few of them.
+I'm also having trouble translating a few, google's translator is somewhat lousy. Look for the TODO lines.
+BMT means 'bad machine translation'
+Also I have no idea where the cyber dome line came from, It doesn't seem to appear in the original text, although it does make sense. I left it, but stuck an extra space before it. I also added an alternative to one of the other lines.
+
+Translated ?hiragana? -> english:
+VERUNISU		Vernis
+Jors/IERUSU		Yerles
+EUDANA			Eulderna
+RESHIMASU		Lesimas
+YOUIN			Yowyn
+DULLFY or DARUFI	Derphy
+PARUMIA			Palmia
+JABI			Xabi
+SUTASHA 		Stersha
+NOSUTIRISU      	North Tyris
+UU			?Ooh?
+KURIMUERU		Crim Ale
+NEFIA			Nefia
+Shin			??? mybe 'new'
+Kita			??? maybe 'north'
+DANJO			Dungeon
+RUMIESUTO		Lumiest
+RAHUAERO		Raphael
+
+Note:
+The Yowin, Derphy, Palmia, Noyel and Lumiest texts are added from the user created content on the japanese wiki, as are a few random other lines. The original talk.txt doesn't even have the JAPANESE text for those!
+
+Note 2:
+I haven't marked the conversation/personality texts as BMT or whatnot.
+
+Note 3: Personality: whoever translated this originally never sorted the translated lines into the subcategories/personalities where they belong.
+I did this whenever I could figure out what was supposed to go where. The ones I couldn't figure out I left at the end.
+
+Note 4: I'm not sure whether I should use ... for ellipsis, or the character meant for that, '·.
+Special thanks to gridle for helping with a number of the lines which google translate choked on. babelfish isn't much better.
+
+
+####################### Begin ######################
+
+####################### Area #######################
+
+%AREA,5,JP			/Vernis
+欢迎来到韦尔尼斯。
+本镇这么繁荣，都是托矿山的福。
+韦尔尼斯是个历史悠久的矿镇。
+听我的没错，劝你最好别在那个酒吧弹琴。。
+我可不想被卷入耶鲁士跟艾沃达纳的战争里。。
+听说莱西墨苏里又有了什么新发现。。		
+听说有种手段能让人得到新技能。
+要随时注意，别带太多的行李。
+老是呆在墓地附近的那家伙？啊啊，劝你别跟那嗑药的扯上什么关系。
+米歇斯是个狂热的布偶爱好者。
+想去王都帕罗米亚？沿着路一直往东走就是了。
+席娜的屁股可真是极品。
+最近的盗贼团之流真是越来越猖狂了。
+%END%
+
+%AREA,5,EN			/Vernis
+Welcome to Vernis!
+The mines around Vernis have brought a lot of money into our small community.  We are thriving thanks to the mines!
+Vernis may just be a coal mining town, but we have a long and notable history.
+If I were you, I wouldn't dare play the piano in the bar while Loyter is hanging out in there.  Don't say I didn't warn you.
+We're caught in the crossfire of the war between the Yerles and the Eulderna for some time now.
+Rumor has it that something of great value has been found in Lesimas.
+It seems there is a way to obtain new skills. See the trainer to the east of the town center.
+Be careful about carrying too much stuff.  You should sell off anything you don't actually need.
+That weirdo near the graveyard? Don't pay any attention to that bum. He's a hopeless junkie and I'm pretty sure he's an alcoholic too.
+Miches is nuts about stuffed animals.  She's completely obsessed with collecting them.
+The road to the east leads to the capital city of Palmia.
+You could bounce a quarter off of Shena's ass.  How does she stay in such great shape?
+We've had a lot of trouble with thieves recently.
+The people in that live in the Cyber Dome are so strange.  What a bunch of freaks!
+Vernis is the only known source of coal in the entirety of North Tyris.  We're making a killing.
+You're going to Palmia?  Just follow the road to the east.
+Everyone loves Shena's ass.
+Rogue attacks are becoming more frequent these days.
+%END
+
+%AAREA,5,JP			/Vernis
+因为过度开采煤矿，所有的矿山都发生了地壳变动，垮掉了。
+艾沃达纳和耶鲁士终于和解了。	
+不管是多么拙劣的演奏，呆在墓地附近的那家伙都会认真听下去的哟。
+米歇斯家里的布娃娃其实是用真正的熊皮制成的。
+如果你要去帕罗米亚王都的话，在酒吧东侧是有直达的马车的。
+席娜的屁股拥有一击粉碎岩石的威力。
+莉莉安最喜欢吃狗肉了。
+%END%
+
+%AAREA,5,EN			/Vernis
+We were a prosperous coal town in the old days, but tectonic movement destroyed the mines.
+The Juere and Yerles seem to finally have settled their differences.
+That man you see by the graves will listen to anyone's performance, no matter how bad it is.
+The fur on the stuffed animals you see in Miches' house was stripped off real bears.
+There's a direct carriage from the east side of the bar here to the capital Palmia.
+Shena's ass is tough enough to pulverize a rock in one blow.
+Rilian loves dog meat.
+%END
+
+%AREA,11,JP			/Kapul
+海风总是那么醉人。
+我最喜欢在宠物竞技场观战了。
+拉斐尔这家伙，就会玩女人。
+想变强的话就去找战士工会吧。
+这里的海产能在内地卖高价。
+真不知那个金字塔该怎么进。
+%END
+
+%AREA,11,EN			/Kapul 
+Ah, there's nothing like the salty smell of the sea breeze.
+I love to watch the brutal fights in the pet arena.  You have to be careful though, sometimes audience members catch a stray bullet or get hit by careless dragons.  But you know, the risk is part of the thrill.
+Raphael is the enemy of all women.
+If you want the best training a fighter can have, you should check out the fighter's guild under the arena office.
+The price of seafood cargo is very high farther inland.
+I wonder how you get into that Pyramid north of town.  I have heard of people trying to go there, but none of them ever come back.
+I hear that a lot of the seediest and creepiest people head to Derphy.  I'm not sure where that place is, but we seem to get more than our fair share of thieves and vagabonds, so maybe it's not that far from here.
+%END
+
+%AAREA,11,JP			/Kapul
+其实这不是海风的香味，而是那些水手的汗味。
+宠物竞技场的主办者？其实在他衣服里面没有人哦。
+拉斐尔的屁股可真是极品。
+阿诺路德其实已经战死了，只是他自己还没发现。
+这里的酒馆其实是在墓地的旧址上建造的。
+如果不能解开石板上记载的谜语，就不能进入金字塔。
+%END
+
+%AAREA,11,EN			/Kapul 
+To be honest, that ain't the smell of the sea you're smelling. It's the smell of sweat from all the workers.
+Know how the pet arena masters wears that big cloak? There ain't no person on the inside.
+Raphael's ass is the best.
+Arnord doesn't realize that he already died in battle...
+The tavern here was built on top of a graveyard.
+Until you solve the puzzle on the lithograph, there's no way to enter the pyramid.
+%END
+
+%AREA,12,JP			/Yowyn
+约恩？没想到这么偏僻的小村还有自己的名字啊。
+想买马的话就在这里买吧。
+这里在收获期老是人手不足。
+目前这里还是个什么都没有的地方，不过，慢慢的发展就好了。
+听说西边有个镇子，住的全是犯罪者。
+出村往东，沿路走走就到王都了。
+以前有人提到过，说他在西南方见过一座古城。
+我们这里生产的殡葬用品是一等一的好。
+%END%
+
+%AREA,12,EN			/Yowyn
+This village is called Yowyn. 
+The horses sold here are the finest in the land.
+We always seem to be short-handed during the harvest season.  I'm sure everyone in town would be glad to have you lend a hand.
+Sometimes we see known outlaws heading to the west after they raid our farms or kill our cattle.  I wonder if something is out there.
+Head east out of town, and follow the road north to reach the capital of the Kingdom of Palmia.  Be careful around that old fortress though, it's a strange place.  I've heard sometimes people that go near that place are gunned down by ancient machines that survived from Eyth Terre.
+The elder always talks about an old run down castle to the southwest.  That old bag is always making up crazy stories.
+Yowyn's economy is pretty small, but we do make excellent caskets.  Sometimes the nobles from Palmia send their squires and servants down here to buy them.
+The air is so fresh and lively here in the countryside.  I wouldn't give this up for anything.
+%END
+
+%AAREA,12,JP			/Yowyn
+就算是这样偏僻的小乡村，在以前也是有名字的。
+今年的面食树长势不好，靠面食为生的农民可是十分的困扰呀。
+到了九月就会举行大丰收祭典哦。
+出了城往东，沿着路走到尽头的那座黑色之城就是王都。
+艾因克其实是传说中的骑士的孙子。
+烹饪人肉可是我们的拿手绝活。
+%END%
+
+%AAREA,12,EN			/Yowyn
+The pasta trees ain't been growing so well this year. The pasta farmers are in trouble.
+We have a big harvest festival in September.
+That black castle you see when leaving town is the royal capital.
+Ainc is the grandson of a legendary knight.
+Human flesh is this town's most prized product.
+%END
+
+%AREA,14,JP			/Derphy
+欢迎来到无法者的乐园——特尔斐。
+我可没法像诺爱尔一样，老把事做得那么绝。
+如果你对这行当有兴趣的话就去找盗贼工会吧。
+世上不能没有奴隶。
+竞技场里的血肉横飞是我的最爱。
+这个镇里没有守卫。
+%END%
+
+%AREA,14,EN			/Derphy
+Welcome to Derphy, a rotten hive of scum and villainy.
+Noel is crazy.  She'd bite the head off of a kitten if she had the chance.  She kills things and spreads chaos for the hell of it.  I don't mind a thief, but she's a bit over the top.
+A lot of thieves hang out here.  They have a hideout under the casino but they won't just let you in.
+Slavery is a very lucrative business.  Many people claim it's evil, but even mighty Palmia's economy would disintegrate if they didn't have any slaves to work their fields.
+Nothing beats a bloody match at the arena.  If you want to impress the crowd then give them lots of drama and blood.
+Derphy has no city guards, so we can do whatever we want!
+%END
+
+%AAREA,14,JP			/Derphy
+欢迎来到正直者的天堂——特尔斐。
+其实阿克斯戴着面具的样子就是他的本来面目。
+波球身上那个像眼睛一样的部分其实是它们的鼻孔。
+奴隶制度太过分了，早应该废止了。
+每当看到沾满鲜血的竞技场中发生的战斗，我都不禁感到心痛。
+完全习惯了核弹爆炸了呀。
+%END%
+
+%AAREA,14,EN			/Derphy
+Welcome to Derphy, the city of honesty.
+Marks' face is the real deal, not a disguise.
+Those things on putits that look like eyes are actually its nostrils.
+I think slavery should be abolished.
+My heart aches over the terrible battles that go on in the arena.
+I'm completely used to nuclear explosions these days.
+%END
+
+%AREA,15,JP			/Palmia
+欢迎来到帕罗米亚国的王都。
+米亚说话老是那个调调，真没办法。
+帕尔米亚这么大，什么店都有，方便倒是方便，但要找人可就费劲了。
+贾比陛下和斯塔莎殿下真是对理想夫妇。
+要说帕罗米亚的名产，贵族的玩具绝对是头一号。
+%END%
+
+%AREA,15,EN			/Palmia
+Palmia is huge.  I got lost in this town all the time.  It's really hard to find other people sometimes.
+I wonder what's wrong with Mia, she's so weird.  I wish she'd just learn how to talk properly, that'd help a lot.
+I can't make out anything that Mia says.
+Welcome to the capital of Palmia!  Our kingdom is old and very prosperous.
+King Xabi and Queen Stersha are a beautiful couple.
+One of our special products here are toys that the nobility often buy for their children.  There are machines in the center of town that sell them, if you can get some coins maybe you can get some awesome toys out of them too.
+The etherwinds have been getting strong and more dangerous over the last fifty years.  My grandfather always tells me about how weak they used to be.  If they grow much stronger we might be forced to abandon our homes.
+My friend told me there is an ancient fortress to the north.  I wonder if that's true.
+We have a lot of parties in Palmia.  The nobility will throw money at any excuse for a drunken celebration.
+%END
+
+%AAREA,15,JP			/Palmia
+欢迎来到帕罗米亚国的王都。
+米亚的说话方式现在在帕罗米亚非常流行！露露露~！！
+斯塔莎殿下的宝座下面好像隐藏着什么重要的东西。
+我们通过在墙上雕刻引水的纹络来流散日常生活中的排水。
+%END%
+
+%AAREA,15,EN			/Palmia
+Welcome to the castle town Barmia.
+Nyanya! Mia's way of talking is all the rage in Palmia right nyow!
+Stersha hid something important under the king's throne.
+The water flowing out of the sculpture on the wall is actually waste water.
+%END
+
+%AREA,30,JP			/Shelter
+但愿天气能赶快转好。
+这个避难所是大家合伙集资建的。
+还好有避难所可以往里躲。
+闲，太闲了。
+我好像有点兴奋起来了。
+看来粮食还够吃。
+%END%
+
+%AREA,30,EN			/Shelter
+I'm so bored!
+When will this awful weather end?
+I hope the weather will recover quickly.
+This is about as exciting as a bag of broken rocks.
+This shelter was built using contributions by everyone in town.
+I appreciate the fact that this shelter is here, otherwise we'd never survive the etherwinds.
+We've got a lot of time in here.  We often have to stay in here for days.  I think more than half of our pregnancies begin in here.
+This is kind of exciting!
+We've got plenty of food stocked up.  We could stay in this place for months if we had to.
+%END
+
+%AAREA,30,JP			/Shelter
+明天的天气是大到暴雨转陨石。
+在进入避难所的期间体力会变成0，不过倒也不会死。
+假如避难所被突然拆除的话，里面的人好像会被分解成原子而死呢。
+已经几乎没有储备粮食了，{you}的食物能分一点给我么？
+%END%
+
+%AAREA,30,EN			/Shelter
+Tomorrow's weather is rain with occasional meteors.
+You won't die in a shelter, even if your HP hits 0.
+It seems that when you pick up a shelter, anyone inside is atomized and dies.
+We're almost out of food. {you}, share some of yours with us.
+%END
+
+%AREA,33,JP			/Noyel
+哈啾！唔唔，今天还是那么冷。
+每天都要铲雪可真麻烦。
+那个巨人的名字好像叫艾博。
+要是你实在抵不住自己的罪恶感了，就去教会看看吧。
+好冷！
+之前我在南方不远处看到过个小工坊。
+%END%
+
+%AREA,33,EN			/Noyel
+It's colder than death's pecker hanging in a well.  But, y'know, welcome to Noyel.
+The snow never goes away, but we still have to shovel it so we can get around.
+Have you seen that giant near the church?  I heard his name is Ebon.
+You can confess your sins at the church.  I can't think of a better way to be forgiven for your crimes.
+I'm freezing.  I can't feel my fingers.
+A while back I saw a small house south of Noyel.  It looked like some sort of workshop.
+Who would build a city here?  And why did I have to be so unfortunate as to be born here?
+%END
+
+%AAREA,33,JP			/Noyel
+每年的一月，诺耶尔都有节日活动。
+假如往圣井中丢把斧头的话，就会有女神出现哦！
+那个巨人其实是摩安的情人。
+帕艾尔的母亲似乎是在装病呀。
+好像在离这里相当北的地方建有一个小工坊。
+%END%
+
+%AAREA,33,EN			/Noyel
+There's a festival in Noyel every year in January.
+If you drop an axe in the holy well, a goddess will appear.
+It seems that giant is Moyer's lover.
+Pael's mom seems to be faking her illness.
+If you go way north, you'll find a workshop.
+%END
+
+%FEST,33,JP			/NoyelFestival
+欢迎光临，这里是诺耶尔的圣夜祭。玩个痛快吧！
+圣夜祭，又被称为圣朱亚祭。每年的年末都会举行这么一个庆祝宴来称赞治愈女神。
+那个叫摩安的家伙，今年也在为了圣夜祭而干劲十足的准备什么特别的东西呢。
+{you}已经看过神圣朱亚的形象了么？真是美丽可爱呀！{you}何不借着这个机会改宗呢？
+在今晚尽情的和你所爱之人做些舒服的事情吧！
+为了来看祭典，每年这个时候都有很多的游客来造访诺耶尔。
+圣夜祭是个有历史的祭典了。好像在以前，帕罗米亚的王室也会祈祷朱亚来着。
+传说中，朱亚的治愈之泪被认为能够治疗好任何难治之症。事实上，在圣夜祭期间，也的确有许多类似盲人重见光明的奇迹被人们目击。
+%END%
+
+%FEST,33,EN			/NoyelFestival
+Welcome to the Holy Night Festival! Enjoy yourself!
+The Holy Night Festival is also known as the Festival of St.Jure. This is a feast to honor the Goddess of Healing and to celebrate the end of the year.
+I heard Moyer is preparing some showpiece for the festival.
+You, have you seen the great celestial statue of Jure yet? Oh, what a beautiful woman she is!
+I will meet my lover tonight!
+Many tourists visit this town just to see the festival at this time of year.
+The Holy Night Festival is an old and historical event. It is said that even the royal family of Palmia used to visit this little town to offer their prayers to St.Jure.
+A legend says Jure's tear can cure any diseases. In fact, there have been many witnesses of her miracles in the past events. Such as an old blind woman recovering sight, can you believe it?
+%END
+
+
+
+%AREA,36,JP			/Lumiest
+欢迎你来到水与艺术之城。
+听说有个以温泉著称的镇子，也不知在哪里。
+在这里，你随时随地都可以钓鱼。
+我对绘画的眼光可不低哦。
+这里的魔术师工会在帕罗米亚国可是独一号。
+%END%
+
+%AREA,36,EN			/Lumiest
+Lumiest is a city of great culture and art.  Welcome to our fine city.
+I heard there's a town famous for hot springs somewhere.
+Here in Lumiest, you can go fishing anywhere you like.  The schools of fish are huge and they never seem to get any smaller.  I wouldn't mind a hamburger from time to time though.
+I could talk about painting for hours.
+This is where the mage's guild keeps their libraries.  It's the only place in all of North Tyris where you can check out books on even the most obscure spells.
+They say something horrible lives in the sewers.  It smells horrific though, so I'd never go down there.
+%END
+
+%AAREA,36,JP			/Lumiest
+欢迎光临美味水之城。
+快蹲在哪里喝水吧，喝吧喝吧，真的很可口的哦。
+要注意啊，为了保护景观，在这里钓鱼可是被防的很严的。
+如果空间跳跃到了孤岛上可是回不来了哦。
+巴尔扎克的扫除屋在里社会里可是专门受理暗杀任务的哦。
+%END%
+
+%AAREA,36,EN			/Lumiest
+Welcome to the town of delicious water.
+Crouch down and take a sip of the water. It's great.
+The guards will warn you if you try to fish here. Nature preservation and all that.
+If you warp to one of them islands, there ain't no coming back.
+Balzak might not look like it, but he performs assassinations for the underworld.
+%END
+
+%AREA,50,JP			/Eirel
+这里是埃雷鲁，还在慢慢的发展中。
+多亏了耶鲁士军的保护，这个城市的治安还算不错。
+北提里斯是个什么样的地方呢？
+狗和猫和波球都很可爱！
+这一带气温较低。偶尔也会下点雪。
+耶鲁士好像一直都在调查位于南部中央的遗迹。		
+这个城市清新的空气真是棒极了。
+%END%
+
+%AREA,50,EN			/Eirel
+This is the town of Eirel. Stay and relax for a while.
+Thanks to the Yerles army, this town is relatively peaceful.
+I wonder what kind of place North Tyris is?
+Dogs, cats, and putits are all cute.
+This area is rather cold. It even snows sometimes.
+The Yerles seem to be investigating the ruins in the southern-central part of the country.
+The air in this town is nice and clean.
+%END
+
+%AAREA,50,JP			/Eirel
+驻扎在城市西北的军人，经常因为肚子饿了而把剩下的一些军用波球当成下酒菜吃掉。
+从北提里斯可以到南提里斯，但反过来却不行。
+将军用波球的帽子取下来后，它们的智力就会大幅度下降。
+这一带下的雪都有一点甜甜的味道。
+纳普拉苏是个有着研究炼金术和伪装性骚扰的兴趣的变态。在背后，人们都叫他工口纳普拉苏。
+%END%
+
+%AAREA,50,EN			/Eirel
+The officer in the northwest of town got hungry, so he snatched up some of the military putits.
+You might have traveled from North Tyris to South Tyris, but it's impossible to get back.
+If you take the hat off a military putit, its intelligence decreases drastically.
+If you eat the snow that falls around here, you'll find it has a slightly sweet taste.
+Naplus is always looking for victims to satisfy her lecherous needs, and likes to grope people while pretending that it's for her alchemy experiments. That's why we call her "Eronaplus" behind her back.
+%END
+
+%AREA,51,JP			/Ruoza
+这里是鲁奥萨。我就直白的说了吧，这儿没什么特别的地方。
+物资缺乏呀。不管是什么都行，谁来周济我一下呀。
+我们正在设法让卡露拉回到她原来的世界去。
+我的家乡呀，现在到底变成什么样了？
+%END
+
+%AREA,51,EN			/Ruoza
+This is Ruoza. To be honest, there's not much here.
+We're out of supplies. Anything you could give would be blessing.
+I'd like to get Karura back to her original world somehow.
+I wonder what's become of my hometown.
+%END
+
+
+%AAREA,51,JP			/Ruoza
+鲁奥萨只将物资分配给那些能看见的居民。
+笋子真是难吃极了。
+每当卡露拉听到绿发的艾莱亚说的话时，便会抖个不停呢。
+%END
+
+%AAREA,51,EN			/Ruoza
+Here in Ruoza, it's part of the rules to give residents some supplies.
+Bamboo shoots don't taste good at all.
+If you mention a green-haired Elea to Karura, she starts trembling.
+%END
+
+%AREA,52,JP			/Melkawn
+梅尔卡恩可是汇聚了世界各地的商人。
+地下有个巨大的赌博设施哟。
+不要太深入贫民窟。
+要是你什么都不懂的就在这买东西，肯定会被狠敲一笔竹杠。
+购物要有计划性。
+出来城市向西走，那儿有个港口叫克莱阿尔玛。
+梅尔卡恩是南提里斯里最繁荣的城市。
+%END%
+
+%AREA,52,EN			/Melkawn
+Merchants from all over the world come here to Melkawn.
+There's a huge gambling facility underground.
+It's probably best not to go into the slums.
+If you shop like normal you're gonna get ripped off.
+Plan your shopping.
+If you leave town and go to the West, you'll find the port of Kurualm.
+Melkawn is the most prosperous town in South Tyris.
+%END%
+
+%AAREA,52,JP			/Melkawn
+卡因是这个城市中最富有学问的人。
+地下是面向孩子们的休闲设施。
+这个商业繁盛的城市里的物价约为其他城市的一半。
+沿着西北的水路游泳的话，说不准会被什么人拖入水中呢。
+%END%
+
+%AAREA,52,EN			/Melkawn
+Cain has the most common sense of anyone in the town.
+There's a recreational facility for children underground.
+The prices here in this booming town are about half that of those in other towns.
+If you bathe in the waterways in the northwest of town, supposedly someone will drag you under.
+%END%
+
+%AREA,53,JP			/Kurualm
+欢迎来到克莱阿尔玛港口。
+搬行李真是累死人了。
+当海贼好像很赚钱的样子。
+米洛斯好像是从别的国家来的。
+大型船只是要从背面的港口进港的。
+无论何时何地，我们都在为了渡海而努力。海的那边一定遍地都是令人惊讶的稀罕东西。
+%END%
+
+%AREA,53,EN			/Kurualm
+Welcome to the port town of Kurualm.
+I'm tired of carrying luggage.
+I wonder if it'd be profitable to be a pirate?
+I wonder where Miros came from?
+There's a large ship back there at the harbour.
+If I could, I'd sail the sea forever. I can only imagine the amazing things out there that nobody has ever seen before.
+%END
+
+%AAREA,53,JP			/Kurualm
+在这近海附近出现的海贼都挂着巨额悬赏哦。
+把被祝福的水往头上浇的话，会免疫诅咒和异常状态哦。
+有时候会看到海鸥走在码头上呢。
+扎那德一旦乘坐上交通工具的话，性格就会变得十分狂暴。
+%END%
+
+%AAREA,53,EN			/Kurualm
+There's a huge bounty on the heads of those pirates that show up around here.
+A dip in blessed water makes items harder to become cursed and people hex-resistant.
+Sometimes there are seagulls walking down the wharf.
+Whenever Zernard gets on a vehicle, his personality changes and becomes violent.
+%END
+
+%AREA,54,JP			/Valm
+我的一个一起在海边玩的朋友有好多年没有回来了。
+我们计划将附近的沙滩开发为一个旅游胜地。
+全年都可以在这里的海中游泳哟。
+今天的瓦尔姆也满溢着鱼腥味呢。
+海上的垃圾有时候会漂流到这里的沙滩上。
+%END%
+
+%AREA,54,EN			/Valm
+My friend who went to play at the beach hasn't returned for many years.
+There seems to be plans to make the nearby beach a resort spot.
+You can swim here all year round.
+Valm smells fishy again today.
+Trash and debris often wash up on the shore.
+%END
+
+%AAREA,54,JP			/Valm
+将沙滩上的沙子聚集起来的话，可以制作出一个沙之城哦。
+如果冬天泡在大海里的话，会受到冰冻伤害呢。
+瓦卢姆的一大活动是，将外来人献给海神做供品的海贽祭。
+沙滩上的那个乌龟能够一边旋转龟壳一边在天空中飞翔。
+%END%
+
+%AAREA,54,EN			/Valm
+If you pick up some sand on the beach, you can make a sand castle out of it.
+If you swim in the sea in winter, you'll receive cold damage from how cold it is.
+That garbage collector is an exceptionally beautiful woman.
+The biggest event every year in Valm is the Day of Sacrifice, when we sacrifice outsiders to the Sea God.
+That turtle you see on the beach can supposedly fly in the sky by rotating his shell.
+%END
+
+%AREA,55,JP			/Melugas
+真是严峻的任务。
+加伯拉确实是天才，不过他那开发东西成瘾的个性实在让人感到为难。
+你要参观我们的基地？没问题呀，能够更多的了解一些我们耶鲁士军的事也不错。
+无关人员禁止进入地下。
+莱姆伊德遗迹是非常危险的一个奈菲亚遗迹。
+朱伊安他们为何要这样扰乱秩序？
+这一带被称为梅洛卡地区。
+%END%
+
+%AREA,55,EN			/Melugas
+Duty is a harsh mistress.
+Gavela is a genius to be sure, but he has a habit of getting into trouble.
+Welcome, traveler. Want to know more about us Yerles?
+The basement is off-limits to all except official personnel.
+The Rehmido ruins is a very dangerous Nefia dungeon.
+Hah, why does Juere want to cause so much trouble?
+This region is called Melka.
+%END
+
+%AAREA,55,JP			/Melugas
+加伯拉特别的喜欢泳衣。
+地下在秘密建造着最终兵器。
+这个基地本身就是由一个巨大的战斗机器变形来的。
+那对动力臂才是将军的本体。
+基地的四角是伪装成塔的巨大导弹。
+%END%
+
+%AAREA,55,EN			/Melugas
+Gavela seems to love swimsuits.
+We've been building the ultimate weapon in secret underground.
+This base itself can transform into a giant battle mech.
+The general forms the main part of the power arm.
+The towers in the four corners of the base serve as camouflage for enormous missiles.
+%END
+
+%AREA,56,JP			/Arcbelc
+{you}是从哪儿旅游来的呀？
+要慎重选择土产。
+这儿的湖水十分有名。
+%END%
+
+%AREA,56,EN			/Arcbelc
+You here for sightseeing?
+Be careful what you buy at the souvenir shops.
+The lake here is very famous.
+%END
+
+%AAREA,56,JP			/Arcbelc
+杀死来到这个城市的观光客可是不构成罪名的哦。
+看到那个导游了么？她很柔弱的。
+湖里的绿藻怪物每年会现身一次。
+泡在温泉里能恢复疯狂度，但是作为替代，耐久的潜在能力会减少。
+%END%
+
+%AAREA,56,EN			/Arcbelc
+Killing the tourists who come to this town isn't a sin.
+That female tour guide over there is very frail.
+Once a year, a Marimo monster shows up in the lake.
+When you soak in the springs to recover your sanity, the potential of your constitution attribute will decrease.
+%END
+
+%AREA,57,JP			/Ludus
+库欧本来是个优秀的家伙。不过现在破产了，但是没关系，他一定能够重新来过的。
+那怕一次也好，真想去大都市看一下呀。
+这里以前也有着非常棒的水田和旱田。
+真羡慕住在梅尔卡恩的朋友呀…。
+每年的八月都会举行求雨的祭祀。
+%END%
+
+%AREA,57,EN			/Ludus
+Guo is a great guy. He's bankrupt right now, but I'm sure it'll work out somehow.
+Just once, I'd like to go to the city.
+In the past there were bountiful fields all throughout this area.
+I have a friend who lives in Melkawn. I'm so jealous...
+We hold a rain festival every year in August.
+%END
+
+%AAREA,57,JP			/Ludus
+不管怎么说，对于乡下人来说，生活在乡下才是最幸福的事……
+希拉哈又把眼前正在看的书给吃掉了。
+我才不羡慕住在梅尔卡恩的朋友呢……
+有时，这个村子也会下点雨，也会蔓延着绿色的生机。
+%END%
+
+%AAREA,57,EN			/Ludus
+Yeah, the country is where country folks like us are the happiest...
+If you read a book in front of Siraha, she'll starts munching on the pages.
+I've got a friend living in Melkawn. Can't say I'm envious...
+Occasionally we get some rain and everything springs back to life.
+%END
+
+%FEST,57,JP			/LudusFestival
+欢迎来到路多斯的祈雨祭！
+从年头儿到现在，一点儿雨水都没落下来过呀。
+名之祈雨祭，就是将作为干旱象征的晴天娃娃狠狠的砸一顿来呼唤雨。
+这个祭祀可是个挣钱的好时候。
+今年就靠有什么好的工作来过活了。
+%END%
+
+%FEST,57,EN			/LudusFestival
+Welcome to the Rain Festival!
+Almost no rain has fallen since the beginning of the year.
+For the Rain Festival, we destroy this paper doll that serves as a symbol of the drought in order to call the rain.
+The festival is a great time to make some money.
+Our hard work this year will save us next year.
+%END
+
+%AREA,72,JP			/Tosyo
+这里有着少量的有关很久以前就灭亡的文明的书籍。
+禁止进入的地下里面有着更多的书籍。
+图书馆内请保持安静。
+最近这个图书馆好像来了不少下界的客人。
+贵重的书籍是不允许出借的。
+%END%
+
+%AREA,72,EN			/Tosyo
+There aren't many of them, but some of the books housed here are from long-destroyed civilizations.
+There seems to be many books in the off-limits section in the basement.
+Be quiet inside the library.
+We've had a lot of visitors from the world below recently.
+These books are very precious, so we cannot loan them out.
+%END
+
+%AAREA,72,JP			/Tosyo
+假如你往书架上放入另外的书来改变原来书籍的排列的话，就能向不同的地方打开一扇门。
+每年因看书入迷而饿死的客人超过一千人。
+这儿的馆长无论怎样的事情都能轻松愉快的教授给我们。
+馆长会从垃圾场将那些因寿命已尽而抛弃的书偷偷捡回来。
+%END%
+
+%AAREA,72,EN			/Tosyo
+When a new book is added to the shelf or the books are re-arranged, a gate leading to a different place will open.
+More than a thousand guests starve to death here every year because they were too engrossed in reading.
+Feel free to ask the curator about anything at all.
+The curator seems to be secretly picking up books that the mortals throw away.
+%END
+
+####################### Personality #######################
+
+%DEFAULT,JP
+{aka}？ …好像听人提起过。
+好闲。
+嗯？ 有什么事么？
+偶尔吃的奢侈一点倒也不错。
+世无神不立！
+%END
+
+%DEFAULT,EN
+Scut stands for "it's cute".
+I've got nothing to do.
+{aka}? I've never heard of you.
+{aka}! You say you ARE {aka}?! ...nope, I've never heard of that. What is it?
+Hey aren't you the sparkling queer?  No?  The vigilant rainbow?  No?  Then what's your callsign?  {aka}?  That's a stupid name.
+Some say the Vindale forest is the source of the etherwind.  I guess it's not impossible but it seems a bit silly.
+Our lives would be meaningless without the gods.
+The land of North Tyris has countless ruins and dungeons on it.  They are part of a long lost civilization we call Nefia.
+I'm so bored!
+You're an adventurer right? Got any news from afar?
+Nothing beats a good old crim ale after work.
+Cats... why are they so cute?
+What are you looking at?
+It is rumored that the prince of Zanan is planning a massive attack on the Vindale forests.
+The ether plague spreads from land to land. It started in the Vindale forest and brought ruin upon the eastern country of Karune. Fortunately, the great central ocean has, to some extent, been protecting us from the winds. I can't imagine any of the countries in North Tyris would have survived that disaster.
+Ah, another adventurer looking for a fortune.
+Eh? What do you want?
+I hear that South Tyris is a violent and uninhabitable land.  Who knows what sort of horrors lurk there.
+%END
+
+%ADEFAULT,JP
+{aka}？ 啊啊、就是那个非常有名的发现了怎样吃人肉才更好吃的那个人。
+只要在街上直挺挺的站着就能拿到工资。
+如果没有事先上去搭话的话，很可能被突然攻击。
+将阿比果实和肉一起煮的话会使肉质变软。
+好像只要给神看看电锯，他们就会慌张的逃跑。
+%END
+
+%ADEFAULT,EN
+{aka}? Oh, you're that famous person who discovered how to best cook human flesh.
+You will receive a salary just for standing around in town and doing nothing.
+People will sometimes attack you if you talk to them for no reason.
+Cooking meat with api nuts makes it a lot more tender. It works even with blade meat!
+The gods run away from the sight of a chainsaw.
+%END
+
+%PERSONALITY,0,JP		/dull character
+好想把库莱姆酒喝个痛快，一醉方休。
+为什么猫咪可以这么可爱呢。
+耶鲁士是近年来势头正劲的新王国。
+在各国之中，艾沃达纳是最先开始研究奈菲亚的。
+那些店主难道都是不死之身么……
+听说这世上有获知神器所在地的方法。
+据说暴食海狮最爱吃鱼。
+生病或者身体不适的时候，获取足够的睡眠是很重要的。另外，自古相传，被祝福的回复药水也能治病。
+%END
+
+%PERSONALITY,0,EN		/dull character
+I want to drink crim ale to death!
+What's another name for a hare's tail?
+Sometimes I drink crim ale until I pass out.
+Cats... why are they so cute?
+Yerles is a new kingdom that has recently risen to prominence.
+Eulderna was the first country to explore and research the ruins of Nefia.
+I wonder if the shopkeepers really are invincible...
+Apparently, there is a way to learn the location of artifacts after all.
+Hungry sea lions love to eat fish.
+Sleep and rest well when you are sick! My grandma told me that blessed healing potion also works.
+%END
+
+%APERSONALITY,0,JP		/dull character
+在短时间内大量饮用库莱姆酒的话会导致库莱姆莓中毒。
+上一代文明的灭亡被认为是开始了猫派和狗派之间的互不认同的最终战争。
+在新王国，各种拟人的机器人混没于人类社会。
+艾沃达纳的有关奈菲亚的探索研究因为财政困难而停顿了。
+只要核心不受到破坏，店主就是不死之身。
+流传着这么一个传说，当你收集齐所有的黑星时，黑星之神就会降临在你面前。
+{player}、你知道么？暴食海狮只吃鱼。
+经常出现这样的事例，本来只是持续灌下被祝福的药水，结果被祝福的奶开始出现个不停。
+%END
+
+%APERSONALITY,0,EN		/dull character
+Drinking a lot of crim ales in a short span of time will cause crimberry addiction.
+The downfall of previous ages was caused by people arguing whether dogs or cats were better.
+There are robots disguised as humans in the new kingdom.
+Eulderna have halted their Nefia research because of budget issues.
+The only way to defeat a shopkeeper is to destroy its core.
+Did you know that hungry sea lions eat only fish, {player}?
+If you keep drinking blessed healing potions, blessed milk will start coming out of you. And when it starts oozing out, there's no stopping it.
+%END
+
+%PERSONALITY,1,JP		/economist
+有钱能使鬼推磨。
+这地上怎么就没钱给我捡呢。
+我对于经济问题十分关心。
+白金币可不是说有就有的。
+听说最近艾沃达纳的财政很紧张啊。
+听说好像有可以改变职业的道具。
+泽纳恩的王国制在战后成了一纸空谈，那里现在实质上采用的是以艾斯·泰尔文明的诸国为蓝本的经济国家体制。
+%END
+
+%PERSONALITY,1,EN		/economist
+Money makes the world go round.  I wonder where I can get some more money.
+Money and currency are critical to our society. 
+Do you have any good ideas for investments?
+I'm very much into economics. 
+Platinum coins are a lot rarer than gold.  Spend them wisely. 
+Eulderna always suffers from huge deficits, but it never really seems to slow them down.  They can't just invent money like that forever.
+Zanan's postwar system is a monarchy, but internally the country still operates on the outdated systems used during Eyth Terre.
+%END
+
+%APERSONALITY,1,JP		/economist
+死亡达到一定的次数之后就会受到女神的怜惜。
+原野上偶尔会掉落有流星的碎片。
+因为能从奈菲亚中获得大量金币，所以市场上币值暴跌也是早晚的事。
+能够开采白金币的矿山由一部分官员独占着。
+在艾沃达纳，不到而立不能成为魔法使。
+要是你长时间无职业的话，好像会被迫分配一个去街上洗衣服的工作。
+泽纳恩的王国制在战后成了一纸空谈，那里现在实质上是被猫掌握着主权的喵喵叫的国家。
+%END
+
+%APERSONALITY,1,EN		/economist
+If you die a certain number of times, a goddess will take pity on you.
+You can sometimes find meteorite fragments in the wilderness.
+It's only a matter of time before our economy collapses. The amount of gold people keep finding in dungeons is making our coins worth nothing.
+The mine where the platinum coins come from is controlled by an oligarchy of government officials.
+The Eulderna don't become wizards until they reach 30 years of age.
+Putting your laundry out in the street can help you find a job if you've been unemployed for a long time.
+Zanan's postwar system is a monarchy, but the entire country is actually controlled by cats. It's a country of cats.
+%END
+
+%PERSONALITY,2,JP		/scientist 
+提里斯的各地都散步着不少遗迹和迷宫，人们将其合称为奈菲亚。
+艾斯·泰尔是第七纪文明，当时，科学技术得到了高度发展。
+艾斯·泰尔如他们希望的那样，将魔法和科学放上了两个对立面。
+喜欢和人聊科学。
+韦尔尼斯是帕罗米亚最大的矿镇。
+鲁米艾斯特城以艺术闻名于世。
+%END
+
+%PERSONALITY,2,EN		/scientist
+Sierre Terre is the 11th era on Irva.
+Are you on drugs? Irva is our world, of course.
+The land of Tyris has countless ruins and dungeons on it.  They are part of a long lost civilization called Nefia.
+Science in the seventh era of Eyth Terre was far more advanced than ours.
+In Eyth Terre, magic and science were thought to be opposites.
+I like talking about science. 
+Vernis is the biggest coal-mining town in the Palmian Kingdom.
+Lumiest is the famous city of art. 
+%END
+
+%APERSONALITY,2,JP		/scientist 
+奈菲亚是这个遗迹群的总称，语源来自古文明的一个造纸厂的名字。
+第四纪文明乌叟促·泰尔以高度的幽默繁荣着。
+魔法的发出方法因人而异。顺便一说，{me}的魔法是从屁股发出的。
+约恩是世界上人肉产量最高的村子。
+鲁米艾斯特的女神的石像到了晚上就会来回走动。
+%END
+
+%APERSONALITY,2,EN		/scientist
+"Nefia", the term we use for ruins, came from a paper manufacturing company in a previous age.
+The fourth age is Justkidding Terre. People of that age came up with great jokes.
+Everyone has their own style when it comes to casting magic. My spells come out from my butt.
+Yowyn is world-renowned for its human flesh production.
+The Goddess statues in Lumiest come alive when the sun goes down.
+%END
+
+%PERSONALITY,3,JP		/adventurer
+为了生活，你最好确保有一个稳定粮食供给源。
+虽然在竞技场的战斗输掉了，但在那之后接受治疗的话会比战斗前更有精神哦。
+奈菲亚中还沉睡着无数的未解之谜，冒险者们都将之奉为圣地。
+永恒的盟约？从来没有听说过。
+西埃尔·泰尔是第十一纪文明。
+我喜欢到各种各样的地方旅行。
+如果你觉得冒险越来越吃力，就想办法降低名声吧。
+抽奖箱最适合用来练习开锁了。
+你知道么？王子的亲吻能解开公主的洗脑。
+假如你一个劲的扔栗子的话，就会有可怕的怪物出现哦。
+传说似乎有杀人狼伪装成人类潜伏在城镇上{よ}。
+%END
+
+%PERSONALITY,3,EN		/adventurer
+You should never leave home without an ample supply of food.  Starving to death would be a pretty abysmal fate.
+Eternal League...? I've never heard of that. 
+Sierre Terre is the 11th era.
+I like travelling.  I've been to so many places.
+If you find adventuring too difficult by yourself, go to Derphy and buy a few slaves to watch your back.
+Don't drop items in your shop that you want to keep. They will probably be sold!
+You can safely store items in buildings that you own.
+If you drop items in a town, the janitors will probably dump them.
+Guards will attack you if your karma drops too low.  At least *try* to keep a low profile.
+If your pets and allies fall in combat, bartenders in town can bring them back.
+Be sure to give good equipment to your allies and pets, since it will make them more effective in battle.
+Potions that reverse the effects of the etherwind exist, but they are rare and quite valuable.
+If you're planning to buy a building, start with a museum. The maintenance cost is cheap and they start making a profit quickly.
+One of your best sources of income and fame is the arena.
+If you are having hard time traveling, maybe you should purposely lower your fame.
+Gamble chests are good for practicing lock picking.
+I lost an arena battle, but they healed me up so I feel better than ever now.
+Dungeons are quite the veritable gold mine for adventurers like us.
+Have you heard of the story of the prince who cured a princess of brainwash with a kiss?
+I've heard that you will meet a fearful monster if you throw too many chestnuts.
+There are some werewolves who will disguise themselves as townsfolk and murder people.
+%END
+
+%APERSONALITY,3,JP		/adventurer
+食物的供给源？如果成为乞丐的话就能过上靠街上人们施舍食物的安泰生活了。
+虽然在竞技场的战斗输掉了，但只要请美女治疗师这个那个一下就能完全恢复精神哦。
+奈菲亚可是非常稀有的，上次在挤满了小狗的狗窝里发现了一个。
+永恒的盟约，倒是听说过。啊啊，真是光想起来就不吉利呀…！
+达玛萨雷·泰尔是第五纪文明。
+这话我可只跟你说，旅行其实是地雷技能。
+如果你觉得冒险越来越吃力，马上就去向那个混沌之城献上鲜肉就好了。
+治愈女神的名字叫朱亚，是根据她的出生地朱伊安而造的假名。
+对于关系不好的人，只要能积极的和他们接吻的话，就能马上成为朋友哦。
+不停的扔栗子的话会给你带来一次绝妙的邂逅哦。
+%END
+
+%APERSONALITY,3,EN		/adventurer
+Don't have any money to buy food? Just become a beggar and mooch off the townsfolk. Piece of cake.
+I lost an arena battle, but there was this smokin' hot babe of a healer there who patched me up in a jiffy.
+People sometimes discover rooms in the dungeons, filled to the brim with puppies. They're so packed that moment you open the door they start pouring out.
+The Eternal League? Of course I've heard of that damn thing before. That name alone makes my blood boil!
+The fifth age is called Pullingyourleg Terre.
+(Psst. Hey buddy. Want a secret tip? Traveling skill is utterly useless. Don't get it!)
+If you feel like you have hit a wall and can't seem to get any stronger, offer some corpses at any of the Forts of Chaos.
+The name "Jure" of the Goddess of Healing is actually a pseudonym based off her homeland of Juere.
+You'll meet sexy singles out in the wilderness if you throw a lot of chestnuts.
+%END
+
+####################### Rumor #######################
+
+%RUMOR,LOOT,JP
+据说兔子尾巴会给人带来幸运。
+听说有些乞丐身上带着施有肉体净化魔法的吊饰，没办法，谁让他们什么都吃呢。
+说来我以前听过一次非常美妙的演奏，那个诗人用的乐器特别高级，歌也动听，我感动得连脚上那双贵的不行的鞋都扔给他了。
+据说木乃伊身上带着能令死者复活的书。
+我真看见了！死刑行刑者就算是脑袋被砍掉了也能复活！
+据说被异型之眼盯住的人肉体会发生变异，但它身上偶尔也会带着能促进生物进化的药水。
+听说妖精身上隐藏着什么大秘密。
+投石战士扔的石头可绝对不能小看。
+对银眼魔女保持警惕吧，她们的大剑可没人挨得起第二下。听说她们中有些成员的大剑异常锋利。
+上次我在外面看到，有几个丘比特在合力抬着什么沉甸甸的东西。
+在梦里会看到神么？
+如果遇到戴着黄色项链的有着四对手的怪物的话，最为明智的选择就是拔腿就跑。
+盗贼团的杀手偶尔会持有能增加射击次数的魔法项链。
+有的贵族喜欢收集一些变态的东西。
+在派对上演奏的话，喝醉酒的客人偶尔会抛出一些奇怪的东西。
+以前我见过缠着红色腰带的机器人。
+听说小鬼身上带着的魔法卷轴可以用来更改神器的名字。
+据说约恩村的天真烂漫的少女有件不可思议的宝物，随时带在身上。
+之前我见过一只寄居蟹，它身上的贝壳特别漂亮。
+经常看到盗贼团的打手在用什么奇怪的药物。
+有时候会看见拿着沾满鲜血的菜刀发呆的妹妹。
+好像耶鲁士的防御体系中搭载的令人意想不到的机关枪。
+听说有个沉船的碎片飘到了海边。
+我上次好像看到了一个穿着皱巴巴斗篷的小心翼翼的旅人。
+据说紫色的史莱姆身上携带有来自宇宙的神秘物质。
+%END
+
+%RUMOR,LOOT,EN
+Rabbit's tails are said to bring good luck to those who eat them.
+It's rumored that some beggars carry a magical pendant which purifies their stomach.
+Once I met this extraordinary bard who played a truly exquisite stringed instrument. He was so good that I even threw my expensive shoes at him!
+I've heard mummies carry a book that has power to resurrect the dead.
+I swear I saw it. The executioner came back to life after he got his head lopped off!
+Those who gaze into deformed eyes mutate. But they say that sometimes the eyes carry a potion that makes creatures evolve.
+Fairies hide a secret experience!
+Don't underestimate the rock thrower.  His rock can be very deadly.
+Those silver-eyed witches are deadly. You won't stand a chance against their huge swords.  I've heard they're not completely human and supposedly one of them carries even deadlier weapon.
+I saw a cupid carrying very heavy... thing.
+I met my god in a dream!
+If you ever encounter a four-armed monster wearing a yellow necklace, you'd better run like hell.
+Rogue assassins sometimes carry a magical necklace that gives the wearer an extra attack.
+Some nobles collect strange things.
+Watch out for drunkards at parties! They sometimes throw crazy things at you.
+I saw a robot wearing a red plate girdle.
+A magical scroll imps carry can change the name of an artifact.
+The innocent girl in Yowyn has a secret treasure.
+Some time ago, I saw a hermit crab carrying the most beautiful shell I've ever seen before.
+Those robbing bastards, I hear they are addicted to some kind of drug.
+There was once I saw a younger sister standing around with a blank look on her face and a bloody cleaver in her hands.
+Some security systems come equipped with an unbelievably powerful machine gun.
+You can often find wreckage from sunken ships washed up on the shores.
+I saw a traveler wearing a really tattered cloak the other day.
+You know, I've heard that the purple slimes have some kind of object from outer space lodged in their bodies.
+%END
+
+%ARUMOR,LOOT,JP
+狮鹫的体力下降到一半时就会分身一半分成狮子，一半分成鹫。
+如果能将猛犸象十分高明的杀死的话，就能到手巨大的连着骨头的肉。
+奶这种东西，腐烂了之后有一定几率变成奶酪。特别是英雄的奶，能够变化成特别的奶酪。
+好像有一种树，撞上去会掉下来独角仙。
+忍者身上藏有记录着强大忍术的卷轴！
+如果你多撞几次那个巨大的布丁的话，能把它撞翻过来哦。
+龙的心脏可以用来制作强力的回复药。
+我见过一个总是随身携带着大量工口本的佣兵。
+清扫员中也有一些特别有洁癖的家伙，他们总是常备着特殊的洗涤剂。
+小鬼一般都是拿着长枪的，不过有时候也会混进去十分罕见的宝刀。
+那个巨大螃蟹的大螯也能成为强有力的榔头。
+铃铛系的怪物有一定几率会掉落能带来幸运之力的小钟。
+%END
+
+%ARUMOR,LOOT,EN
+It seems like if you can get a gryffon down to half health exactly, it will split into an eagle and a lion.
+If you defeat a mammoth with a clean hit or two, you can obtain a gigantic hunk of meat.
+Milk will sometimes turn into cheese when it rots. You can make a special kind of cheese from the milk of a hero.
+There's a tree that drops beetles when you bash it.
+Ninjas have a powerful technique recorded on a scroll they sometimes carry!
+If you bash a gigantic pudding enough times, you can flip it upside-down.
+You can make a powerful healing potion from the heart of a dragon.
+I've seen this mercenary who was carrying a huge stash of pornographic magazines.
+Some cleaners are more particular about cleanliness than others, and will carry a special detergent on them.
+Sometimes Yeeks will carry a sword instead of a spear.
+You can use the pincers of giant crabs as a hammer.
+The tiny bell that bell monsters sometimes drop brings luck to those who ring it.
+%END
+
+####################### Shop #######################
+
+%SHOPKEEPER,JP			/common shopkeeper
+开店这事还是挺有学问的。
+在我这里你可以放心，去别的店可要小心别挨宰。
+店主可不是说当就能当的，至少要有实力能赶走那些捣乱的小混混。
+为防万一，我早就决定了这个店要由谁来继承。
+欢迎光临，请随意挑选。
+不是我吹，这里的货还是很全的。
+那么，就来见识一下我引以为豪商品吧。
+最近粗人越来越多了，真受不了。
+武器和防具要是没经过详细鉴定，我也没法出高价收购。
+%END
+
+%SHOPKEEPER,EN			/common shopkeeper
+Welcome to my shop!
+We have the best selection of goods!
+I hate thieves.  No, not you, right?
+It's difficult to maintain a shop.
+I can handle bandits myself. We have to be tough.
+Running a store is hard work! 
+Come in.  Take a closer look at my wares. 
+I have confidence in my assortment of goods. 
+Look at our fine selection.
+I feel the world is growing more and more dangerous.
+I can't give you a fair price if your weapons and armors aren't fully identified.
+%END
+
+%ASHOPKEEPER,JP			/common shopkeeper
+这家店的经营者另有其人，就是{me}的宠物。
+装备即使不穿到身上也会有效果。
+一定要注意，箭矢分为弩弓用、长弓用、短弓用这三种。
+放到地面上的鱼一旦被冰冷射线箭射中的话，就能得到冷冻鱼呦。
+同样的商品，在我这买要比别家更便宜些。
+%END
+
+%ASHOPKEEPER,EN			/common shopkeeper
+Me? I don't own this shop. I'm actually the owner's pet.
+Equipment works even if you don't have it equipped on you.
+There are three types of arrows - one for crossbows, another for long bows, and a third for short bows. Be careful that you don't get them mixed up.
+If you cast an ice bolt at a fish on the ground, it will turn into frozen fish.
+The prices at my shop are lower than the ones you'll find anywhere else!
+%END
+
+
+%SENTI,JP			/Senti
+诸神的大战里很多神在这个地方消散了。
+这个寺院是为了告诫大战相关的事情而建造的东西。
+大战后的众神的纷争，已经不是互相残杀，而是竞争获得信徒的数量。
+在大战中幸存的众神，讨论着各种各样的决定。
+因诸神争夺而变得不安定的玛娜，异常的气候让大陆不得不被整个隔离了。
+大战中败北的众神，神力被吸收，或堕落成魔物，或被粉碎如落花，真是悲惨。
+火神放出的火球和石神投出的岩石相互碰撞，造就了西北的火山。
+周囲的沼泽，其实是火山口的积水。
+大战初期，泰兹卡特里波卡被这个地方的神骗出来，然后被打败了。
+%END%
+
+%SENTI,EN			/Senti
+Sorry, this is untranslated sentence.
+%END
+
+
+%SUMMON,JP			/Leson
+{you}也被一个叫做诺伦的妖精介绍过吧？那么，这个叫做失落伊尔瓦的遗迹到底是个什么地方呀。
+不只是人类，连地上的怪物也被召唤向这里。
+这里是出现在艾沃达纳上空的浮游大陆的西端。
+不知道怎么回事就突然到了这里。
+有一些怪物飞到空中想逃走，结果都被像结界一样的东西弹回来了。
+这个大陆上也存在有许多奈菲亚。
+被带到这个地方的人中，有大多数都在以这个遗迹为据点活动。
+泰兹卡特里波卡…？从来没有听过类似这个发音的东西。
+来到这里的几乎都是佣兵、行商和冒险者。那儿的治疗师和公会成员是例外。
+%END%
+
+%SUMMON,EN			/Leson
+Were you also guided here by Norne the fairy? What is this... Lost Irva place? What are these ruins?
+It's not just the people who are getting summoned. The monsters from the land below are getting transported here too.
+It seems like we are on the west end of the floating continent that appeared above Eulderna.
+What's going on? Why am I here?
+I saw some of the monsters try to fly away and escape. They bounced right off some sort of barrier in the sky.
+Looks like there is no lack of Nefia on this continent either.
+Most of the people who got transported here live in these ruins.
+Tezcatlipoca...? Nobody here a voice or anything like that when they were brought here.
+Most of the people who were summoned here are mercenaries, traveling merchants, and adventurers. That healer over there and the guild members are probably the only exceptions.
+%END
+
+%MADOU,JP			/Eulderna
+这可不是给人看观赏用的。事情办完后{you}也赶快离开吧。
+只要交给这座集结整个艾沃达纳魔力的船，结界什么的真是毫无意义。
+对于天空中出现的浮游大陆，本国的人们抱有非同寻常的不安与好奇心。
+去北方的山岳地带调查的学者们还是没有回来。一定是被怪物袭击了吧。
+轻易就把魔物给踢飞了，那个客室乘务员到底是什么来头啊。
+这个大陆上也存在有许多奈菲亚。
+年轻时候的莱泽鲁大人曾只身一人就毁灭了一个敌对国。
+调查了一下，这个大陆上的动植物与地上的动植物种类完全一样。
+在被召唤过来的人中，艾沃达纳是最先入场的。不过这也是理所应当的结果。
+%END%
+
+%MADOU,EN			/Eulderna
+This isn't a zoo. If you don't have any business here, then clear off.
+That barrier is nothing if we Eulderna focus our mana on the ship. We'll punch right through it.
+This floating continent... our countrymen find it fascinating, yet so unsettling at the same time.
+The scholars who went to investigate the hills in the north have yet to return. They're probably monster food by now.
+Just who in the world is that attendant? She mowed through the monsters as if they were nothing.
+Seems like there's no shortage of Nefia on this continent either.
+It is said that Raizel demolished an enemy country all by himself when he was younger.
+According to our research, the species of flora and fauna on this continent are exactly the same as the ones in the land below.
+Asides from those who were summoned here, the Eulderna are the first to set foot on the continent. Naturally.
+%END
+
+
+%SAZIN,JP			/Sand
+{me}现在终于明白为什么要来到这里了，这都是为了成为那位大人的下仆啊。
+看着从阳台飞下的黑天使，实在是最棒的奖赏。
+偶尔璐璐薇大人也会变装后来这里玩，不过就像风一样不会久留。
+要是不介意的话，炒沙虫可是非常好吃的。
+塔的外面，北侧的绿洲有只猫平常一直无所事事不过一旦心情变坏就会到处暴走破坏，是会唤来不幸的恐怖存在。
+塔的外面，南侧的绿洲有个奇怪的家伙，被他说了不明所以乱七八糟的话。
+是的，那就是{me}敬畏的天使们。
+在沙漠经常被海市盛楼迷惑遇难，不过这里就是乐园了。
+我在考虑要不要定居在这座塔里。严峻的沙漠气候，也已经不在意了。
+猫根本就是沙漠生物嘛。
+%END%
+
+%SAZIN,EN			/Sand
+I've realized why I was brought here. It was to serve the master here as a slave.
+If you look upwards to the balcony at the Black Angel when she takes to the skies, you may just receive a reward...
+Once in a blue moon, Lady Lulwy Herself graces us with Her presence. But She comes and goes like the wind, and never stays for long.
+Sandworms taste pretty good when fried. They don't have much of an aftertaste.
+That cat at the northern oasis outside the tower just lazes around most of the time. But when she's in a bad mood, she goes on a rampage and curses everything with bad luck.
+That guy by the southern oasis says some crazy things.
+Angels, glorious angels! Truly worthy of reverence and worship!
+For a person like me who was led astray by mirages and nearly died so many times in the desert, this is heaven.
+I think I'll live here for good. We don't have to worry about anything here, not even the blasted desert weather.
+Cats originated from the desert.
+%END
+
+
+%CAVE,JP			/cave
+也有特地从北西方向的城镇，来这里来进货的客人呢。
+这种金币在这里也能使用，这和西北边的客人用的是同一种货币。
+真是忍不了其他地区的人住在{me}们的土地上……。啊不是不是，客人还是很欢迎的嘛。
+{me}们是不会离开这片丘陵的，所以不晓得其他地区的事情。
+不管是用老人的语气说话还是随便把头发留长都已经过时了啊。
+已经很久没有继承传统工艺的工匠了。从前似乎很多工匠都会彼此激烈的竞争。
+这个集落人少后也变得相当冷寂了。但就算再怎么寂寞，{me}们也不会离开这片丘陵的。
+在很久很久以前，也有因与外界的关联方式而产生意见争吵起来离开这个山丘的人。
+现存最后的工坊，就是丘长年轻时使用的那个了。为了孙女成为职人之时的到来，似乎直到现在都还有在维护呢。
+%END%
+
+%CAVE,EN			/cave
+We have orders coming in from customers living as far as the town in the north-west.
+We accept those coins here. The merchants in the town north-west of here use the same currency.
+We don't welcome outsiders here... Guests? Oh yes, guests can stay as long as they like!
+We never stray far from this mountain, so we're not familiar with the surrounding lands.
+The younger ones talk different from the elders. They don't grow beards either.
+There's no one left to pass our craftsmanship down to these days. In the olden days, craftsmen used to compete with each other to inherit techniques.
+There aren't that many left in this colony these days. But I've lived here far too long to leave, so I'll probably breathe my last here.
+There are stories of people who left the mountain a long time ago. Something about a dispute about how we should interact with people from the outside.
+The last workshop here is the one that the elder used when he was young. I heard he's still maintaining it so that his granddaughter can inherit someday.
+%END
+
+
+%HEAVEN,JP			/lost
+在众神之中，曾经有过很多因为在战斗中失去神德而魔物化的家伙。
+泰兹卡特里波卡是诸神之战的导火索。在这场战斗中，数千的神灵化为了齑粉。
+这个失落伊尔瓦一般被认为原本就是伊尔瓦大陆的一部分。
+力量被封印起来的混沌之神及其属神正沉眠在混沌巨城内部。
+与混沌之神的最终决战是难以言喻的激烈，如果他再次醒来的话，在只有这么几个神灵的现在是谁也拦不住他了。
+文明的繁荣和衰退对于把信仰作为自己力量来源的众神有着很大影响。
+真是令人难以置信，好像存在这么一个人，他能从另一个世界干涉到这里的行动。这个世界上的常理也没有办法正常的作用在那个人身上。
+八尊神灵通过接受供奉的方式来从信徒那儿获取信仰的力量。
+住在地上的人们对于这些神的事情大多都不清楚。关于永恒盟约的情报也就如此被潜藏了起来。
+%END%
+
+%HEAVEN,EN			/lost
+There are many Gods of old who lost their divinity in the wars they waged against each other. They fell and became monsters.
+Tezcatlipoca was the trigger for the Great War between the Gods. It is said that he alone massacred thousands of Gods in that battle.
+It is said that Lost Irva was originally a part of the rest of Irva.
+According to legend, the God of Chaos and his servants are sealed deep within the Cradle of Chaos.
+The final battle with the God of Chaos was fierce battle; one that we barely won. If he awakens again, the Gods of today who are few in number will surely be unable to stand against him.
+The Gods are affected by the prosperity and decline of every age, as it is from the peoples' faith that They derive Their power.
+You may find this hard to believe, but it seems like there are people receive guidance from beings in another realm. These people are unbound by logic and the laws of the world.
+Offerings are the medium through which the faith of believers is carried to the eight Gods.
+Even those who live in this land don't know much about the Gods. The pact of the Eternal League suppresses any information about Them.
+%END
+
+
+%DRAN,JP			/dran
+步行街还真是受欢迎呢。
+马厩因为臭味严重三天就倒闭了。
+欧鲁德朗是由财富女神所经营的娱乐城市。
+在这里的商店街大多东西都能买到哦。
+骑士团与财富女神签下契约驻留在这里。
+卡娜维珈一边跳舞一边演奏还同时唱歌的音乐会真是太厉害了。
+看起来是随心所欲做着，但其实神明们也一直在为这个世界奋斗着呢。
+凡人的货币也可以在本市流通。
+北边雪原的地下沉睡着大战时的战舰。
+从东端得洞窟那得到的家具做工真的很好，不愧是出自匠人之手。
+%END%
+
+%DRAN,EN			/dran
+The promenade is a rather popular spot.
+The horse master went out of business in three days because of the smell.
+Ol-dran is a city of amusement run by Yacatect, the Goddess of Wealth.
+Whatever it is that you need, the shops in this city probably have it.
+Those knights are stationed here under contract with the Goddess of Wealth.
+Karavika is really talented to be able to sing and dance like that at the same time.
+The Gods may look like they're just doing what they like, but they are actually fighting over the world in their own way.
+We use the mortals' currency in this town.
+There is a warship stationed beneath the snowy fields in the north. It was used in the Great War.
+The made-to-order furniture originating from the cave in the eastern end of the continent is simply exquisite. That's traditional craftsmanship for you.
+%END
+
+
+%DEFEND,JP			/defend
+大多著名的冒险者，好像在抵达这里的很久之前就见过诺伦。
+回去的路已经确保安全，安心的回到失落伊尔瓦吧。
+由于与南提里斯紧密相连，反过来来这里的冒险者也有不少。
+从这里可以去那个被称作莱纳的山顶小村哦。
+守护这神殿的神明大人，认真过头都开不起玩笑。
+%END%
+
+%DEFEND,EN			/defend
+Many renowned adventurers have met Norne even before they came here.
+We can explore Lost Irva with a peace of mind thanks to the way back down available here.
+There are even some adventurers making their way here now that this place is linked with North Tyris.
+We can get to a mountain-top village called Larna from here.
+The guardian of this shrine is way too serious about everything. 
+%END
+
+
+%BSHIP,JP			/bship
+只能向正前方开火的主炮实在不怎么好用，不过毕竟很浪漫不是吗。
+现在正在强化改造，一部分功能停止不能使用哦。
+这艘船是神舰阿尔贝提里奥。在诸神之战的后期，曾与混沌舰队激战过。
+怎么说呢，这艘船可以变成人形打格斗战的哦，不过呢，在过去的战斗中压根没出现能和他斗殴的巨大对手。
+联装导弹一齐发射还真是壮观呢。
+舰内传送室的设定被切换为外部传送了。
+%END%
+
+
+%BSHIP,EN			/bship
+It's not easy fighting battles when your main cannon is a fixed forward-facing weapon, but it sure is cool.
+Some of the ship's functions are offline due to ongoing equipment upgrades.
+This is the Divine Warship Albedrion. It took part in the final battle in the War of the Gods against the fleet of the forces of Chaos.
+This ship has the ability to transform and battle with its humanoid form. Not that there were any enemies of that size that it could have a fist-fight with.
+You should see it when the multi-round missiles get launched. To say that it's spectacular would be an understatement.
+The teleporters inside can be configured to transfer objects outside.
+%END
+
+
+%AKASHIC,JP			/cage
+……。
+({nptc}好像说了些什么…。)
+%END%
+
+%AKASHIC,EN			/cage
+......
+({nptc} seems to be trying to tell you something...)
+%END
+
+
+
+%SLAVEKEEPER,JP			/slave shop
+客人您也够坏的。
+嘿嘿嘿……老板你可真有兴致。
+%END
+
+%SLAVEKEEPER,EN			/slave shop
+He he he.  I think I have just what you need.
+Don't look at me like that.
+What's your problem?
+%END
+
+%ASLAVEKEEPER,JP			/slave shop
+快来买奴隶呀！要是没有达到定额的话，{me}的母亲就没救了！
+机不可失失不再来，奴隶大甩卖了啊。全场半价！统统半价！
+%END
+
+%ASLAVEKEEPER,EN			/slave shop
+Buy a slave? Please, can you buy a slave?! I... I need to make my quota this month. If I don't, m-my mother is going to die!
+Sale! Sale! Sale! 50% off all slaves! While stocks last!
+%END
+
+
+%CROW,JP			/crow
+来看看咯！不买都来看看哦！
+哎呀，那位的帅气的冒险者！来看看各种各样的商品吧！
+便宜卖哦～便宜卖哦～！
+%END
+
+%CROW,EN			/crow
+Caw! Caw!
+Hullo adventurer! Adventurer hullo! Have a look! Caw!
+Cheap! Cheep! Cheap!
+%END
+
+%OBLIVION,JP			/obli
+巫女大人不仅是对个人的记忆，连和那个人相关的他人的记忆和记录也能消除呢。太美妙了。太美妙了。
+在消除记忆时如果想了些多余的事，就会发狂并连多余的记忆一并消除。
+一旦大意，就会变成徘徊在附近的那些家伙的同伴了呢。
+以前，收到了致命伤的巫女大人失去了大部分的力量。听说本来的话是和对方的意志无关的。
+巫女大人本来的话不应该是委屈在这种地方的存在。
+人会遗忘才能活下去。痛苦的事悲伤的事如果全部都记着的话，一定会万分辛苦难受吧。
+%END
+
+%OBLIVION,EN			/obli
+The Shaman can do more than just erase a person's memories. She can also erase those of every acquaintance he's ever had. Wonderful, is it not? Simply wonderful...
+If you don't keep your mind blank when erasing memories, she might just end up accidentally erasing more than what's necessary... along with your sanity.
+Before you realize it, you're already one of them.
+The Shaman lost most of her power a long time ago when she was injured. She used to be able to manipulate even the free will of people.
+Someone of the Shaman's status should not be cooped up here like a caged bird.
+People live by forgetting. Memories of pain and sadness will only bring you suffering.
+%END
+
+%PRAY,JP			/pray
+好好拜托的话，降临的神也应该会回去的。
+谁都无法阻止以真实姿态狂暴的神。但如果许愿送还，或许…。
+诚恳的信者在11月来到休战地祈祷时，神明必会显现它的身影吧。
+如果是能被称为乐园般的地方，神或许也会愉快接受招待。
+%END
+
+%PRAY,EN			/pray
+If you ask nicely, I'm sure even the Gods would be willing to leave.
+A God rampaging in His true form cannot be stopped. Should you truly Wish for it, however...
+Gods will reveal Themselves to the most pious when they pray at the Truce Ground in the 11th month.
+Not even a God would be able to resist an invitation to visit Heaven on Irva, should there be one.
+%END
+
+
+%DETECTIVE,JP			/crow
+消除法是在确定选择中有完美的正确答案的场合下才能用的。在暧昧的状态下随便用可是会有危险的。
+所谓事实就是前往真实的指路标。如果漏看了特定的事实，有虚伪混杂在其中的话，只能得出和真实不同的结论。仅凭一个事实，是无法达到唯一的真实的。
+我们侦探，能通过调查看穿假扮成人类的魔物。但是也有假扮成侦探的狼，和头脑奇怪的侦探存在。
+%END
+
+%DETECTIVE,EN			/werewolf
+Deduction by elimination should never be used unless one is perfectly sure that one of the choices available is correct. It must never be used when there is ambiguity.
+Facts pave the way to the truth. Should you overlook a crucial fact or have falsehoods mixed in with your facts, however, then the conclusion you derive will deviate from the truth. There is but one truth and one path to it.
+Detectives like us are able to discern monsters hiding amongst people through our investigation. You need to watch out for werewolves disguising themselves as detectives, though, as well as detectives who have gone insane.
+%END
+
+%DAIN,JP			/dain
+听说名为做艾露玛的职人花大把钱传播自己的好的传闻…我听到了这样的传闻。
+名为艾露玛的职人做的武器好像是，稍微有点热度就会融化的劣质品哦。
+名为艾露玛的职人貌似是把集落唯一的后继者给诱拐掉的极恶之人哦。
+%END
+
+%DAIN,EN			/dain
+There's a smith by the name of Irma who is paying people to spread good rumours about her... according to the rumours anyway.
+There's a smith by the name of Irma. I've heard her weapons melt on sunny days.
+There's a smith by the name of Irma here. People say she's a villain who kidnapped the sole successor to this village.
+%END
+
+
+%SISTER,JP			/sister
+用心制作的满溢着我的爱的特别便当出售中哦☆
+便当里面除了爱什么都没有哦！噗噗，开玩笑的啦！
+%END
+
+
+%SISTER,EN			/sister
+Do you want a lunch made with my love?
+This lunch has been more than just love!
+%END
+
+%ASISTER,JP			/sister
+{onii}酱还在犹豫什么哟！
+我才不是因为喜欢{onii}酱才、才做这样的事呢！
+%END
+
+%ASISTER,EN			/sister
+I hate you, {player}!
+I don't like you one bit, {player}!
+%END
+
+%BITCH,JP			/prostitute
+啊～啦，在说你啊美{sex}。怎么样，今晚要不要和我乐一乐？
+%END
+
+%BITCH,EN			/prostitute
+Hey sexy, wanna relax for a while?
+%END
+
+%ABITCH,JP			/prostitute
+今天有出血大服务哦，有很多能让你鼻血喷涌不停的好事情哟。
+啊～啦，在说你啊美{sex}。…真的，真的是大美{sex}呢。
+%END
+
+%ABITCH,EN			/prostitute
+We're having a special event today. It's the do-the-deed-till-you-bleed event! Bleed through your nose, that is. How about it, baby?
+Mmmmm, what a nice {sex} you are. Nice. Very nice indeed...
+%END
+
+%AILE,JP			/aile
+在这个飞船里面贩卖着各种各样的商品，请不要错过这次机会哦。
+%END
+
+%AILE,EN			/aile
+We have all sorts of items on board. Do check out our inflight shopping catalogue.
+%END
+
+%AAILE,JP			/aile
+当飞船飞行的高度在一千英尺以下时，船内的炸弹就会爆炸。请各位乘客在降落前好好放松一下心情。
+%END
+
+%AAILE,EN			/aile
+This plane is rigged to blow when the altitude is below 1000 feet. Please sit back, relax, and enjoy the trip back down to the ground. It won't take long.
+%END
+
+%MOYER,JP			/trader in noyel
+客人客人，您可不用害怕，这怪物啊，可是被施了魔法，连个手指头儿都动不了的。来来来，巨人看完了，我这儿也兼卖杂货的，瞧一瞧看一看嘞！
+这只怪物可不是别人，正是曾经支配过奈菲亚迷宫的，传说中的火巨人！今天您来这可算是走了运了！您看这怪物多么魁伟，既神圣又可怖！随您看了诶！只要您在我这儿随便买个什么物件儿，还能免费摸摸它！
+%END
+
+%MOYER,EN			/trader in noyel
+Hear hear! This monster before you is the notorious fire giant who ruled Verron of Nefia for a century. You're lucky, quite lucky to have him chained before you today! Indeed, this monster could burn the whole village if it weren't for the magical chains that bind him. Buy some goods at my shop, and I will even let you touch this fearsome giant!
+Don't worry. He can't move a muscle while he is shackled.
+%END
+
+%AMOYER,JP			/trader in noyel
+巨人会吃掉那些以奚落为目的的坏孩子哦～。
+艾博有一个弟弟…名字叫奥博！在获得了迷宫的支配权之后，围绕着两个巨人发生了非常壮烈的战斗…。
+%END
+
+%AMOYER,EN			/trader in noyel
+Naughty customers who look around and don't buy anything get eaten up by the giant in one gulp.
+Ebon had a little brother... and his name was Obon! The two of them battled fiercely to become the rightful ruler of their dungeon.
+%END
+
+%MAID,JP
+您回来了，{player}~在{you}外出的时间里,有{ref}位客人造访过。现在就要见他们吗？
+{player}，{player}！有{ref}位客人来了。快见见他们吧？
+%END
+
+%MAID,EN
+Welcome home, {player}. You have {ref} waiting for you. Do you want to meet a guest now?
+%END
+
+
+####################### Special #######################
+
+%BORED,JP			/when bored
+(很无聊似地看着你。)
+(瞥了你一眼，随即扭过了头。)
+%END
+
+%BORED,EN			/when bored 
+({npcc} gazes at you with disinterest.)
+({npcc} isn't paying any attention to you.)
+%END
+
+
+
+%ALLY_DEFAULT,JP		/ally
+(紧盯着你看。)
+…？
+%END
+
+%ALLY_DEFAULT,EN		/ally
+({nptc} fixedly looks at you.)
+...?
+Did you need something?
+What do you want?
+What's up?
+Is something wrong?
+What is it?
+%END
+
+
+%COOKIE1,JP
+在牧场，你可以用鲜肉制造肉干。
+据说有方法能令神也变成你的宠物。
+别在普通的装备身上浪费素材锤！
+要想让药草发挥最大的效果，就把它给宠物吃。
+上等的床睡起来效果更好。
+只要你足够善良，税官发税单时也会给你打折。
+怪物的粪便越重卖起来价格越高。
+受了祝福的下落药水，喝了反而会升级。
+受诅咒的回复药水可能会令你得病。
+想学新的技能，就读受祝福的能力获得卷轴吧。
+攻击模糊状态的敌人时，更容易打出暴击。
+在毒、麻痹与出血等异常状态中时，你的体力不会自然恢复。
+立方体在状态异常时不会分裂。
+对神器使用*素材变化*卷轴，能令它重新生成。
+足够高的音耐性能帮你防御模糊状态。
+足够高的幻惑耐性能帮你防御疯狂状态。
+给杖加祝福也不错，但效果不如药水与卷轴显著。
+在沾湿状态中，你几乎不会受到火属性伤害，但雷属性的伤害会增高。
+在短时间内呕吐太多次会令你患上拒食症，得了这病就只能靠喝东西填满肚子了。
+受祝福的肉体复活与精神复活药水会令你的肉体与精神更上层楼。
+遇到强敌就往他们身上扔受诅咒的肉体复活和精神复活药水吧。
+赫尔墨斯之血*一定*要祝福之后再喝！
+诅咒的归还和脱出卷轴，读了可能会出大事。
+%END
+
+%COOKIE1,EN
+You can dry out fresh meat at a ranch to make jerky for rations.
+There's a way of making a god into your pet.
+Do not ever waste material kits on normal items!
+Herbs show their true power when you feed them to your pet.
+Better tools give you better results for your skills. Better beds give you better dreams if you sleep in them.
+Tax will be lowered if your karma is high.
+Shopkeepers will pay more for monster's shit that weights more.
+A blessed potion of descent will raise your level.
+Drinking cursed healing potions sometimes makes you sick.
+If you want a new skill, read a blessed scroll of gain attribute.
+You will get more chances of critical hits against dimmed opponents.
+Your enemies won't regenerate health while they are poisoned, bleeding, or paralyzed,
+The cubes will not split when they have bad conditions.
+You can use a scroll of superior material to an artifact to re-create the artifact.
+You can prevent getting dimmed by increasing your resistance to sound.
+You can prevent getting insane by increasing your resistance to mind.
+Blessing a rod is a good idea. But the effects of blessed rods are less dramatic than blessed potions or scrolls.
+When you are wet, fire damages won't be a problem but electric damages will be a serious threat.
+If you vomit too much in a short period, you will suffer anorexia. When you get anorexia, don't eat. Just drink potions and water.
+A blessed potion of restore body or restore spirit will enhance your body or spirit.
+Throw cursed potions of restore body or restore spirit at powerful opponents.
+You should *always* bless hermes blood before drinking it!
+Something bad might happen to you if you read a cursed scroll of escape or return.
+%END
+
+%COOKIE2,JP
+水仙女的真名其实是水妖，你用这名字称呼她们的话，她们一定会非常高兴吧。
+据说世上有种戒指，能让你的手指变多。
+把魔杖放到地上一段时间，它的魔力就会自动回复！
+不知道该许什么愿？试试秘宝吧。
+宝石可以用来交换白金币。
+宝物地图最好祝福后再读。
+喵……咪……
+只要你会游泳技能，就能游泳去其他大陆。
+你想要什么？
+在交谈窗口输入Guards，就会有守卫前来帮你。
+踏过月门，等着你的往往是玩家杀手。
+啊——你可倒霉了。看了这个的人*一定*会受诅咒。
+后面！看你后面！啊，你看，你妹——！快逃吧——！啊——！
+亚拉那一卡
+您的存档文件已经损坏，因此这段签文无法正确显示。
+听说坚持不杀猫的话，总有一天能得到相应的回报。
+听说在开宝箱前读一次受祝福的神托卷轴，会令随后生成的装备品附有更优秀的附加能力。
+见到守卫就脱光装备撞他吧，他们最喜欢这口。
+据说世上有妹妹专用的最强神器。
+游泳技能只能通过许愿习得。
+%END
+
+%COOKIE2,EN
+A Nymph will be very pleased if you call her by her real name:  Lorelei.
+There's a wondrous ring called the ring of extra finger.
+Rods recharge themselves if you leave them on the ground for a while.
+Not sure what you should wish for? Try secret treasure of azul.
+Gems can be traded for platinum coins.
+Always bless treasure maps before reading them.
+Meo....eow.....
+If you have the swimming skill, you can swim your way to other continents.
+What do you wish for?
+If you shout 'Guards!' in the chat window, they may quickly come to help you.
+Player killers await you at the other end of moongates.
+Oh, what a pity. Hate to say but those who read this fortune *will* be cursed.
+Watch your back! Careful! T-There, your younger sister! Run!
+I nyo talk funny, nyo BUMP-BUMP for you!
+The game could not choose valid fortunes as your saved game is corrupted.
+It is rumored that killing cats make you unlucky.
+Reading a blessed scroll of oracle before opening a chest is believed to bring you equipment with good enchantments. 
+Guards will be pleased if you bash them while naked.
+It is rumored that there's an ultimate artifact exclusive to your younger sisters.
+The only way of learning the swimming skill is to wish for it.
+%END

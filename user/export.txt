@@ -1,0 +1,10 @@
+[Show Room Setting]
+
+room_title.	""
+welcome_msg.	"仝こんにちにゃ�　�"
+pet_relation.	"0"		0=neutral 1=enemy
+password.	"nyaa"		Visit http://hpcgi3.nifty.com/rfish/usercgi/clip.cgi to delete.
+
+[Custom NPC Setting]
+
+

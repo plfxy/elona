@@ -1,0 +1,26 @@
+					/
+%txtName,JP
+サンプル6
+%txtName,EN
+                                           no name
+%txtDescript0,JP
+なんということでしょう。どこにでもある普通のアイテムが、匠の手によって斬新な名前·形へと生まれ変わりました。
+%txtDescript0,EN
+                                           no sentence
+%txtDescript1,JP
+～アイテム鑑定レポート～
+%txtDescript1,EN
+                                           no data
+%txtDescript2,JP
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　「またつまらぬものを作ってしまった」
+%txtDescript2,EN
+                                           no sentence
+%txtDescript3,JP
+～伝説の職人『ガロク』の言葉～
+%txtDescript3,EN
+                                           no data
+%txtFlavor,JP
+姿形と名前を変更したアイテムだ。user\\itemフォルダで編集できる。
+%txtFlavor,EN
+                                           no sentence
+%endTxt
