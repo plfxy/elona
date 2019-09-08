@@ -1,0 +1,2809 @@
+ÔªøThe following detailed changelog is to help distinguish between
+bugs and game features. Contains spoilers and a breakdown of game data.
+Å´
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===1.75: detailed changelog===
+ [New NPCs]
+* angry burger
+** Level 60 spirit. Looks like a predator, but is actually a warrior.
+** Has darkness resistance.
+** Has temper and float bit flags.
+** Poisonous when eaten but will increase poison resistance.
+** Not randomly generated.
+** Summoned with the hamburger recipe.
+** Uses Voracity Fang, Dark eye, and Speed.
+
+* <Sunrise> the archipelago dragon
+** Level 170 dragon. Float bit flag.
+** Randomly generated unique NPC which will join you when defeated.
+** Uses Smash Ground, Lightning Breath, Silent Ocean, and Blade Turbulence.
+
+ [New equipment attribute]
+* It has essential nutrients to heal your ___.
+** Not randomly generated on items.
+** Will have an effect only on food.
+** Eating food with this will recover potential for said attribute by an amount dependent on the attribute strength.
+
+ [New item fusion recipes]
+* kagami biraki recipe
+** Implemented because it's New Year's.
+** Creates both an ozouni and an osiruko.
+
+* junk food recipe
+** Implemented because junk food items seemed kind of extraneous.
+** Creates 6 cyber snack, 6 fried potato, and 6 pop corn.
+** Material requirements aren't easy to meet, but it produces a lot of products at once so it might be good for selling or something.
+** Don't snack too much or you'll spoil your appetite for dinner!
+
+* hamburger recipe
+** Implemented because something has to go with all that fried potato.
+** Every 6 hamburgers created will summon the aforementioned angry hamburger. Hostile.
+
+ [New items]
+* hamburger
+** Food item. Not randomly generated. Does not rot.
+** Comes with the new equipment attribute that recovers Strength and Constitution potentials.
+** It sells for quite a bit, but you may want to maximize your profits by making it with the cheapest ingredients you can find.
+
+* ozouni
+** Food item. Not randomly generated. Does not rot.
+** Always increases Luck by 2. Can choke on it.
+
+* osiruko
+** Food item. Not randomly generated. Does not rot.
+** Always increases Luck by 2. Can choke on it.
+
+ [New evochat conversation options]
+* <<Get excited>>
+** Option is displayed when there are 4 or more Action points remaining.
+** Selecting it will display txtDialogE then change the layout of some elements on the screen.
+** The conversation window will be pushed to the right, and if there is a portrait or sprite set for that pet, it will get enlarged and moved to the centre.
+** If an evochat atmosphere portrait is set, then it will just get moved to the centre.
+** Conversation options will change to those listed below.
+** All of them except for <Return> will not cause any change to the Action points. This basically means an unlimited make out session.
+*** <<Hug>> - uses txtHug.
+*** <<Pat>> - uses txtNade.
+*** <<Kiss>> - uses txtKiss.
+*** txtEXAct - uses txtEXReAct.
+*** <Return> - Action points -4, Happiness +8, returns to regular evochat. If [Happiness] is below 10, uses txtDialogE. (NB: Japanese option says "Return to your senses.")
+** You can quit directly from <<Get excited>> without returning to regular evochat with the shift key.
+
+
+===1.74fix: detailed changelog===
+ [Additional main quest content]
+* New content for conversations with Erystia, Gavela, Sophia, Leold (F39), Larnneire, Lomias, Rianna, and Vessel after the event battle.
+* Vessel becomes level 200 and moves to Ulm-Leson.
+* Cutscene when entering any map other than the Cradle of Chaos.
+* Event with Norne will occur when moving on to any of the world maps.
+
+ [Different amounts of starting money for the various game modes]
+* Essential mode: 3,000 - 3,500. A bit more so that beginners don't get stuck.
+* Loss mode: 400 - 600 gold. Unchanged.
+* Overdose mode: 20,000 gold. You could buy a nuke?
+* Natural mode: 3,000 - 3,500.
+* Abnormal mode: 100. 0 would have been too cruel, so just a bit.
+
+
+===1.74: detailed changelog===
+ [Changes to the AI of 2 existing NPCs]
+* I've heard that <Enthumesis>'s Bubble Storm is too powerful as the damage cannot be reduced, so it's been changed to Sophia's Eclipse.
+** Changed Chaos Ball to Chaos Breath to allow it to express its chaos-ness even when silenced.
+* performaid desweeper is now a gunner to give a unique twist to this performaid. Nerve Arrow is now a regular ranged attack, and Crystal Spear is now Rocket Fire.
+
+ [New NPCs]
+* <Melugast AO-I> the dimension driver
+** Level 210 machinegod. Not suitable for riding. Float bit flag. Corpse is "too hard" when eaten.
+** Spawns with the <GAU-17 Custom>. Gravity Sphere, Homing Lazer, Rocket Fire.
+** Appears only in the event battle for now, but the player will get an opportunity to kill it in the future.
+** Has a 96*96 sprite which is displayed as an effect, and its actual sprite which is displayed on the world map and in the pet list will look different.
+
+* <Nagarew> the oblivion beast
+** Level 220 servant. Float bit flag. Heal Critical on low health.
+** Remote blow, Eye of dimness, Data Delete.
+** Appears only in the event battle for now, but the player will get an opportunity to kill it in the future.
+
+* <The Chaos Child>
+** Is a god with a default level of 350, but it will spawn at level 3,500 as part of the event.
+** Has float bit flag and bonus chaos resistance. Gives chaos resistance when eaten.
+** Follows the player around like Gwen.
+** Has no special actions or spells.
+** Until progress is made in the main quest, it has a high chance of targeting the player character. It will also have a chance of skipping its turn when HP is half or greater of maximum. This chance is dependent on the difference between its Speed and the player's, as well as its distance from the player.
+** Appears only in the event battle for now, but the player will get an opportunity to kill it in the future.
+
+ [Additional main quest content]
+* The Chaos Child spawns after Enthumesis is defeated.
+** It cannot be killed, but it has the summoned NPC bit flag so it cannot be used as a sand bag for leveling.
+** The player will be unable to escape from God's prison during this event battle, and cannot crawl up after dying.
+** Leold's preferred distance will become 3 and will use only remote blow.
+** Use Teleport or stall the enemies while running away and it shouldn't be too hard to survive. Do be careful, however, as being a distance away from the enemy does not mean that you are completely safe.
+
+* The first event will trigger when it is the Chaos Child's turn to move, and the Chaos Child has had 99 or more turns or when its HP falls to 75% or below. Its HP will recover by 25%.
+** Leold will speak some lines if he is alive.
+** A level 200 Vessel will spawn. His preferred distance for this fight will be 2. He will be level 200 from this point on whenever he appears in Party Time!.
+
+* The second event triggers when it is the Chaos Child's turn, and the Chaos Child has had another 49 or turns or has its HP reduced to 50% or less. Its HP will recover by 25%.
+** Leold and Vessel will speak some lines if they are alive.
+** Melugast AO-I will spawn, and Chaos Child will be afflicted with 999 turns of Immobility.
+
+* The third event triggers when it is the Chaos Child's turn, and the Chaos child has had another 49 turns or has its HP reduced to 25% or less. Its HP will be healed by 25%.
+** Leold, Vessel, and AO-I will speak some lines if they are alive.
+** Nagarew and Raizel spawn.
+
+* The event ends when it is the Chaos Child's turn and it has had another 50 turns or more.
+** Leold, Vessel, AO-I, and Raizel will speak some lines if they are alive.
+** The player will be automatically moved to F39. Don't forget to pick up the loot before that.
+** The conversation with the characters after the battle hasn't been scripted yet.
+** Raizel cannot be spoken to, nor can he move. (Except for instances of him that you have as your pet.)
+* Next update will be event scenes, stuff leading up to what was the first parts of Act IV, and Vessel's placement in Ulm-Leson.
+
+ [New items]
+* dried fish
+** Food that does not rot. Trains as much attribute as cooked fish. Cannot be offered to Ehekatl as these can be made in large amounts.
+* dried vegetable
+** Food that does not rot. Trains as much attribute as cooked vegetables. Cannot be offered to Kumiromi as these can be made in large amounts.
+* dried fruit
+** Food that does not rot. Trains as much attribute as cooked fruits.
+* <Beetle Cyborg>
+** Throwing artifact. Randomly generated.
+* dowsing opatos
+** Can be purchased from <Manytia> the adventure merchant at the Old War Ground in Act III.
+** Not precious, so it can be wished for.
+** When no items are generated after mining a wall, the game will attempt to generate loot once and only once more.
+* kumiromi-gurumi
+** Can be purchased from <Manytia> the adventure merchant at the Old War Ground in Act III.
+** Not precious, so it can be wished for.
+** When placed in a farm and monster spawns, 99,999 damage will be dealt to one of them, and a cursed artifact seed will be placed on the target's tile.
+* lulwy's photo collection
+** Can be purchased from <Manytia> the adventure merchant at the Old War Ground in Act III.
+** Not precious, so it can be wished for.
+** When this item is on the ground, characters that step on it will have a 5% chance of skipping their turn. They will also have a separate 10% chance of acting as if they had stepped into a confusion trap (strength depends on floor level).
+** Can also be thrown, and will not cause damage when it hits the target nor turn targets hostile. Especially effective when thrown at the feet of targets that do not move. Does not work at all on Lulwy herself.
+* mysterious envelope
+** Not randomly generated. Will be empty when wished for.
+** Contains 1 pp by default. Will contain 1 more for each of the following Unique Levels reached:
+** Unique level 50+
+** Unique level 100+
+** Unique level 200+
+** Unique level 400+
+** Unique level 700+
+** Unique level 1100+
+** Unique level 1600+
+** Unique level 2200+
+** Unique level 2900+
+** Unique level 3700+
+** Unique level 4600+
+** Unique level 5600+
+** Unique level 6700+
+** Unique level 7900+
+** Unique level 9200+
+** Unique level 10600+
+** Unique level 12100+
+** Unique level 13700+
+** Unique level 15400+
+** (Values subject to change.) This means that the maximum obtainable from one envelope is 20pp.
+** For reference, all North Tyris unique NPC figures (including Fort of Chaos NPCs) are worth more than 2,000. Including South Tyris brings that to more than 6,000. All unique NPCs are worth 28,000 in total.
+
+* christmas cake set
+** Not a food item. Usable. Not randomly generated.
+** One will be placed at your feet when updating the game before [12/25].
+** May appear in general vendors' shop inventories in December.
+** (They can end up remaining until January if the shop refreshes at the end of December.) Half price on the 26th December or later.
+** When used, it acts like a large picnic basket and pets within sight will come flying to you. Animated.
+** Recovers satiety.
+** If it is December in-game or in real life, then all characters who have eaten it will also gain Luck, Magic, and Faith skill experience and a medium-strength Lucky Day buff.
+
+ [New equipment attribute]
+* It enchances when charging.
+** Ranged weapons can have it.
+** When an attack has been charged and you attack with this weapon, the attack will be a critical hit, and the distance multiplier will be fixed at 15.
+** May be useful only in certain situations, or you could pretend that the weapon is a charged shot weapon.
+
+ [Implemented effects]
+* drug kiseru
+** Not randomly generated.
+** Crafted with item fusion (recipe required).
+** Can also be bought from the blackmarket by picking the right option. Price depends on karma and the player character's drug dependence.
+** Using it removes the Melancholy debuff, adds +100 to the user's power gauge, adds +30 to the user's drug dependence, and gives -10 (before multipliers) to the player's karma.
+** Dependence is set to 300 if it is greater than 300.
+** Can be targeted on adjacent tiles, but cannot be used on NPCs unless they have a master-servant relationship of 200 or more or a drug dependence of 100 or more.
+
+ [Changes to items harvestable from unknown seeds]
+* Please refer to the detailed changelog for 1.72.
+
+
+===1.73: detailed changelog===
+ [New items]
+* painting of ehekatl and swordfish
+** Can be purchased from <Manytia> the adventure merchant at the Old War Ground in Act III.
+** Is not a precious item, so it can be wished for.
+** Placing it in your home will prevent beggars, citizens, punks, Mysterious Producer, and adventurers with low impress from visiting.
+
+* itzpalt's sculpture
+** NB: Japanese name: bust of Itzpalt
+** Can be purchased from <Manytia> the adventure merchant at the Old War Ground in Act III.
+** Is not a precious item, so it can be wished for.
+
+* yacatect's bank
+** Can be purchased from <Manytia> the adventure merchant at the Old War Ground in Act III.
+** Is not a precious item, so it can be wished for.
+** Unlike the other items, this is a usable tool and not furniture.
+** Unlike kitty banks, it will not get heavier with use.
+** It can hold up to 1 billion gp.
+
+ [Tobacco effects]
+* suigara
+** Creates a pillar of fire when thrown.
+** Not affected by magatama, and is less powerful than a thrown molotov.
+** Can be reused if the resulting pillar of fire doesn't burn it up.
+
+* tobacco
+** Using it removes the Distracted debuff. If +enhance value is greater than 10, it reduces tobacco dependence by (+enhance value - 10). e.g. a +15 tobacco will reduce dependence by 5.
+
+* The below 4 items will all give a Perception and +enhance value-dependent Concentration buff.
+** Tobacco dependence will increase by 100 minus the +enhance value.
+** Using these will allow targeting of adjacent cells, but they cannot be used on non-pet NPCs.
+** Increases satiety slightly if satiety is below Satisfied.
+** When used by the player, it decreases sleepiness slightly if sleepiness is greater than 0 (but to a lesser extent than coffee).
+** The number of times the player has smoked is recorded in the journal.
+** Like tobacco, the prices of these items are also unaffected by +enhance value.
+** cigarette: gives a decent amount of +enhance value-dependent Perception experience. Like in previous versions, a suigara will get generated at the character's feet after usage.
+** hamaki: gives a decent amount of +enhance value-dependent Dexterity experience.
+** tobacco pipe: gives a decent amount of +enhance value-dependent Learning experience.
+** kiseru: gives a decent amount of +enhance value-dependent Charisma experience.
+
+ [New debuffs]
+* Distracted
+** Resisting and removing this debuff becomes more difficult as tobacco dependence increases.
+
+* Melancholy
+** Resisting and removing this debuff becomes more difficult as drug dependence increases.
+
+ [Hidden parameters]
+* Tobacco dependence
+** When not 0, the aforementioned Distracted debuff has a chance to get applied every random number of turns.
+** The debuff will not get applied when on the world map, when already afflicted by Distracted, or when buffed by Concentration.
+** Tobacco dependence is reduced by 1 when attempting to apply Distracted, regardless of whether the character succeeds or fails in resisting the debuff.
+** As such, you could indefinitely stave off the debuff, but getting rid of the tobacco dependence later will be very difficult.
+
+* Drug dependence
+** When not 0, the aforementioned Melancholy debuff has a chance to get applied every random number of turns.
+** The debuff will not get applied when on the world map or when already afflicted by Melancholy.
+** Drug dependence is reduced by 1 and Sanity is increased by 1 when attempting to apply Melancholy, regardless of whether the character succeeds or fails in resisting the debuff.
+** Whom dwell in the vanity is special in that his character is generated with a drug dependence of 1000, and his drug dependence will never go below 1.
+
+
+===1.72: detailed changelog===
+ [New NPCs]
+* gasyadokuro
+** Level 157 skeleton. Eating the corpse gives nether resistance.
+** Uses Squeeze, Smash Ground, and Voracity Fang.
+* skull beast
+** Level 132 skeleton. Eating the corpse gives nether resistance.
+** Uses Nether Breath, Eye of Illusion, and Psychic Wave.
+* money deceased
+** Level 68 skeleton. Has bit flag to drop its gold.
+** Uses Eye of brainwashing, Insult, and Suspicious Hand.
+* skeleton magician
+** Level 40 skeleton.
+** Uses Nerve Arrow, Nether Arrow, Slow, and Mist of Darkness.
+* crimson armor
+** Level 150 armor. Undead with cArmour bit flag.
+** Cure of Jua on low health. Uses Fire Ball and Holy Shield.
+* musha soul
+** Level 115 armor. Undead with cArmour bit flag.
+** Uses Voracity Fang, Blame Pain, Shadow Step, and Decapitation.
+* ochimusha armor
+** Level 79 armor. Undead with cArmour bit flag.
+** Uses Nether Breath and Eye of Insanity.
+* <Gilphem> the magic steel
+** Level 50 armor. Undead with cArmour bit flag. Has magic resistance.
+** Uncontroll on low health. Uses Draw Shadow.
+* <Alsapia> the murderer mask
+** Level 35 roran. Is a thief, but class displays as "assassin".
+** Uses Provoke, Emergency Evasion, Distant attack 3, and Dimensional Move.
+* zanan assassin
+** Level 25 zanan. Is a thief, but class displays as "assassin".
+** Invisible. Uses Shadow Step and Eye of dimness.
+
+ [New evolution]
+* durahan (evolved from steel mass and living armor) evolves with king heart into lord armor.
+
+ [New special action]
+* Blame Pain
+** Can be learned by hitting NPCs with a tamer's whip until their limit. Ranged attack.
+** Deals nether damage dependent on the user's Will + Constitution 4 times, and applies 1 turn of Bind if target is not already bound.
+** The user's Will + Constitution is also rolled against the target's, and if the user wins the roll, the target's power gauge will also decrease by 15.
+** The first of the 4 attacks of this special action will work to increase the target's gauge, so the actual net change to the target's gauge will vary.
+** Of the existing characters, Devastate Luluwy, Luluwy, Arasiel, and performaid pinchief will now use this.
+
+ [Additional Act I content]
+* Upon entering F20 and F25 of Lesimas: event in which zanan assassin will attack. Does not have to be defeated in order to proceed.
+* Upon entering F30 of Lesimas: mid-boss battle with <Alsapia> the murderer mask. Has to be defeated in order to proceed.
+* Upon entering F35 of Lesimas: event in which skeleton magician will attack. Does not have to be defeated in order to proceed.
+* Upon entering F40 of Lesimas: mid-boss battle with <Gilphem> the magic steel. Has to be defeated in order to proceed.
+* When all of the above events have been completed, Alsapia and Gilphem will be placed in Amur-Cage and can be spoken to.
+* These events can still be triggered by even if Lesimas has already been cleared in a previous version the game. However, the have to be triggered in the same order as listed above.
+* This is designed to bridge the gap for players who have completed the magic stone set, cleared the random floors up to F30, and defeated the level 28 Issizzle, but have yet to defeat level 55 Zeome on who comes after random floor F44.
+
+ [New items]
+* skill ticket
+** Rarely randomly generated and cannot be sold. A junk item, not an ore.
+** You can pay skill trainers with these instead of platinum pieces when learning a new skill.
+** The option will appear on top of the regular one for platinum pieces if you have a skill ticket with you.
+** The number of tickets the player will get in the salary is the number of times the player has levelled up since the previous salary. However, only up to a total of 9 tickets will be awarded for level ups. (i.e. 1 ticket per level up for a level 1 character until level 10.) No more will be awarded after that; potions of descent will not help.
+** This is to reduce the need to farm platinum pieces in early game. This will work out to save a large number of pp. There is still the need to level up the character and get to the skill trainers alive, so it's not an outright reduction in difficulty. Skill tickets that you don't need can be inherited for use in the next character.
+
+* mani's alarm clock
+** Can be purchased from <Manytia> the adventure merchant at the Old War Ground in Act III.
+** Not precious, so it can be obtained via wishing.
+
+ [Crop yield groups]
+* Some of the harvesting times differ from the actual ones in Japan, but I guess it could be because Irva's climate is different.
+* (Added soybean in 1.74.)
+
+* March to May
+** Vegetable: muskmelon, green pea, lettuce, quwapana
+** Fruit: qucche, rainbow fruit, cherry
+** Magic: rod of healing hands, rod of uncurse, rod of mana, rod of holy light, rod of speed, rod of cure, rod of heal, rod of cure minor wound
+** Unknown: tea leaf, bannou mugi, random items
+
+* June to August
+** Vegetable: eggplant, watermelon, leccho, melon
+** Fruit: pineapple, banana, tomato, tangerine
+** Magic: rod of bubble ball, rod of magic laser, rod of poison ball, rod of lightning ball, rod of eclipse, rod of lightning bolt, rod of fire bolt, rod of ice bolt
+** Unknown: tobacco, bannou mugi, wild flower, random items
+** As of 1.74: Unknown: tobacco, soybean, wild flower, random items
+
+* September to November
+** Vegetable: corn, cbocchi, sweet potato, aloe
+** Fruit: kaki, apple pear, grape
+** Magic: rod of make door, rod of wall creation, rod of alchemy, rod of wishing, rod of magic mapping, rod of magic missile, rod of teleportation, and rod of identify
+** Unknown: rice, bannou mugi, wild flower, random items
+** As of 1.74: Unknown: tobacco, soybean, wild flower, random items
+
+* December to February
+** Vegetable: potato, imo, radish, carrot, guava
+** Fruit: lemon, kiwi, apple
+** Magic: rod of fire wall, rod of acid ground, rod of change creature, rod of web, rod of domination, rod of silence, rod of slow, rod of summon monsters
+** Unknown: coffee beans, bannou mugi, wild flower, random items
+
+ [Message displayed when interrupting an eating NPC]
+* Changes depending on whether the sum [of impress and servant/master relationship] is below 200, is betwen 200-249, is 250-299, is 300-349, and is above 350.
+
+
+===1.71: detailed changelog===
+ [Act III main quest content]
+* Head down to God's prison (the lowest floor of Cradle of Chaos) after the conversation with Leold for a cutscene.
+* Defeating Enthumesis will place her in the centre of Amur-Cage.
+* Take note that there is no way of reentering this floor after the battle at the moment; it will be possible in the future when more content is implemented.
+* The floor is regenerated whenever the player enters it. Saving, praying, and Wishing is disabled on this floor to match the story.
+* If you quaff water and a wish triggers, you won't feel a stoke of good fortune pass, i.e. the chances of getting another wish won't be reduced. However, using rods of wishing and the spell will decrease the charge, stock, and mp.
+* Offerings to god may not be made nor can you change religion, but you can still catch signals from god. [Skill bonuses] from worshipping a god will also work.
+
+ [New NPC]
+* <Enthumesis>
+** Level 350 god. Female bisexual by default.
+** Has float bit flag and bonus chaos resistance. Eating her corpse will give chaos resistance.
+** Uses Chaos Ball, Bubble Storm, Mind Bolt, Nether Wave, Multiple Gather, Regeneration, and Summon chaos.
+** Uses Insult on low health (as a futile effort to stay alive - being outside of the area of effect of Insult is dangerous though).
+** Drops god heart on death.
+
+ [New evolutions]
+* thief and robber evolve with another heart into gizoku (NB: chivalrous thief. Robin Hood?) and learn Golden Storm. Golden Storm has a low chance to be used when health is half or less of maximum health, and the NPC is currently carrying at least 2000 gold.
+* puppet evolves with magic heart into battle puppet and learns Continuous attacks.
+* fallen soldier evolves with king heart into indomitable general and learns Super Armor.
+* nurse evolves with evolution heart into red cross and learns Rain of sanity. (There will only be a chance that this will be used when the NPC itself is insane. It is independent of the player character's insanity.)
+
+ [New gauge attacks for each ammo type]
+* magnum: Inverts the target for 2 turns if the target is not already Inverted.
+* bullet: lowers PV (this is 75% as effective as Pulverization).
+* energy cell: line attack. Blinds target for 2 turns if target is not already blinded for more than 2 turns. Colour of the visual effect depends on the element that the user has the most resistance against.
+* bolt: Paralyzes target for 2 turns if target is not already Paralyzed for more than 2 turns. Also has a chance to decapitate.
+* arrows: 3x3 tile area-of-effect attack. Applies 2 turns of Wince if target is not already Wincing.
+
+ [New materials]
+* Good paper
+*  Durable cloth
+* Log
+* White weed
+
+ [Items now craftable with sewing kit]
+* fur carpet (Tailoring 40)
+* luxury sofa (Tailoring 25)
+* coldproof blanket (Tailoring 17)
+* fireproof blanket (Tailoring 15)
+* dress (Tailoring 12)
+* variety of clothes (Tailoring 3)
+* decorated cloth (Tailoring 1)
+Note: made changes to the sprites for dress and decorated cloth so that their height sort of matches up.
+
+ [Changes to materials used in crafting]
+* shaved ice: reduced Ice stone, removed Generator
+* potion of salt solution: reduced Seawater
+* potion of restore spirit/restore body: removed Hot water
+* potion of healer <Jure>: removed Medicinal weed, added Holy weed
+* whisky (trade goods): removed Hot water
+* scroll of detect objects: removed Electricity
+* scroll of holy light: removed Holy weed, added Shining weed
+* scroll of greater identify: removed Magic mass
+* scroll of uncurse: removed Curse weed
+* scroll of teleportation: removed Charcoal
+* scroll of holy veil: removed Holy weed, added White weed
+* scrolls of greater identify and holy rain: removed Magic paper, added Good paper
+* scrolls of gain material, uncurse, and detect objects: removed Paper, added Good paper
+* rod of cure minor wound: removed Adhesive
+* rod of healing hands: removed Curved stick, added Log
+* rod of change creature: removed Red weed, added Ether fragment
+* rod of identify: removed Memory fragment, added Witch's eye
+* potion of healer <Eris>, rod of cure minor wound, and rod of healing hands: removed Red Weed, added White weed
+* grave (trade goods): reduced Pebble and Fine stone
+* rag doll (trade goods): removed Snow
+* noble toy (trade goods): removed Fine stone, added Howling weed
+* coffin (trade goods): removed Thick wood, added Log
+* barrel (trade goods): removed Branch, added Log
+
+ [New items]
+* <God Binder>
+** Equipped by the aforementioned Enthumesis. This is to lower her stats as a handicap. Like other claws, it is a shield that doesn't actually function as a shield.
+
+The items listed below are craftable from materials. They are not randomly generated. You can sell them if you accidentally make too many.
+* soft high materium
+* soft materium
+* hard high materium
+* hard materium
+* sharp high materium
+* sharp materium
+
+These will work on different types of equipment (they won't work on unique artifacts):
+* Soft: 36 equipment types including soft armours, composite stuff (NB: includes large shield), and whips
+* Hard: 39 equipment types including metal armours and firearms
+* Sharp: 32 equipment types including bladed weapons, clubs, claws, feather, bows, and ammos
+* Too many items would have fallen under the 'hard' category, so some items were grouped under 'sharp' in a rock-paper-scissors approach to the classification.
+* You can check which category an equipment type belongs to by looking at the required ingredients in item fusion.
+
+ [New item fusion recipes]
+* harmful potion
+* log house
+* equip making (3 types)
+** Makes artifact equipment of the same type as the equipment used as the ingredient. Material is random.
+** This recipe will produce two of expensive items like the speed ring, panty, aurora ring, seven league boots, and vindale cloak.
+** Only one sox will be produced because it's expensive and it's also used in a quest.
+** The recipe will produce 3 of all other equipment types.
+** The game will auto-save.
+
+* equip update (3 types)
+** The equipment type of the piece of equipment used as the ingredient will be changed to another one in the same category.
+** All equipment attributes including those intrinsic to the equipment type will be conserved.
+** The price and material will also not change. The stats and weight will be those of the new equipment type.
+** This can be used to preserve the equipment attributes while changing equipment type to a better one. You could also change equipment to a type that has a better intrinsic equipment attribute or sell price, then use it in the equip making recipe.
+** Non-sox equipment cannot be turned into sox.
+** This is available in early game, but it's rather expensive in terms of materials. Being rich can somewhat help though.
+** As for the actual equipment class changes:
+*** bullet -> magnum -> energy cell -> bullet -> [loop]
+*** arrow -> bolt -> arrow -> [loop]
+*** engagement amulet -> bejeweled amulet -> neck guard -> peridot -> engagement amulet -> [loop]
+*** charm -> talisman -> decorative amulet -> charm -> [loop]
+*** breastplate -> banded mail -> ring mail -> chain mail -> plate mail -> breastplate -> [loop]
+*** robe -> light mail -> coat -> composite mail -> breast plate -> bulletproof jacket -> pope robe -> robe -> [loop]
+*** shoes -> boots -> heavy boots -> composite boots -> tight boots -> armored boots -> seven league boots -> shoes -> [loop]
+*** light cloak -> cloak -> armored cloak -> wing -> feather -> vindale cloak -> light cloak -> [loop]
+*** girdle -> composite girdle -> plate girdle -> girdle -> [loop]
+*** light gloves -> gloves -> decorated gloves -> light gloves -> [loop]
+*** thick gauntlets -> composite gauntlets -> plate gauntlets -> thick gauntlets -> [loop]
+*** helm -> knight helm -> heavy helm -> composite helm -> helm -> [loop]
+*** feather hat -> magic hat -> fairy hat -> feather hat -> [loop]
+*** decorative ring -> engagement ring -> ring -> armored ring -> composite ring -> aurora ring -> speed ring -> decorative ring -> [loop]
+*** small shield -> round shield -> shield -> knight shield -> large shield -> claw -> kite shield -> tower shield -> small shield -> [loop]
+*** short bow -> long bow -> skull bow -> short bow -> [loop]
+*** repeating bow -> crossbow -> ballista -> repeating bow -> [loop]
+*** pistol -> machine gun -> shot gun -> sniper rifle -> laser gun -> pistol -> [loop] 
+*** stone -> rock -> grenade -> shuriken -> panty -> stone -> [loop]
+*** hand axe -> battle axe -> bardish -> hand axe -> [loop]
+*** sox -> club
+*** club -> hammer -> club -> [loop]
+*** katana -> lightsabre -> long sword -> claymore -> katana -> [loop]
+*** spear -> trident -> halberd -> spear -> [loop]
+*** kitchen knife -> dagger -> scimitar -> wakizashi -> kitchen knife -> [loop]
+*** chainsickle -> sickle -> scythe -> chainsickle -> [loop]
+*** staff -> long staff -> whip -> staff -> [loop]
+*** Note: there are several instances of equipment changing into a different hard/soft/sharp type.
+
+
+===1.70: detailed changelog===
+ [New Act III sub quest]
+* Start by talking to Arasiel. When the date changes, there is a 5% chance that the target monster you need to capture will change to a different one.
+* When the target monster is turned in, there will no longer be a target monster specified.
+* If there is no target monster specified when the date changes, there is a 50% change that there will be a new target monster specified.
+* Pets not marked as important will be handed over [without any confirmation]. Pets in a tag team cannot be turned in.
+* Handing over 3 target monsters will clear the quest the first time, and will award only the Rainbow.
+* When repeating the quest, you will have to turn in 5 monsters each time to receive a reward. The reward that is given depends on the time at which you talk to Arasiel:
+** :00 - :07 for jewel of tear of god for the deals fire damage equipment attribute
+** :08 - :15 for jewel of tear of god for the deals cold damage equipment attribute
+** :16 - :23 for jewel of tear of god for the deals lightning damage equipment attribute
+** :24 - :32 for jewel of tear of god for the deals poison damage equipment attribute
+** :33 - :41 for jewel of tear of god for the deals chaos damage equipment attribute
+** :42 - :50 for jewel of tear of god for the deals sound damage equipment attribute
+** :51 - :59 for jewel of tear of god for the deals dark damage equipment attribute
+
+ [New buff]
+* Gem Power
+** Granted by the potion of gem and spellbook of gem below.
+
+ [New items]
+* potion of gem
+** Generated randomly.
+
+* spellbook of gem
+** Generated randomly.
+
+* high potion of wisdom
+** Available only via item fusion. Not generated randomly. Has the effects of Hero, Gem, Concentration, and Divine Wisdom, but at a lower strength than if all those potions had been used separately.
+
+* soybean
+** Low chance of being randomly generated. Food item that does not rot.
+** When thrown, is used up and deals Throwing skill-dependent dark elemental damage. Status ailment strength is dependent on +enhance value. Is used up even if it hits an empty tile.
+** If the target that it hits is a shine ogre, slash ogre, or smash ogre, it deals non-elemental damage like when salt hits a snail.
+** Is used to make bottles of soy sauce and the 3 items below in item fusion.
+
+* fried tofu
+** Low chance of being randomly generated. Food item that does not rot. Trains Magic when eaten.
+** When fed to a fox, fox brother (and evolved fox brothers), and silver fox brother, it increases Happiness by 5 if Happiness is less than 5.
+** Inherits the +enhance value of the soybean ingredient.
+
+* tofu
+** Low chance of being randomly generated. Food item that does not rot. Trains Strength when eaten.
+** When thrown, is used up and deals Throwing and +enhance value-dependent fixed damage. Gives a special death message. Is used up even if it hits an empty tile.
+** Inherits the +enhance value of the soybean ingredient.
+
+* natto
+** Low chance of being randomly generated. Food item that does not rot. Trains Dexterity when eaten.
+** When thrown, it afflicts (+enhance value + 5) turns of Fury that does not stack. You may want to use these in conjunction with Charge Attack or something.
+** Inherits the +enhance value of the soybean ingredient.
+
+* 1.2 million tax certificate
+
+* 12 million tax certificate
+** These two items are available for sale only in certain places like the embassy, and depositing them in the tax box will deduct the amount indicated from the gold pieces you currently have.
+** Taxes you incur each month will be deducted from the amount that you have pre-paid, and you will not receive any bills when there is a balance remaining.
+** Taxes deducted from the pre-paid amount will be exempt from the 0 - 19% random additional charge that is applied to bills, making it cheaper to pre-pay taxes.
+** Balance remaining is displayed in the journal.
+** If tax exceeds the remaining balance, you will be billed only the difference. When the balance runs out, a message will be displayed.
+** You can pre-pay with as many tax certificates as you like; each certificate will add to the remaining balance.
+** Be careful with these if you are trying to get your taxes in arrears to join the Thieves Guild.
+
+* <Harakiri>
+** Reusable unique artifact. Not a weapon.
+** Randomly generated, and has a rare-loot trigger dependent 1/30 chance of dropping from kamikaze samurai.
+** If used, you will commit seppuku, setting HP to 1/8 of the current value and causing bleed. All characters in sight (including unique NPCs) will then cease to be in combat mode. NPCs that were not originally hostile will no longer be hostile, and hostile NPCs will overlook you for 15-50 turns and will not have discovered you yet.
+** Duels will also end.
+** This means you can escape from combat, or heal up and stab characters in the back.
+** The disadvantages of using this are significant, but you can pair it with the Blood Stream attack below to deal a large amount of damage.
+** Be warned, however, that using the Harakiri again in sight of NPCs currently overlooking you (including pets) will proc kaisyaku, i.e. decapitation to help with the suicide.
+
+ [New special actions]
+* Blood Stream
+** Learned during level up when Will and Constitution are both 50 or above.
+** Deals Will and Constitution-dependent damage in a straight line. Reduced by PV + DV.
+** If user is currently afflicted by 10 - 19 strength bleed, then damage is multiplied by 1.5 times.
+** If user is currently afflicted by 20 - 29 strength bleed, then damage is multiplied by 2 times.
+** If user is currently afflicted by 30 - 39 strength bleed, then damage is multiplied by 2.5 times.
+** If user is currently afflicted by 40+ strength bleed, then damage is multiplied by 3 times.
+** When used, if the user is afflicted by less than 100 strength bleed, then 8 is added to the bleed strength. Affected by Control Magic skill level.
+** performaid bloodress will now use this when bleeding.
+** The H sister, kali, and blood golem will rarely use this.
+
+* Flame of Rage
+** Wide special action usable only when in Fury status. Deals Will and Magic-dependent fire elemental damage to non-friendly characters in sight. Fury status is removed after usage.
+** The tiny older sister, yandere younger sister, and wolf king (NB: all evolutions, no English equivalent?) will use this when in Fury status.
+
+ [New NPC]
+* sickfull older brother
+** Secret character. A rare male roran. (Default level 1, but actual level may vary.)
+** Uses Nether Wave, Mind Bolt, Nerve Arrow, Psychic Wave, type 1 potion throwing, and Bound in Blood.
+** Uses Cure of Eris on low health, and Blood Stream when bleeding.
+
+
+===1.69: detailed changelog===
+ [Additional main quest content]
+* Cutscene when entering any floor of the Cradle of Chaos. Added a conversation with Leold. No new floors added.
+
+ [New special actions]
+* Formless Fetter
+** Learned during level up when Control Magic skill is level 60 or above.
+** All enemies in sight that are on any map effect (including floating enemies) will have 1 turn of Bind applied to them (Bind does not stack), and be dealt Magic attribute and Control Magic skill-dependent magic element damage.
+** Targets that are non-unique NPCs and have Dexterity that is less than half of of the user's Dexterity will also have a Control Magic skill level-dependent Dexterity debuff applied to them.
+
+* Melt Clinch
+** Applies 1 turn of Bind to the user and the target, and also 1 turn of Atrophy to the target. Neither of these status ailments stack.
+** It will also deal a small amount non-reducible acid-element damage to targets that is dependent on the user's Strength and Constitution attributes.
+** The slimenoid and slimeroper [evolutions] (NB: no English names?) will now use this move.
+
+ [New NPCs]
+* dragon bubble
+** Level 131 slime. Has the splitting bit flag. Uses Bubble Storm and Voracity Fang.
+
+* formless spawn
+** Level 81 slime. Uses Formless Fetter, Acid Ground, Eye of Insanity, and Nether Arrow.
+
+* living blood
+** Level 58 slime. Has the type 2 splitting bit flag. Drain Blood.
+
+* roper
+** Level 39 slime. Uses Squeeze and Rubbing.
+
+* silver fox brother
+** Secret catsister NPC. (Default level is 1, but actual level may vary.)
+** Uses Touch of Fear, Dark eye, Ice Ball, Element Scar, and Holy Shield.
+** Will also use Resolution Hand on himself when not already buffed with it.
+
+ [New evolutions]
+* Bubble and blue bubble will evolve with another heart into bobble bubble, and learn Bubble Storm. They will also learn Casting and Control Magic skills, and gain additional levels in those skills.
+
+ [New items]
+* cheese
+** Food item that does not rot.
+** When crafted via the Dairy products item fusion recipe, it will inherit the +enhance value of the milk used as the ingredient unlike the two items below.
+** NPC name will not be inherited.
+
+* butter
+** Food item that does not rot. Can be thrown.
+** Targets hit by it will get the Oil status ailment, and have a minor corpse seasoning effect applied to them (upper limit +2).
+** Use with soy sauce to make enemies taste like butter and soy sauce.
+** Like tomatoes, they will disappear without creating puddles when thrown at the ground.
+
+* yogurt
+** Food item that does not rot. Can be thrown.
+** Gives Constitution experience when eaten.
+** Applies Fury to targets hit by it. Amount of Fury is lower than for thrown tomatoes, but unlike tomatoes it will stack.
+** Like tomatoes, they will disappear without creating puddles when thrown at the ground.
+
+* <Assault Gold>
+** Randomly generated unique artifact. Wings.
+
+ [Shopkeeper feats]
+* TraitElegance
+** Increases Charisma by 30 when acquired.
+** Increases the amount of money that visitors to your shop carry by 75% and 2,000. This does not apply to NPCs that are generated with 0 gold.
+
+* TraitAestheticSense
+** When trading items, items are worth 33% + 300gp more.
+
+* TraitProprietarySales
+** Gold pieces equal to 5 to 10 times of Negotiation skill will be placed in the shop's safe every day. This is independent of item sale in the shop. No upper limit.
+** This sum will be capped at 1 when the player is in the Deep-sea castle.
+** This trait will have no effect if the pet with it is not the shopkeeper. Gold pieces earned in this manner will not award any sales experience, shop rank, or experience.
+** Item sale prices cap out at about 160 Negotiation, so this trait makes gaining Negotiation skill levels beyond that useful.
+** As a side note, the player's Negotiation skill effect caps out at 100 and there is currently no merit to level it beyond that, but special actions dependent on it will be added in the future.
+
+* TraitTie-up
+** When this pet is with the player, when [the pet] sells items, half of the player's Negotiation is added to the pet's.
+** Ores and wild flowers sell for 1.5x the usual price for pets.
+** Neither of these two effects stack when multiple pets have the trait.
+
+* TraitBusiness Smile
+** The shopkeeper learns Bewitch special action. This does nothing if the pet does not participate in combat, of course.
+** The pet will use Bewitch if the target still has Attract and is not currently Paralyzed.
+** Due to the nature of this move, pets with AIs that like to maintain a distance from targets will not be able to use it.
+
+ [New map tiles]
+* Rope divider floor tiles, listed after the music tiles.
+
+* Showcase transparent wall tiles, listed after the red flesh walls. A version that does not connect with other tiles has also been added.
+
+* These can be used for decorating around items in your home.
+
+* In the shop, items that are on top of these tiles will be marked as not for sale.
+
+* After mining a tile or redecorating the shop, all items that are on these tiles will be marked as not for sale, and items not on these tiles will have that marker removed.
+
+* Items that have been marked as not for sale will have "sample" prefixed to the item name, and will never be sold.
+
+* When attempting to pick up these sample items, the not-for-sale marker will be removed (even if you fail to pick them up).
+
+* This means that if floor tiles are destroyed or overwritten in the shop by means other than mining or redecorating, sample items will remain that way. To fix that, you will have to pick them up, go into redecorating mode, or mine something.
+
+* This new item marker was created because the game cannot check which items are on which tiles when the player is not on the shop map.
+
+
+===1.68: detailed changelog===
+ [Additional main quest content]
+* Cutscene when entering the library, right up to the part where you talk to Sophia to receive yellow gem stone of Heart of twilight.
+** The game will remember which reward you picked, and change the lines that [Sophia] speaks in the default conversation accordingly.
+** It's kind of like how Orphe said in Act I that the Origin of Vice would no longer update when it's not on the pedestal, and elona players would probably think of taking the entire pedestal with them.
+
+ [New NPCs]
+* sin gorilla - level 155 largeanimal. MP Breath, Power Breath, Fire Breath, Homing Lazer.
+* ganesa - level 134 largeanimal. Smash Ground, Continuous attacks. 
+* knightceros - level 92 largeanimal. Uses Hyper Dash.		
+* electric hippopotamus	- level 70 largeanimal. Suitable for riding. Voracity Fang. Has lightning resistance.
+* killing anteater - level 41 largeanimal. Swarm. Escapes when low on health.
+
+ [New items]
+* <Crown Point>
+** You receive this from the red sword after getting all 16 Adventure Seminar item rewards from Karata. This is for unlucky people who can't get fire resistance gear.
+
+* green tea
+** Tea recipe will produce two of these if the ingredient is blessed. Product will inherit +enhance value of tea leaf ingredient. It is also randomly generated.
+** Drinking it will reduce Fear, Poisoned, Confused, Dim, and Paralyzed status ailments by an amount dependent on the +enhance value.
+** It will also slightly reduce body weight by an amount dependent on the +enhance value. This is a healthy way of losing weight without puking.
+
+* black tea
+** Tea recipe will produce two of these if the ingredient is blessed. Product will inherit +enhance value of tea leaf ingredient. It is also randomly generated.
+** Drinking it will recover 5 sp and (+enhance value + 5)% max MP.
+
+* livestock feed
+** Craftable from mix feed recipe, and inherits the +enhance value of the food used as the ingredient. Rarely randomly generated. Eating it will increase body weight by an amount dependent on the +enhance value.
+** Body weight increases from eating livestock feed is not subjected to the character height limit.
+** You can hand these to livestock that are not fully sated, upon which they will be immediately consumed.
+** This is for recycling food items that are cheap but have an +enhance value or are unsellable and also fattening livestock. It can also help get rid of that bony figure.
+
+* yellow gem stone of Heart of twilight
+** Allows you to change the danger level of unentered random Nefia within range of sight to 0.5, 0.7, 0.9, 1.1, 1.3, or 1.5 times and makes them have 4 floors. This effect can be applied multiple times to a Nefia.
+
+ [Effect of etherwind on Meshera NPCs]
+* Meshera NPCs refers to the 7 bacteria NPCs and Regulus.
+* Maps where this effect will be constantly applied are the Mountain Pass and the Ancient Garden.
+* The higher the NPC's Constitution attribute, the greater the HP deduction.
+
+ [Adding equipment attributes with Garok's hammer]
+* These attributes all have effects that stack so that there is no disadvantage to having multiple pieces of equipment that have them.
+** HeadÅF sometimes nullifies damage #
+** NeckÅF enhances your breath #
+** BackÅF enhances your spells #
+** BodyÅF reflects magic #
+** RingÅF seven leagues effect #####
+** ArmÅF decreases physical damage taken #
+** WaistÅF absolute piercing #
+** LegÅF interlocking shooting mechanism #
+** WeaponÅF extra melee attack #
+** ShootÅF extra ranged attack #
+** ShieldÅF proximity assist weapon#
+** AmmoÅF critical #
+
+ [New special action]
+* Mirror
+** Learned upon leveling up when Perception is 60 or above. Applies the effect that Objet of heart formerly had.
+
+
+===1.67: detailed changelog===
+ [Additional main quest content]
+* Talking to Leold on F39 of the Cradle and selecting the option will bring you to the Tezcatlipoca battle. Two talon soldiers will also spawn, but they will disappear when Tezcatlipoca is defeated. There is a conversation with Leold after you win. Next update will add a cutscene after moving to another map.
+
+ [New NPCs]
+* <Tezcatlipoca>
+** Level 200 god. Floats.
+** Uses Distant Attack, Dimensional Move, Eye of Illusion, and Attribute.
+** Has the special ability to nullify smokescreens during its turn.
+** NB: Japanese name lit. Night Smoke Tezatlipoca.
+
+* fin crocodile
+** Level 8 servant. Floats.
+** Uses Water Bolt and Alchemical Rain. Voracity Fang on low health.
+** Comes with Swimming skill. Has the special ability that multiplies the speed bonus from Swimming by 1.5 times. Sprite is the same for males and females. Will be able to evolve in future versions.
+
+* talon soldier
+** Level 8 servant. Floats.
+** Uses Hero, Regeneration, and Provoke.
+** Has the special ability to nullify smokescreens during its turn. Sprite is the same for males and females. Will be able to evolve in future versions.
+
+* black hopper X
+** Level 157 beetle. Forms swarms, floats, and has temper bit flag.
+** Uses Power Breath, Scavenge, and Voracity Fang.
+
+* assault red dragonfly
+** Level 136 beetle. Forms swarms and floats. Uses Clash Rush.
+
+* battle hopper
+** Level 115 beetle. Uses Body Blow. Uses ZinlaiKyaku on low health.
+
+* magic hawk moth
+** Level 105 beetle. Floats. Magic resistant.
+** Lightning Bolt, Fascination Dance, Eye of dimness, and Eye of Illusion.
+
+* nursing moth
+** Level 50 beetle. Non-hostile. Weak to cold. Touch of Sleep and Healing Rain.
+
+* caterpillar sniper
+** Level 16 beetle. Melee wait.
+
+ [New evolution]
+* caterpillar sniper evolves with god heart into god moth. Will use Draw Shadow if its target is not adjacent to it. Gains ability to use Punishment. Glows. Does not gain float bit flag.
+
+ [New special actions]
+* Curtain of Smoke
+** Learned during level up when Stealth skill is level 20 or above. A wide-area skill.
+** It generates a smokescreen map effect centred around the user.
+** Tiles with smoke on them will reduce range of sight. Smoke disappears with the passage of turns. Like other map effects, they can be overwritten.
+** Ball and bolt spell areas of effect will also be reduced by the smoke, but they will be able to clear the smoke effect within that AoE even if they are not water-type spells.
+** Breath-type attacks will not be affected at all, and will [also be able to remove the smoke effect].
+** Sense Object will make it transparent.
+** Use this when you want to run away or put some distance between you and your target, as it hinders attacks that depend on range of sight like spells, ranged attacks, and Shadow Step. This will not prevent enemies from chasing you down though.
+** The following existing NPCs will gain this special action: red ninja, new citizen, and <Eila>the fugitive Kunoichi. They will have a chance of using it if their target is 2 or more tiles away and there is no smoke on the tile they are standing on.
+
+* Smoke Mirror
+** Gauge attack for Tezcatlipoca. Will not be used when recruited as a pet.
+** Places 200 (which is the limit) smokescreen map effects on the map.
+** Will also buff the user with Black Mirror, a new buff. This will cause each of the user's attributes ranging from Strength to Magic to become the average of their original values and the player's corresponding attributes. This means that the user will become weakened in most cases. You can also deliberately lower your attributes when fighting Tezcatlipoca. If the player is way too strong, this will help make it a bit of a challenge.
+** Based on its usefulness relative to the attacks of other gods and its cosmetic purpose, gauge consumption has been set to 50%. This gauge attack will be used most of the time, leaving little to no chance of weapon gauge usage.
+
+ [New items]
+* <Yohualli Tezcatl>
+** Small shield unique artifact equipped by Tezcatlipoca. Will drop.
+
+* craft repair kit
+** Randomly generated consumable. Use it on a target piece of equipment (will work on ammos but not unique artifacts) to change their stats to the upper limit for their material.
+** Will also set negative accuracy penalty to the minimum.
+** High spawn rate so that you can use these on pet equipment as well.
+
+* ohuda
+** Randomly generated junk item.
+** When thrown at a target, will deal magic damage dependent on Throwing and Magic Device skill levels. Will also remove buffs, so there's only one difference between this and Megid Flame.
+** It's not a rod/spellbook/scroll, but magic shops will stock these.
+** NB: paper talisman.
+
+* lovely bouquet
+** Not randomly generated, but craftable with item fusion.
+** Increases impress when given to targets that are at Fellow or above. Targets below Fellow will still accept the bouquet, but there will be no increase in impress.
+
+* bio printer
+** Randomly generated consumable. Yields the figure of the target NPC without killing it.
+
+* stardust
+** Extra copies of unique artifacts will turn into this. Not randomly generated. Consumable.
+** Use it to enhance artifacts (unique and otherwise) up to +15.
+** Will also work on ammos.
+
+ [New resource]
+* bronze coin
+** Randomly generated. (Shops will never stock these.) Is not a type of ore.
+** Given as a bonus for Harvest Time quests, and is sometimes generated on the ground in towns.
+** Salary will pay 1 of these if your taxes are not in arrears.
+** Quartermaster feats will give an additional 1 whether your taxes are in arrears or not, even for Apprentice Quartermaster.
+** Will not be given as salary when in the Deep-sea castle.
+** Has the following uses:
+*** Upgrading your cart. It had been changed from small medals to platinum pieces but it was still too expensive.
+*** Training the shopkeeper in your shop. It used to cost money, but it was kind of weird that you spent money to earn money in the shop.
+*** Ordering the special dish at inns. Gives an attribute growth buff to the player and all pets in sight who are able to not incapacitated (NB: not asleep, etc). Will become Satisfied if satiety is below Satisfied.
+** Will have more uses and ways of obtaining these in the future.
+
+ [Flowers that bloom in the wilderness]
+* Name and appearance will change with the month in which they are generated.
+** January - daffodil
+** February - margaret
+** March - dandelion
+** April - tulip - default colour will be picked at random from 3 colours.
+** May - rose - default colour will be picked at random from 3 colours.
+** June - hydrangea - default colour will be picked at random from 3 colours.
+** July - lily
+** August - sunflower
+** September - marigold
+** October - cosmos
+** November - chrysanthemum
+** December - primula
+** Like fishes obtained from fishing, these will all [have the same item ID]. 
+** They are a type of furniture, will come with prefixes, and their material can be changed.
+** They have a high chance of getting generated. They will not display as rawwork when made of raw.
+** They sell for a decent price, and when handed to pets they will sell them just like ores.
+** Pets will not pick up flowers and can be asked to return them to you.
+** They may have an +enhance value when harvested from unknown seed crops that will increase their price, so you could probably roleplay a florist or a flower selling girl.
+** Throwing roses will not deal weight-dependent damage, but will instead cause bleed damage dependent on their +enhance value, so you can have fun with these.
+** And of course, you can use these to decorate your properties.
+
+ [New equipment attribute]
+* It allows quick shooting.
+** Ranged weapons will rarely come with this. Pistols and short bows have a higher chance of having it.
+** When hit by regular ranged attacks (including throwing ones), the wielder will deal a small amount of unmitigable damage dependent on Marksman skill on the attacker before the attack hits. 2 turns of Wince will also be afflicted on the attacker.
+** Will not activate when affected by Blind, Sleep, Paralyzed, Unconscious, or time stop, and also when sandbagged.
+** Will not work against Zero shoot and Fire a volley.
+** Will work only against the first attack of extra ranged attacks, rapid ammos, and burst ammos.
+** Characters that will have this as a bit flag are gunfish, archayeek gunner, <Milis> the soldier, requiem, and chaos hunter. (Will also work for existing characters after their stats are recalculated.)
+
+ [Bonus experience]
+* If the parameter that gains experience is equal to or greater than the Speed part of INIT + 100, then it will gain bonus experience. The lower the attribute + Life/Mana part of INIT, the greater the bonus.
+** This bonus is added before the reduction based on the current value of the parameter and the various multipliers.
+** The idea here is to prevent characters from growing extremely quickly when starting off, and to alleviate the stagnation in growth in late-game.
+** This will also help out character that have low starting speed and relatively fewer chances to level attributes and skills.
+
+ [Somewhere in South Tyris...]
+* Added an option to the conversation with Maile in the Oblivion Palace.
+** This will halve attributes and skill levels of the target character that are 50 or above. (Minimum is 50.) If level is 50 or above, then it will also be halved.
+** This is repeatable, so you can lower stats until you're satisfied. Be careful though, as characters that start off with stats that are below 50 may have their INIT increased instead.
+** This can mess things up, so unlike the other options, selecting this option will not auto-save the game.
+** Like the other options, the error message is purely cosmetic.
+
+ [Adding body parts with Gavela]
+* Cost for pets is a lot lower than for the player, except for torso parts as they are unobtainable from regular gene engineering.
+
+ [Additional notes about rare item spawning]
+* If a new month or year starts after loading a game, then the rare drop trigger will be turned on on the 1st of the month at 0:10am. This is because a day can be defined as 1440 minutes, but months and years have variations that make them impossible to be defined as a constant. An idea I had was to disable the trigger for 10 minutes after every game save, which would also work against [item farming] using backups of save files. However, that wasn't implemented and this trigger will turn off only when loading saves the regular way. After all, people who tinker with the save data outside the game would probably find it faster to just edit the game memory.
+
+ [Note]
+* Rules for item spawning are listed at the bottom of this file.
+** It's pure game data, so if you want to keep things a surprise and avoid spoilers you may not want to see it.
+** I can't recommend looking at it unless you don't like the element of randomness or are interested in how things work.
+
+
+===1.66: detailed changelog===
+ [New NPC]
+* <Karata> the seminar mascot
+** Level 45 metal. Not suitable for riding, metal, immune to elemental attacks.
+** Voracity Fang on low health.
+** Will ask 4 questions based on the current seminar (3 questions if there are joke answers.)
+** [Answer them correctly] and he will give you an item. (And only one, even if the day changes.)
+
+ [Party Time! unique NPC appearances]
+* North Tyris
+** Either Loyter or Whom dwell in the vanity (Loyter will appear 100% of the time at certain points in the main quest).
+** Mia, Shena, and Gilbert are guaranteed to appear.
+** One of the following groups will appear:
+*** <Part time worker> the red sword + Karata
+*** Mito + Ajetalio
+*** Cresce
+** Each of the following has a 20% chance of appearing:
+*** Raphael, Renton, Strance scientist, Lomias, and Larnneire
+*** Marka joins the list in mid-Act III.
+
+* South Tyris
+** One of Lomias, Larnneire, or vanity is guaranteed to appear. (Whom dwell in vanity becomes Vessel during the main quest, and will not appear in the beginning of Act III).
+** One of Stoke, Mefan, or Zisilion is guaranteed to appear.
+** New citizen (NB: Laie the citizen) is guaranteed to appear after the corresponding sub quest is completed.
+** Each of the following has a 20% chance of appearing:
+*** Caim, Zernard, The leopard warrior, Silvia, and Arma.
+*** Melget joins the list in mid-Act III.
+
+ [Bias in South Tyris town board quests]
+* Kurualm has a high chance of generating delivery quests.
+* Ludus has a high chance of generating harvest quests, but not as high as Yowyn.
+* Arcbelc has a high chance of generating performing quests.
+
+
+===1.65: detailed changelog===
+ [Additional main quest content]
+Cutscene on F39 of Cradle of Chaos and placed Leold there. Ends with the conversation for now.
+
+ [Tutorial facility]
+* the Adventure Seminar
+** [NPCs on this map] will resurrect naturally with time and map will refresh periodically. The Classroom map accessible from here will refresh whenever you enter it. The courses overlap in content, but another way of looking at it is that there is continuity across the courses.
+
+ [New NPCs]
+* novice
+** Level 6 norland. Not randomly generated. Uses Dark eye, as well as Heal Light on low health.
+* <Part time worker> the red sword
+** Level 55 karune. Drain Blood, Squeeze, Draw Shadow.
+* <Mito> the seminar lecturer
+** Level 65 juere. Uses Shadow Step and Gravity Accel.
+* <Iduru> the seminar lecturer
+** Level 65 norland. Uses Shadow Step and Continuous attacks.
+* <Cresce> the seminar lecturer
+** Level 65 zanan. Uses Rocket Fire and Potion throwing 1.
+* <Ajetalio> the seminar lecturer
+** Level 65 yerles. Uses Blade Strings, Dancing Wire, and Vindalian Jiu-jitsu.
+* <Zisilion> the mine king
+** Uses ranged attacks only. Will give platinum pieces once a day for doing town board quests. This reward does not expire over time [and you can claim it whenever you like]. This NPC also serves as a reason for players to visit towns in South Tyris.
+* chaos serpent
+** Level 190 spirit. Floats. Resists chaos. Uses collected power, Homing Lazer, Nether Wave, Shadow Step, Eye of brainwashing, Abyss in the eye, and Megid Flame. On low health, uses MP Breath.
+* chaos seed
+** Level 30 spirit. Floats. Resists chaos. Uses Squeeze and Eye of Mana.
+
+ [New evolutions]
+* Chaos spirit evolves into chaos sprout with evolution heart. Male and female sprites differ.
+* Using a god heart on chaos sprout will then make it evolve into chaos plant and learn Extermination Breath.
+
+ [Birthday event]
+* Up to 16 NPCs out of all the pet and non-pet NPCs on the current map will now be selected (pets will have priority) and they will celebrate your birthday.
+* They will celebrate it even if they were out of sight, have low impress, or are hostile, but not if they are asleep, unconscious, or have 0 Attract.
+* Lines spoken by them will be affected by their respective styles of speech.
+* The number of NPCs there and the options [you pick] will determine whether they will cheer and applaud.
+* The worst thing that can happen is that there is no one on the current map. In that case, the wish goddess will celebrate your birthday.
+* A blessed present will be generated at your feet when the event ends.
+
+ [Milking livestock]
+* The +enhance value of milk produced by livestock will be higher if they are good at producing milk. Being inept at producing milk will have no effect on the resulting +enhance value.
+* Milking has the same cooldown as Rubbing them with a brush. However, livestocks' Life will be halved every time they are milked.
+* Attempting to milk livestock with less than 2 Life will kill them. Livestock will still spawn milk on the ranch even when their Life has been lowered, so you can choose whether you want to milk them all you can then let them live or turn them into pieces of meat afterwards.
+
+
+===1.64: detailed changelog===
+ [Additional main quest content]
+* Event on F37. Placed Vessel on F38. F39 is inaccessible for now.
+
+ [New item]
+* Present
+** If thrown at a hostile NPC or the player, it deals chaos damage dependent on the player's Will and Magic Device.
+** Throwing it will deal no weight-dependent damage.
+** If thrown at a non-hostile NPC, it will heal an amount of HP that is dependent on the target's and the player's Will attributes.
+** Is not consumed by throwing. Can be obtained by updating the game, or by wishing.
+
+ [New feat]
+* Knowledge of magical plants
+** Grants Misteltein special action.
+** Grants Violent Garden special action upon level up when Gardening is 30 or above.
+** Grants Aromageddon special action upon level up when Gardening is 60 or above.
+
+ [New special action]
+* Misteltein
+** Deals Throwing skill-dependent damage to the target's mana.
+** There are a couple of things that make this different from other mana damage-dealing special actions.
+** If the target is not a unique NPC and Strength is half or more than the user's base Strength, then a Strength debuff dependent on Gardening skill will be applied.
+** If the target is a god-type NPC, then Throwing and Gardening skill-dependent non-elemental damage will be dealt. (Reduced by the target's Gardening skill.)
+** Gives a little Throwing and Gardening skill experience to the user.
+** Replaces Nether Arrow in Kumiromi's repertoire of moves.
+
+* Violent Garden
+** Wide special action. Deals Gardening and Learning-dependent poison-element damage to hostile characters in sight.
+** The strength of the status ailment dealt is fixed.
+** Targets that are not already afflicted by Bind will have 3 turns of Bind applied to them.
+** Gives Gardening skill experience to the user.
+** Replaces Nether Arrow in Insane Kumiromi's repertoire of moves.
+
+* Aromageddon
+** Wide special action. Activation will expend 1 essential oil in the inventory.
+** Affects all hostile and allied characters in sight including the user.
+** Gauge of affected allies will be increased by 15% and their MP will be recovered by an amount dependent on the user's Gardening's skill.
+** A Gardening skill-dependent speed debuff will be applied on hostile targets that are non-unique NPCs and have a Speed attribute that is half of the user's Speed or more.
+
+ [New NPCs]
+* curse wood king
+** Level 153 ent. Curse, Violent Garden. Uncontroll on low health.
+
+* dragon tree
+** Level 131 ent. Float bit flag. Power Breath, Poison Breath.
+
+* tree incarnation
+** Level 114 ent. Temper bit flag. Misteltein, Lightning Bolt. Heal Critical on low health.
+
+* erlkonig
+** Level 96 ent. Eye of Illusion, Mist of Darkness, Darkness Bolt.
+
+* banyan monster
+** Level 44 ent. Squeeze, Drain Blood.
+
+* skogsra
+** Level 29 ent. Bewitch, Draw Shadow, Touch of Weakness.
+
+ [New evolutions]
+* Fire ent evolves into maple dragon tree with another heart. Ice ent evolves into snow dragon tree with another heart. Both of these evolutions will grant the float bit flag. The attributes that are increased by evolution will differ for them.
+
+
+===1.63: detailed changelog===
+
+ [Additional main quest content]
+* Placed the below mentioned Alfred on F34. Generates with half health and is Unconscious by default. If Lankata was killed, he will automatically recover from unconsciousness and you can talk to him. Otherwise, you will have to bash him to talk to him. You will be able to progress in the main quest even if you ignore him.
+** The main quest branches are as follows:
+**# If you talk to Alfred with Lankata killed -> Alfred will be placed in Amur-Cage after the conversation.
+**# If you talk to Alfred without killing Lankata and without killing all 4 of the undead bosses -> Alfred will be placed in Amur-Cage after the conversation. Lankata will be moved from F25 to F34 if not dead, and will naturally resurrect with time on F34 when killed.
+**# If you talk to Alfred without killing Lankata but have killed all 4 of the undead bosses -> Alfred and Lankata both move to the Shrine of Guardian after the conversation.
+**# If you go to the next floor without talking to Alfred -> Alfred dies when you use the stairs, and will be placed in Amur-Cage. When reentering F34, Lankata will be moved to that floor from F25 if not dead, and will naturally resurrect with time on F34 when killed.
+**# If Alfred dies before the conversation -> when reentering F34, Lankata will be moved to that floor from F25 if not dead, and will naturally resurrect with time on F34 when killed.
+** #3 is the only scenario where both of them get to live, but no matter which you pick there won't be any difference in the items that you can obtain or anything. Just pick the one that suits your character the best.
+
+* Cutscene on F35.
+* Placed <Aile> the attendant on F36.
+* F37 is inaccessible for now.
+* The Cradle of Chaos has 40 floors in total.
+
+ [New NPCs]
+* <Alfred> the cangnan wind
+** Level 174 elea. Cure of Jua on low health. Shadow Step, Feather, Shield Parry, Magic Storm.
+* konigs katze
+** Level 151 behicle. AI prioritizes movement. Rocket Fire. 
+* zoibo
+** Level 121 behicle. Shadow Step, Voracity Fang. Is a warrior, but is equipped with claws and has Marksman skill.
+* buildion
+** Level 106 behicle. Draw Shadow, Smash Ground, Hero, Attribution Shield. Is a warmage, but comes with claws equipped.
+* ride cleric
+** Level 66 behicle. Suitable for riding. Crystal Spear, Holy Shield.
+* Xeren auto tank
+** Level 35 behicle. Doesn't have any special actions.
+* large bike
+** Level 16 behicle. Neutral. Suitable for riding. Doesn't have any special actions.
+
+ [New item]
+* <Guliwelzen>
+** Unique battle axe artifact. Is equipped by the aforementioned Alfred.
+
+ [New feats]
+* Zin-ba
+** NB: pun on "one with the steed".
+** With this, accuracy penalty for weapons weighing 4s or more is reduced from
+*** (Weapon weight - 3.6) * 1000 / (10 + Riding skill / 5) to
+*** (Weapon weight up to 10s - 3.9) * 1000 / (100 + Riding skill * 2).
+** In addition to the above, the negative accuracy modifier while riding will also be reduced from
+*** 100 / (150 - Riding / 2, min. 115, max. 150) to
+*** 100 / (150 - Riding / 2, min. 105, max. 125).
+** The accuracy penalty for weapons weighing 4s or more equipped on the steed is also reduced from
+*** (Weapon weight - 3.6) * 1000 / (10 + Strength / 10) to
+*** (Weapon weight up to 10s - 3.9) * 1000 / (100 + Strength).
+** The negative accuracy modifier for the steed while riding will be reduced from
+*** 100 / (150 - Strength / 2, min. 115, max. 150) to
+*** 100 / (150 - Strength / 2, min. 105, max. 125).
+
+* Sexy Dance
+** NB: Reads "Gravity Control" in Japanese.
+** Replaces the Tough feats. Gives the Gravity Accel special action.
+** Will give Gravity Sphere special action when leveling up with 60 or more Constitution.
+** Will also give the Giga Gravitation special action when leveling up with 100 or more Constitution.
+
+ [New special actions]
+* Gravity Accel
+** Applies a buff of the same name to all allies (including the user) in visual range. When activated, targets will gain +20 turns of Gravity status ailment. While active, affected targets will not activate traps, nor step into puddles, nor fall into wells even though they are afflicted by Gravity. Physical damage dealt is increased by 10%, and physical damage received is reduced by 5%.
+** Speed increases with the number of turns of Gravity status ailment, capped at 1/2 of the target's original speed or 300, whichever is lower.
+** While the buff is active, the "you generate gravity" ether disease symptom is negated.
+** Gravity status ailment from Gravity special action lasts for +50 to 99 turns which is longer, so you may find Gravity Accel better when used in conjunction with the [Gravity special action].
+** In essence, this reduces the negative effects of Gravity on allies and also applies positive effects to it.
+** Gravity status ailment will still completely negate Greater Evasion though.
+
+* Giga Gravitation
+** Applies +30 turns of Gravity status ailment to all enemies in visual range and +1 turn of Bind.
+** Deals magic-element damage dependent on the user's Constitution and Magic Capacity skill level.
+** Damage is multiplied by 1.5x if the target's Gravity status ailment has 50-99 turns remaining.
+** Damage is multiplied by 2x if the target's Gravity status ailment has 100-149 turns remaining.
+** Damage is multiplied by 2.5x if the target's Gravity status ailment has 150-199 turns remaining.
+** Damage is multiplied by 3x if the target's Gravity status ailment has 200 or more turns remaining.
+** This special action is a lot more powerful when used in conjunction with the Gravity special action.
+** Gives Magic Capacity experience after using.
+
+* Hyper Dash
+** Learned during level up if Riding skill is 80 or above.
+** Nothing happens if used while not riding/being ridden.
+** Effect is applied to the player if used by the steed the player is riding, or if used by the pet riding the player.
+** If used by the player when the player is not riding, the below mentioned effects do not occur.
+** The character controlling movement (or the tag partner of an NPC) will be able to displace enemies from their tile with this buff.
+** When the player is under the effect of this buff, a melee attack will not occur when moving in the direction of an enemy and the enemy will get displaced.
+** Shadow Step and Distance Attack can still be used. Select the appropriate option from the 'i'nteract menu to use melee attacks.
+** Be aware that NPCs will not attempt to push away an enemy standing between them and their target.
+** Inflicts 1 turn of Wince. Damage is reduced by the average of the target's PV + DV + Dexterity.
+** The character controlling movement will gain Riding skill experience. (Also given to the player's steed/rider, and to tag partners of NPCs.)
+** This is basically a hit-and-run attack.
+** Divine cattle and unicorn NPCs from evolution will now have this special action.
+
+ [New gauge attack]
+* Graviton Buster
+** Activated by Gravity Sphere. Destroys wall and floor tiles in a breath area of effect.
+** Targets will gain +50 turns of Gravity status ailment and a Slow debuff that is stronger than that of Gravity Sphere. Damage is not reduced by Feather.
+** Power depends on the average of the user's Constitution and the floor number (max of 2000).
+
+ [New evolution]
+* Large bike will evolve with machine heart into machine storm and learn Hyper Dash.
+
+ [Changes to an existing evolution]
+* Xeren electric tank which was already strong to begin with will no longer evolve. Xeren auto tank added in this version will evolve into Xeren humanoid tank. Attribute increased by evolution has been changed from Magic to Strength. Fire a volley will also be learned. 
+
+
+===1.62: detailed changelog===
+
+ [New items]
+All of these can be harvested from unknown seeds. They also have a low chance of getting randomly generated. If harvested, they will gain a +enchant value from Gardening skill or from the fertilizer bonus.
+
+* tea leaf
+** Will be used in item fusion to craft black tea or green tea in the future.
+* coffee beans
+** When used in item fusion, yields 4 x cups of coffees that are all guaranteed to be blessed and inherit the +enchant value of the coffee beans. The +enchant value increases its sell value. You can use this to roleplay coffeshop.
+* rice
+** When used in item fusion, yields 10 x rice balls that are unblessed but inherit the +enchant value of the rice. It's an early game food that will not train attributes, but the +enchant value will recover SP.
+* bannou mugi
+** (NB: multi-purpose wheat)
+** When used in item fusion, yields 2 x bottles of beer and 2 x bottles of whiskey, all of which a guaranteed to be blessed, as well as 2 x sacks of flour and 2 x raw noodles that are unblessed but inherit the +enchant value of the bannou mugi.
+
+ [New special actions]
+* Shield Parry
+** Learned upon level up if Shield skill is 35 or above and shield bash feat has been acquired.
+** Applies a buff of the same name to all allies in sight who have a shield equipped in a hand when used.
+** Will give a (DV total of shields equipped in hands + 5, does not include tonfas/claws)% chance of evading physical attacks. Is calculated separately from the normal evasion. This % chance has a minimum of 0, and maximum of 15. (This means that the lighter shields are better than heavy shields in this respect, and there will be no need to use multiple shields as 1 will suffice.)
+** If a melee attack is evaded with the above calculation or with a regular evade/greater evasion while the buff is active, 2 turns of Invert status ailment (NB: "stagger") will be applied to the attacker.
+** (Remote attacking opponents will be Inverted, but ranged attackers will not and will only be evaded.)
+** Physical damage on characters affected by Invert will be multiplied by 1.75 times.
+** High DV shield-wielding characters can now be damage support.
+
+* Golden Storm
+** Learned upon level up if Investing skill is 50 or above. (Is a 'W'ide special action.)
+** An attack that tosses 200gp at each enemy in sight. Tosses up to 10 times. Gold pieces cannot be retrieved.
+** Gold amount cannot be adjusted because that would make balancing this special action difficult. Too bad, really.
+** Damage depends on Investing and Throwing skill levels. This really is a spike damage special action for Throwing characters.
+** Damage is reduced by target's PV, equipment skill, and Dexterity. Won't work well against opponents that have a lot of defence.
+** Yacatect will use this for both of her forms when her health is down to 50% or less, with the probability of her using it depending on the amount of gold [that she has].
+** More literal bang for your bucks.
+
+* Rocket Fire
+** Same effect as the panzerfaust X item, except damage is reduced by the target's PV, DV, Constitution, and armour skill. If gauge is insufficient, it turns into a regular ranged attack.
+
+* Nuclear Fire
+** Same effect as the atomic launcher item, except damage is reduced by the target's PV, DV, Constitution, and armour skill. If gauge is insufficient, it turns into a regular ranged attack.
+
+ [New gauge attack]
+* GHAND
+** (NB: expends 100% gauge.)
+** Power depends on the average value of Will and Magic. Has no effect other than damage, but damage is easy to scale up. 
+** Hand-type special action -> (Resolution Hand if you have it; NB: it actually says Palm of Derangement?) -> GHAND would be how attacks are usually chained, but if the Blue Spirit is equipped, only GHAND will be used after selecting the hand-type special action. This increases damage dealt and also allows you to attack distant enemies.
+
+ [Seasoning for prepping food]
+* Any of the seasoning items will increase corpse quality by +1. It uses the same variable as the counter for rubbing livestock on the ranch, so the number of seasoning items used on them is the number of times you won't have to rub them. There might not be a point in doing that though.
+* All of them will deal a large amount of damage to snail race characters.
+
+
+===1.61: detailed changelog===
+
+ [Additional main quest content]
+* Mid-boss battle in F30 of the Cradle of Chaos, but you can ignore it and go down the stairs if it's too much trouble. Future events will change a lot depending on whether you killed all four unitdead NPCs on the floor.
+* Cutscene on F31. Halion and Miros will get placed in Ruoza after that. Miros will disappear from Kurualm.
+* Arma on F32.
+* Cutscene on F33. F34 is inaccessible for now.
+
+ [New items]
+* b-jerky
+** Part two of eating legendary monsters is the jerky of the Byakhee!
+** Dropped occasionally by the king in yellow. Gives speed experience when eaten. Will not cause insanity.
+** What's great about this is that unlike raw shoes, you can feed them to your pets.
+** Part three will be roast Shantaks.
+* hanabi
+** A purely aesthetic item that is rarely randomly generated. One is guaranteed to be at the Ludus summer festival.
+** Colour of the effect and where it occurs is random. Can be used on the world map or indoors (consider remodeling your home before that).
+** This is for the people who had work or are forever alone and couldn't go to a fireworks display - enjoy the fireworks in Irva with your pets, at least?
+** Let me know if you find a better sound effect for it.
+* Necromantis
+** Unique scythe artifact. Using it causes undead to fuse. Music tickets can be exchanged for it in Act II.
+
+ [Undead fusion]
+* Use the Necromantis, select the type of fusion desired, expend 25% gauge, and the undead gets summoned.
+* Undead that were subject to fusion will become coffins with 1 hour cooldown.
+* The various Necro Force powers will have an effect, but the [fused undead] cannot be put into a coffin.
+* Fused undead cannot leave the map they are created in, so it's a good idea to use them only when fighting a strong enemy.
+* Undeadgod race NPCs have high attributes and have no weakness to fire so they should prove useful. Remember that they don't have the usual resistance bonuses that undead have though.
+
+ [New NPCs]
+* <Halion> the extremist
+** Level 20 elea. Has temper bit flag. Potion throwing 1, Nether Arrow, Rampage. On low health, Heal Critical.
+
+The following characters do not spawn naturally. They are either created by the Necromantis, or spawn in an Act III mid-boss battle. Keep that in mind if you're looking to raise them as pets. In the future, they will appear in the Void after clearing Act III.
+
+* unitdead-king
+** Undeadgod. Unaffected by equipment attribute that deals massive damage to gods. Rotten corpse. Super Regene on low health. Uses Shadow Step, Squeeze, Boost.
+* unitdead-queen
+** Undeadgod. Unaffected by equipment attribute that deals massive damage to gods. Rotten corpse. Super Regene on low health. Psychic Wave, Gravity Sphere.
+* unitdead-jack
+** Undeadgod. Unaffected by equipment attribute that deals massive damage to gods. MP Breath on low health. Nether Breath, Voracity Fang, Draw Shadow, Swarm, Megid Flame.
+* unitdead-joker
+** Undeadgod. Unaffected by equipment attribute that deals massive damage to gods. Rotten corpse. Cure of Jua on low health. Provoke, Short Teleport, Alchemical Rain, Ice Bolt, Lightning Bolt, Slow. Over-Ray when gauge is sufficient. (When NPCs use Alchemical Rain, it will only make targets wet, but they will remain wet for longer.)
+
+ [New special actions]
+* Abyss in the eye
+** Gained during level up if the Magic Eye feat has been acquired and Magic is 60 or above.
+** Gives the user and all pets in sight with a buff of the same name.
+** Gauge absorption is fixed at 2%, and HP, MP absorption will depend on the user's Magic.
+* Cowering Smile
+** Gained during level up if Gentle Face feat has been acquired and Will is 80 or above.
+** All characters excluding the user in sight will get afflicted by 3 turns of Atrophy and Chills. (Which works out to 0.45 times damage dealt for the afflicted characters.)
+** Has no effect on characters already affected by Atrophy or Chills.
+* Smile Field
+** Gained during level up if Gentle Face feat has been acquired and Will is 40 or above.
+** Uses Space Retention on the user, and all targets in sight will get buffed with Concentration.
+** Strength of buffs will depend on the number of targets and the user's Will.
+** If there are no enemies around that use physical attacks then it may be worth using it even if enemies are in sight.
+** It makes enemies proc criticals more often so it works well in combination with Emergency Evasion.
+
+
+===1.60: detailed changelog===
+
+ [More physical intimacy]
+* If a pet is at Friend status or above, the player has Action points remaining, and Happiness is not at max, then the [evochat] option will appear in the conversation window.
+** When that option is selected, the ambient SFXes like the chattering in town will temporarily be turned off.
+** Picking 'Be kind': +1. Chance of an additional +1 depends on impress.
+** Picking 'To embarrass': no change. But if they tend to be passive/obedient due to use of the tamer's whip, then there is a chance of gaining +2, [with the chance dependent on the servant/master relationship].
+** Give 100,000gp: +1. Roll for random number up to the target's current gold amount - if result is below 100,000, give an additional +1.
+** Every action taken other than ending it will reduce Action points by 1. And to be honest, it's going to be very boring if the pet does not have their atmosphere (full body portraits) set. Evochat is short for evoled chat.
+
+ [New NPCs]
+* heroyeek
+** Level 155 yeek. Uses Draw Shadow, Hero, Slow.
+* lunatyeek
+** Level 131 yeek. Eye of Insanity, Insult, Mind Bolt.
+* master archayeek
+** Level 106 yeek. Water Bolt, Dark Eye, Summon Yeek, Bound in Blood. On low health, Cure of Jua.
+* archayeek gunner
+** Level 78 yeek. Homing Lazer, Provoke.
+* archayeek
+** Level 56 yeek. Shadow Step, Smash Ground.
+* yeek hard worker
+** Level 30 yeek. Has a high chance of using collected power, Disturbance.
+
+ [New items] - Purely for roleplaying smoking characters
+* In the future, they may be targetable in the 4 cardinal directions to cause a gauge increase or come with withdrawal symptoms.
+
+* suigara - [NB: cigarette butt] Generated at your feet after using a cigarette.
+* kiseru - Generated randomly.
+* tobacco pipe - Generated randomly.
+* hamaki - [NB: cigar] Generated randomly.
+* cigarette - Generated randomly.
+* tobacco - Generated randomly. Also harvestable from unknown seed crops.
+
+ [New item fusion recipes]
+* tobacco processing - crafts cigarette, hamaki, tobacco pipe, and kiseru.
+
+ [New 'W'ide' special action]
+* Resolution Hand
+** Gained during level up if Touch of Poison or Touch of Sleep feat has been acquired and Alchemy skill is 20 or above.
+** When used, it gives a buff to all allies (including the user) in sight that has the same name.
+** [With the buff,] Touch of Weakness, Touch of Hunger, Touch of Poison, Touch of Nerve, Touch of Fear, and Touch of Sleep will now deal damage to the target, with amount of damage depending on Alchemy skill and Magic attribute. Damage is reduced by the target's Constitution.
+** If the target's health is determined to be less than 1/8 of maximum (this does not include the farmer's bonus), then it will invoke something similar to decapitation and deal lethal damage and give the user a small amount of a random material. Targets on a sandbag do not yield materials.
+
+ [New spell page on the character sheet]
+* The spells are basically the same as skills. However, they don't recover much potential when bonus points are spent on them because potential will recover if you do nothing anyway. It's also because not much potential is recovered at high potential. You would probably want to use this to bring spell levels to the point where they are just about to level up before attending magic practice.
+
+ [New AP feat for pets]
+* Change attack to arrow magic
+** For when you want to make pets with melee/ranged AI attack with only spells instead. (And also if you like dart-type spells.)
+
+
+===1.59: detailed changelog===
+
+ [Additional main quest content]
+* Placed Neres (listed below) and <Melget> the informer on F27 of the Cradle of Chaos. They do not revive when killed.
+** Cutscene on F28. Larnneire, Lomias, and Rianna get placed in Ulm-Leson after the event.
+** Placed Shuraida and mercenary NPCs on F29. They do not revive when killed.
+** F30 is inaccessible for now.
+
+ [New NPCs]
+* <Ryutye> the amnesiac
+** Level 2 mazin. Will rarely use Space retention.
+* <Neres> the amnesiac
+** Level 169 imp. Temper bit flag. Shadow Step, Insult, Clash Rush, and only when in melee range, Smash Ground. Spawns equipped with the Zugaikurai listed below.
+* <Rianna> the daydreamer
+** Level 18 norland. Her class displayed is Handyman, but she's actually a thief. Has an extremely low chance of using Browbeat. Has a low chance of using Tag Force if gauge is 50% or above whether she's in a tag team or not.
+* hellstling
+** Level 150 quickling. Not suitable for riding. Nether resistance. Class displayed is assassin, but is really a thief. Mist of Darkness. Blade Strings when in melee range.
+* stormbling
+** Level 106 quickling. Not suitable for riding.  Chaos resistance. Eye of Mana, Nether Breath. Uses Blade Turbulence if the target is not bleeding.
+* grass killer
+** Level 81 quickling. Not suitable for riding and has cImmune bit flag. Corpse has no effect. Prioritizes movement. Shining Wave. Occasionally uses Suicide Attack.
+* grass dancer
+** Level 49 quickling. Not suitable for riding and has cImmune bit flag. Corpse has no effect. Moves randomly. Eye of Illusion. Occasionally uses Fascination Dance.
+
+ [New item]
+* <Zugaikurai>
+** Precious artifact hammer. Randomly generated in high-level areas.
+
+ [New special action]
+* Extermination Breath
+** Is basically Variable Breath, but does additional fixed damage depending on Control Magic skill, and affects a much, much larger area. It's still a breath attack though, so Charge Attack and equipment attributes that enhance breath attacks will affect it. Learned by the player during level up if the fire-breathing feat has been acquired, Constitution is 80 or above, and Control Magic is 40 or above.
+
+ [Magic practice]
+* Sorcier practice [Attack spells] (NB: sic) - gives experience to dart- and bolt-type attack spells.
+* Warlock practice [Advanced attack spells] - gives experience to ball-type attack spells and to Meteor.
+* Enchanter practice [Buff spells] - gives experience to buff and debuff spells.
+* Healer practice [Healing spells] - gives experience to healing, resurrection, and uncurse spells.
+* Shaman practice [Special spells] - gives experience to spells related to nature and to the divine, like summoning spells, spells with tile-lingering effects, Oracle, and Domination.
+* Mage practice [Detection spells] - gives experience to spells related to movement and knowledge of the surroundings, such as teleport and revealing spells.
+** NB: The descriptions in the [brackets] are present in the Japanese language version, but not in English.
+** I've tried to have an equal number of spells in each category and to make each category make sense. Course titles are more or less flavour text for role-playing purposes. Cost depends on the level of the spells in that category with a lower limit of 5 and upper limit of 15. 
+** This is to make it easier to become a spell-caster in early game, as well as to alleviate the problem where spell levels don't increase unless the player spams them.
+** The amount of spell experience given is fixed, so it's best to attend the practice with high potential in as many spells in that category as you can.
+** There is no chance of bonus experience from Learning attribute. Of course, if you don't know the spell, then it won't have any effect.
+** I considered a system where spells are leveled using an item that is randomly generated in dungeons, but that meant that physical-attack classes would master spells at the same rate as mages. That lead to the creation of this system, where spells basically compete with combat skills in resources. The cost of practices and the amount of experience given is subject to balancing.
+
+ [New pregnancies]
+* sunbararian -> sunbararian
+* giant eater flower -> man eater flower
+* heqet -> musical notadpole
+* camouflaged imp -> camouflaged imp
+
+
+===1.58: detailed changelog===
+
+ [Additional main quest content]
+* Mid-boss battle on F25 of Cradle of Chaos. There will be a lot of regular monsters (with the Cradle's level boost). On top of that, if the <Lankata> listed below is alive, enemies map-wide will occasionally be buffed by Cheer and those with gauge below 50% will gain 10% gauge. This should make it pretty difficult, but you don't really have to defeat the enemies. The staircase is unlocked, so you can just make a beeline for F26 without killing anything. If you defeat <Lankata> here, he will be marked as defeated, and that will change the events that occur in the future. (That said, it won't affect what items you'll get or anything like that.) When defeated, the zanan enhanced soldier and lothrian agent listed below will be placed in Amur-Cage. There will be a cutscene on F26. F27 is inaccessible for now.
+
+ [New NPCs]
+* zanan enhanced soldier
+** Level 152 zanan. Squeeze. Draw Shadow. On low health, Super Regene.
+** Is not randomly generated.
+* zanan old soldier
+** Level 113 zanan. Shadow Step. When MP is sufficient and target's gauge is above 50%, uses Pressure.
+* killer nurse
+** Level 61 zanan.
+* <Lankata> the lightning of blue
+** Level 168 elea. Mist of Dazzling, melee wait, and rarely Fire a volley. Healing Rain on low health.
+* lothrian agent
+** Level 122 elea. Slow. On low health, Cure of Jua.
+** Is not randomly generated.
+* dark elea
+** Level 78 elea. Gravity Sphere, Mist of Darkness, Nightmare, Darkness Bolt, Chaos Eye. On low health, Heal Critical.
+
+ [New items]
+* soup of wonderland
+** When eaten, height becomes the average of current height and 150 cm, and weight becomes the average of current weight and 40kg.
+** Blessed, cursed soup has the same effects. This item is for people would like to return their bodies to a somewhat more human form.
+** Dropped by little girl upon death. Is also rarely randomly generated.
+
+* <Dokuro-Mikaduki>
+** Artifact skull bow. Randomly generated.
+
+* <Heltiarre>
+** Artifact short bow. Equipped by the aforementioned Lankata.
+
+ [New equipment attribute]
+* It enchances your throwing rock.
+** Staves may come with this attribute. Equipping multiple of these will have no additional effect.
+** Each of the distance multipliers gets +05 to it, and when attacking, the pierce will increase to 70%.
+** When an attack affected by this attribute lands, it will have a dull sound effect.
+** Stones were weak, had no additional effects, and you had to go through a lot of trouble just to change their material, so this is a buff just for it.
+** The drawback is that the attribute appears only on melee weapons. This does not affect the power of rocks thrown at a poor performer.
+** As for why staves, one explanation is that you can use the long staff as a bat, the whip as a slingshot, or the staff as a slingstaff/lacrosse stick to fling rocks at enemies.
+** It should be fairly reasonable, because in real-life history, slings were a rather formidable weapon capable of inflicting lethal injuries against armored opponents, and had a longer effective distance than bows. It is not a joke weapon.
+** Feel free to use it to roleplay a shepherd, or change the sprite and roleplay some ball sport.
+
+
+===1.57: detailed changelog===
+
+ [Shop types]
+* the goods shop. Default. Works the same as previous versions.
+* the food shop. Will sell only food items. Final selling price has x 2 modifier.
+* the magic shop. Will sell only scrolls, spellbooks, and rods. Final selling price has x 2.5 modifier.
+* the blacksmith. Will sell only equipment. Final selling price has x 2 modifier.
+* the inn shop. Will sell only containers and potions. Final selling price has x 3 modifier.
+
+The default shop has a 1/8 chance of cancelling the sale of an item. The food shop and the rest of the new shop types, however, do not have this chance of cancelling. Number of items sold remains random.
+
+
+===1.56: detailed changelog===
+
+ [Expanded main quest]
+* Placed <Manytia> (see below) in F20 of Cradle of Chaos. Will resurrect in a day on this floor if he dies.
+* F21 event.
+* Placed <Mary> the insect master, <Shell King of Vindale>, and <Aribel> (if she exists in the library) on F22.
+* F23 event.
+* Placed <Kuroya> on F24, as well as <Belphat> if you have already met him.
+* F25 isn't done yet, so you won't be able to enter it.
+
+ [New NPCs]
+* <Manytia> the adventure merchant
+** Level 152 dwarf. Shadow step. On low health, Zero shoot.
+* dark dome
+** Level 161 shell. Floats. Acid Ground, Shadow Step, Gravity Sphere.
+* <Shell King of Vindale>
+** Level 150 shell. Friendly NPC. Dark eye, Touch of Weakness, Touch of Nerve. On low health, Healing Rain.
+* death maneki
+** Level 140 shell. Death Song, Multiple Gather.
+* king woodlouse
+** Level 107 shell. Forms swarms. Eye of Mana, Magic Dart. Will rarely use Bound in Blood.
+* aroma-locaris
+** Level 90 shell. Voracity Fang, Squeeze. Females will drop essential oil.
+* snipe hermit
+** Level 54 shell. Brings inner peace when eaten.
+
+ [New evolutions]
+* homeless crab evolved from hermit crab will now evolve with another heart into landlord crab, gains cArmor bit flag.
+
+ [New artifact]
+* <AA-12 Advance>
+** Equipped by the aforementioned <Manytia>.
+
+ [Changes to feats and new special actions]
+* Strings Assassin
+** Replaces detection-type feats.
+** Grants the special action Blade Strings.
+** Target the skill in one of the four directions.
+** If target is not self, deals damage dependent on Tactics and Dexterity.
+** Usage gives Tactics experience. Damage is reduced by target's PV and Constitution.
+** If target's HP is less than 1/9 of max, then invoke Decapitation.
+** If target is under the effect of Bind, then deal bleed damage depending on Tactics skill.
+** If target is self, then a wire trap is set at that position.
+** Placing and removing wire traps will not give any experience to Disarm Trap.
+** Wire traps will deal damage depending on the floor you are on and on the target's Speed.
+** That damage is reduced by PV, and floating characters will not set them off.
+** Traps disappear after being set off once.
+** This may not be the trap battle system I said I was going to make.
+
+* Dancing Wire special action.
+** If you have the above Strings feat and 40 or more Tactics, you will learn this at your next level up.
+** Causes 3 turns of Bind and Draw Shadow.
+
+* Magic Eye
+** New feat. Grants Eye of Mana.
+
+* Eye of Illusion special action
+** If you have the Magic Eye feat above and 20 or more Control Magic, you will learn this at your next level up.
+** Deals mind damage depending on Magic and Will stats.
+
+* Eye of Stiffen special action
+** Deals nerve damage depending on Magic and Will stats, and will also increase the target's defence.
+** The increase in defence lasts for 3 turns.
+** Reduction of defence by Pulverization, melee weapon and the equipment attributes on them, and panzerfaust X will overwrite this increase in defence. (Overwrite, not negate!)
+** This special action has its drawbacks, but it deals enough damage and the status effects have enough power to make up for it.
+
+ [Changes to AI]
+* medusa will now use Magic Dart, Eye of Stiffen, melee wait, and maintain a distance of 2.
+* euryale will now use Eye of Illusion.
+* stheno will now use Eye of dimness.
+* cockatrice will now use Eye of Stiffen instead of Touch of Nerve. Maintains distance of 3.
+
+ [New gauge attack]
+* Mind Break
+** Deals nerve and mind damage dependent on enchant level of equipment and Magic and Will stats.
+** Also deals MP damage.
+** Also increases target's sanity by the same amount as Eye of Insanity.
+** Also causes the same amount of Dim as Eye of dimness.
+** Also causes the target to vomit.
+** Unique NPCs and characters immune to dim will be unaffected by dim and insanity.
+
+ [Randomness of additional melee/ranged attacks]
+* Before this version, extra attacks proced when strength of the equipment attribute > a random number between 0-99 + modifier.
+* In this version, extra attacks will now proc if 2 * equipment attribute strength + 1 > a random number between 0-99 + modifier.
+* The probability that an extra attack will proc increases with the equipment attribute strength and approaches 100%, but it will never be 100%.
+* The equipment attribute is also multiplied by 2 in the calculation now, so you will see more extra attacks even with low level equipment attributes.
+* By the way, warrior and gunner classes have +5 to the chance of doing the first extra attack.
+
+ [Changes affecting only the English version - an *unofficial* list]
+* Silent Ocean flavour text changed from "You're all alone." to "An expanse of ocean and fog spreads out."
+* <Siraha> the black cloth renamed as <Kuron> the black cloth, <Kuron> the white cloth renamed as <Siraha> the white cloth.
+* Changes made to sex and forbidden meat?
+* Changes to the message displayed when rod/scroll of uncursed is used.
+* Yith Rank enemy encounters are now named as such instead of being a duplicate Dragon Rank.
+* The second Apocalypse ancient book has been renamed as True Apocalypse.
+* Changes to juice, milk, and coffee item naming convention and grammar?
+* "You have no gag reflex." in the profile has been changed to "Your jokes are terrible.".
+
+
+===1.55: detailed changelog===
+
+[New Act III sub quest]
+* Clear it just by talking to the NPC from 14:30 - 14:59 on the indicated day.
+* Only the darkness staff will be awarded when clearing the quest for the first time.
+* From the second time onwards, the quest reward changes depending on the time you talk to her:
+** 14:30 - 14:39 to receive the jewel tear of god for darkness bolt invoke
+** 14:40 - 14:49 to receive the jewel tear of god for elemental scar invoke 
+** 14:50 - 14:59 to receive the jewel tear of god that increases spell power
+* She tell you to come back "in a moment" but will actually ask you to come in a month, because a month's time is but a moment for a god who has lived for about a million years.
+
+[Changes to how Urcaguary's reward is given]
+* The reward now changes depending on the time the quest is completed.
+** 0:00 - 5:59 to receive the jewel tear of god for Gravity Sphere invoke
+** 6:00 - 11:59 to receive the jewel tear of god that deals magic damage
+** 12:00 - 17:59 to receive the jewel tear of god for absolute piercing attack
+** 18:00 - 23:59 to receive the jewel tear of god for the remote blow enchant
+
+[New artifact]
+* Elements Eyes	
+** Choose an element from a list and applies it to all allies within sight.
+** That element will then be treated as if it had the highest resist value. There will be no change in the actual resistance.
+** The number of ways it can be used are limited, but depending on the situation, it could be quite powerful if you change elements and inflict their respective status effects.
+** The effect wears off from everyone after sleep (it is unaffected by the sleep status effect).
+** While it is in effect, it won't return to your attribute's element.
+** (After waking up, using the attributes again will return it to your original element.)
+** NB: Typo here? "Using the Elements Eyes again"?
+** It's coloured to look like one of the items that you can use to transform yourself like in the TV shows.
+** The original design was kind of gross, and was pretty disgusting when you looked at it a little more closely.
+** I might add more skills that are affected by this later on.
+
+[New characters]
+* sea fallen angel	
+** level 158 seamonster. Float, invisible.
+** Gravity Sphere, Power Breath, Psychic Wave, Eye of Insanity.
+* nine dart garfish	
+** level 139 seamonster. Float, Clash Rush.
+* orcinus orca	
+** level 128 seamonster. Float. Player-homing AI.
+** Shadow Step, Voracity Fang, Nether Breath
+* manta rayarn	
+** level 100 seamonster. Float, neutral.
+** Web, Lightning Bolt.
+* flower coral	
+** level 90 seamonster. Neutral. Does not move even in combat.
+** Random colour. Silent Ocean, Draw Shadow, Melee idle
+** NB: Melee idle is move ID -3. Does melee attack if target is range=1, else nothing. I don't know the english name for this. This seems to be a feature from vanilla elona.
+* abysstar
+** level 70 seamonster. Water Bolt, Provoke.
+* flight fish
+** level 40 seamonster. Float. Shadow Step, Suspicious Hand, Scavenge.
+* gunfish	
+** level 15 seamonster. Float. Short Teleport.
+
+[New evolution pattern]
+* Gunfish evolves to zap gunfish with machine heart, learns Fire a volley.
+
+[Adjustment to NPC adventurers' starting level, fame, and hiring fee]
+* Limited starting level to 250. Made the increase in hiring fee less steep, and made it cap at 99999 gp.
+* Made it easier to meet them and reduced the number of times you have to hire them to make it more practical to make them your ally.
+
+[Expansion of werewolf voting system]
+* The number of votes is slightly random, but more votes will go to NPCs that you have determined to be a werewolf via conversation or that are currently hostile.
+* If there are no NPCs that are alive and have at least 1 vote, the execution will not take place.
+* Executions will do 44444 damage, so it is possible for an NPC to survive it.
+* This is different from the executions that were in game in that your fame will not rise, but items will drop.
+* If there are no werewolf attacks, then voting will not occur.
+* So if you are after NPC drops, then you may want play such that no harm comes to the werewolves.
+* When it is time to vote, you can buy the revival of right to vote with authority points.
+** This is under the "Policy implementation" option in town management.
+
+[Feat changes and new special abilities]
+* Uncontrollable power
+** Replaces the arm-wresting feats. Gives the special action Uncontroll.
+** I probably don't need to explain this, but how this works is that if you don't already have the buff when using Uncontroll, you will gain the buff and a status effect.
+** If you already have the buff, it will use either Shadow Step and Swarm depending on your distance to the enemy.
+** It uses more sp than those actions by themselves, but Fury+Swarm would be ridiculous in early-game.
+
+* Jiu-jitsu
+** Replaces the martial arts feats. Gives the special action Vindalian Jiu-jitsu.
+** When used, Vindalian Jiu-jitsu switches you between Jiu-jitsu and normal mode.
+** In Jiu-jitsu mode, the text for martial arts usage will be changed to throws, and the enemy's defence will use depend on their DV and Light Armor skill.
+** The effect of Squeeze will change. Damage will depend on Dexterity and the Martial Arts skill, and will also Bind the enemy for 1 extra turn, but the user will also be under the effect of Bind for 1 turn.
+** There's more to martial arts roleplaying than physical blows.
+** Characters that will now use Vindalian Jiu-jitsu:
+*** <Mary> the insect master
+*** ultimate golem
+*** <Arma> the tour guide
+** The above NPCs have a chance to switch to Jiu-jitsu mode if the enemy's PV is higher than the DV by 100.
+** If the enemy's DV>PV by 100, then there is a chance that these NPCs will disable Jiu-jitsu mode.
+
+* Sexy Dance
+** Replaces the sexy feats. Gives (W)ide special action Fascination Dance.
+** Fascination Dance causes 4 turns to pass, after which the user's Charisma will be rolled against the Will of each enemy in sight.
+** It will not work against blinded, sleeping, and unconscious characters, undead summoned via necromancy, and bored characters.
+** If the roll succeeds, it inflicts 1 turn of paralysis.
+** This is the AOE and vulnerable version of Bewitch that also prevents the enemy's gauge from increasing.
+** If used during Party Time!, it will take 2/3 of the number of turns performing takes, and award you with more points than performing, but you will receive less money and no items.
+** Characters that will now use Fascination Dance:
+*** butterspy
+*** soul bee (evolved wasp)
+*** pixie
+*** <Karavika>
+*** necro dancer
+*** NB: soul bee may not be the actual name
+
+
+===1.54: detailed changelog===
+
+[New magic]
+* Water Bolt
+** Bolt spell without an element. Has a spellbook. Damage + wet status. Clears map effects within its area of effect.
+** <Abyss Princess> now uses this spell instead of Crystal Spear.
+* Bubble Storm
+** Ball spell without an element. Has a corresponding stave (which cannot be crafted). Damage + wet status. Clears map effects within its area of effect.
+** basatan now uses this spell instead of Ice Ball.
+
+[New (W)ide special actions]
+* Silent Ocean
+** Converts a large area of tiles (up to but not including ID 350) into water panels. Clears map effects within its area of effect.
+** Characters within its area of effect will also be inflicted with Mist of Silence with a set spell power. Characters not floating or under the effects of Gravity will be inflicted with Wet status.
+
+* Dimensional Fishing
+** Prerequisite: Level up with 30 or more Fishing skill.
+** Draw a hostile enemy on the map to you, and gives Fishing exp.
+** Requires neither fishing rod nor bait. It will work even if you are surrounded by walls.
+** The order in which NPCs will be drawn towards you is set, and will not change even if you load a save.
+** As long as the NPC who has been drawn to you with Dimensional Fishing is still alive, the next NPC may not be drawn.
+** This is basically Draw Shadow that ignores your range of sight, so it will fail if the target cannot teleport.
+** Useful for killing the targets one at a time, or when you can't find the enemy during a hunting quest.
+
+[New items]
+* atomic launcher
+** Aim it at the cell you want to fire it into and use it. Its power depends on Marksman, Carpentry, and Disarm Trap skill levels.
+** It ignores defence, but if the three skills above are at low level, it won't be any better than a nuke.
+** This will be considered an attack, so it will cause karma loss and Barrier feat activation.
+** It is not affected by Magic Control, but shooting it at the very limit of its range (which is out of sight) will prevent the user from taking damage.
+** It will not cause the karma loss that is intrinsic to nuke usage, and will not count towards completion of Noel's quest, but it will count towards the nuke counter in the journal.
+** Unlike the Cat's Cradle (the regular nuke), it will also destroy all wall tiles within its area of effect. Good for when you need breathing space.
+** Is not generated randomly. The only way to obtain it is through item fusion.
+
+* M202 special
+** Aim it at the cell you want to fire it into and use it. Its power depends on Marksman, Endurance, and fire resistance.
+** It sets a larger area on fire than the Fire Wall spell, and the fires will last longer.
+** The user will not be damaged by it. After the damage calculation, the target is afflicted by a short duration of Element Scar.
+** You can put it to good use when hunting undead or as a debuffing tool... or you could go nuts with it and burn everything down. Like Fire Wall, it will not be affected by magatama.
+** Generated rarely.
+
+* panzerfaust X
+** If no target is selected, it will select one automatically and fire.
+** Single-target damage that depends on Marksman and Perception.
+** The target's PV will be lowered for 3 of the target's turns, and recover by 100 per turn.
+** It ignores cMetal and cArmour bit flags.
+** Generated rarely.
+
+* <Sasanqua Sickle>
+** Precious chain sickle.
+** The Kunoichi below will carry it.
+** Trades damage for invokes and accuracy.
+
+* gasoline
+** When drunk by or dowsed on a character, causes confusion (of lower strength than a potion of confusion) and a long-lasting duration of Oil status. Works with Alchemical Rain. Randomly generated.
+
+* essential oil
+** When drunk by or dowsed on a character, causes confusion (of even lower strength than gasoline) and a short-lasting duration of Oil status. Works with Alchemical Rain. Rarely randomly generated.
+** Might be used in aroma therapy in the future.
+
+[Changes to the repertoire of potions for the three ThrowPotion special actions]
+* actThrowPotionMinor: blind, confusion, paralysis, sleep, beer
+* actThrowPotionMajor: silence, slow, gasoline, weaken resistance, whiskey
+* actThrowPotionGreater: sulfuric, aqua sanctio, disaster, crim ale
+
+[New character]
+* <Fashionable Kunoichi>
+** Level 165 Norland. Hmm, a fashionable kunoichi... who could this be?
+** Is a warmage, but will display as a ninja. Thunder vortex, Speed, and Distant Attack 7.
+** NB: This will say Distant Attack in-game, but it's a misnomer.
+
+[Changes to existing unique NPCs]
+* <Getuei>the ninja master
+** No longer use decapitation. Will use Shadow Step, Blade Turbulence, and Struck Out instead.
+
+[Additions to the main quest]
+* F17 Cradle of Chaos event.
+* If sub quest: Rule of Ninja has been completed, the <Fashionable Kunoichi> above and <Getuei> (neutral, has starting level of 140, and is visible) will be placed on F18 of the Cradle. They will both revive in a day on this floor. If the quest has not been completed, F18 will be empty.
+* F19 event. The player will not be able to enter F20 yet.
+
+
+===1.53: detailed changelog===
+
+ [New evolution]
+* imp, nether imp, chaos imp evolve with the king heart into great imp, and learn Magic Equip. Speed increase depends on the original pet. Shines.
+
+ [New special ability]
+* Bound in Blood
+** Allies that are of the same race as the user will experience the effects listed below. The user will bleed severely.
+** Gives Speed, Hero, and Attribution Shield depending on the Will of the target. Has less of an effect on the player.
+** If gauge is less than 50%, then increase it by at most 30% depending on the target's gauge.
+
+* MP Breath
+** Use 25% gauge and 50% of current MP. Will not activate if MP is less than 50% of maximum MP.
+** The effect will be coloured with the colour of the element that the user has the highest resistance against, but the breath itself is of magic element.
+** It has the same power as Power Breath, but adds the value of the expended MP to the damage.
+** It is unaffected by the enchant that enhances breath attacks or by Charge Attack.
+** It destroys walls and floor tiles in its area of effect. (The attack will pierce walls.)
+** Player learns this upon level up if the Fire Breath feat has been learned and unbuffed Constitution and Magic are 60 or greater.
+
+
+ [Changes to existing unique NPCs]
+* MP Breath and graphic changes will affect existing NPCs. Other changes will affect only newly-generated NPCs.
+
+* <Roatonis> the infections
+** Will use Necro Force and summon undead monsters (zombies).
+* <Lazasye> the destroy
+** Will no longer use Houzanha, and will use MP Breath instead.
+* <Mobile Communication Equipment>
+** Appearance changed. Changed to gunner class.
+** Loses the cArmour bit flag and Charge Attack, gains Lightning Breath.
+* <chestnut giant>
+** Uses Clash Rush.
+
+ [New characters]
+* <Saimef> the doggod
+** Level 150 doggod. Is a god. Ice Ball, Eye of Mana, Nether Breath.
+** Cure of Jua at low health.
+* sepa
+** Level 159 worm. Poison Breath, Mist of Darkness, Nether Wave, Attribution Shield.
+** Some chance of obtaining poison resistance when eaten.
+* bind devil worm
+** Level 118 worm. Squeeze, Voracity Fang, Touch of Weakness, Chaos Breath.
+* grand leech
+** Level 79 worm. Eye of Ether, Gravity Sphere, Drain Blood.
+* tentacle worm
+** Level 35 worm. Squeeze, Rubbing, Draw Shadow.
+* performaid bitchiack
+** Level 162 imp. Magic Kiss, Bewitch, Eye of brainwashing, Magic Dart, Provoke.
+** When gauge and MP are full, MP Breath.
+* performaid pinchief
+** Level 138 imp. Slow, Mist of Dazzling, Lightning Bolt.
+** Will rarely use Summon chaos (to summon the three performaids below) and Healing Rain.
+* performaid cocruel
+** Level 125 imp. Shadow Step, Eye of Insanity. Also has Cooking skill.
+* performaid desweeper
+** Level 112 imp. Nerve Arrow, Mist of Silence, Crystal Spear, Death Word.
+** When gauge is full, may rarely use Over-Ray.
+* performaid bloodress
+** Level 85 imp. Shadow Step, Insult. Rarely uses Bound in Blood.
+* demon's commander
+** Level 44 imp. Eye of brainwashing, Shadow Step, Teleport.
+** Corpse gives magic exp. Floats.
+
+ [Added cannon-fodder enemies to mid-boss battle.]
+* Added yerles mortar and metal zilla to <Mobile Communication Equipment> battle.
+* Added bind devil worm to <Egelveil> the bind battle.
+
+ [Expanded main quest]
+* The player can proceed to F16 of the Cradle of Chaos after speaking to Norne on F15.
+* Made the dialogue complement the story thus far, and added foreshadowing.
+* Placed <Saimef> the doggod on F16. Talk to him to receive an artifact, and <Saimef> will bleed. Defeating him will give you nothing, and he will resurrect on that floor in a day.
+
+
+===1.52: detailed changelog===
+
+ [New evolution]
+* harpy evolves with another heart to flare chick and learns Super Regene. (Used only when HP is below 50%.)
+* If a magic heart is then used, it will further evolve into phoenixian and acquire fire resistance.
+* puppy, pumpkin, greater pumpkin, and halloween nightmare evolve with king heart to necro chimera and learn Bind. Colour will change and speed will increase depending on the original monster.
+* mandrake evolves to swordmandrake with another heart, learns Shining Wave.
+
+ [New special abilities]
+* Blade Turbulence
+** Bleed damage to all enemies in sight, dependent on Magic Control. Bleed strength depends on the difference in initial speed between the user and the target.
+** Lulwy (outer, inner) will now use this.
+* Death Song
+** Everyone within sight will be inflicted with Death Word, dependent on the user's Magic, and resisted with the targets' sound resistance. Characters already inflicted with Death Word are exempt.
+** The user will not roll for resist, and will thus be afflicted by Death Word.
+* Homing Lazer
+** Magic damage to all enemies in sight, dependent on Marksman and Perception.
+** Damage is split amongst all enemies, so amount of damage will depend on the number of enemies.
+** <Mobile Communication Equipment> will now use this.
+** It's to give it that gun*** feel to it. You know, like funnel missiles, multi-round missile launch systems, homing lasers...?
+* The above three are (W)ide special abilities.
+* Clash Rush
+** Shadow Step, with 100% critical rate and 100% pierce. 50% of the damage dealt is then deducted from the user's HP. The user will not die even if brings the user's health into the negative. If gauge is less than 25%, it will just be a Shadow Step.
+** destroy boar will now use this instead of Charge Attack.
+* Data Delete
+** No effect yet. Might become a stupidly powerful move in the future.
+
+ [New NPCs]
+* vampkin
+** Level 153 mandrake. Undead. Invisible.
+** Short Teleport, Drain Blood, Eye of brainwashing, Ice Bolt, Mind Bolt, Greater Potion Throw.
+** Guaranteed to give mind resistance when eaten.
+* nin-ninzin
+** Level 119 mandrake. Shadow Step, Fire Breath, Struck Out.
+* cucumber warrior
+** Level 80 mandrake. Clash Rush, Rampage.
+* cucumber horse
+** Level 63 mandrake. Suitable for riding. Draw Shadow, Zero Shoot.
+* zap mandrake
+** Level 43 mandrake. Touch of Nerve, Raging Roar. Has same effect as mandrake when eaten.
+* memory empty man
+** Level 15 karune.
+* devotee of oblivion
+** Level 15 elea. Mind Bolt.
+* mad scratcher
+** Level 20 zanan. On the verge of hostile. Run Wildly on low health. Eye of Insanity.
+* <Maile> the marionette shaman
+** Level 50 servant. God. Heal Critical on low health. Eye of brainwashing, Data Delete.
+* dhwty
+** Level 168 harpy. God. Homing Lazer, Shadow Step.
+* alkonost
+** Level 141 harpy. Death Song, Nether Wave, Raging Roar, Short Teleport.
+* black wing
+** Level 101 harpy. Clash Rush, Blade Turbulence, Shadow Step.
+* mayu sibayu
+** Level 45 harpy. Blade Turbulence, Magic Storm, Insult. On low health, Close Suicide.
+
+ [Artifact buffed]
+* <Amulet of Yekub>
+** Increased Mana and Will bonus, added sleep resistance.
+
+ [New South Tyris location]
+* the Oblivion Palace
+** 4 small medals.
+** Insane book gives a hint about its location, but can be entered without obtaining the book.
+** Talk to <Maile> the marionette shaman to access the functions listed below, but sanity will increase.
+** The system messages that appear are just flavor text, so don't pay them any mind.
+** Reset deepest dungeon floor cleared
+*** Reset dungeon floor cleared if it's too high.
+*** It won't become 0, and will depend on how far along the main quest you are.
+** Quit guilds
+*** Mostly for roleplaying. The only way to make your character not belong to any guild after joining one.
+** Forget profile
+*** Entirely for roleplaying. Change the 1st and 2nd lines of your profile. Special 2nd line is available here.
+** Reset innocence/wickedness
+*** Mostly for roleplaying. The only way to remove the innocent/wicked karma feats from using the secret treasures. Karma will not be reset.
+** Reset ally's impression, master/servant, and marriage status
+*** Allies marked as precious will not appear in the list.
+
+
+===1.51: detailed changelog===
+
+ [Fixed timing of tester placement]
+* Made the tester appear in Amur-Cage after talking to <Regulus>/<Renai> at the border.
+* An additional tester will be placed there after the event finishes, even if there is already one on the map.
+* There are multiple infected yerles soldier there too, so what's the difference a tester or two is going to make?
+
+ [New NPCs]
+* draco eques
+** Level 160 lizardman. Shining Wave, Gravity Sphere.
+* blizzard lizard
+** Level 134 lizardman. Ice Ball, Crystal Spear.
+* claymore dragonewt
+** Level 110 lizardman. Shadow Step, Provoke.
+* assassin lizard
+** Level 68 lizard. Invisible. Space retention.
+* black lizardman
+** Level 45 lizardman. Insult, Poison Breath.
+* lizard mage
+** Level 22 lizardman. Heal Critical on low health.
+* <Belphat> the cosmic sword
+** Level 170 yith. Shadow Step, Swarm, Attribution Shield, Mind Breath. Cure of Eris on low health.
+
+ [Expanded main quest]
+* Placed <Marka> on F14 of the Cradle of Chaos. Will not respawn here after dying.
+* F15 is a floor that is randomly generated every time it is entered. Placed <Norne> and <Belphat> here. Defeating them will yield neither AP nor items.
+* <MesheraÅ@plant> has been made to not give AP nor items until the Ether blaster is obtained.
+* You will be able to take <Belphat> along with you after talking to him. (Works just like <Poppy>)
+* Taking him along with you just once will set off the trigger to let you proceed along the main quest.
+* But you won't be able to go to F16 just yet.
+* Talk to <Kuroya> at the Dock when you have <Belphat> with you to receive a reward, and <Belphat> will leave your party to be placed on the Dock.
+
+ [New item]
+* <Amulet of Yekub>
+** The reward for the above quest. Neckace, but cannot be offered to <Yacatect>.
+* rod of magic laser
+** Casts Crystal Spear. Craftable with 35 Carpentry.
+* rod of poison ball
+** Casts Poison Storm. Craftable with 22 Carpentry.
+
+ [Child Zeder artifact]
+* Name changed to <Lucky Almonds>, removed cold resistance, added some dark resist. Added enchants that increase luck and enhances breath.
+* Made it more obvious that this weapon's design was not based off **cky or *** sticks.
+
+ [New special abilities]
+* Dupli-Cane
+** Learned during level up when Alchemy is 30 or more.
+** Use it to turn it on or off. Does not use a turn.
+** When on, zapping attack rods will not reduce their number of charges.
+** Their power will be approximately halved, and 3 SP will be spent.
+** Rods were hard to use as a main weapon due to their reliance on charges, and this is to fix that.
+
+* Lock Break
+** Learned during level up when Lock Picking is 60 or more.
+** Works on chests, gamble chests, and safes.
+** Use half of the sum of the Strength and Lockpicking of all allies (including the player) within sight to attempt to open the chest. skeleton key does not increase chance of success.
+** When the lock is successfully opened, there will be one less item in the chest or the safe.
+
+ [New evolution]
+* lizard man and lizard mage evolve with king heart to lizard majesty and learn Shadow rush.
+
+ [Changes to statue of Opatos]
+* In previous versions, diastrophisms on a continent did not overwrite all random dungeons on it.
+* statue of Opatos will now rewrite all dungeons, even the ones that have been entered but have yet to be cleared. 1/4 of the value of the deepest dungeon cleared will be used for generating dungeons, and the regional multiplier will be 2, so dungeon levels should not be in the extremes as much now.
+
+
+===1.50: detailed changelog===
+
+ [Expanded main quest]
+* Event on F11 of Cradle of Chaos.
+* Placed <Spipha> on F12. She will not resurrect here after dying once.
+* Event on F13 of Cradle of Chaos. You won't be able to proceed to F14 yet.
+
+ [New NPCs]
+* <Renai> the over meshera
+** Level 162 bacteria.
+** Uses remote blow, Psychic Wave, Super Regene, and so on.
+** Has Run Wildly, and portrait and sprite will change when she uses it.
+** Will be placed on North Tyris south border after F13 Cradle event.
+** Insanity when eaten.
+
+* fairy the shining
+** Level 168 fairy. May give magic resistance when eaten.
+** Sprite shines. Uses Greater Throw Potions and Mist of Dazzling.
+** Uses Healing Rain on low health.
+
+* yousei gorath
+** Level 135 fairy. Homing AI. Burning graphical effect.
+** Uses Close Suicide. Corpse is super heavy.
+
+* peri
+** Level 110 fairy. May give magic resistance when eaten.
+** Cure of Jua on low health.
+
+* gigantic fairy
+** Level 88 fairy. Uses Suspicious Hand, drops gold pieces on death.
+
+* pixie
+** Level 42 fairy. Invisible.
+
+ [New item]
+* researcher's diary
+** Received from <Regulus> after F13 Cradle event. Cannot be wished for.
+** If you have this item and talk to <Loyter> after Nightmare quest is cleared, he will make a comment about it.
+** You won't receive anything from him though.
+
+ [New evolution]
+* fairy will evolve with god heart into magna fairy. Learns Magic Equip.
+
+
+===1.49: detailed changelog===
+
+ [Behaviour of unconscious NPCs]
+* They won't catch pickpocket attempts. (They won't hear a loud noise and wake up like when they're sleeping.)
+* They will wake up Muddled when bashed. (Like when sleep was interrupted.)
+* You won't be able to talk to them.
+* If it's a pet, they will recover to a Muddled state and eat when a picnic basket is used.
+* Cannot be handed items.
+* Will not respond to performances, preaching.
+* Will not take part in Shadow rush, Fire a volley, and Over-Ray.
+
+ [Behaviour when gauge is 101 - 200%]
+* When gauge is below 100%, received damage will not bring it above 96%. When gauge is above 101%, received damage will not bring it above 196%.
+* Unique NPCs who are not pets will not use their gauge when they have more than half of their health. When their health is less than 50%, they will use gauge attacks even if their gauge is below 200%. Allies will not conserve their gauge if they are set to Onslaught mode.
+* The eight gods and that snail NPC will not conserve their gauge and will use the special action unique to them.
+* Gauge will not decrease when it is 200% or 100%. When it is 101 - 199%, it will decrease by 1% every turn.
+* When a gauge attack is activated at 200% gauge, an extra melee attack or an attack from the second weapon will activate another gauge attack in the same turn.
+* Failing that, any attack done during time stop will activate that second gauge attack. This makes it easier to defeat enemies that heal. (Enemies can also use this against you.)
+
+ [New NPCs]
+* fallen angel
+** Level 139 angel. Eye of brainwashing. Insult on low health.
+* cupid inspector
+** Level 122 angel. God. Rubbing. Healing Rain on low health.
+* apprentice angel
+** Level 28 angel. Neutral. Eye of Mana.
+
+ [New evolutions]
+* cupid of love evolves with king heart to lord cupid, learns Fire a volley.
+* apprentice angel evolves with magic heart to angel astray, learns Over-Ray.
+
+ [New items]
+* deed of palace
+** Generated where you can find deed of homes. An upgrade from a small castle. Like the small castle, comes with shopkeepers.
+* first aid kit
+** Heals user or an adjacent target. You can heal any NPC, even those who are not allies. Heal amount depends on player's Dexterity and Gene engineer.
+** More important than its ability to heal is its ability to shorten negative status effects. If and when applicable, it reduces negative status effects to 1/8 + 1 turns (rounded down).
+** It's a healing method for people who don't even want to depend on magic devices.
+** Somewhat troublesome to craft in early game, but still possible.
+* special ammos box
+** Replenishes special ammo of user or an adjacent target. For people who find it too troublesome to carry multiple ammos and always end up using normal ammunition.
+** Craftable.
+
+ [New special actions]
+* Over Long Throw
+** Change range multiplier for Throwing to 02-02-08-08-09-09-10-10 for range 1-8 respectively during that turn, and execute a Throwing attack.
+** This can be the trigger for a gauge attack, and the triggered gauge attack will also use the aforementioned range multipliers.
+** This may not be used with Struck Out (another Throwing special action) at the same time.
+** Learned during level up when Throwing skill is 50 or above.
+
+ [Modification of coffin of necromancy with monster parts]
+* Recipe name: necro remodel
+* Summoned undead will have +5 levels, and have additional skills and stuff depending on the monster part added.
+<br />
+* card: becomes coffin of necromancy-Shion. Undead takes on the appearance of that NPC but with a light purple tinge.
+* figure: becomes coffin of necromancy-Deceive. Undead takes on the appearance of that NPC with a white tinge. (i.e. will not be coloured any hue.)
+* bone: becomes coffin of necromancy-Aggressive. Bonus to Tactics skill.
+* heart: becomes coffin of necromancy-Tough. Bonus to Constitution.
+* eye: becomes coffin of necromancy-Control. Bonus to Control Magic skill.
+* blood: becomes coffin of necromancy-Drench. Bonus to Swimming skill.
+* skin: becomes coffin of necromancy-Refractory. Bonus to fire resistance.
+<br />
+* There can be only one additional effect. If a coffin has already been remodeled, the new effect will overwrite the older one. The effect remains even if the undead dies or is returned to its coffin. 
+* You can make the undead specialize as meat shields or as attackers.
+* Or you can be a psycho and enjoy letting them wear the skin of that girl you like.
+* Or you could also make an undead wear someone's skin and make them attack a particular person...
+
+
+===1.48: detailed changelog===
+
+ [MCQ minigame]
+* Score is (60 - elapsed time) * correct answers. Lower limit is 0.
+* 35 possible questions, and order of answers change every time.
+* High score will be recorded in the journal. (This won't appear until you begin Act III.)
+* There aren't any questions that are so difficult that even I don't know the answer to... but you might not do too well if your memory isn't that good.
+* That said, if you want to get a really good score what you need is good reflexes.
+* You'll win a prize of 2 pp for a score of 200 or more. (Subject to change.)
+
+ [Damage done by 3rd melee weapon and onwards]
+* The 3rd weapon does 60% damage, the 4th does 36%, and so on, getting multiplied 0.6 each time.
+* That still means you would be more powerful the more weapons you have, but it should make having other body parts instead of hands a viable option.
+
+ [New sub quest]
+* [Insect curse]
+** Recommended level changed to 40.
+** Deliver three items to <Mary> to clear it.
+** Then give potion (listed in journal) to <Alice>.
+** Report to <Mary>. If <Alice> is dead, she'll be surprised and the quest will not proceed. Otherwise, you'll receive the reward and the quest is cleared.
+** Talk to <Alice>.
+** Revisit the sacred library to find <Aribel> there.
+
+ [New NPCs]
+* <Aribel> the white arms
+** Level 159 norland. Uses Body Blow, melee idle, and so on.
+** NB: melee idle is move ID -3.
+* arch wraith
+** Level 133 ghost. Invisible. Nether Wave, Magic Kiss, etc.
+* legion mage
+** Level 78 ghost. Forms swarms. Uses five types of arrow spells.
+* seiashin
+** Level 153 frog. Death Word, Run Wildly.
+* salamander
+** Level 129 frog. Power Breath, Fire Breath.
+* nuou
+** Level 108 frog. Touch of Nerve, Smash Ground, BakuretuKen.
+* musical notadpole
+** Level 55 frog. Raging Roar, Voracity Fang, Shining Wave.
+* poison arrow frog
+** Level 18 frog. Poisonous corpse.
+
+ [New items]
+* <Cestus of Meteors>
+** Equipped on aforementioned <Aribel> when she spawns.
+* Taktstock
+** Randomly generated. Sets an enemy in sight as the target.
+** Works even on friendly non-pet NPCs. Also increases gauge by 5%.
+** Does not work on blind or brainwashed characters, and characters who do not have that enemy in sight.
+** Using this will take one turn.
+
+ [New evolutions]
+* ghost evolves with king heart to ghost princess, learns Cheer.
+* nymph evolves with magic heart to loreley, learns Platinum Song. (Has a lower chance to use it than kinnara.)
+* flying frog and poison arrow frog evolve with another heart to frognrolla, learns Platinum Song. (Also has lower chance to use it than kinnara.)
+* NB: kinnara is the evolved goose servant pet. I don't know the English name for it.
+* ambystoma evolves with evolution heart to salamander.
+
+
+===1.47: detailed changelog===
+
+ [Details on the implemented effects]
+* Subject to change.
+* <Dumbbell of Opatos>
+** Effect of training machine is multiplied by 10. (It's affected by probability, so I'm referring to the expected value.) By the time you obtain this, your attributes might be high enough that they don't increase even with this item if your potential is low.
+* <Amulet of Jure>
+** Probability that player will get sick becomes 1/64.
+** Or to be more precise, there is a 63/64 chance that the player recovers from sickness immediately after getting sick.
+* <Candle of Luluwy>
+** When master/servant value increases, impress also increases.
+** Depending on the options you pick and their current impress, forced sleep sharing can have a net increase in impress.
+* <Very pistol of Mani>
+** Having this in your inventory will allow you to give allies directives during battle even if they are out of sight. Directives will also not consume a turn.
+* <Glasses of Yacatect>
+** Having this in your inventory will allow you to see decimal values of the main attributes (except luck), their potential, and their bonuses (from equipment and such).
+** You will be able to track your attributes as well.
+* <Bookmark of Itzpalt>
+** Having this in your inventory and reading a skill book will set its cooldown to 1/12. (4 hours) You won't be able to read skill books continuously in normal weather, but even then you'll gain 5 times as much experience in the same time compared to reading the books in bad weather.
+** Great for reading skill books every now and then.
+* <Mug of Ehekatl>
+** When the player drinks from a well (and from toilets and fountains), status effects, pregnancy, monster summoning, changes to attributes, and mutation events will no longer occur. Instead, it'll just say "Phew, fresh water tastes good."
+** If you're afraid of getting mutations and attribute loss in end-game, then this is for you.
+* <Scissors of Kumiromi>
+** It removes the chance that a new seedling will not grow after harvesting crops, independent of your Gardening skill. This means that if your Gardening level is high enough, a new seedling is guarenteed to grow after harvest as long as it's not an artifact seed.
+
+ [New NPCs]
+* Sylph
+** Level 130 ghost. Uses Voracity Fang, Draw Shadow, etc.
+** Not randomly generated. The only time they will appear is during Lulwy's Summon chaos.
+** (Lulwy has been made to use Summon chaos.)
+** "I've teared the former servant limb from limb to feed the sylphs."
+* <13th step ghost>
+** Base level 66 ghost.
+** Not randomly generated. 1/130 chance of being generated when going upstairs to a floor with a floor number of 66 or greater. This is a repeatable event. They start at 3/4th the level of the floor. Guaranteed to drop an upstairs item.
+** On some days they do not have a chance to appear, so you won't bump into them on those days, even if you reload the save file over and over again.
+** Uses Psychic Wave, Nether Wave, etc.
+** A dastardly monster that attacks adventurers who escape to the floor above after they have been worn down by monsters in the floor below.
+
+ [New (W)ide special actions]
+* Psychic Wave
+** Bind enemies in sight for 1 turn and deal 1.5 to 2 times the user's level in unmitigatable damage.
+** Used by the <13th step ghost> above, and <Nine Head Dragon> the abyss will now use this as well.
+* Reading Party
+** Learned by player upon level up when unbuffed Learning is 40 or greater.
+** Takes average of Literacy and Memorization skill levels of all allies in range and adds it to the player's, then use this value for reading. (Bonus skill level contribution from each pet is capped at 1/5+3 of the player's skill levels).
+** Completely negates negative effects of reading failures and stops reading, but number of turns it takes to read is slightly increased.
+** When reading is successful, allies gain Literacy experience.
+** When reading spellbooks successfully, allies will also gain Memorization experience depending on the difficulty of the spellbook.
+** They will gain no experience if the reading fails.
+** This is the reading version of Ensemble.
+
+
+===1.46: detailed changelog===
+
+ [duel glove effects]
+* A thrown duel glove will have an effect and begin the duel only if the target is in a state where he can be talked to normally, and is not affected by Sleep, Paralyzed, Blinded, Dim, nor Fear.
+* If not, the duel will not begin, and the thrown glove will be on the ground.
+* During the duel, the map cannot be exited from the sides nor from stairs,
+* nor by moving to another map with a Sub Quest, to the arena, with Return, with Escape, nor to the showroom
+* nor can you begin a duel with another NPC.
+* Incognito/disguise will also have no effect.
+* (Please report loopholes if you find any.)
+* The duel ends when the player or the opponent is dead.
+* It also ends when you are Forced drafted by a guard, forced out of the Island in madness in Act III, when the job quest timer runs out, or forcibly removed from the map via any other means.
+* If the duel opponent is a god, remanding them will also end the duel.
+* Duel opponents will drop 1/4 of their money (except shopkeepers), and their card and figure are guaranteed to drop.
+* All miracle-level and above equipment will also drop. (Except for precious items that have been set to not drop.)
+* This allows you to strip adventurers of all their belongings. That is, if you can win against them.
+
+ [Increase in number of items for sale depending on trade goods sold]
+* For every 3000 gp of items sold, the number of items generated for sale will increase by 1.
+* The items for sale are not pre-determined, and is determined only when you talk to the trader, and the number wil also accumulate.
+* Depending on how much is invested, you can temporarily exceed the cap in number of items for sale.
+* For your sanity, please don't aim for the 20-item limit. This is just so that the trader will have a few more items to offer for sale for your convenience.
+* Traders don't have that much money in the beginning anyway.
+* Of course, you can still calculate the optimal trade good to put in your cart given its carrying capacity, or you can mix in the goods that you crafted yourself, or use this to manage the amount of money you carry around.
+
+ [Handmade gift event when waking up from sleep]
+* Conditions for crafting items are listed below.
+* Tailoring skill-dependent
+** gloves
+** tight boots - cannot be crafted below skill level 10
+** coat - cannot be crafted below skill level 20
+** magic hat - cannot be crafted below skill level 30
+** charm - cannot be crafted below skill level 40
+** cloak - cannot be crafted below skill level 50
+** decorated gloves - cannot be crafted below skill level 60
+** pope robe - cannot be crafted below skill level 70
+** bulletproof jacket - cannot be crafted below skill level 80
+** fairy hat - cannot be crafted below skill level 90
+<br />
+* Carpentry skill-dependent
+** round shield
+** knight helm - cannot be crafted below skill level 10
+** neck guard - cannot be crafted below skill level 20
+** plate girdle - cannot be crafted below skill level 30
+** chain mail - cannot be crafted below skill level 40
+** armored boots - cannot be crafted below skill level 50
+** tower shield - cannot be crafted below skill level 60
+** composite helm - cannot be crafted below skill level 70
+** plate gauntlets - cannot be crafted below skill level 80
+** plate mail - cannot be crafted below skill level 90
+<br />
+* Items made are all miracle-quality, with a player's luck + impress x 2 chance of being godly-quality.
+* Items made are also blessed. By the power of love!
+* When you first get a pet to Soul Mate status, you probably haven't been able to gear any of them up properly yet. And shortly after that it should be raining miracle-quality equipment, so this should be fairly balanced.
+* By the way, what the pet will say will change if their Dexterity is 100 or above.
+
+ [New evolutions]
+* rabbit evolves with magic heart to red-eyes w.rabbit, learns Time Stop.
+* Only female rabbits are able to evolve with another heart to sylbunny and learn Cheer.
+* These two evolutions are mutually exclusive - you won't be able to get both on the same rabbit.
+
+ [Adjustments made to the boss added in 1.45]
+* Constitution changed. Made equipment in shoot slot a grenade, and changed Mind Breath to Nerve Breath.
+
+ [Details on new map and sub quest]
+* Abode of witch. Located east of the Truce Ground near where the snow begins.
+* <Ssil> (see below) here gives a sub quest.
+* Rewards given out for each stage of the quest are kneaded sweets of witch (see below) and other consumable items; the latter will differ for each stage.
+* 10 stages have been added.
+
+ [Details on the new NPCs]
+* <Ssil> the undead witch
+** Equipped with <Blood rod>. Her age is "unknown" no matter how much time passes.
+
+ [New items]
+* <Blood rod>
+** Has a unique enchant that "change mana to attack power."
+** When attacking with 20 or more MP, 0.5% of current MP is added to the weapon dice roll (With a limit of 200).
+** Current MP will then decrease by 5%.
+** That means that if your MP is 40k or more, you will expend 2000 MP to attack, theoretically making this the strongest weapon.
+** How useful this w ill be depends on you.
+* kneaded sweets of witch
+** Target is fully healed, but is rendered Unconscious. Is a potion and can be used with Alchemical Rain.
+** You can use this on strong enemies to buy time to for Charge Attack or to run away, or use this in conjunction with Vernis Original to heal your pets in a pinch.
+** Or you could also get really turned on by unconscious NPCs covered in a sticky fluid.
+<br />
+* The items below have not had their effects implemented yet:
+** <Dumbbell of Opatos> - guaranteed to drop from <Urcaguary>
+** <Amulet of Jure> - guaranteed to drop from <Rovid>
+** <Candle of Luluwy> - guaranteed to drop from <Arasiel>
+** <Very pistol of Mani> - guaranteed to drop from <Garziem>
+** <Glasses of Yacatect> - guaranteed to drop from <Karavika>
+** <Bookmark of Itzpalt> - guaranteed to drop from <Sophia>
+** <Mug of Ehekatl> - guaranteed to drop from <Sinaha>
+** <Scissors of Kumiromi> - guaranteed to drop from <Amurdad>
+
+ [Fixed the horse master not selling the following NPC]
+* dark horse
+
+ [Fixed the slave master not selling the following NPCs]
+* juere demon soldier
+* sage of Elea
+
+
+===1.45: detailed changelog===
+
+ [Special Lomias scene during tutorial]
+* Something happens if Larnneire is dead when you talk to Lomias and tell him to get out of your house.
+* This scene does not benefit you in any way, and you have to go through a lot of trouble just to be able to see it, but it's something that was already in vanilla Elona. All I did was make it work properly.
+* What was supposed to happen in vanilla Elona was that they would leave the house without dead Larnneire taking part in the conversation.
+
+ [Details on additions to main quest]
+* Mid-boss battle after F10 event in Cradle of Chaos.
+* Map effect lasts until the boss is defeated.
+* Map effect affects all characters including the boss, and inflicts 50 turns of Bind and Space retention around boss.
+* But if there are no Melugast typeM alive, then 94% of the time Bind will last 5 turns instead.
+* Talk to <Gavela> after defeating it to receive a reward, and that will be the end of the additional content added.
+* The furthest you can go is F11. (Time-dependent BGM in F11 and onwards will be different that the one in regular dungeons.)
+
+ [Power of "absorbs MP" equipment attribute]
+* Calculated with strength of enchant and damage before deduction, then subtracted by target's PV.
+* Characters with higher PV will be better off.
+* Mana absorption rate still remains at 20%. So that means that amount of mana the target loses is not the amount absorbed, but mana damage dealt to target is about 5 times mana absorbed.
+
+ [Details on the new NPCs]
+* Melugast typeM
+** Level 132 behicle. Does not spawn naturally. One of these is placed in Melugas after the boss battle. This NPC can be recruited with an astral light pen.
+* <Vessel> the white hawk
+** Level 128 zanan. Shadow Step, Clear Mind. Starts appearing in Party Time! from the middle of Act II in place of <Whom dwell in the vanity>.
+** Does not appear at the beginning of Act III. Becomes level 178 in Act III.
+* <Egelveil> the bind
+** Level 180 imp. Struck Out.
+* dread rabbit
+** Level 156 rabbit. Touch of Fear. Uses the new special ability Multiple Gather to draw characters on the map to itself.
+* iris
+** Level 134 rabbit. Healing Rain on low health.
+* hakutoshin
+** Level 118 rabbit.
+* bunny ghoul
+** Level 90 rabbit. Fawn On, Eye of brainwashing.
+** NB: Fawn On is known as Bewitch as of 1.53.
+* terrorism squirrel
+** Level 48 rabbit. Immune to mines.
+* turtle rabbit
+** Level 25 rabbit. Slow spell.
+* dark raider
+** Level 122 bat.
+* kapapu-kamui
+** Level 99 bat. Neutral. Melee idle.
+* com-bat
+** Level 78 bat. Insult.
+* momotuka
+** Level 54 bat. Squeeze.
+
+ [Details on the new items]
+* NUCLEAR DEAD LION
+** Has same effect as that kitty cradle thing. Can be used for the sub quest.
+** Main differences are that it is light, is made of raw, and is not precious.
+** Dropped from lion and blaze lion.
+** NB: Regular nuke = Cat's Cradle.
+* violent skull sword
+** Stronger version of skull sword. Nether damage dealt is doubled, and does additional magic damage.
+* <Mighty Arms>
+** Awarded in the middle of Act III of the main quest.
+* <The White Hawk>
+** Equipped by aforementioned <Vessel> in the latter half of Act III.
+
+
+===1.44: detailed changelog===
+
+ [Expanded main quest]
+* Added scene that plays after fulfilling <Erystia>'s request and returning to the border (either of the North or South will do) or to Larna.
+* After that, talking to <Gavela> and heading to F8 of Cradle of Chaos will cause another scene to play.
+* You won't be able to descend to F10 just yet.
+
+ [New items]
+* Juice mixer
+** Usable furniture. Neither Cooking skill nor SP is needed for making juice.
+** You can offer this to Mani.
+* juice
+** Worth the same as the item before it was turned into juice.
+** Is a type of potion. Does not rot. Cannot be used for Alchemical Rain.
+** Satiates hunger, though not as much as milk.
+** Gives the same amount of attribute experience as the raw item, and experience gained is unaffected by satiation level.
+** Does not matter if the original item was rotten.
+** But there will also be no bonus from enchant level of the original item.
+** (B)lend juice together to make mix juice.
+** You can also make mix juice by putting herbed food into the Juice mixer, but this mix juice has no herb effect. So there's no merit to doing this.
+** (B)lending it with milk will give the mix milk item. Mix milk has half the effect on height compared to milk. Blending an entire stack of juice with milk will only produce 1 mix milk at a time.
+* milk cofee (sic)
+** Made by (B)lending coffee with milk.
+** Is still a coffee and will remove all sleepiness. But apart from that, it will also have half the effect on height compared to milk.
+** In Japanese, cafe au lait or cafe aulait might be a more common spelling, but I'll just settle for this name to make things consistent.
+<br />
+The items listed below are unobtainable in-game. These items temporarily change your appearance and give different buffs, and are reusable after a cooldown time.
+* alpha shift core
+** Increases Strength and Perception, gives magic reflect.
+* beta shift core
+** Increases Dexterity and Magic, gives magic resistance.
+* gamma shift core
+** Increases Speed and DV, removes speed penalty for having too many limbs.
+* delta shift core
+** Increases Constitution, PV, and heal amount. Increases negated damage.
+** Heal amount is increase by 25%. This includes healing methods such as magic spells, potions, scrolls, and rods. Also affects amount that you heal NPCs for.
+** This works the same as the Priest class feat. If you have that feat, this bonus is added to it.
+* omega shift core
+** Increases Strength, Constitution, Perception, Dexterity, Magic, Speed, and magic resistance.
+** Decrease HP and MP by 1/150 (lower limit 1) every turn.
+** (Even if this brings you down to negative health, you won't die unless you receive damage from something.)
+** Gauge does not decrease every turn.
+
+You can re-transform while a transformation in an effect, allowing you to sort of pull off a multi-stage transformation. However, the buff from the previous transformation will be removed. (You cannot have multiple transformation buffs.)
+
+ [NPCs with sprite changes]
+* rabbit
+* vopal bunny
+* <Ungaga> the minotaur king
+* <Leiki>
+
+ [New NPCs]
+* kyuso
+** Level 125 rat. Space retention.
+* disaster
+** Level 88 rat. Forms swarms. Disturbance, Scavenge. On low health, Fawn On.
+** NB: Fawn On is known as Bewitch in later versions.
+* ham-tairou
+** is a level 28 rat.
+* asterios
+** Level 151 minotaur. Uses Lightning Breath very often.
+* chihyu
+** Level 100 minotaur. Mist of Dazzling, Mist of Darkness.
+* blue bull
+** Level 55 minotaur. cTemper bit flag.
+* cattle
+** Level 8 minotaur. Has same bonus to milk production rate as sheep race.
+** Evolves with god heart to divine cattle, learns Punishment.
+* mastallion
+** Level 154 horse. Males only.
+* dark horse
+** Level 128 horse. Riding bonus. Sold at horse master. Dark-elemental martial arts.
+* red kentaurs knight (NB: seems like name was changed to kentaurs knight)
+** Level 103 horse.
+* ballistallion
+** Level 86 horse. Riding bonus. Sold at horse master. Males only.
+* gunntaurs
+** Level 63 horse. Provoke.
+* kentaurs
+** Level 30 horse. Evolves with evolution heart to silver kentaurs, learns Boost.
+
+ [New evolutions]
+* Aside from the above, child boar evolves to pig boar with another heart, which further evolves with another another heart to big pig.
+
+
+===1.43: detailed changelog===
+
+ [Selectable options when leveling up a living weapon]
+* NB: The following are the actual options followed by their respective translations.
+* Attribute add - Acquire attribute bonuses
+* skill1 add - Acquire attack/healing skill bonuses
+** Eye of Mind, Casting, Two Hand, Dual Wield, Tactics, Marksman, Healing, Meditation, Control Magic
+* Skill2 add - Acquire evasion/defensive skill bonuses
+** Shield, Evasion, Disarm Trap, Heavy Armor, Medium Armor, Light Armor, Stealth, Greater Evasion, Magic Capacity
+* Skill2 add - Acquire crafting/detection skill bonuses
+** Mining, Carpentry, Tailoring, Jeweler, Gardening, Cooking, Anatomy, Fishing, Alchemy, Lock Picking, Detection, Sense Quality
+* Skill2 add - Acquire other skill bonuses
+** Weight Lifting, Pickpocket, Swimming, Literacy, Gene Engineer, Memorization, Faith, Negotiation, Investing, Performing, Riding, Traveling
+
+ [Quality of ranch NPCs]
+* A maximum of one modifier from the meat/skin category and another one from the egg/milk category will be assigned to each NPC bred on the ranch.
+* The modifiers below increase in effect down the list for each of the two lists.
+* Only NPCs bred on the ranch will be affected by them. Some minor changes have also been made to Breeder's Guide.
+* NB: These messages currently do not appear in the English version.
+
+=========================================================================
+* Looks plump with decent meat. (Corpse will always have +enchant bonus.)
+* Looks plump with quality meat. (Corpse will always have +enchant bonus.)
+* Looks plump with succulent meat. (Corpse will always have +enchant bonus.)
+
+* The skin is decent grade. (Skin will always have +enchant bonus.)
+* The skin is of high quality. (Skin will always have +enchant bonus.)
+* The skin looks absolutely luxurious. (Skin will always have +enchant bonus.)
+
+* You just might be able to get more meat. (Might drop 1 extra corpse.)
+* You're likely to get more meat. (Might drop 1 extra corpse.)
+* You're certain that you'll get more meat. (Might drop 1 extra corpse.)
+
+* You just might be able to get more skin. (Might drop 1 extra skin.)
+* You're likely to get more skin. (Might drop 1 extra skin.)
+* You're certain that you'll get more skin. (Might drop 1 extra skin.)
+
+=========================================================================
+* Doesn't look too good at producing milk. (Less likely to generate milk, and generates less milk.)
+* Doesn't look any good at producing milk. (Less likely to generate milk, and generates less milk.)
+* Looks extremely inept at producing milk. (Less likely to generate milk, and generates less milk.)
+
+* Doesn't look too good at laying eggs. (Less likely to generate eggs, and generates less eggs.)
+* Doesn't look any good at laying eggs. (Less likely to generate eggs, and generates less eggs.)
+* Looks extremely inept at laying eggs. (Less likely to generate eggs, and generates less eggs.)
+
+* Looks adept at laying eggs. (More likely to generate eggs, and generates more eggs.)
+* Looks adept at laying many eggs. (More likely to generate eggs, and generates more eggs.)
+* Eggs are coming out of the wazoo! (More likely to generate eggs, and generates more eggs.)
+
+* Looks good at producing milk. (More likely to generate milk, and generates more milk.)
+* Looks good at producing lots of milk. (More likely to generate milk, and generates more milk.)
+* Simply oozing with milk! (More likely to generate milk, and generates more milk.)
+
+ [Forced sleep sharing success determination]
+* Player's Strength is rolled against (Target's HP * 20 / Target's max HP) * (Target's Strength / 2 )
+* (Target's HP * 20 / Target's max HP) has a lower limit of 1.
+* If the former dice (player's strength) is higher, then it succeeds.
+
+ [Master/servant values and showing restraint on items]
+* Newly-generated NPCs begin with 50 in this parameter.
+* Their master/servant value (MSV) is rolled to determine if they will refrain from eating/drinking the item at their feet. If the roll is not 0, they will succeed in restraining their urge.
+* (That means it has a 1 in MSV chance of failing to refrain themselves, and at the maximum of 300 MSV they will have a 1/300 chance of showing restraint.)
+* 300 (limit): *Dog*
+* 250 to 299: Fidelity
+* 200 to 249: Subjection - will not resist during forced sleep sharing
+* 150 to 199: Amenable - will not resist initiation of forced sleep sharing
+* 100 to 149: Docile
+* 0 to 99: Peer
+* -100 to -1: Uninhibited - automatically fails to refrain from eating/drinking item at feet
+* -101 and below: *Cat*
+
+ [New NPCs]
+* spirit of bread
+** Level 105 spirit. Corpse is hard.
+* araonibi
+** Level 162 wisp. Worsens ether disease when eaten.
+* cloudragon
+** Level 141 wisp.
+* moai core
+** Level 158 rock. Corpse is hard.
+* mana monolith
+** Level 136 rock. Corpse is hard. Can escape.
+* claymoai
+** Level 67 rock. Corpse is hard. Immune to mines.
+* grim reaper
+** Level 162 lich.
+* profanity priest
+** Level 111 lich. Rotten meat.
+* mikscxifona
+** Level 66 lich. Rotten meat.
+
+ [New sub quest]
+* Simply bring the aforementioned mana monolith to <Nein>.
+
+ [New evolutions]
+* dark soul (electric cloud, chaos cloud) evolves to chaos cumulonimbus dragon (no english name). Learns Healing Rain.
+* dark soul (wisp) evolves with magic heart to will o-gre (no english name).
+* moai evolves with machine heart to cross moai, learns Fire a volley.
+<br />
+* zombie, executioner, lich, lesser mummy, mummy, greater mummy, curased coffin evolve with magic heart to necro chimera.
+* Attributes gained when evolving depend on what it evolved from.
+
+ [New items]
+* <Sonic Broom>
+** Sub quest reward from <Nein>. Wearing it might make you feel like you're actually riding it?
+* <Pants of Ogre>
+** Rarely dropped from shine ogre, slash ogre, and smash ogre. Is not for throwing, even though it is an undergarment.
+* <Ion Cakram>
+** Rarely equipped by moai core and claymoai. Not a doughnut.
+
+
+===1.42: detailed changelog===
+
+ [Extended main quest]
+* You will be afflicted by low-strength poison and bleed status effects. (Even after the boss is defeated.)
+* Equipment attributes that negate poison or reduce bleeding will work against these effects.
+* The status effects wear off when you leave the quest map.
+
+ [New NPCs]
+* <Shuraida> the expert merc
+** Level 164 karune. Has a makeshift portrait. His precious equipment will not drop upon his death.
+* <Roatonis> the infections
+** Act III event boss. Level 160 imp. Death Word and Eye of Ether.
+* darknesslug
+** Level 151 snail. Mist of Darkness, Darkness Breath, and Attribution Shield.
+* fortressnail
+** Level 133 snail. Has high marksman skill.
+* kamikaze maimai
+** Level 111 snail. Does not use Suicide Attack. Instead, it will use Close Suicide. It will still blow up when Wet, and will not explode when hit. It's still a snail though.
+* acid sea hare
+** Level 86 snail. Will counter attacks with strong acid.
+* magicargot
+** Level 67 snail. May give magic resist sometimes when eaten.
+* big sea hare
+** Will use melee wait (martial arts + range attack) very often.
+* zombie girl
+** Level 40 zombie. Evolutions are listed below.
+* gothic
+** Level 114 zombie. Voracity Fang and Scavenge.
+* requiem
+** Level 135 zombie. Concentration.
+* zombie queen
+** Level 153 zombie. Will use Summon chaos to summon zombies that are 2/3 her level. Number of zombies she can have is capped.
+** Will use the NPC version of Necro Force to expend HP to power them up (10 turns of Hero, Holy Shield, and Contingency).
+** When recruited as a pet, her Necro Force will target zombies from your coffins of necromancy.
+** So if you don't have any zombies, she wastes a lot of her turns and will not prove as useful.
+
+ [New evolutions]
+* snail evolves with another heart to slug and gains a smidgen of speed. It can then be evolved with machine heart to metalslug, gaining cArmor bit flag and learning Emergency Evasion. You know, invincibility frames and stuff. Does not have cMetal bit flag, and salt damage is still not reduced.
+* NB: Possibly referring to the invincibility frames in the metal slug games.
+* zombie girl has a few mutually-exclusive evolutions.
+** It evolves with another heart to stacy, and learns Absolute protect and regeneration.
+** It evolves with magic heart to romanesque, learning Rubbing and Emergency Evasion.
+** It evolves with machine heart to thanatos, learning Swarm and Nether Wave.
+
+ [New items]
+* 4-Dimensional mirror
+** Randomly generated. Activates 4-Dimensional Pocket. Spell level is fixed, so its capacity and weight limit do not increase.
+* large empty basket
+** Used in crafting the item below.
+* large picnic basket
+** Use this to generate a large picnic basket at your feet.
+** Its enchant level will be the average of the cooked dishes used to make it + 3.
+** Recovers attribute potential by enchant value.
+* DD cemetery key
+** As specified in the changelog.
+* <Spadille>
+** Artifact spear. Equipped by <Shuraida> the expert merc.
+** It will not drop even if he dies on the Act 3 event map.
+
+ [New equipment attributes]
+* It decreases enemy chance to deliver critical hits.
+** Greatly lower the enemy's critical chance.
+** May be randomly generated on head, body, and waist equipment.
+
+* It provides an interlocking shooting mechanism.
+** May proc at most once per turn during ranged or melee attack.
+** One piece of equipment will be chosen at random, and if this attribute is on it, it will activate.
+** Deals damage based on damage dealt by regular attacks, Marksman skill, and strength of the equipment attribute.
+** It will also lower the target's evade for 2 turns.
+** May be randomly generated on shields, melee, and back equipment.
+** This is supposed to have the cannon sword or multi-round missile launcher feel to it.
+** This replaces the Marksman skill attribute on <Metal Wing of Vesda>.
+
+* It provides a proximity assist weapon.
+** May proc at most once per turn during ranged or melee attack.
+** One piece of equipment will be chosen at random, and if this attribute is on it, it will activate.
+** Deals damage based on damage dealt by regular attacks, Tactics skill, and strength of the equipment attribute.
+** It will also lower the target's defence for 2 turns.
+** It will not activate if you are not adjacent to the target, but it has a higher damage multiplier than the shooting mechanism attribute described above.
+** May be randomly generated on leg, ranged, and arm equipment.
+** This is supposed to have the gun blade or hidden knife feel to it.
+** This replaces the cut damage counter attribute on <Saber Tonfa>.
+
+
+===1.41: detailed changelog===
+
+ [New NPCs]
+* legendary wolf
+** Level 152 dog. Uses Metal Guard because of the thing it's referencing, but this skill doesn't do much to help it in battle.
+* <Inqtual> the revenge
+** Act III event boss. Level 160 imp.
+* last raven
+** Level 137 bird. Is rarely equipped with <HL-KRSW>.
+* wandering penguin
+** Level 12 bird. Evolves with king heart to emperor penguin (no English name?), learns Browbeat.
+* palace magician
+** Level 135 eulderna. Guards the fortified right edge of the Act III event map. One of these will be placed on Amur-Cage after the event.
+* magic archer
+** Level 45 eulderna.
+
+ [New items]
+* wonder body former
+** Item that adds a body part. If you wish for it, you will get a scroll of wonder instead.
+** You won't be able to use this unless your save file was from an eligible version.
+* trismagistus
+** Throwing item. Invokes three Magic Storms along its line of motion.
+* magistus
+** Throwing item. Invokes Magic Storm. Useful in early-game because of its AOE.
+* skull sword
+** Throwing item. Nether elemental damage dependent on Throwing skill.
+* <HL-KRSW>
+** Precious laser gun.
+
+ [New special action]
+* Alchemical Rain
+** Usable with potions except with the following:
+** Hermes Blood, <Vernis Original>, blue capsule drag, potion of descent, speed drink, empty bottle, snow, molotov, potion of potential.
+
+
+
+
+
+
+
+
+
+
+
+----------------Item mechanics are below this line----------------
+You may want to be careful about looking at the following.
+Please do not put this data up elsewhere (including wikis) unless explicit permission is given.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ [Material groups for change material]
+* Inferior material
+** paper -> cloth -> silk -> mica -> raw -> leather -> glass -> scale -> coral -> bronze -> lead -> bone -> paper (back to beginning)
+* Change material
+** zylon -> obsidian -> chrome -> metal -> steel -> chain -> silver -> platinum -> gold -> perl -> griffon scale -> (dragon scale if blessed) -> (adamantium if blessed) -> zylon (back to beginning)
+* Superior material
+** dawn cloth -> spirit cloth -> dragon scale -> crystal -> titanium -> mithril -> adamantium -> emerald -> diamond -> (rubynus if blessed) -> (ether if blessed) -> dawn cloth (back to beginning)
+
+ [Pattern for material changing with material kits]
+1. Choose from leather, dawn cloth, scale, glass, mithril, silver, and dragon scale.
+2. Choose from silk, zylon, raw, crystal, metal, platinum, and diamond
+3. Choose from cloth, bone, emerald, steel, gold, lead, and ether
+4. Choose from spirit cloth, coral, mica, obsidian, titanium, and rubynus
+5. Choose from paper, gryffon scale, perl, bronze, chain, chrome, and adamandium
+* The above 5 lists are cycled from the 1st to the 30th of each month.
+
+ [Rules selecting equipment attribute options for living weapon level up]
+* The +enhance value of the weapon, the right side number for the damage dice, and in-game month are added. The resulting sum is then divided by the length of the list below, then uses the remainder to pick the attribute within that list. (Remainder 0 -> remainder 1 -> remainder 2...)
+* NB: This is done for each of the 8 lists, resulting in 8 options to pick from.
+* This means that if the +enhance value and the damage dice of the weapons remains the same, then the options offered when the weeapon levels up will be the same until the month changes.
+* Increasing any of the 3 factors by 1 will pick the next attribute in the list. An exception is December -> January as it doesn't increase the month number by 1, so be careful.
+* This system allows the attribute choices offered to change without depending on a rare item, and lets users stack attributes without understanding how the mechanics actually work. Choices offered will also differ between weapons.
+
+* Resistances: list length 11
+** Fire -> cold -> lightning -> darkness -> mind -> poison -> nether -> sound -> nerrve -> chaos -> magic -> 
+* Elemental attacks: list length 11
+** Fire -> cold -> lightning -> darkness -> mind -> poison -> nether -> sound -> nerrve -> chaos -> magic ->
+* Attributes: list length 10
+** Strength -> Constitution -> Dexterity -> Perception -> Learning -> Will -> Magic -> Charisma -> Speed -> Luck ->
+* Attack/healing skills: list length 10
+** Eye of Mind -> Casting -> Dual Wield -> Two Hand -> Tactics -> Marksman -> Healing -> Meditation ->  Magic Tool -> Control Magic ->
+* Evasion/defence skills: list length 9
+** Shield -> Evasion -> Disarm Trap -> Heavy Armor -> Medium Armor -> Light Armor -> Stealth -> Greater Evasion -> Magic Capacity ->
+* Crafting/senses skills: list length 12
+** Mining -> Carpentry -> Tailoring -> Jeweler -> Gardening -> Cooking -> Anatomy -> Fishing -> Alchemy -> Lock Picking -> Detection -> Sense Quality ->
+* Other skills: list length 12
+** Weight Lifting -> Pickpocket -> Swimming -> Literacy -> Gene engineer -> Memorization -> Faith -> Negotiation -> Investing -> Performing -> Riding -> Traveling ->
+* Special attributes: list length 7
+** Godbane -> dragonbane -> undeadbane -> critical -> enhance spells -> enhance breath attacks -> absolute piercing ->
+
+ [statue of Yacatect]
+* Platinum pieces on the 8th and 10th. If month x day = 90 then gives small medals.
+
+ [statue of Kumiromi]
+* Guaranteed to give unknown seed.
+* Also gives herb seed if the date ends with 3, 6, or 9. If not, gives a fruit seed.
+* Also gives artifact seed if the date ends with 3 or 9. If not, gives a vegetable seed.
+
+ [cute fairy]
+* Guaranteed to give vegetable seed.
+* Also gives [magical seed] if the date ends with 3, 6, or 9. If not, gives [fruit seed].
+* Also gives herb seed if the date ends with 3 or 9. If not, gives gem seed.

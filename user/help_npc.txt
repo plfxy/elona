@@ -231,7 +231,13 @@ spirit
 2	aiDull
 3	aiStand
 4	aiFollow
-
+5	aiSpecial
+6	aiSpecialPer
+7	aiSpecialSep
+8	aiSpecialDan
+9	aiSpecialSna
+10	aiSpecialSex
+11	aiSpecialBan
 
 ¡öÐÐ„ÓÒ»ÓE
 Ãæµ¹¤Ê¤Î¤Ç·¬ºÅ¤ò¤Õ¤Ã¤Æ¤Þ¤»¤ó¤¬¡¢ßB·¬¤Ç¤¹¡£
@@ -517,6 +523,18 @@ spirit
 	 actFormless
 	 actBStream
 	 actRage
+	 *actrsMagnum
+	 *actrsBullet
+	 *actrsCell
+	 *actrsBolt
+	 *actrsArrow
+800	 actPain
+	 *actWin
+	 *actPurge
+	 actOverlap
+	 actGroup
+	 actIWire
+		
 
 -10000	 headActThrow
 -9999	 actThrowPotionMinor
@@ -572,4 +590,4 @@ spirit
 	 cImmuneMine
 	 cTemper
 	 cArmour
-
+	 cSlinger

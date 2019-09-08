@@ -27,12 +27,13 @@ Number,Japanese title,English title,		1=randomly generated
 20,冒险生活　＜518／春号＞,Adventurers Quarterly Spring '18,	1
 21,仇恨笔记,Bitter Last Words,		0
 22,作战指示书,Mission Briefing,			1
-23,又是这一阶段？,Mission Briefing,		1
+23,又是这一阶段？,Get on my level,		1
 24,死灵术说明书,Mission Briefing,		1
-25,日志的秘密,Secret of the journal,	0
-26,魔术讲义发布资料,Witchcraft lecture handouts,		1
-27,采掘好啊,Mining is wonderful,		1
-28,哇娱乐项目？,What is entertainment?,		1
+25,日志的秘密,The secrets of the journal,	0
+26,魔术讲义发布资料,SOR110 Introduction to Sorcery,		1
+27,采掘好啊,You dig mining?,		1
+28,哇娱乐项目？,What's in a performance?,		1
+29,次元间力观测实验报告书,Observation report,	0
 %END
 
 /Translation Note
@@ -2323,7 +2324,7 @@ if you can't sort things out?
 跃而起！看来那是所谓的装死。虽然是老办
 法，但在这个状况可以说是效果拔群。
 　14号用不可置信的怪力打飞了守卫，就算
-受到了攻击也会瞬间治愈。
+受到了攻击也会瞬间再生。
 　他的话是不是可以强行正面突破逃出呢？
 抱有此想法的我，马上指着出口大叫到。
 别让他逃了，加固防守出口。
@@ -2978,9 +2979,8 @@ all.
 啊。在人的脚底下闪光的东西。我叫它「斗志」
   
   我啊自己也觉得看到那个很苦恼呢。只要看
-到就觉得介意，那东西在战斗中，要是情绪高
-涨就会达到极限，另一方面，也可以被小心的
-抑制住。
+到就觉得介意，那东西在战斗中，气力会达到极
+限，另一方面，也可以被小心的抑制住。
 　
   到极限了就会闪着白色的光。那时候就可以
 吧自己所有的力量倾注出去，发挥出极限性能
@@ -2997,11 +2997,51 @@ all.
 %END
 
 %23,EN
+Get on my level
+	by The Chosen One(?)
+
+Just how many - or how few - of you
+can Perceive it? The Aura that glows
+at people's feet. This Aura is what
+I call...
+
+The Gauge.
+
+Being so Special in my Ability to
+Perceive it has long tormented me.
+But it is actually not very
+difficult to Perceive, for all you
+need to do is to... look. When
+Emotions run high in combat, watch.
+Watch as the Aura grows and reaches
+its Peak. The converse is also true -
+by reining in the Emotions, the
+Gauge can be suppressed.
+
+At its Peak, the Gauge will gleam
+with a pearlescent radiance. By
+pouring your very Soul into your
+Techniques and focusing every Fibre
+of your Being, you can Manifest your
+Will into The One Strike That Will
+Fell The Enemy.
+
+...Which is to say that you can
+pull off an extra-strong attack when
+it's white.
+
+But that is not all there is to it, 
+for the White Gauge is not the final 
+stage. Beyond it is the Pale Green 
+Gauge, which will allow the User to 
+have control over Time itself.
 
 
 
-
-
+You will eventually understand what 
+I mean. That is, if you ever get on 
+my level. And I shall be there
+waiting.
 %END
 
 
@@ -3056,10 +3096,88 @@ all.
 %END
 
 %24,EN
+Necromanual
+	written by
+	a bored necromancer
+
+Chess has gotten boring.
+
+Necromancy is also quickly becoming 
+a forgotten art - and that will
+not do - so perhaps I could teach
+you, dear reader, a thing or two 
+about it.
+
+To start, place a piece of a monster 
+into a coffin. Next, using a mana 
+crystal, shape the body into the 
+desired form with Alchemy. Finally, 
+garnish generously with malice.
+
+That's all there is, really, if all 
+that you want is an army of mass-
+produced undead. To make a true 
+work of art, however, will require 
+you to have a sophisticated taste, 
+complete knowledge of necromancy, 
+and years of experience. Choosing 
+the perfect monster part to use is 
+certainly not a task for beginners. 
+The special nanomachines and 
+bacteria you need are also rather 
+hard to come by these days.
+
+Just keep in mind that you can't 
+make something big if you start 
+from a low quality piece monster 
+part. Stretching will only get you 
+that far before it starts to 
+collapse on itself.
 
 
 
+Undead that you've made can be 
+remodeled by the further addition 
+of one monster part. How it's 
+remodeled depends on what kind of 
+part is added, so you may want to 
+experiment with that. Don't worry, 
+you can always remodel with a 
+different part if it's not to your 
+liking.
 
+These undead don't have the 
+capacity to think, and will tend to 
+stand around until they receive 
+explicit instructions from you. Be 
+sure to tell them which humans they 
+should be attacking. If they do 
+defeat something, you can have good 
+experience and a good time without 
+even lifting a finger.
+
+There is power in numbers. Create 
+enough of them and you can 
+immediately replace any that fall 
+in combat. Results in an 
+unrelenting horde that will 
+mercilessly crush your enemies.
+
+You could heal them at the cost 
+of your own life, but that's 
+probably not a good idea when 
+you're up against something that 
+single-handedly can take on your 
+army of undead. In these cases, 
+you might want to blow up them up 
+instead. Watch adversaries get 
+tossed about like a rag doll, 
+explosion after explosion. Costly, 
+yes, but you cannot put a price 
+tag on fun.
+
+That's about it. Now go try it 
+for yourself. Shoo.
 %END
 
 
@@ -3092,10 +3210,50 @@ all.
 %END
 
 %25,EN
+The secrets of the journal
+	by a PRO journalist
+
+I see you've gotten your hands on 
+the latest fad that everybody's 
+gotta have - the Autoscribing 
+Journal. But have you been putting 
+it to good use?
+
+The journal doesn't just list the 
+quests undertaken by you - it also 
+has the difficulty of each one of 
+them.
+
+The level (Lv) indicated is that 
+of the target monster's, buuuut 
+you probably don't have to be 
+of that level to defeat it. If 
+you're armed to the teeth, you 
+could manage with, eh, maybe 60% 
+of the monster's level? Not all 
+quests involve combat, so there's 
+that too.
+
+The journal also automagically 
+keeps track of the number of times 
+the holder has done something. 
+Turn on Record in the Settings, 
+and you'll be good to go.
+
+It's also got an uplink to town 
+informers, so you can also check 
+up on what your colleagues are 
+doing while on the go. Oh, and 
+it also has your guild quotas and 
+rankings.
 
 
 
 
+So yeah, have a look at it when you 
+forget where you're supposed to go 
+or if you wanna see how you've been 
+doing.
 %END
 
 #####################################
@@ -3138,10 +3296,77 @@ all.
 %END
 
 %26,EN
+SOR110 Introduction to Sorcery
+	Lecture 1 notes
+	Eulderna Metropolitan University
+
+Mana
+=====
+A primordial source of power 
+omnipresent in the world, found in 
+the ocean, in the atmosphere, and 
+within the earth. Living organisms 
+sequester mana, and it may also get 
+passed between organisms through 
+predation and other means. This is 
+known as the mana cycle. Mana 
+sequestered within an organism may 
+not exceed its capacity for it; 
+any excess is excreted to the 
+environment.
 
 
+Dead organisms do not retain mana. 
+Upon death, mana previously 
+contained within the organism will 
+begin diffusing out and back into 
+the environment.
 
+As the main use of mana is to 
+convert it to MP, many sorcerers 
+use the terms MP and mana 
+interchangeably.
 
+Magic
+======
+A form of energy that mana is 
+converted into that is required 
+for performing sorcery. Without 
+conversion, mana cannot be 
+efficiently used for spells and 
+can only be used for the most 
+rudimentary of purposes.
+
+The affinity of an entity for 
+magic is also happens to be called 
+Magic (sometimes also known as the 
+Magic attribute) but this 
+terminology is fairly new and came 
+into popular use only about 100 
+years ago.
+
+MP
+===
+Magic points. Unit of measurement 
+for amount of Magic energy.
+
+Divine power
+=============
+Energy that gods require to use 
+their powers. The current theory 
+is that it is extracted from 
+offerings of their faithful and 
+combined with mana. It is similar 
+in some ways to magic, but is 
+otherwise a completely different 
+form of energy. Sorcerers in our 
+country have yet to discover how 
+to harness this power.
+
+As an analogy, if mana were water, 
+then MP would be bottles of water, 
+and divine power would be bottles 
+of soda.
 %END
 
 #####################################
@@ -3176,10 +3401,62 @@ all.
 %END
 
 %27,EN
+You dig mining?
+	by Borzoi J. Hammer
+	
+Borzoi here. And when it comes to 
+mining, I'm the BEST.
 
+You dig mining? 'cuz I sure do. 
+It trains constitution. You come 
+across stuff. And best of all, if 
+you got no path, you can just 
+MAKE ONE.
 
+And didja know that mining in 
+different places will get you 
+different stuff? Betcha didn't.
 
+These cave nefia are filled with 
+ores, so you'll want to go to these 
+places if you want to give stuff to 
+the Gods of the Earth or Healin'. 
+Or if that's not your thing, you 
+could give 'em a little polish and 
+they'll fetch some good coin.
 
+Forest nefia are full of food that 
+you won't find anywhere else. 
+Acorns never rot so you can keep 
+some in your pockets at all times. 
+Then there's valuable golden acorns 
+too. Gold! Must've been hidden 
+there by a squirrel or summat. You 
+might even luck out and find a rare 
+four leafed clover.
+
+Fortress and Tower nefia are made 
+of stone, so guess what you get 
+when you mine there? Stone! Heard 
+you can sculpt these with uh... 
+"item fusion", but I don't 
+understand these artsy kinda 
+things. You'll also find safes 
+that people hid in there a long 
+time ago.
+
+Lesee... oh right. Towns. Mine 
+there and you might come across 
+the coins and gold bars that the 
+folk have stashed away. After all, 
+you can't store money in shelves, 
+'cuz those would get stolen, 
+shelves and everything. So walls 
+are where them people hide them 
+life savings.
+
+So what are you waiting for? 
+Start mining!
 %END
 
 #####################################
@@ -3200,11 +3477,11 @@ all.
 并且，幻之乐器钉头史特拉第瓦里能把
 演奏的质量提高…。
 
-○合奏：和同伴一起合唱也是不错的经验。
-不需要乐器，和同伴一起的话比较容易成功
-，也不需要乐器，成功的话技能和演奏质量
-都会上升。但是需要的时间就多，速度不快
-就很难赚钱得到高评价分。
+○合奏：与同伴合唱，同伴也会得到经验。
+不需要乐器。同伴的帮助会使得演奏比普通
+状态更容易成功，技能一定程度以上的话，
+旋律波动的质量也会上升。但是需要的时间
+就多，速度不快就很难赚钱得到高评价分。
 
 ○传教：神的美好，通过热情而灵巧的话语来
 演讲。也能让同伴获得经验的样子。满足的
@@ -3227,8 +3504,148 @@ all.
 %END
 
 %28,EN
+What's in a performance?
+	by a nameless travelling performer
+
+I'm going to jot down a couple of 
+ways of completing Performing 
+quests in here just so that I don't 
+forget. I've heard people say that 
+all you need to do is to keep 
+performing to a person until he's 
+satisfied or bored, but I'm just 
+not Speedy enough for that. So.
+
+PERFORMING: perform with an 
+instrument of your choice. You 
+might find one at the event grounds, 
+but it might not be in the right 
+place so it's best to bring one 
+yourself. What instrument you use 
+may determine whether patrons are 
+satisfied with your Performance or 
+not. If they are, they'll will 
+shower you with gold and items. 
+I've also heard fables of the 
+legendary Stradivarius improving
+the quality of items thrown at 
+you...
+
+ENSEMBLE: sing with your pets. 
+It'll be good experience for them, 
+and you don't need an instrument 
+either. It's a group effort so it's 
+easier to succeed than a regular 
+solo Performance, and if you're 
+skilled enough the items thrown 
+will be of better quality too. But 
+doing this takes quite a bit of 
+time and stamina, so be sure not 
+to waste an ensemble on a deserted 
+area. It also means you won't score 
+as many Points with the client if 
+you're not quick enough.
+
+PREACHING: spread the Word about 
+your God and captivate people with 
+a gilded tongue. Pets seem to gain 
+experience from this. If people are 
+satisfied with your preaching, 
+they'll give you quite a fair amount 
+of alms. Meaning gold. No items 
+though. If you're so convincing 
+that people convert to your faith, 
+then those people are going to be 
+even more satisfied.
+
+FASCINATION DANCE: this one's 
+quicker than Performing and 
+satisfies people more easily, so 
+it's great for scoring Points with 
+the client. If you're Charismatic, 
+then all the better. There's just 
+a bit of a problem with this - 
+people become too transfixed on
+your gyrating hips to give you 
+any money.
+
+FIRE BREATHING: did the best I 
+could while on fire, but nobody 
+even bat an eye...
+
+It's my dream to become a great 
+performer and bring smiles to 
+people's faces wherever I go, but 
+so far it's only been bringing 
+rocks. Thrown in my direction. And 
+Mum's been telling me to come 
+home...
+
+(The document ends here.)
+%END
+
+#####################################
+%29,JP
+次元间力观测实验报告书
+	written by 开发主任『加伯拉』
+
+  次元间力是人或物超越次元的作用力。自古
+以来就被人注意到了。但没有具体的观测成功
+例，一直被当作架空的学说对待。
+
+   为了确认「因次元之壁阻碍了次元间力，
+所以用机器很难观测到」这个假说，这次使用
+了次元歪曲装置来除去次元境界面的影响。共
+进行了两次实验。
+这次使用的机器记录在附加资料的表1中。
 
 
 
 
+
+
+
+
+
+
+  从附加资料图1到图6来看，普通情况下次元
+间力只发挥了０．００２５％的效率。
+特别是从第二实验，这与次元歪曲率成反比来
+看，这和阿丽安的能量定理相符。
+相同的存在之间的联系可以超越次元这一点也
+并不是夸张。
+  但是实验对象A与B移动至同一次元后，次元
+间力就立即消失了。
+关于这个现象还需要进一步的实验。
+
+  关于能否利用这股能量，次元间的能量也是
+从高能量流向低能量，所以只要连结次元便可
+以获得无尽的能量。
+  但是，次元间力的谜还有很多，长期榨取能
+量对两个次元的影响也无法预测。就算没有任
+何影响，也有被对方视为侵略行为的可能。
+
+  首先，我建议要了解多次元宇宙同一存在之
+间的联系是怎样的。通过研究这个机制，这样
+我们就可以将次元间通信实用化。
+
+
+
+
+
+
+
+
+
+
+
+%END
+
+%29,EN
+Observation report
+	by doctor <Gavela>
+
+
+
+(The document ends here.)
 %END

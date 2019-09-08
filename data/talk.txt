@@ -1255,6 +1255,7 @@ Even those who live in this land don't know much about the Gods. The pact of the
 在这里的商店街大多东西都能买到哦。
 骑士团与财富女神签下契约驻留在这里。
 卡娜维珈一边跳舞一边演奏还同时唱歌的音乐会真是太厉害了。
+月底有卡娜维珈的限定音乐会。
 看起来是随心所欲做着，但其实神明们也一直在为这个世界奋斗着呢。
 凡人的货币也可以在本市流通。
 北边雪原的地下沉睡着大战时的战舰。
@@ -1268,6 +1269,7 @@ Ol-dran is a city of amusement run by Yacatect, the Goddess of Wealth.
 Whatever it is that you need, the shops in this city probably have it.
 Those knights are stationed here under contract with the Goddess of Wealth.
 Karavika is really talented to be able to sing and dance like that at the same time.
+End of the month there is a limited concert of Karavika.
 The Gods may look like they're just doing what they like, but they are actually fighting over the world in their own way.
 We use the mortals' currency in this town.
 There is a warship stationed beneath the snowy fields in the north. It was used in the Great War.
@@ -1310,6 +1312,30 @@ This ship has the ability to transform and battle with its humanoid form. Not th
 You should see it when the multi-round missiles get launched. To say that it's spectacular would be an understatement.
 The teleporters inside can be configured to transfer objects outside.
 %END
+
+
+
+%ZAILE,JP			/Zaile
+欢迎来到扎伊尔。这里从前也受尽了矿山的恩惠。
+像{you}这样的旅行者也变少了啊。
+与本土相连的大桥被以太之风损毁了。你看那边海面上露出的就是大桥的一角，基本上已经沉入海底了。
+南西方向似乎也有城镇来着，但那城镇的景色已经想不起来了。
+从调查队得到的信息来看，拉斯基利斯的谷地已经处于危险状态了。
+库莱姆酒是用库莱姆的果实制成的。库莱姆梅？……没有听说过这种名字的东西。
+现在的灾难也是魔蝎拉引起的吗？
+因绝望而自杀的人可是相当多的。传说中的诺伦到底在哪儿呢。
+现在残存的人们，不知为什么就算死掉也会复活。难道这是传言艾露西亚人的生魂仪式的原因？现在的情况下这和诅咒有什么区别呢。
+在这事件发生之前，有人在拉斯基利斯目击到了可疑的两个艾露西亚人。那两个人在做什么呢。 
+反正无论如何大家最后都会死掉的。
+是什么时候，连自己是谁都忘掉的呢。这个城镇，城中的人们，那天呼啸的以太之风也……。
+{me}还记着自己在这里的事情，这让我很开心……
+%END%
+
+%ZAILE,EN			/Zaile
+Welcome to Zaile...
+%END
+
+
 
 
 %AKASHIC,JP			/cage

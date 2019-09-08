@@ -20,8 +20,8 @@ user/talkフォルダにあるサンプルを参考にして下さい。
 　{Embarrassment}　台詞呼び出し時に紅潮アイコンを表示。
 　{Fun}　　　　　　台詞呼び出し時に·アイコンを表示。。
 　{Happy}　　　　　台詞呼び出し時にハートアイコンを表示。
-　{Angry}　　　　　台詞呼び出し時にブチ切れアイコンを表示。立ち絵はBasicと同じ。
-　{Question}　　　 台詞呼び出し時に？アイコンを表示。立ち絵はBasicと同じ。
+　{Angry}　　　　　台詞呼び出し時にブチ切れアイコンを表示。
+　{Question}　　　 台詞呼び出し時に？アイコンを表示。
 
 ■断末魔の編集
 userフォルダにあるlastwords.txtを編集することで断末魔を変更できます。
@@ -35,10 +35,12 @@ face1.bmpを参考にして下さい。形式はbmpで、サイズは横80*縦112です。
 user/graphic2フォルダに下記を作成し、会話画面で「立ち姿を変える」ことで、
 好きな立ち絵を設定することができます。上記とは違い、(0,0,0)の黒は透過されます。
 
+face○_A.bmpは怒り状態。AngryのA。
 face○_B.bmpは通常状態。BasicのB。
 face○_E.bmp困った状態(HP半分未満)。EmbarrassmentのE。
 face○_F.bmp楽しい状態(·表示中)。FunのF。
 face○_H.bmp幸せ状態(ハート表示中)。HはHでもHappyのほう。
+face○_Q.bmpは？が浮かんでる疑問状態。QuestionのQ。
 
 ○は1～40まで。face1.bmpを参考にして下さい。形式はbmpで、サイズは横300*縦500です。
 立ち絵設定しているキャラは会話画面では肖像が表示されません。

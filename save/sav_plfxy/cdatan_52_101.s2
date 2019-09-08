@@ -328,10 +328,10 @@ warrior
 
 
 
-旅人 普诺阿
+宝玉兽
 
-karune
-tourist
+cat
+wizard
 
 
 
@@ -378,20 +378,20 @@ tourist
 
 
 
-老人 瓦古莱
+混沌精魂
 
-norland
-tourist
-
-
+spirit
+warrior
 
 
 
 
-老人 齐罗尔德
 
-norland
-tourist
+
+地狱业火花
+
+mandrake
+wizard
 
 
 
@@ -408,30 +408,30 @@ wizard
 
 
 
-乞丐 库奥苏
+云龙
 
-norland
-tourist
-
-
-
-
-
-
-城里的小孩 卡苏哈尔特
-
-norland
-tourist
+wisp
+archer
 
 
 
 
 
 
-城里的小孩 艾巴拉伊
+沙罗曼蛇
 
-norland
-tourist
+frog
+gunner
+
+
+
+
+
+
+雷霆狗头人
+
+kobolt
+warmage
 
 
 
@@ -448,10 +448,10 @@ tourist
 
 
 
-老人 艾伊米萨尔
+勤奋的小鬼
 
-norland
-tourist
+yeek
+thief
 
 
 
@@ -468,20 +468,20 @@ tourist
 
 
 
-plfxy的孩子
+堕天使 达阿茨塔
 
-dinosaur
-predator
-
-
+cupid
+wizard
 
 
 
 
-佣兵
 
-karune
-warrior
+
+诅咒地龙
+
+drake
+priest
 
 
 
@@ -528,9 +528,49 @@ thief
 
 
 
-悲伤之盾
+骸骨狂战士
 
-armor
+skeleton
+warrior
+
+
+
+
+
+
+狗头人剑士
+
+kobolt
+gunner
+
+
+
+
+
+
+恶魔女仆·死亡扫除
+
+imp
+gunner
+
+
+佣人
+
+
+
+恶棍 弗安艾茨塔
+
+zanan
+
+
+
+
+
+
+
+撒托古亚
+
+yith
 predator
 
 
@@ -538,9 +578,9 @@ predator
 
 
 
-冰结树
+九箭鱼
 
-ent
+seamonster
 predator
 
 
@@ -548,39 +588,9 @@ predator
 
 
 
-佣兵
+阿尔科诺斯特
 
-karune
-warrior
-
-
-
-
-
-
-老人 阿巴索尔德
-
-norland
-tourist
-
-
-
-
-
-
-乞丐 达科尔德
-
-norland
-tourist
-
-
-
-
-
-
-艺术家 罗巴博茨库
-
-norland
+harpy
 wizard
 
 
@@ -588,19 +598,19 @@ wizard
 
 
 
-城里的小孩 赫尔赫德
+恐怖松鼠
 
-norland
-tourist
-
-
+rabbit
+thief
 
 
 
 
-艺术家 阿拉恩达
 
-norland
+
+眼魔凝视者
+
+eye
 wizard
 
 
@@ -608,9 +618,9 @@ wizard
 
 
 
-艺术家 弗伊保尔
+阿尔科诺斯特
 
-norland
+harpy
 wizard
 
 
@@ -618,19 +628,39 @@ wizard
 
 
 
-城里的小孩 米西艾茨卡尔
+肌肉魔像
 
-norland
-tourist
-
-
+golem
+warrior
 
 
 
 
-艺术家 赫苏弗安拉
 
-norland
+
+混沌之花
+
+mandrake
+
+
+
+
+
+
+
+耶鲁士自走迫击炮
+
+machine
+predator
+
+
+
+
+
+
+淫妇
+
+imp
 wizard
 
 
@@ -638,9 +668,19 @@ wizard
 
 
 
-艺术家 特德皮恩
+闪光之双足飞龙
 
-norland
+drake
+gunner
+
+
+
+
+
+
+巴洛克的魔眼
+
+eye
 wizard
 
 
@@ -648,50 +688,10 @@ wizard
 
 
 
-乞丐 迪尔内科
+美杜莎
 
-norland
-tourist
-
-
-
-
-
-
-佣兵
-
-karune
-warrior
-
-
-
-
-
-
-贵族 米瓦尔茨
-
-zanan
-warrior
-
-
-
-
-
-
-贵族 达尔浩尔库
-
-zanan
-warrior
-
-
-
-
-
-
-贵族 塔伊瓦尔茨
-
-zanan
-warrior
+medusa
+warmage
 
 
 

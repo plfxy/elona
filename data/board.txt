@@ -223,6 +223,25 @@ The harvest time:At last, the harvest time has come. It is by no means a job tha
 Party time!:I'm throwing a big party today. Many celebrities are going to attend the party so I need someone to keep them entertained. If you successfully gather『{ref}』, I'll give you a platinum coin. You'll surely be earning tons of tips while you work, too.
 %END
 
+%TRAP,0,JP
+收拾恶作剧的摊子:虽然对朋友的恶作剧成功了，但之后处理随性安装的陷阱实在是太麻烦了。总之能请你帮忙拆除{ref}个落穴陷阱吗？我会付白金币哦。
+母亲的怪癖: 母亲喝醉了之后在后院挖了大量的洞穴呀！麻烦的是本人也不记得全部落穴的具体位置了。以白金币为交换，帮忙拆除落穴吧。目标是{ref}个。
+%END
+
+%TRAP,0,EN
+Clean up mischief.:My mischief was successful, but cleaning is difficult because I put a trap too much. If you remove the pitfalls at {ref}, I'll give you a platinum coin.
+%END
+
+%TRAP,1,JP
+便宜的理由:我相中了一处有矿山的便宜土地，但那其实是个地雷阵！为了能够利用这块土地，必须慢慢排除地雷才行。 如果能帮我拆除{ref}个地雷，我就付给你白金币。
+%END
+
+%TRAP,1,EN
+Reasonable reason:I should have purchased the mine reasonable, but in reality it was a landmine area.In order to make use of the land somehow, I want to reduce mines little by little.I will give you a platinum coin if you remove mines at {ref}.
+%END
+
+
+
 %ESCORT,0,JP
 护卫使者:嘘！别这么大声。我们必须要把一位重要的使者送到『{map}』去。报酬是『{reward}』!{me}的性命可是关乎这次行动的啊，绝对不要搞砸了！
 太过美丽的人:人太美也是罪过啊。{me}的恋人正因为被以前有过交往但现在已经断绝关系的变态盯着而烦恼。可能这次会成为一次危险的旅行吧，我给你『{reward}』，帮我把我的恋人安全送到『{map}』。

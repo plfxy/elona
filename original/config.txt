@@ -3,7 +3,7 @@
 Be sure to make a backup file before editing.
 
 (General)
-language.	"-1"		0=Japanese 1=English -1=ask
+language.	"-1"		0=Chinese 1=English -1=ask
 msg_box.	"0"		0=windows message box 1=original message box
 alert_wait.	"50"		txt wait,when important things happen
 anime_wait.	"20"		animation wait (0=disable all animations)
@@ -12,6 +12,9 @@ extraRace.	"0"		0=official races 1=debug races
 titleEffect.	"1"
 extraHelp.	"1"
 record.	"1"
+atk_select.	"0"
+dust_select. "0"
+
 startRun.	"2"
 attackWait.	"2"
 walkWait.	"4"
@@ -19,8 +22,8 @@ autoTurnType.	"0"
 runWait.	"2"
 autoNumlock.	"1"
 net. 		"0"
-netWish.	"1"
-netChat. 	"1"
+netWish.	"0"
+netChat. 	"0"
 joypad.		"1"
 serverList.	"0"		0=auto retrieve 1=disable auto retrieve
 defLoadFolder.	""		The saved game in the folder will be automatically loaded after launching the game.
@@ -61,7 +64,7 @@ music.		"1"
 heartbeat.	"1"
 
 (Font)
-font1.		"ËÎÌו"	used in Japanese	/Please use monospace fonts
+font1.		"ËÎÌו"	used in Chinese	/Please use monospace fonts
 font2.		"Courier New"	used in English		/like Lucida Console font.
 
 (message)
@@ -119,6 +122,7 @@ key_drop.	"d"
 key_inventory.	"X"
 key_material.	"m"
 key_interact.	"i"
+key_itemstack.	"I"
 key_wipe.	"W"
 key_wear.	"w"
 key_eat.	"e"
