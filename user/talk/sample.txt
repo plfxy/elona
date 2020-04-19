@@ -16,7 +16,7 @@
 
 %txtDead,JP    //死亡時のセリフ
 「那么，我们的相遇算什么！」
-「这个就是、战、战斗。」
+「这个就是、战、战斗」
 
 %txtDead,EN
 "I'm dead."
@@ -193,6 +193,13 @@ Dude...
 %txtCreate,JP    //夜なべして防具作った時のセリフ
 「私が作ったのさ。コレってね」
 %txtCreate,EN
+"Weee."
+
+%txtBtalk,JP    //説得系技能を発動した時のセリフ
+「もういいんだ！みんなやめろ！！」
+「話を、僕にだって言いたいことあるんだ！！」
+「こんなことで死んじゃつまらないからね」
+%txtBtalk,EN
 "Weee."
 
 %txtEXAct,JP    //添い寝時の専用行動選択肢　変換タグ無効

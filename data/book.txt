@@ -29,11 +29,11 @@ Number,Japanese title,English title,		1=randomly generated
 22,作战指示书,Mission Briefing,			1
 23,又是这一阶段？,Get on my level,		1
 24,死灵术说明书,Mission Briefing,		1
-25,日志的秘密,The secrets of the journal,	0
+25,日志的秘密,Secrets of the journal,	0
 26,魔术讲义发布资料,SOR110 Introduction to Sorcery,		1
 27,采掘好啊,You dig mining?,		1
 28,哇娱乐项目？,What's in a performance?,		1
-29,次元间力观测实验报告书,Observation report,	0
+29,次元间力观测实验报告书,Dimensional Energy Report,	0
 %END
 
 /Translation Note
@@ -783,7 +783,7 @@ Dr. Schmidt
 
 %8,EN
 Shop Owning and Operational manual
-ReWritten by Schmidt the Fence
+Re-rewritten by Schmidt the Fence
 
 So, you think you can own a shop? I
 know, sitting on your arse all day
@@ -834,52 +834,93 @@ to do it. You should choose a worker
 based on how good they look, and how
 good a negotiator they are, as they
 are the vital two things in any good
-sale. Now that you have such a goon,
+sale. 
+
+Now that you have such a goon,
 go to the register in the shop.
 Assign that person to the job. 
 
 The other part is also simple, to 
 SELL Stuff you need to HAVE stuff.
 So go get stuff and and leave it in
-your shop. The better stuff should
-be out on display, the less good bits
-should be in a pile in the back in 
-your shop strongbox.
+your shop.
+
+
+
 
 -== Little Golden Nuggets of Info ==-
 
 Your Salesperson stays at the shop
 and cannot come with you.
 
-Selling stuff makes money(natch) but
-it also improves your rank, which can
-make you even more money.
+Selling stuff makes money(natch) 
+and also raises shop rank.
 
-Due to a vicious spat with the local
-Furniture Union, we cannot sell any
-spare furniture out of town. We in
-town can still buy and sell it. 
+A higher shop rank brings in
+customers with a fatter wallet
+ready for you to empty. The pricier
+items also won't sell until your
+shop is of a higher rank.
+
+
+The number of customers that will
+stop by the shop also depends on
+the shop's rank and the 
+shopkeeper's Charisma.
+
+How much a customer is willing to
+cough up for an item depends on the
+shopkeep's Negotiation skill.
+
+The potentials of the shopkeeper's
+Negotiation skill and Charisma stat 
+can be topped up by spending bronze 
+coins at the register.
+
+Investigate your allies to find the
+prettiest and bestest negotiator.
+It used to cost an arm and a leg, 
+but these days it's a mere 100gp.
+You young 'uns are lucky.
+
+On days that the shop sells
+something, the shopkeeper will earn
+experience, which can go towards 
+acquiring up to two special 
+shopkeeper feats.
+
+Due to a vicious spat with the 
+local Furniture Union, we cannot 
+sell any spare furniture out of 
+town. We in town can still buy and
+sell it. The same goes for cargo. 
+Whatever goes in your cart, 
+doesn't go in the shop.
 
 Anything else, garbage, junk, even
 rotten stuff can be sold if you can 
-find a sucker for it.
+find a sucker for it. If it's on
+the floor, it'll be fair game to 
+the customers.
 
-Investigate your allies to find the
-prettiest and bestest negotiator. It
-may be 10,000gp to do so, but having
-the best salesperson available will
-make up for it in the long run.
+So if there's some item in the
+shop that you don't want customers
+to go layin' their paws on, you'll 
+want to mark it off as a display
+item with a rope divider or glass 
+case tile. Those you can find when
+redesigning the shop. They're
+probably somewhere in the 9th and 
+10th rows in the list from the top.
 
-The Embassy north of Palmia sells a
-fair bit of equipment for shops if
-you need anything.
+Due to your shop permit, you can
+ONLY sell a maximum of 10 items at
+a time. You can expand on this for
+a mere 2000gp for an additional 
+ten slots, and every subsequent
+1000gp for each 10 slots after.
 
-Due to your shop permit, you can ONLY
-sell a maximum of 10 items at a time.
-You can expand on this for a mere
-2000gp for an additional ten slots,
-and every subsequent 1000gp for each
-10 slots after.
+
 
 
        -== Fiscal Information ==-
@@ -1135,26 +1176,44 @@ Damn you all!
 乎就越低。
 
 　虽然家畜只要进行放牧，它就会自由的生
-活，但是如果想要获得健康的肉质最好用家
+活，但喂食家畜饲料的话就可以把它养肥。
+也可以通过使用收款机来撒饲料，不过效果
+比直接喂一袋要差，所以根据目的来选择如
+何喂食吧。
+
+　还有，如果想要获得健康的肉质最好用家
 畜用的大型刷子来定期的为它刷洗，温柔的
 抚摸这类的养殖技巧也是必要的。
 
-  具有特性的家畜有时也会增加。具有什么
+　具有特性的家畜有时也会增加。具有什么
 样的特性，要在刷洗的时候通过触诊来判断
 就会明白。根据作为种畜的家畜的状态不同
-能够发挥出的特性遗传给后代的也不同。  
+能够发挥出的特性遗传给后代的也不同。
+　刚产下的家畜很小，所以喂给它奶让它长
+大吧。越成长的家畜的肉与奶的质量越好。
 
 　尽量让牧场中保持整洁。因为产蛋和榨取
-乳汁是需要用到一定空间的…还有，家畜如
-过实在太多的话，也是会让产蛋产乳率下降
-的。20匹左右差不多是恰当的数量吧？适当
-地弃掉一些幼仔也是可以的。
+乳汁是需要用到一定空间的…粪便是家畜得
+病的根源，要认真处理哦。如果家畜生病了
+就只会排便，还会让其他家畜感染。预防与
+治疗疾病最好的还是消毒，不能准备消毒的
+话就要考虑隔离和处理掉了。
+
+　还有，家畜如过实在太多的话，也是会让
+产蛋产乳率下降的。20匹左右差不多是恰当
+的数量吧？适当地弃掉一些幼仔也是可以的。
 
 　家畜增加之后能用来做什么呢，随你喜欢
 了…因为家畜随时都可以带出来，卖给奴隶商
-人也可以哦。或者杀掉家畜剥下肉来，这样
-就不用担心食物的问题了。肉腐烂了？…没那
-回事…那种时候就要…（字太脏了无法阅读）
+人也可以哦。越顺从越友好的家畜就越是价值
+珍贵，所以要认真交流。
+　活祭献给神也不错，家畜自古以来就是很受
+神明欢迎的供品。与尸体不同的是评价与重量
+无关，而是友好关系和肉质。
+　如果杀掉家畜剥掉肉与皮的话可以卖出一个
+相当客观的价钱。即使你不会做饭，也可以把
+它放到晾晒石上，就可以做成保质期超长的肉
+干，你也就不会为食物烦恼了。
 
 　宰杀家畜的时候，偶尔会让其他家畜变得
 躁动不安，这种时候只要离开牧场一次再回
@@ -1167,55 +1226,55 @@ Damn you all!
 
 %11,EN
 A Ranching guide for the Greenhorns
-	2nd Edition
+	3rd Edition
 	By Cattle Baron Schmidt
 
-Howdy all! I write this guide for the
-same reason I rustle cattle about:
-Money. Plenty of good royalties to be
-had if one takes the time to put pen
-to paper. Still, while I can't give
-ALL my secrets to you as it'd put me
-out of business, but I can't get you
-to by my next book if I don't give at
+Howdy all! I write this guide for 
+the same reason I rustle cattle 
+about: Money. Plenty of good 
+royalties to be had if one takes 
+the time to put pen to paper. 
+Still, while I can't give ALL my 
+secrets to you as it'd put me out 
+of business, but I can't get you to
+by my next book if I don't give at
 least the basics.
 
-To begin with, you'll at least eighty
-thousand or so to purchase a deed to
-a ranch. Less, if you are a good 
-talker or rather attractive.
-
+To begin with, you'll at least 
+eighty thousand or so to purchase a
+deed to a ranch. Less, if you are a
+good talker or rather attractive.
 
 Then, with deed in hand, find the 
-best place for it you can find. While
-it cannot be within town limits, as
-you do NOT want people asking nosy
-questions on what exactly it is you 
-are breeding, or other such moral or 
-ethical-type dilemmas.
+best place for it you can find.
+While it cannot be within town 
+limits, as you do NOT want people 
+asking nosy questions on what 
+exactly it is you are breeding, or
+other such moral or ethical-type 
+dilemmas.
 
 Once you are at the spot of choice,
-merely 'r'ead the deed and claim your
-land.
+merely 'r'ead the deed and claim 
+your land.
 
 -== The Joys & Perils of Breeding ==-
 
 Good Breeding is a fine art, and is
 what separates us from the savages.
-No where more true is this rule than
-at a ranch.
-
+No where more true is this rule 
+than at a ranch.
 
 Any animal assigned to be a "breeder"
 will stay on the ranch, and, in time,
-produce milk, eggs, shit, and other
+produce milk, eggs, shit, and other 
 bits. And no, I am not going to try 
-to explain how mammals will lay eggs
+to explain how mammals will lay eggs 
 or how exactly you milk a twenty-ton
 firebreathing lizard. I don't rightly
 try to answer those sort of questions
-and frankly, neither should you.
-Just accept the fact and move on.
+and frankly, neither should you. Just
+accept the fact and move on.
 
 Now, those items can be sold for fair
 coin, but the real profit is in the
@@ -1248,14 +1307,23 @@ gazillion more of them.
 
 I did say that all you have to do to
 get them to breed is to leave them
-to their own devices. But. If you
-want to get really good quality stuff,
-what you have to do is brush them
-once in a while. Grab a big brush,
-and give them a nice rubbing. Of
-course, you need to know how to
-do the Rub special 'a'ction in order
-for you to do that.
+to their own devices. So feeding them 
+is optional - I dunno they probably
+eat sunlight or something - but if 
+you do give them a livestock feed 
+it'll fatten them up. Or you can use 
+that register on the ranch to split 
+that feed amongst every animal there.
+Won't fill them up as much, but gets 
+the job done.
+
+If you want to get really good 
+quality meat, what you have to do is 
+brush them once in a while. Grab a 
+big brush, and give them a nice 
+rubbing. Of course, you need to know 
+how to do the Rub special 'a'ction 
+in order for you to do that.
 
 Sometimes you'll manage to breed
 one of them farm animals that are
@@ -1268,15 +1336,30 @@ You'll know what they're good or bad
 at by paying attention during
 brushing. Those qualities will be
 exhibited while they're on the
-ranch. If they're the breeder, they'll
-produce more animals with similar
-qualities.
+ranch. If they're the breeder, 
+they'll produce more animals with 
+similar qualities.
 
+Newborns on the ranch will start out
+small, so 'T'hrow some milk their way
+to make sure they grow up big and
+strong. If you do, the meat and milk 
+they give will improve.
 You'll want to keep the ranch clean.
-Ranch animals need space to lay
-eggs and uh... milk themselves. Can't
-do that if there's shit all over the
+Ranch animals need space to lay eggs 
+and uh... milk themselves. Can't do 
+that if there's shit all over the
 place, can they?
+
+Leaving their shit around will cause
+them to get sick and crap even more. 
+It'll also make the other animals 
+on the ranch sick. Disinfecting the 
+ranch will both prevent that from 
+happening AND heal the sick animals. 
+But if you can't afford that, then 
+you might wanna quarantine or 
+cull them.
 
 It's a good idea to keep an eye on
 the number of animals on the ranch.
@@ -1299,13 +1382,34 @@ you on your travels.
 Gene Engineering with zero risk to 
 the originals.
 
-Profit by taking it to a slave trader
-if, I might add, you know where to go
-where no one asks any questions.
+Profit by taking it to a slave 
+trader if, I might add, you know 
+where to go where no one asks any 
+questions. They fetch more if they 
+are tame - so you might want to make 
+sure they're servile and have a 
+decent bond with you.
 
-Or you can kill it and the odds of a
-carcass being salvageable is much 
-better than duking it out in the wild.
+Or you can kill it and the odds of 
+a carcass being salvageable are 
+much better than duking it out in 
+the wild.
+
+Sacrifice it alive to your God - a 
+favourite of the Gods since time
+immemorial. Unlike offering pieces 
+of a corpse on an altar, weight 
+won't matter here. Instead, it's 
+apparently scored based on the its 
+bond with you and the quality of 
+its meat.
+
+
+As a side note, sometimes the ranch
+animals get a little antsy when one 
+of them is killed. Just pop out of 
+the ranch and come back, and you'll 
+find that they have settled down.
 
 -== The Drydock. Waste Nothing ==-
 
@@ -1316,15 +1420,17 @@ wind will blow the stench away from
 my estate. I assume it will be the 
 same for you (you'd best hope so).
 In any other trade a rotten carcass
-would be nothing but a loss. Not so
-with a ranch, where nothing goes to
-waste. Simply dump your rotten meat
-into the drydock to cure, and in no
-time at all you'll have delicious,
-lightweight, adventurer-sought-after
-Jerky!
+would be nothing but a loss.
 
 
+
+
+Not so with a ranch, where nothing 
+goes to waste. Simply dump your 
+rotten meat into the drydock to 
+cure, and in no time at all you'll 
+have delicious, lightweight, 
+adventurer-sought-after Jerky!
 
 	-== In Conclusion ==-
 
@@ -3524,7 +3630,7 @@ place so it's best to bring one
 yourself. What instrument you use 
 may determine whether patrons are 
 satisfied with your Performance or 
-not. If they are, they'll will 
+not. If they are, they will 
 shower you with gold and items. 
 I've also heard fables of the 
 legendary Stradivarius improving
@@ -3642,10 +3748,83 @@ home...
 %END
 
 %29,EN
-Observation report
-	by doctor <Gavela>
+Experimental Characterization of
+	Dimensional Energy
+	by Gavela et al.
 
 
+Dimensional energy is a form of 
+energy capable of trans-dimensional
+interaction with objects, including
+people. Its existence has long 
+been theorized but has lacked 
+definitive experimental evidence.
 
-(The document ends here.)
+Here we present its 
+characterization via Verde-Hermann
+experiments with a novel 
+dimensional warp unit. We also 
+explore the potential 
+ramifications and applications of
+this technology.
+
+
+To test Verde-Hermann's postulate
+that measurement of dimensional
+energy is difficult due to the
+dampening of dimensional energy by
+the inter-dimensional barrier, we 
+perturbed the barrier with a
+dimensional warp unit and 
+conducted the first and second 
+Verde-Hermann tests. The
+observational unit used is 
+outlined in Appendix 1.
+
+From the data (Appendices 1 to 6),
+we have determined that 
+dimensional energy is weakened
+by a factor of approximately 
+0.0025% under normal circumstances.
+
+
+In the second test, we determined
+at a high confidence level that it
+is likely that dimensional
+energy strength is inversely 
+proportional to dimensional 
+warpage, conforming to Ariane's 
+Laws of Energy. However, we also 
+find that when two analogous 
+objects A and B are moved such that 
+they are in the same dimension, 
+rapid dissipation of dimensional
+energy occurs. Further experiments
+are needed to elucidate the 
+mechanism for this phenomenon.
+
+As dimensional energy flows down 
+the potential gradient, we find 
+find that there is the possibility
+that limitless energy can be 
+harnessed if dimensions can be linked.
+
+However, we urge caution in the 
+long-term harnessing of dimensional 
+energy as the effects on the
+affected dimensions are yet 
+unknown. Furthermore, even if the
+harnessing power causes no direct 
+effects, it may be deemed an act 
+of aggression by inhabitants in 
+the other dimension.
+
+To conclude, further research is 
+needed for determining how 
+analogous existences are linked in
+multi-dimensional space, and to 
+study the mechanism for that
+linkage to develop a practical 
+trans-dimensional communications 
+tool.
 %END

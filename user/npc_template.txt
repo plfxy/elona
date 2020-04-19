@@ -215,6 +215,13 @@ What's up?{Question}
 %txtCreate,EN	//made equipment last night for handmade gift event
 "I slept a bit late last night, but I'm ok!"
 
+%txtBtalk,JP    //説得系技能を発動した時のセリフ
+「なかよくしよーよ！」
+「たたかうのあきたでしょ？」
+「ムダなていこうはやめろー！」
+%txtBtalk,EN
+"Let's get along!"
+
 %txtEXAct,JP    //添い寝時の専用行動選択肢　変換タグ無効
 目隠しする
 %txtEXAct,EN	//custom line during sleep sharing. {tags} won't work.

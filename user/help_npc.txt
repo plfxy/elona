@@ -455,7 +455,7 @@ spirit
 	 *actRaceRock
 	 *actRaceBug
 	 *actRaceSnake
-	 *actRaceShell
+	 actSpore
 	 *actrsGaze
 	 *actrsHand
 730	 *actrsGravity
@@ -513,12 +513,13 @@ spirit
 	 actDefStorm
 	 actAccel
 	 actGGPress
+	 actDash
 	 actVine
 	 actMistel
 	 actAroma
 	 actSmoke
-	 *actTezca
-790	 actSPknow
+790	 *actTezca
+	 actSPknow
 	 actMelt
 	 actFormless
 	 actBStream
@@ -527,14 +528,36 @@ spirit
 	 *actrsBullet
 	 *actrsCell
 	 *actrsBolt
-	 *actrsArrow
-800	 actPain
+800	 *actrsArrow
+	 actPain
 	 *actWin
 	 *actPurge
 	 actOverlap
 	 actGroup
 	 actIWire
-		
+	 actMarking
+	 actFinale
+	 actDeleteS
+810	 actSend
+	 actDdance
+	 actFinishN
+	 actAnaphy
+	 actFatal
+	 actVenot
+	 actTalkP
+	 actTalkJ
+	 actTalkL
+	 actTalkI
+820	 actTalkS
+	 actPleasure
+	 actMakyu
+	 actDice
+	 actRHurricane
+
+
+
+
+
 
 -10000	 headActThrow
 -9999	 actThrowPotionMinor

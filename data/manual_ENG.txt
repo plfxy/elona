@@ -278,11 +278,13 @@ Arms Covered 1  2  3  4  5  6  7  8  9 10
   Short Bow  07-10-10-08-06-04
    Long Bow  05-09-10-09-08-08-07-06-05-04
    Crossbow  08-10-09-08-07-06-05-04
-   Throwing  06-10-07-04
-      Rifle  10-09-07-05-03
-    Shotgun  10-06-03
+   Throwing  09-10-08-07
+WeaponThrow  05-08-06-03
+      Rifle  09-10-08-06-03
+    Shotgun  10-08-05
 Machine Gun  08-10-10-09-08-07-04
  Photon Gun  10-10-10-10-10-10-10-5
+SniperRifleÅ@07-08-09-10-10-09-09-08-08-07
 ------------------------------------------
 For instance, when your distance is 1 -- the enemy is right next to you
 -- and you fire a longbow, the weapon's distance modifier is 05, or 50%.
