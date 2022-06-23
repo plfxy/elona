@@ -326,6 +326,21 @@ spirit
 	 spConcentration
 	 spHydroBolt
 	 spBubbleBall
+	 spGem
+	 spMindBall
+	 spNerveBall
+480	 spNetherBolt
+	 spPoisonBolt
+	 spSoundBolt
+	 spChaosBolt
+	 spNerveBolt
+	 spFireArrow
+	 spColdArrow
+	 spLightningArrow
+	 spMindArrow
+	 spPoisonArrow
+490	 spSoundArrow
+	 spHydroArrow
 
 
 600
@@ -449,11 +464,11 @@ spirit
 	 *actrsMagic
 	 *actRaceSlime
 720	 *actRaceMachine
-	 *actRaceWild
-	 *actRaceSnail
-	 *actRaceGhost
-	 *actRaceRock
-	 *actRaceBug
+	 actHarmonic
+	 *actResonant
+	 actKijin
+	 actSBurn
+	 actJyusou
 	 *actRaceSnake
 	 actSpore
 	 *actrsGaze
@@ -553,11 +568,22 @@ spirit
 	 actMakyu
 	 actDice
 	 actRHurricane
-
-
-
-
-
+	 actGods
+	 actLiquid
+	 actScan
+	 actAdvance
+	 actMadness
+830	 actBegging
+	 actKusuguri
+	 actMagnetC
+	 actMagnetL
+	 actMagnetF
+	 actMagnetT
+	 actWireW
+	 actShine
+	 actRock
+	 actMogranic
+840
 
 -10000	 headActThrow
 -9999	 actThrowPotionMinor

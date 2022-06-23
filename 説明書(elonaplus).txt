@@ -34,13 +34,8 @@ exeは絶対に上書きせず、saveフォルダの中身をコピーして移してください。
 
 ·バグ修正、各種調整
 ·文章英訳
-·データ肥大対策/高速ロード
 ·刻命館シリーズのようなバトル罠システム
-·第三部メインクエスト開発
 ·仕様変更、新機能実装
-·カスタムオブジェクト
-·進化パターン順次追加
-·ショウルーム連結マップ（カスタムエリア）
 
 その他開発するところはまだいくらでも残っています。気長にお付き合いください。
 ご意見、感想、質問、要望は雑談質問スレかelonaplus wikiのほうへお願いします。
@@ -69,9 +64,10 @@ elonaplus開発者のAno犬への連絡はElona板の開発スレまで。
 	製作者	: Elona板開発スレの愉快な仲間達
 	URL	: http://jbbs.livedoor.jp/game/45610/
 	
-内、名前ありの提供者
+　名前ありの提供者
 	（画像）魔法中年さん、ヴキョさん、忘却さん、NYさん、香坂さん、
-	収穫された野菜さん、山田くん、altosealさん、ハリオンくんのファンさん
+	　　　　収穫された野菜さん、山田くん、altosealさん、ハリオンくんのファンさん
+	　　　　karakaさん、asさん、TKさん、ゆるるんさん
 	（マップ）猿渡さん
 	（カード説明文原案）Lenishさん、山田くん、Ｎｙａｒさん
 	（音楽）NQFuzUnxSMさん、KWaqxlfMwEさん、gv/xCHC2dEさん
@@ -146,6 +142,9 @@ elonaplus開発者のAno犬への連絡はElona板の開発スレまで。
 	製作者	: ユーフルカ 様
 	URL	: http://wingless-seraph.net/
 
+	効果音提供（一部加工） 効果音ラボ
+	製作者	: Killy 様
+	URL	: https://soundeffect-lab.info/
 	
 	英訳協力者：Trantez先生、不潔なキウィさん
 	Talk.txtに一部引用　：http://elona.wikia.com/wiki/Talk.txt(Elona%2B)
@@ -260,7 +259,6 @@ elonaplus開発者のAno犬への連絡はElona板の開発スレまで。
 	画像提供　
 	製作者	: もやしほわいと 様
 	URL	: http://whitecafe.sakura.ne.jp/index.html
-	画像提供 Inquisitor's tileset
 	
 	画像提供　臼井の会
 	製作者	: 香月清人 様

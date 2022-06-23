@@ -273,23 +273,24 @@ The effective range for each ranged weapon differs based on its type.
 Most of the time, the farther away your target is, the harder it is to
 hit them and the less damage you will do.  The maximum range and damage
 based on range is given below.
-Arms Covered 1  2  3  4  5  6  7  8  9 10
+Arms Covered 1  2  3  4  5  6  7 
 ------------------------------------------
-  Short Bow  07-10-10-08-06-04
-   Long Bow  05-09-10-09-08-08-07-06-05-04
-   Crossbow  08-10-09-08-07-06-05-04
-   Throwing  09-10-08-07
-WeaponThrow  05-08-06-03
-      Rifle  09-10-08-06-03
-    Shotgun  10-08-05
+  Short Bow  07-10-10-08-06-04-02
+   Long Bow  05-09-10-09-08-08-07
+   Skullbow  06-09-10-10-08-06-04
+   Crossbow  08-10-09-08-07-06-05
+   Throwing  09-10-08-07-02-02-02
+WeaponThrow  05-08-06-03-02-02-02
+      Rifle  09-10-08-06-03-02-02
+    Shotgun  10-08-05-02-02-02-02
 Machine Gun  08-10-10-09-08-07-04
- Photon Gun  10-10-10-10-10-10-10-5
-SniperRifleÅ@07-08-09-10-10-09-09-08-08-07
+ Photon Gun  10-10-10-10-10-10-10
+SniperRifle°°07-08-09-10-10-09-09
 ------------------------------------------
 For instance, when your distance is 1 -- the enemy is right next to you
 -- and you fire a longbow, the weapon's distance modifier is 05, or 50%.
-At a distance of three tiles, your damage modifier is 10, or 100% of
-your basic damage.  For best attack power with the longbow, you must
+At a distance of three tiles, your hit modifier is 10, or 100% of
+your basic hit.  For best attack power with the longbow, you must
 keep your distance, which you can verify with the look ('l') command.
 
 

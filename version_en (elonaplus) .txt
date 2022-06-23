@@ -1,4 +1,3 @@
-Ôªø
 When using save data from vanilla Elona 1.16 or prior, you will need to:
 * Save while your character is in a town, and
 * Unassign the shopkeeper in your shop, the breeder in your ranch, and so on.
@@ -35,6 +34,10 @@ As such, a sand bag will be placed at your feet as it's a popular item to have i
 When using a save file from Elona plus 1.88, 1.88R, and prior, constructed shelters will be deconstructed.
 One toilet will also be placed at your feet.
 
+When using a save file from Elona plus 1.97 or prior, pets who had been marked as precious will no longer be marked as such due to changes to the variable used. Custom item sprites will also have their image height reduced and appear flattened due to a change in the default parameters for sprite dimensions. You will need to reassign both of these after updating the game.
+
+Save data from Elona plus 1.995 cannot be used in versions 2.00 and later.
+
 Development versions of this game are for finding bugs. Versions that are fixes will fix bugs found in development versions before that, but that doesn't mean they are bug-free.
 
 ------------------------------
@@ -52,6 +55,980 @@ Not recommended:
 * These may cause your game folder to have unnecessary files and other issues, so the game may not work if you do this.
 
 ------------------------------
+
+
+==2.09==
+'''1/16/2022'''
+* Added a new guard break gauge that is purple in colour. When it exceeds 100%, PV and DV are temporarily set to 0.
+** When it is less than 100%, it decreases by 1% per turn. While the player character is 'R'esting, it decreases by 2% per turn. When guard break ends, it is reset to 0% immediately.
+** The gauge of characters who receive damage increases by 2%. This increase occurs only once per turn, and only if the gauge is less than 100%.
+** PV/DV element attacks, however, now have a new effect - they increase the target's gauge by 10%.
+** This should help prevent battles with enemies that heal themselves from getting repetitive, and it also means letting your guard down against a swarm of weak enemies can be deadly.
+
+* While the player character is 'R'esting, all characters (i.e. the player character and all NPCs) will now recover HP, MP, and SP, and their guard break gauge will decrease.
+
+* Light/Medium/Heavy Armor skill used to do nothing after level 300 - that cap has been removed. Instead, their effect on defence is now 1/4 of the previous value.
+
+* Added 4 new giant race NPCs.
+
+* Added 3 new rock race NPCs.
+
+* Replaced Over Long Throw with a new special action.
+
+* Added 3 new special actions.
+
+* Replaced the Stone/Iron/Steel Defense feats with a new feat that grants the aforementioned special actions.
+** Also replaced the Agile feats with something a lot more useful.
+
+* Bewitch special action now causes a low amount of bleed. Could be a nosebleed or the character puking blood because of cuteness overload.
+
+* Draw Shadow special action now also inflicts 1 turn of Invert.
+** Similar special actions such as Dancing Wire, Dimension Fishing, and Multiple Gather do not have this effect.
+
+* "Tell feelings" in the 'i'nteract menu will now consume 80% of the target's Attract - this change also applies to interactions with pets.
+** Attract, by the way, fully recovers after 12 hours. Implementing a system where they recover Attract after sleep is difficult because NPCs on a different map wouldn't be able to recover.
+
+* Added 1 new item that can be used as a substitute for sox for a quest.
+
+* Stacking enough "absolute piercing attak" equipment attribute to make it proc 100% of the time with a weapon was too balance breaking and it's not quite what I had in mind for Elona plus. Besides, it leads to a lot of grinding too. As such, this equipment attribute's proc rate is now capped at 30%.
+
+* Slaves and horses now have an empty inventory when purchased to save people the trouble of save scumming/stripping their inventory clean every time.
+
+* Trash fished up in South Tyris and Lost Irva now have a different colour and name from trash fished up in North Tyris.
+** Their selling price and size modifiers remain unchanged; the changes are purely cosmetic. This is just to spice up the different regions by introducing some differences between them.
+
+* Traveling skill used to give small amounts of experience in several instalments, but having low potential meant that it would get rounded down, so it was possible to end up gaining less than 0.001 levels of experience sometimes.
+** So instead of increasing the number of instalments [with distance travelled], the number of instalments is now fixed. Instead, the amount of experience per instalment increases [with distance travelled].
+
+* Increased the rate of experience gained in the Doujyou per unit distance travelled to match that of the Traveling skill.
+** Having the Traveling skill will not grant extra experience in the Doujyou.
+** The cost of the "Special train allys" options has also been changed - it now depends on that student's INIT value. There is also no longer any discount for enrolling multiple students in the Doujyou. The cost is now 5 times that of training in towns (without any Charisma discount), and the effect is 6 times that of training in towns.
+** This change should make the Doujyou somewhat decent for leveling pets safely, in exchange for gold pieces and any experience/AP that could've been gained in combat.
+
+ [Fixes]
+* Fixed some descriptions.
+
+* Fixed the descriptions of some of the new spellbooks added in 2.08 - some of them weren't properly edited after copy and pasting.
+
+* Fixed Hydro Fang spell not making targets Wet.
+
+* Fixed green teas redeemed with yaca points still spawning with +1 +enhance value.
+
+* Fixed the issues that occurred when leaving a Harvest Time/Party Time/Trap disarming quest map while there is still time on the clock and time is currently stopped.
+
+ [Note]
+* The following change was present in the partial changelog posted while 2.09 was in development, but was missing in the changelog that came with 2.09's release even though 2.09 contains this new feature.
+
+* Certain types of wilderness maps (i.e. Forest, Grassland, and Plain Field) now have a chance of generating a simple river.
+** Forest maps have the highest chance of generating a river, and Plain Field maps have the lowest.
+** The ambient sound effect [for rivers] is also slightly different on Forest maps.
+
+
+==2.08fix==
+'''12/23/2021'''
+ [Fixes]
+* Fixed the game crashing immediately after starting when the language is set to English. This was caused by a comma that was accidentally copy-pasted into the Anorexia status ailment label's English text.
+
+* Added the "deals massive damage to metals" equipment attribute to the list of equipment attributes that living weapons can acquire.
+
+
+==2.08==
+'''12/19/2021'''
+ [Changes and additions]
+* Added 14 new spells such that every element has a arrow, bolt, and ball version.
+** Also made existing attack spells more consistent by making changes to their name, description, and MP cost.
+** I've been putting this off since there was a lot of work involved, but it should be worth the effort if these spells help set characters apart from each other.
+
+* Tentatively added the spellbooks for all arrow, bolt, and ball spells that haven't had one up until now.
+** Also rebalanced their reading difficulties, levels, and market prices so that they're more consistent.
+
+* Made musical notadpole, bell of emergency, mandrake, and zap mandrake corpses grant sound resistance.
+** Halved the Magic attribute increases from the [corpses of the] two mandrake monsters.
+
+* Sound-element damage now causes Dim instead of Confused so that illusion- and sound-element damage don't both cause the same status ailment.
+
+* The side effects of chaos-element damage now proc in a predictable manner and are no longer random.
+** It now inflicts the following:
+** Wince, but at 1/7th the strength inflicted by fire-element damage,
+** Chills, but at 1/7th the strength inflicted by cold-element damage,
+** Blinded, but at 1/7th the strength inflicted by dark-element damage,
+** Paralyzed, but at 1/7th the strength inflicted by nerve-element damage,
+** Confused, but at 1/7th the strength inflicted by illusion-element damage,
+** Dim, but at 1/7th the strength inflicted by sound-element damage, and
+** Poisoned, but at 1/7th the strength inflicted by poison-element damage.
+
+* Changed the calculation order for interlocking shooting mechanism and proximity assist weapon equipment attributes so that damage dealt doesn't overflow as easily.
+
+* Added 1 new equipment attribute that deals extra damage to enemies with the metal bit flag.
+
+* Decreased the cap on the healing effect of nether-element damage from 10% of maximum HP to 6.66% of current HP.
+** Also decreased the chance of inflicting blindness to 60% of what it was.
+** Added a "combine dark and nether spells" equipment attribute.
+
+* When several arrow spells are casted in a row [by the exile], the "combine ____ spells" equipment attributes now apply. However, only the first arrow spell casted is affected.
+
+* Added a bit flag to monsters that learn a ball spell upon evolving.
+** Those who have already evolved will have that bit flag added to them whenever their stats are recalculated [such as when changing their equipment].
+
+* Every character's bit flags are now listed in their "Feats and Traits" window.
+** You can also tell whether a bit flag is granted by a piece of equipment or if it's intrinsic to the character.
+
+* Changed the Suicide Attack special action so that the damage to the user now procs after the user's HP has been set to 0.
+** This means no more chain of exploding bomb rocks in the Void.
+** Also, characters hit by Suicide Attack will now get inflicted by 5 turns of Wince (that stacks on top of any existing Wince), and there is also a user Constitution-dependent chance of getting inflicted by Fear.
+
+* Rebalanced the damage dealt by non-elemental attacks such as water spells and suicide attacks, and changed their element to the PV/DV element.
+** Damage from these attacks can therefore now be reduced [by PV and DV] so they're unfortunately not as scary any more, but subjecting the player to unmitigable damage doesn't seem like a good idea balance-wise.
+
+* Anorexia is now displayed as a status ailment on the left side of the screen when the player character is afflicted by it.
+** The label will change accordingly to reflect the 11 different stages of seriousness (which is also the number of times the player character has vomited).
+** The chance of recovering from anorexia when sleeping has also been improved.
+
+* Changed the damage received when vomiting while satiety is negative to starvation damage.
+** The damage calculation [for starvation] has also been changed. The greater the subject's Perception and the greater the number of times vomited (caps out at 30 times), the greater the damage received.
+** In Purge mode, the damage received remains the unchanged (i.e. a fixed 999,999 damage is dealt).
+
+* To prevent accidental use of memory converters, the item description has been made clearer and a confirmation dialogue now displays upon using it.
+
+* The "360 rice balls and green teas" reward option from the yaca point card was worth more than I thought and overshadowed all the other options, so the green teas given no longer have +enhance values.
+** The logic behind this is that +1 green teas are already worth too much and green teas without enhance values are still worth using.
+
+* Send throw special action now searches the vicinity for a valid tile to throw the target to. As such, it no longer refuses to move the thrown character due to an inaccessible destination tile as often.
+** It now displays who the thrown character has been thrown towards.
+
+* Treasure maps aren't consumed when read, causing NPCs to get stuck in a loop reading them when they are handed one. Thus, NPCs no longer accept treasure maps.
+
+* Changed some descriptions.
+
+ [Fixes]
+* Fixed the distance modifiers for various ranged attacks not getting applied for attacks at maximum range.
+
+* Fixed one section of the code where I forgot to apply the fairy equipment weight limit change, causing equipment 1s and heavier to instantly get unequipped.
+
+* Fixed the display issue that sometimes happened. This was because some NPC auto-turn actions caused them to act as if they were using the 0th item in the item list, and the bug triggered if that 0th item happened to be a food item and the player attempted to eat it.
+** In addition to the fix for the aforementioned bug, when attempting to use an item that is currently in use by an NPC, the game now displays who exactly is currently using what item.
+
+
+==2.07==
+'''10/10/2021'''
+ [Changes and additions]
+* Added the ability for some special actions and events to impose a "field state" upon the current map.
+** A field state does not go away with time.
+** A field state subjects characters on the map (including the one who imposed it) to some effects.
+** Some field states can be removed by exiting and reentering the map or by the use of Space retention. These field states can also be overwritten by imposing a different field state.
+** More field states to come in the future.
+
+* Changed the display for attribute potential so that it now indicates two additional higher tiers - 300% and above, and 400% and above.
+** This change does not affect the actual value of the potential.
+
+* Also changed the display for resistance ranks so that it now indicates two additional higher tiers.
+** The difference between each rank has also increased from 50 to 100, so the displayed resistances for existing characters will change.
+** This change does not affect the actual value of the resistances.
+
+* Swapped the Concentration feat for a new one. Added 4 new special actions related to it.
+
+* Made Space retention special action learnable by the player character when prerequisites are met.
+
+* Added the bit flag that makes an NPC always drop its gold on death to 2 NPCs that previously didn't have it but were capable of using the Suspicious Hand special action (i.e. catgod hand and terrorism squirrel).
+** Also, NPCs with the summoned bit flag will now drop their gold when they have the gold dropping bit flag.
+
+* It was possible to finish the the Act III last boss battle extremely quickly with certain tactics, so the additional damage done to it now procs only once per turn.
+
+* To make fishing better at killing time, you now have the option to set it to auto-fish for 1 to 6 hours.
+** When auto-fishing, the player character will resume fishing as long as there is bait on the fishing pole.
+** When the set time has elapsed or when bait runs out, auto-fishing will stop.
+** Bait is consumed only when something is fished up.
+** With this, you can kill time and obtain fish while you're at it, but remember that fish rots in 8 hours.
+** Ease of catching fish and the rate at which time passes while fishing remains the same. Machine lure, when used, will also work the same.
+
+* Increased the chance that the [new] unique NPCs will visit your home to match that of the Mysterious Producer.
+
+* Some attacks have their damage decreased by the target's PV and DV - that decrease has been decreased.
+
+* Changed the effect of the Creepy Dream event.
+** It now causes an extreme but temporary debuff to Perception, Will, and Luck. (The debuffs from multiple Creepy Dreams will stack.)
+** This debuff can be prevented by the "protects [stat] from weakening" equipment attribute and with disinfectant.
+** It can also be cured by Restore Spirit and healers in towns.
+** This event no longer causes a permanent reduction in resistances.
+
+* Buffed the predator class's perk - it now applies a 1.1x multiplier to its final calculated chance of doing a critical hit.
+
+* Every race now has a multiplier to their final calculated chance that they can evade a critical attack.
+** The smaller and weaker races have a higher multiplier. (e.g. For gods, it is 1.0x so it essentially remains unchanged; for snails, it is 3.0x.)
+** This is to make things more even between races. Custom race names do not affect the multiplier.
+
+* Increased the weight limit on equipment that player characters of the fairy race can wear to 2s. (Equipment weighing exactly 2.0s can be worn.)
+** Fairy NPCs and the other seemingly feeble races have no such weight limit, but removing the cap altogether would probably make fairies too powerful and would mean removing their signature characteristic.
+
+ [Fixes]
+* The rent collection date variable was getting reused when it shouldn't be, so that variable has been changed to something else for two of the unique NPCs that visit your home.
+
+* Fixed the HP bar display issue that sometimes occurred for pets.
+** The issue happened when recalculating a pet's stats which caused the game to briefly remove bonuses to maximum HP (applied to {unique} and <mutant> NPCs) and PV/DV.
+
+* Fixed stacking items in the inventory with the 'I' key not stacking manuscripts into lower-quality stacks.
+
+* Fixed the crash that occurred in the English version when attempting to display tags meant for substituting parts of the Japanese dialogue for unique NPCs.
+
+* Fixed the oblivion rude beast's Summon chaos special action not working.
+
+* Fixed using a stack of filtration bottles causing the remaining charges of all bottles in that stack to decrease.
+** It will now split one bottle from the stack and decrease only that bottle's charge.
+
+
+==2.06fix==
+'''8/17/2021'''
+ [Changes and additions]
+* Lowered the lower limit for Speed when Riding while having insufficient Strength and Riding skill. The minimum is now 1/10,000 of the steed's Speed, down from 1/10 of its Speed.
+
+* Revamped how PV and DV bonuses for non-pet NPCs are calculated.
+** Half of their level (capped at +200) is added to their PV and DV. [This step does not apply to pets] and is independent of race.
+** The race bonus is then applied to the resulting value. This step applies to pets.
+
+ [Fixes]
+* Fixed race PV and DV bonuses not actually getting reflected in damage calculations.
+
+* Fixed the issues with displaying characters during cutscenes while a portrait from user/graphic is in use.
+
+* The new NPC's equip was supposed to reference the shotgun's ID, but I accidentally referenced its sprite ID instead, causing that NPC to end up spawning with the <Rail Gun> which has that ID.
+
+
+==2.06==
+'''8/15/2021'''
+ [Changes and additions]
+* Added 4 unique NPCs that have a low chance of visiting your home.
+** They may decide to stay depending on the options you pick.
+** They don't count towards the limit on the number of stayers at your home but don't resurrect after dying.
+** If you already have that NPC staying at your home, it won't visit.
+** They're all kinda weird but are mostly harmless.
+
+* Added an additional 6 new NPCs.
+
+* Guests staying at your home will now roll to leave once per day instead of once every five days. The chance to leave per roll is now 50%, down from 80%.
+
+* You will now hear cicadas in all towns other than Noyel during the months of July to September when the weather is fair.
+** You won't hear cicadas in maps that aren't considered towns. Their cry changes depending on the date and time at which you entered town.
+** From August to September, there will be dying cicadas on the ground in towns, with a higher chance for them to spawn during September.
+** They're too distracting when starting a game, so new games now start in October instead of August.
+
+* Added 14 new items.
+
+* Considering the fact that the level cap of the Hero, Gem Power, Concentration, and Divine Wisdom spells is 2,000 and that their efficacy is boosted by Magic attribute, the additive component of the buffs that they give to their respective stats is now capped at 1,000.
+** The multiplicative component of their buffs stills works the same as in previous versions.
+** There is no cap on the number of turns their buffs will last.
+
+* Now that there is a cap on the number of turns characters may take relative to each other, unique characters no longer deal bonus damage to opponents faster than them.
+** They will still receive less damage [from these opponents] though.
+
+* Increased the upper limit for Impress from 350 to 400.
+** The Impress value is now always visible instead of displaying "???".
+
+* When an NPC at full health chooses to use any healing spell (other than Healing Rain), it will now have up to 2 additional chances that turn to try to pick another move to make.
+
+* In order to prevent monsters far stronger than the player from getting summoned by the Summon Monsters spell due to spell power buffs, the types of monsters summoned is now limited by the caster's level.
+** Enemies generally don't use Summon Wild so that spell remains the same.
+
+* Halved the spawn rate of enemies in the Kamikaze attack and Mission from Karavika sub quests.
+** The former will now also have a siren than sounds when the mission is cleared.
+
+* Gave varying PV or DV bonuses to several weak or average races.
+** After updating the game, these bonuses will get applied to existing NPCs when the player 'i'nteracts with them.
+
+* The PV and DV of non-pet NPCs is now listed in their inventory in the top right corner when Pickpocketing them.
+
+* The displayed PV and DV values of all characters now includes their race bonuses as well as any bonuses that enemy NPCs have.
+
+* Stamina loss that occurs due to Drying! and Need Sleep! statuses will no longer occur when stamina is already -100 or lower to prevent it from getting too low.
+
+ [Fixes]
+* Fixed conversation windows not showing custom portraits located in user/graphic.
+
+* Fixed gold pieces spawning from [quaffing] well-type items overriding any gold pieces that were already on that tile.
+
+* Characters with the bit flag that makes them immune to elemental damage no longer receive halved fire-elemental damage when Wet.
+
+* Fixed damage received from fires on the ground not being affected by Oil status.
+
+* Changed the condition under which the cthulhick evolution will use Alchemical Rain. It used to use the special action when its target was not Wet; it will now use it when the cthulhick itself is not Wet.
+
+* Fixed failing Amurdad's side quest the first time causing the player to never receive the artifact reward for subsequent successful attempts.
+** When updating the game, the quest triggers for this quest will be reset.
+
+
+==2.05==
+'''6/6/2021'''
+ [Changes and additions]
+* Added some English translations I received.
+
+* After thinking about it, a 20x speed difference in a roguelike seems to be a bit too much. When enemies have that kind of advantage, it feels too unfair. When players have the advantage, brute force becomes the answer to everything.
+** Hence, the range in frequency of NPCs' turns relative to the player is now capped at 1/5 to 5, and not 1/20 to 20.
+** Higher Speed still translates to more turns against an opponent so it remains an important attribute.
+
+* Implemented Amurdad's Act III side quest.
+** A part of it can be tricky, but it shouldn't be difficult if you pay attention and think things through carefully.
+
+* New unique artifacts that drop from every Act's final boss.
+** For save data from previous versions, these artifacts will be placed at your character's feet after updating the game.
+
+* Added [several] new unique artifacts that can be received from Sophia after clearing Act III.
+
+* Also added 2 more new items.
+
+* Added 1 new option to the conversation with bartenders.
+
+* Slightly reduced the effect of the special dish available at inns, but extended its duration by a significant amount.
+** It is now also applied to all pets you have with you and not just to the ones in sight.
+
+* Increased the damage dealt by fires on the ground.
+** Fires that spread from a parent fire will now inherit the parent fire's strength.
+
+* Museums now come with a register.
+** This applies only to newly-constructed museums.
+
+ [Fixes]
+* Fixed cancelling while telling an informer your birthday setting it to 0/0.
+
+
+==2.04==
+'''4/25/2021'''
+ [Changes and additions]
+* Added 4 new NPCs.
+
+* Added 2 new special actions.
+
+* "Sexless" is now sex "unknown" as the latter has a broader definition.
+** Added it as an option during character creation.
+** Now characters can start as male?, female?, bisexual, and unknown.
+
+* Prevented the tag team organizing window from showing up for characters already in a tag team and for those who cannot be put in one.
+** Removed the "Tag organization" option from the 'i'nteract menu for pets already in a tag team. 
+
+* Characters without a full-body portrait set (i.e. atmosphere/'Tatie') will now display their zoomed-in sprite and not their zoomed-in portrait after selecting certain evochat options.
+
+* Added a new "tag evochat" option to the conversation window for pets who are in a tag team.
+** The target's partner will also need to satisfy the prerequisites for evochat to happen.
+** The tag partner's reaction will be displayed before the target's.
+** The portraits for both pets will be displayed side by side after certain options are selected.
+** This cannot be used on pets who are in a tag team with the player character. Passing them 100k gold will make the pets split it between themselves.
+
+* Added a new "Talk to your tag team partner." option to the conversation window for pets who are in a tag team.
+** Customizable with txtTag. If there are several lines of text under that header, a random line will be picked so make sure that they don't clash with each other.
+** Also added a new <evochat without you> option that will only show up during the aforementioned "tag evochat". This one is customizable with txtTagEvo.
+** In past versions, evochat has focused on player-pet interactions, but pet-pet interactions are now possible with this feature.
+** You can watch your pets make out with each other or you can join in.
+** Neither of these are usable on a pet tagged with the player character.
+
+* Added special tags that can be used in custom talk files that range from {se0} to {se99}.
+** Placing a seN.wav (replace 'N' with the tag's number) sound file in the user/sound folder will cause that sound to be played [when a line of text with that tag is spoken.]
+** Placing several tags into a line of text will cause all of their sounds to get played at the same time.
+** This means you can make cats meow when making them wait in town, or play a gun reloading sound effect for pets engaging in battle. You can even record entire lines and play them out.
+** Of course, creating all these .wav files is a lot of trouble and some may find it too noisy, but to each their own.
+
+* The conversation window was getting crowded out by the list of options, so the "I tell you my feelings" option has been moved into the 'i'nteraction menu.
+** May I ask for your hand/Let's make a gene options are now sub-options for the aforementioned.
+** You can now tell your feelings to non-pet NPCs to raise their Impress.
+** But you won't be able to marry them even when Impress is high enough.
+
+* Non-pet NPCs will now heal [like pets and the player character] while the player character sleeps.
+
+* Made slight changes to the conversation that occurs as Lomias and Larnneire leave the cave after finishing the tutorial.
+** Changed the items given. A fixed set of 4 useful items is now given instead of 3 random furniture pieces.
+
+ [Fixes]
+* Fixed the crash that sometimes occurred when loading a save if the game was saved while in the arena.
+
+* Fixed memory converter not being consumed upon use even though it was described explicitly as a single-use item.
+
+* Fixed the error that occurred when a powerful great wyrm summoned more powerful great wyrms. This occurred because of a section of code that dealt with NPCs summoning more NPCs of their type.
+
+* Fixed the portrait swap that could occur when entering Zaile for the first time.
+
+* Fixed Melt Clinch special action not being considered as an attack.
+
+* Opponents in a duel can no longer be Dominated.
+** Not that there's any point in duelling an NPC you're going to Dominate anyway.
+** The NPC will now be treated as if it were one of those unrecruitable NPCs until the duel ends, and as such Dominate will inflict Paralysis instead.
+
+
+==2.03==
+'''2/14/2021'''
+ [Changes and additions]
+* 5 new items.
+
+* And 1 new unique artifact, available for exchange from Miral.
+
+* 6 new special actions.
+
+* 5 new hand race NPCs. 2 new evolutions.
+
+* 4 new drake race NPCs.
+
+* Changed the conditions under which the evolved NPCs "witch" (NB: no English equivalent) and "red cross" will use their Rain of sanity special action.
+** It used to be 100% for the witch and 50% for red cross when the player's insanity is 1 or greater.
+** It is now 20% when its insanity or the player's insanity is 10 or greater.
+
+* Changed the AI of two existing unique NPCs. This change affects instances of those NPCs from existing saves.
+
+* Increased the amount of experience given by debris, but halved the base number awarded by clearing Nefia.
+** An additional +1 debris is then awarded if the Nefia cleared was awakened.
+** An additional +1 debris is also given for Nefia cleared during Nefia fever.
+
+* Changed the lower bound of MP to -99,999.
+
+* Changed the damage calculation for Meteor spell.
+** In previous versions, not only did its damage increase steeply with Magic attribute, it also had a Magic-dependent modifier on top of that, sometimes leading to overflow issues.
+** Magic attribute no longer affects damage as much, so overflow won't occur even when casted by a maxed-out character on a target affected by Element Scar and drenched in oil.
+
+* Added the English translations for Adventure Seminar that I received quite a while ago.
+
+ [Fixes]
+* Fixed some typos.
+
+* Fixed OverLimit-Throw buff as it was also working on melee attacks.
+
+* Set the attack roll dice minimum to 1 because of the crash that occurred when attempting to roll with 0.
+
+
+==2.02==
+'''12/30/2020'''
+ [Changes and additions]
+* A new Act III sub quest from Garziem.
+** There is no penalty for failing it and I highly recommend not reading any spoilers in the detailed changelog for maximum enjoyment.
+
+* 4 new map tiles.
+
+* Put 2 previously-unused BGM songs to use.
+
+* As preparation for a future feature, from version 2.02 onwards, the game will keep track of the number of potions consumed.
+** Only potions that have a round-bottomed flask as their sprite will be counted.
+** Potions quaffed, thrown, used (doused), mixed, and consumed in Alchemical Rain/Liquid Manipulation by the player are counted.
+** Potions used by NPCs and those consumed during item fusion are not counted.
+
+* Divine Wisdom (the spell that buffs Magic attribute) spell power is now independent of Magic attribute. This spell is the only one that has a spell power that that works this way.
+** Divine Wisdom's spell power is still affected by the ["enchances your spells"] equipment attribute.
+
+* Reduced the difference in base power between arrow, bolt, and ball-type spells. To be precise, their base power is now closer to that of bolt-type spells, which is in middle in terms of power.
+** Arrow-type spells are also simpler to cast, so their spell power increases more easily with Magic attribute.
+** Ball-type spells are more advanced, so their spell power increases more easily with their respective spell levels and the Casting skill level.
+** Again, bolt-type spells are in the middle. Given the same [skill and attribute levels], all types of spells will do more or less the same amount of damage.
+
+* NPCs that are of 'unique' quality now have an additional property:
+** Damage received from an enemy that has a higher Speed attribute is reduced by a multiplier dependent on the ratio of their Speed (at maximum reduction, damage is reduced to 1/5 of normal value.)
+** Damage dealt to an enemy with a higher Speed is increased depending on the ratio of their Speed (up to a maximum of x5 damage).
+** This balances out difference in speed.
+** Will also work for pets.
+
+* Spellbooks now recover a constant amount of spell stock, instead of recovering an amount that drastically decreased with current stock.
+** This means that it's no longer more efficient to use up all spell stock before reading another spellbook.
+** The amount of spell stock gained and Memorization skill experience gained have also been greatly increased.
+
+* Made some table furniture usable.
+** They can now be used to do some things like write books.
+** Tables from saves from previous versions of Elona+ will not work.
+** Travelling on the world map has a chance of giving ideas (chance is increased by Traveling skill), which can then be used to write books.
+
+* Children resulting from alien pregnancies now spawn 0 years old.
+** Also, when characters in towns impregnated by a sunbararian give birth, their children will [be the size of a] child and be disguised as a citizen. (The child will not, however, be named "child of ___" [like children resulting from a normal alien pregnancy].)
+
+ [Fixes]
+* Fixed the issue with the first character to take a turn after sprinkling bait in a ranch.
+
+* The potion's quaff effect is no longer applied when enemies die from Liquid Manipulation damage.
+
+* The NPC from version 2.01 that was supposed to be placed upon clearing Act III was present regardless of the quest progress variable, so the NPC has been given some pre-Act III clearing dialogue.
+
+* To prevent crashes, "Original [appearance]" can no longer be selected from the menu for characters who have non-animated sprites and are currently under the effect of a shift core.
+** Characters under the effect of a shift core also can no longer be evolved.
+** Also fixed the issue with displaying the custom sprite of an NPC who has a default sprite ID of 1,000 or greater.
+
+* Fixed the bug that prevented the year from being correctly looked up, causing anniversary events to not happen when waking up.
+
+* Fixed the game not being to place objects on certain passable tiles when the player enters the map.
+
+* Fixed "Decorative arts shop" shop types being unable to sell furniture.
+
+* When entering a map that has no space to place a pet, the pet gets randomly placed somewhere else. However, it could result a crash when it randomly placed only one member of a tag team. To fix this, when randomly placing one member of a tag team, the other will now also be randomly placed as well.
+
+* Fixed time not passing faster in shelters during bad weather. Also made a slight change to the rate at which time passes [when passing time quickly].
+
+* Fixed the crash the occurred when an NPC with a full inventory uses  the Alchemical Rain or Liquid Manipulation special actions.
+** If the NPC's inventory is full, it will just end its turn [instead of using the aforementioned special actions] now.
+
+
+==2.01==
+'''10/25/2020'''
+ [Changes and additions]
+* 1 new unique NPC is now placed in Shrine of Guardian upon clearing Act III.
+
+* Added a bit of post-Act III dialogue to NPCs relevant to the story.
+
+* After considering the importance of skill bonus points, spell bonus points, and debris in planning a character build, growing said character according to the build, and also how easy they are to use, the amount of experience they grant is no longer tripled by training days and Advanced Casting.
+
+* 10 debris is now awarded when a random Nefia is cleared [instead of 3].
+
+* Removed the 1.5x satiety increase modifier for blessed foods.
+** Also increased the effect of lucky days caused by blessed foods and the amount of insanity recovered.
+
+* Set an upper limit for damage dealt by exploding handmade chocolate.
+
+* Greatly increased the amount of Evasion, Greater Evasion, and Riding skill experience earned when successfully dodging a physical attack.
+** However, no experience will be received unless the attacker's relevant skills are higher than the target's Evasion skill level.
+** Greatly increased the amount of Shield skill and armour skill experience received when receiving a physical attack.
+** However, no experience will be received unless the amount of damage received is at least 1% of the maximum HP of the target.
+** In short, the experience calculation is similar to what it was in previous versions, except that there's no randomness to it now, the prerequisites for earning experience have been relaxed, and the amount of experience received increases with the difference in skill level between attacker and target.
+** It's now a lot more efficient to fight and get hit by an enemy that actually poses a threat instead of standing there and letting a weak one pummel you.
+
+* Trap removal town board quests now have about 1/2 as many traps, and the quota has also been reduced to about a 1/3.
+** Remove at least 1.25 times the quota to receive a bronze coin as a reward.
+** The size of the quest map remains the same.
+
+* The player character's speed now has less of an effect on the speed at which time passes. Slower races therefore now have more time to complete quests in early game.
+
+* The character sheet now lists spell power modifier in the bottom right corner.
+
+* The number of dice for attack spells is no longer increased by spell power. They now behave like a lot of other spells - only their dice range will be increased when spell power increases.
+
+* Removed the Casting skill level-dependent spell power modifier for spells casted [but not for rods zapped] by non-pet NPCs.
+** Added a Magic attribute-dependent spell power modifier for spells casted and rods zapped.
+** This modifier is capped at a maximum of +300% spell power, reached when Magic attribute is 1,500 or greater. It is a separate modifier that works independent of the spell power modifier from the ["enchances your spell"] equipment attribute that has a maximum of +100% spell power modifier.
+
+* Rods (the usable magic devices) now have their spell power increased when buffed by Magic Equip.
+
+* Rods (the usable magic devices) now use Magic Device and Magic Capacity skill levels and Learning attribute to calculate spell power.
+** In previous versions, they used Magic Device skill level and Magic and Perception attributes.
+** Now use of rods depends on 2 skills and utilizes a couple of the underused stats.
+
+* Magic Capacity skill feels underused even with the above change, so it now gives a bonus to the number of charges drawn and filled by Draw Charge and Fill Charge.
+** The chance of preventing a rod from exploding during Fill Charge now depends on Magic Capacity instead of Control Magic. (Caps out at 99.5% chance of preventing explosion.)
+** Draw Charge and Fill Charge usage now grants [Magic Capacity] skill experience.
+** Decreased the amount of experience given by magic reaction. (Maximum is now given at -100% MP.)
+** The skill can now also reduce the effect of the MPoison status ailment.
+
+* Use of shift cores now costs nothing when power gauge is at 50% or more.
+
+* Reading ancient books grants 10x as much Abyss power now.
+
+* Using a dark fragment now grants 1 Abyss power.
+** Added 3 new items that can be made from dark fragments in item fusion. 
+
+* Added an "Outta the way" option to the conversation window with friendly non-unique NPCs.
+** (NB: Mistranslated as "I want you to investigate one of my allies." in game.)
+** Selecting it will make it swap positions with the player character. Use when a citizen is blocking your path or something.
+** Using it spends Attract. When Attract is 0, the NPC refuses to budge. Use of this is not unlimited so that NPCs can't be herded to a particular location.
+
+* Distracted debuff from tobacco dependence now lasts 1/10 as many turns.
+** Melancholy debuff from drug dependence now lasts 1/4 as many turns, so it's easier to quit now.
+
+* Changed the description of the "maintains ______" attribute equipment attribute to "protects ______ from weakening".
+** Just so that new players don't misinterpret it and think that it prevents those attributes from leveling up.
+
+* [Lowered] the threshold for the amount of experience needed to be earned in order to gain potential when sleeping.
+
+* Spell potential gained when sleeping will now be dependent on the amount of experience earned before sleeping.
+** A very meagre amount will be gained by a character who does nothing but sleep, while a character that goes on adventures will gain about twice as much spell potential compared to past versions.
+
+* Emergency Evasion now prevents critical hits from occurring instead of evading critical hits 100% of the time.
+** The user then rolls to evade the regular attack that happens in place of the critical hit.
+** Increased the number of turns Emergency Evasion lasts for.
+
+* When a character evolves, it is now fully healed. All status ailments are also removed, and power gauge becomes 200%.
+** Because it's more exciting to evolve in combat.
+
+* Reduced the rate at which Blood Stream special action's damage increases with the strength of bleed status ailment.
+
+* Changed how some equipment attributes work when the item they're on is eaten.
+
+ [Fixes]
+* Made it easier to make progress during a certain Act III event boss battle.
+
+* Fixed the crash that occurred when using a rod of alchemy while the gauge is full enough to use a gauge attack, and the game tries to decide if the gauge attack for stave weapons should proc.
+
+
+==2.00fix==
+'''9/13/2020'''
+ [Fixes]
+* Fixed entering 15F Rehmido for the first time in version 2.00 taking the user to the wrong map and causing the player to be unable to progress with the main quest.
+** Reentering 15F in this version will regenerate the floor and fix the main quest trigger.
+** This bug was caused by overwriting the wrong file when working on 2.00.
+
+* Fixed the crash that sometimes occurred when the player character has no spells/special actions/wide special actions to hide and the player attempts to hide an item in the list after tabbing over to the current list.
+
+
+==2.00==
+'''9/05/2020'''
+ [Changes and additions]
+* Added final boss battle and the ending.
+** With this, the main quest is finally done. Naturally, people who haven't been following along still won't understand the story though.
+** The code for this is fairly complicated, I highly recommend backing up your save data before attempting the new content [in case of bugs].
+** Next to be worked on is post-game content and the various features that have been left on the back burner.
+
+* Shortened the number of turns needed between cutscenes in an Act III event boss battle by quite a fair bit.
+
+* Changed how skill-training days are selected. If the skill-training trigger for the previous day has been activated, it will select the next one in a list.
+* If it has not been activated or if all skill-training triggers have already been activated, a random skill-training day will be picked.
+
+* The character sheets of allied characters (includes pets, summoned undead, and friendly NPCs in quests and such) are now viewable by selecting an option when 'i'nteracting with them. This also allows you to spend their bonus points.
+** Informers will now offer info about adventurers instead.
+
+* Analysis immediately reaches 100 when using an insight lens on a hostile NPC.
+
+* Information on adventurers costs 100 gold at an informer, and their character sheet can be viewed by selecting them from the list shown.
+** This should make their individual characteristics more apparent. They may also belong to a guild or worship a particular god - these are also displayed on their character sheet.
+** The list of adventurers now display their Impress instead of their level.
+
+* The character sheets of character other than the player character and pets no longer have their karma.
+** The karma of pets is now always the same as the player's.
+** Character sheets of NPCs other than pets and adventurers will not display the guild they belong to.
+** Non-pet NPCs will now have fame - also viewable - based on their level and character quality. When recruited [as a pet], their fame drastically falls.
+
+* Pets who have won in the pet arena will gain fame themselves. They do not lose fame after losing a battle.
+
+* Edited the descriptions of several items to make their effect clearer.
+
+* To make the various types of chests more valuable, bejeweled chests now have a 100% chance and regular chests a 25% chance of yielding 1 herb.
+** Regular chests also have a 50% chance and safes a 25% chance of yielding 1 bronze coin.
+** Reduced the range in quality of spawned items [from opening chests].
+
+* Changed the calculation for AP cost of increasing Speed and Life. It is now based on the starting value, not the current value.
+** It is now a fair bit more expensive at the beginning compared to previous versions, but this cost will never increase.
+** This is so that players don't need to hold off on evolving pets until they have bought all the upgrades they can with AP to lower costs.
+** The player character's Speed will now increase in increments of 30.
+
+* The Wet status counter no longer decreases while standing on a water tile.
+
+ [Fixes]
+* Fixed some descriptions.
+
+
+==1.995R==
+'''6/28/2020'''
+ [Fixes]
+* Fixed weapon skills not getting marked by icons in the skill list on Training-day.
+** Also made spell list have icons when Adv-Cast is on.
+
+* Fixed receiving a small amount of Memorization skill experience from evade calculation even when not in combat.
+
+
+==1.995==
+'''6/28/2020'''
+  [Changes and additions]
+* Added a new mechanic: DESTINY triggers. Activating 7 of these triggers causes 3 Godly pieces of equipment to spawn on the piles of gold pieces in random Nefia. (Since there are multiple items, they'll appear as a bag.)
+** This is to increase the relevance of Nefia and make it easier to gear up large parties of pets with elemental resist equips.
+** As triggers are activated, letters are added to a display in the top-left corner beside the date.
+
+* Rate of increase in cost and the maximum cost in platinum pieces for skill training and magic practice have been approximately halved.
+** Panic quests gave a lot more platinum pieces than other quests, so the maximum payout has been reduced to 6.
+** The rate at which the number of platinum pieces paid by Panic quests increases with fame remains unchanged.
+** Skill bonus and spell bonus points now increase potential by a fixed 20% instead of a random amount between 2% and 15%.
+
+* No platinum pieces/skill bonus/spell bonus points will be earned when your character already has 100 or more of it.
+** This cap works only to prevent any additional gains above 100; pp/points above the cap that a character already has will not be confiscated.
+** A warning sound will play and a log message will display in red when exceeding 100 and whenever it is already above 100.
+** This is to reduce hoarding of platinum pieces so that players don't inadvertently end up handicapping themselves. It should ensure that characters grow at a constant pace, and minimize the need for grinding so that players don't get bored or stuck in Act I or II.
+** They go over the limit a lot more easily on Overdose and Purge modes, and players are probably brute-forcing all the enemies anyway even if they're imposing some kind of handicap on their playthrough. As such, there will be no cap for these two game modes.
+
+* The player's Record section in the journal now has the number of skill bonus and spell bonus points earned so far.
+** This number is cumulative so it does not decrease after spending. When updating the game from a previous version, the number of points the character already has will be added to the starting count.
+** If you have blown up any rogue ambushes with the land battleship, that number will also be recorded.
+** The journal will also record total arena and pet arena wins instead of current win streaks. This is to reflect the change in the way arenas work and also so that players don't save scum to preserve their win streak.
+
+* Removed the feature that had a Learning attribute-dependent chance of increasing skill experience gained.
+** This is so that players don't have to hoard resources until the Learning attribute is high enough, or save scum until the skill experience increase procs.
+
+* The number of times skill potentials are increased for players and pets when waking up now depends on amount of experience gained.
+** There is now also a Learning attribute-dependent chance of doubling potential gain for each separate skill.
+** However, this doubling will occur only if the rare loot trigger is on.
+
+* Skill experience gained is tripled for different sets on skills on different days.
+** This is to decrease repetitiveness, increase the need for planning ahead, and to make up for the removal of the Learning attribute-dependent experience bonus.
+** The current group of skill is indicated beside the date, and each skill in this group by an icon in the skill list.
+
+* Increased the duration of effect of Necro Force 'W'ide special action. It will also grant an Attribution Shield buff to buffed undead now.
+** Undead restore will now also grant Regeneration buff to undead.
+** The strength of both of these buffs depend on the player character's Control Magic skill level. When used, they give Control Magic experience per every undead buffed.
+
+* Reduced the amount of gold earned by pets when selling ores to 80% of the base price.
+** There is then a small amount of gold added to it, dependent on Negotiation skill (Negotiation skill effect is not capped at any number).
+** The amount also has a multiplier to it, dependent on Jeweler skill (Jeweler skill effect is capped at level 300).
+
+* Evasion stat is now decreased when standing on a water tile while Wet.
+** However, this decrease is ameliorated by Swimming skill, and at high levels may even cause evasion stat to increase instead.
+** The evasion stat is the one seen on the character sheet, so use that to check how much your evasion is increased/decreased.
+** This is simulate aquatic animals' advantages in water.
+** The increase in Speed given by [Swimming] skill was too high, and has been decreased from 50% to 40% of skill level.
+
+* Changed how Artifact lottery works to remove the bias in results.
+
+* Bed rank is indicated in their item description, but beginners won't know how good or bad the beds in town are. As such, the approximate quality of a bed the player character is standing on is now indicated in the log.
+
+* Slightly modified how the descriptions of cards in a deck are displayed. Also made it work in the English version, and added just a bit of translation.
+
+* Also incorporated some other translations.
+
+* Clarified the UI for inventory mode swapping.
+
+* Added Decorative arts shop and Junk shop to the shop types that your shop can be set to.
+** It would've been nice if the shop type selection matched the types of NPC shops, but making sure all items had their own type came first.
+
+* To make skills useful in more situations, Sense Quality skill has been renamed as Analysis in both the Japanese and English versions.
+** When receiving a regular attack (both getting hit and evading it will work) it will add to an analysis counter. The higher the receiver's Analysis skill, the faster the analysis counter increases.
+** The receiver's ability to evade the attacker's attacks increases as the counter increases. Memorization skill increases the effect.
+** Enemies have a circular gauge displayed with their HP bar that displays their analysis counter in increments of 20.
+** The analysis counter will increase even faster for characters who also have the Memorization skill.
+** The analysis counter does not get reset when moving to a different map, so when used in conjunction with Defense mode it may be helpful for scouting out bosses that use physical attacks.
+** Added a new special action related to this mechanic.
+** For roleplaying analytical characters and stuff.
+
+* Characters in Defense mode now gain a Constitution attribute and Shield skill-dependent increase in evade.
+
+* Decreased the chance that the Dream? sleep event will occur.
+
+* Successfully decoding ancient books now give a rank-dependent amount of Abyss power.
+** There are is no use for Abyss power at the moment, but you can start accumulating it now.
+** A use for it should come in the future - hopefully as a reference to something.
+** For giving non-Mages Guild members a reason to decode ancient books without making Mages Guild members choose between one of those uses.
+
+ [Fixes]
+* The custom text txtDialogH is not enclosed by quotation marks [unlike txtMizuAsobi], the contents didn't match up to the very special session of tail you just had, and it was just inconsistent. Thus, instead of txtdialogH, use the new TxtMizuAsobiEnd for customizing the text spoken at the end of the little tail session.
+
+* Fixed the year check for initiating birthday event.
+** Also made the informer display the birthday you've registered with them when the same option is selected.
+
+* Fixed gauge attacks that aren't procs (i.e. the gauge attacks that only certain NPCs have) activating in Intercept battle mode when they shouldn't.
+
+* Fixed the sprites for flesh dolls of some wider or taller NPCs getting cut off.
+
+* Fixed fires from thrown suigara burning indefinitely until put out.
+** Existing fires from previous versions won't go out, so please put those out manually with potions or by other means.
+
+* Fixed the game using a shop's display tiles as display tiles for all other shops if the player is in that shop when determining items to be sold.
+
+* Fixed summoned undead sometimes falling asleep when entering a town at night.
+** This is a different fix from the one in 1.56 that stopped them from falling asleep after a few turns at night in town.
+
+* Fixed the code for generating the large figurine sprites that would also fetch the sprite for a panty because it was fed a larger-than-expected range of values to lookup, causing a panty to appear on top of a shaved ice.
+** ...people are probably going to be even more confused after reading this.
+
+* Fixed some map data.
+
+* Fixed swamp tiles on the world map acting like roads.
+
+* Fixed healing rain animation playing for characters out of its area of effect.
+
+* Fixed using a high potion of wisdom with alchemical rain attempting to play the animation for the high potion for all characters and the shortened alchemical rain animation at the same time, causing the game to act as if Effect Speed had been set to 0.
+
+ [Unofficial changelog pertaining to English version]
+* book.txt edited to match 1.99's changes in Japanese version
+** Museum guide: added the reward for displaying unique figures, <decorative board> -> <house board>, <register>
+** Herb Effect: stomafilia's speed increase added, some minor edits
+** Shopkeeper Guide: Yaca points paragraph added
+** Easy Gardening: rewritten from scratch
+** Mission Briefing: Talking directive added
+** You dig mining?: lake, nest, cemetery, mine nefia added 
+** Questing advice: added
+** Fishing introduction: added
+
+
+==1.99==
+'''6/28/2020'''
+ [Changes and additions]
+* To make skills level up faster and as an additional reward for challenging Nefia, a new item has been added as the reward for clearing one.
+
+* Rebalanced the distance-dependent damage modifier for all ranged attacks.
+** This damage modifier will no longer drastically decrease the damage dealt outside the weapon's preferred distance-from-target.
+** Instead, this damage modifier will act to slightly increase damage when at the weapon's preferred distance-from-target.
+** The distance-dependent accuracy modifier remains unchanged.
+
+* Enemy HP tends to get too high at extreme levels, so the rate of HP increase will decrease at levels 1000, 2000, and 3000.
+
+* Added a new red book about quests. Does not spawn randomly, and is found beside the job board in Vernis.
+** Added another new red book about fishing. Does not spawn randomly, and is found in front of the fisher shop in Vernis.
+** For save files from previous versions of the game, the books will be placed there when the town does its periodic refresh.
+
+* Some skills are found on very few monsters making it difficult to gene engineer them on to your pets. Also, most races give bonuses to only 2 skills or fewer (the exceptions being gods and snail).
+** Thus, some races now give bonus skill levels in more skills. This will not affect NPCs generated in a previous version of the game.
+
+* Alchemical Rain special action now affects only characters allied to the user.
+** When used by an NPC, it will now generate an uncursed and unblessed potion of restore spirit in their inventory, then use that potion for Alchemical Rain.
+** The potion animation will also [not play] for every affected target.
+
+* Added a new special action that acts like Alchemical Rain but works solely on enemies.
+** This and the above changes allows players to selectively apply potions, allowing them to be used more effectively in combat.
+
+* Added 2 new evolutions.
+
+* Increased the SP regeneration when hydration level is Wetting or above from 2SP/10 turns to 5SP/10 turns.
+** It will still regenerate SP during auto turns, unlike the passive trait from worshipping Kumiromi.
+
+* In previous versions, when gene engineering a pet with the same or a greater number of a body part as the target pet it's going to be fused into, sometimes - depending on the source pet's ID - the target pet would not gain the extra body parts.
+** On closer examination, this isn't a feature to prevent asura and mitra from donating more hands but rather a random number generation seeded with monster ID that just happened to exclude monsters like those.
+** Thus, this gene engineering restriction has been relaxed.
+
+* Using Suspicious Hand on NPCs strung up on a sandbag will now automatically fail to nick the target's wallet because the rope's too tight.
+
+* NPCs with the summoned monster bit flag don't drop money on death, so they will now perform a regular attack instead whenever attempting to use Suspicious Hand.
+
+* In addition to the above change, NPCs with the bit flag that causes them to drop the gold they have (NB: cDropGold) will now drop all their gold.
+** Also fixed the issue where gold dropped from NPCs without that bit flag did not match the reduction in gold they have.
+
+* Increased the amount of time before fish obtained from fishing rot from 4h to 8h.
+** The time taken for fish not obtained from fishing to rot remains the same.
+
+* Updated the list of cards acquirable from card packs to match the current version of the game.
+
+* Updated the Japanese version of Museum Guide, Herb Effect, Shopkeeper Guide, Easy Gardening, Mission Briefing, You dig mining?, and the Adventure Seminar.
+
+* Any bonus to cargo limit added by the vehicle will now be subtracted and ignored when calculating the cost of upgrading the cart.
+** The cargo limit is now displayed together with the current cargo weight.
+
+* The suigara item will now disappear 100% of the time after being thrown instead of having only a chance to get burnt up.
+
+* Dungeons (created from deeds of dungeon) can now be relocated with the property transfer deed.
+
+* Sub quests that require a certain amount of fame will now display the required amount of fame within the conversation window, instead of requiring the player to look it up on the internet.
+
+* The current pace of the game makes it so that the player is far stronger than required for the Rule of Ninja sub quest by the time the requisite amount of fame is reached, so the amount of fame needed has been halved.
+
+* Made <Milis> the soldier easier to find in Eirel by creating a new path in town and making newly-spawned instances of the NPC immobile.
+
+* 'l'ooking at characters now displays their current SP as a percentage instead of an exact number. One of the reasons for this change is to make it match HP and MP displays which you can't determine as precisely for NPCs.
+
+* Prevented the dialogue box from popping up when the network setting is on even if no server is indicated.
+
+ [Fixes]
+* Fixed some descriptions.
+
+* Fixed the South Tyris Nefia boss's info being available from town informers before Act II even begins.
+
+* Fixed using up 1 pet arena entry chance if you cancel when selecting who to send out in the pet arena.
+
+* Fixed entering a number from 28 to 32 when changing the world map icon of a deed making it into inaccessible terrain.
+** Also made number 33 selectable.
+** There will be some visual glitches when in Aimwell because of how the code works, but they can be fixed by going to North Tyris and returning.
+
+* Fixed the issue with orichal-co's base level.
+
+* Fixed the [character] targeting for the new Healing Rain animation.
+
+* Fixed maps that have NPCs placed on them by game triggers sometimes placing those NPCs twice. This occurred if the player has never visited the map before the game trigger activated, and a map refresh occurs at the same time as the visit.
+
+
+==1.98R==
+'''4/12/2020'''
+ [Changes and additions]
+* Pressing the 's' key while riding in a vehicle on the world map will now play a sound. It doesn't do anything else, so spam it all you want.
+
+* Changed the way Blade Turbulence, [Healing Rain], Rain of sanity, and Homing Lazer are animated.
+
+* Halved the price of ordering a drink from a bartender.
+
+* Greatly increased the amount of hydration recovered when Wet while hydration is below a certain value.
+
+* The default sprite for traveler's food has something that looks like a drink pictured in it. Thus, eating a traveler's food when hydration is low will now recover hydration by approximately the same amount as drinking a regular potion.
+** Automatic usage of traveler's food will still only trigger when satiety is low and not when thirsty.
+
+* The scroll of growth item and Development sleep event no longer work on a number of random skills; they now work on all skills that the character has learned.
+** This is so that having useless skills won't cause the potential increase of other skills to decrease.
+
+ [Fixes]
+* Fixed the graphical issue with stairs in all maps other than West Raskilis valley that would temporarily crop up when entering said location.
+
+* Fixed eye-race NPCs' evolutions not getting assigned the bit flag that indicates a sprite ID of 1000 and above, causing issues with their post-evolution sprite.
+** Eye race pets that were evolved in a previous version will be automatically patched when updating to this version if they are in your list of pets [and not in the discarded ranch or Doujyou].
+
+* Fixed reading a vehicle deed on the world map consuming the deed.
+
+* Also fixed the increased cargo capacity that vehicles gave, which was off by a magnitude. Existing save files will be automatically patched when updating the game.
+
+* Fixed on-character sprites for equipment like armours and cloaks becoming invisible when entering another map.
+
+
+==1.98==
+'''4/06/2020'''
+ [Changes and additions]
+* Changed some Act II main quest cutscenes.
+** Fleshed out some details, added some foreshadowing, slightly changed how events unfold, added some characters to them, and so on.
+
+* Added 4 means of transportation for travelling on the world map.
+** Added deeds for each of these.
+
+* 2 more conversation options for pets.
+** The pet's reaction to one of them can be customized with txtMizuAsobi.
+
+* Renamed the "maintenance" item in the tax breakdown to "running costs" [in the Japanese version] as the latter has a broader definition.
+
+* Changed the icons of some warning messages to ones that stand out more so that fewer people overlook the messages.
+
+ [Fixes]
+* Fixed the issue with the options displayed when the Riding special action is used.
+
+* Making a pet wait in town while it is currently being ridden will now cause your player character to properly dismount from it.
+
+* Fixed all evolved pets sometimes using Dancing Wire on the lower level eye race targets.
+** Also fixed the new evolution added in 1.97 not using Dancing Wire like she is supposed to.
+** These issues arose because the ID of the target was used instead of the user.
+
+* Fixed the item marks set for characters on the right side of a tag team being off by 3 pixels to the side.
+
+* Fixed one of the new ether disease symptoms decreasing Charisma instead of increasing it (the code was copied from the "your neck becomes extremely thick" symptom).
+
+
+==1.97==
+'''3/01/2020'''
+When updating to version 1.97, pets who had been marked as precious will no longer be marked as such due to changes to the variable used.
+
+Custom item sprites will also have their image height reduced and appear flattened.
+
+You will need to reassign both of these after updating the game.
+
+ [Changes and additions]
+* 4 new unique artifacts. Some available for exchange, some randomly spawned.
+
+* Added just the conversation before the last boss battle of Act III.
+
+* 5 new eye race NPCs. 2 new evolutions.
+
+* The "sores on your face" ether disease symptom now has a maximum Charisma penalty of -999 at every disease stage.
+** The "you suffer debilitation" and "you are stupid" symptoms have a maximum penalty of -255 to Strength and Magic respectively.
+
+* Decreased the satiety gain from using Voracity Fang special action to 1/10 of the previous value.
+** When satiety is at Satisfied or above, using this special action will just do a regular physical attack.
+
+* 10 new ether disease symptoms.
+** These are all physical deformities that give some minor advantage and a serious disadvantage, but you may find them useful if they fit your play style or for roleplaying.
+
+* 4 new sleep events. Decreased the probability that the existing negative sleep events will occur.
+** Some of the new sleep events are positive, some depend on your choice or luck, some are a mix of good and bad, and some progress in multiple stages.
+
+* The "Item mark adjust" option now allows you to enlarge the item sprite.
+** Sprite width and height are also independent settings, allowing you to do more things with images. Beyond a certain size, they may start sticking out of their image frame and interfere with the text displayed, but that shouldn't be a serious issue.
+
+* Dominate spell now paralyzes the target when used by an NPC regardless of whether the target is immune to domination or not.
+
+* Changed the sprites of Mournblade and Storm Bringer so that they resemble the weapons they are referencing a lot more.
+
+* Added some English translations.
+
+ [Fixes]
+* Fixed some descriptions.
+
+* Fixed the ranch animal trait that yields more corpses not working when Anatomy skill is 0.
+
+* Fixed being able to get quest hints even if the player hadn't reached the prerequisite points in the main quest or was without enough gold to pay the informer despite the message displayed.
+
+* Fixed ZinlaiKyaku special action sometimes freezing the game when it is used some distance away from the player.
+** In versions 1.96 and earlier, the freeze can be avoided by setting Effect Speed to 0.
+
+* Fixed being unable to use gauge attacks with 2 recently added unique artifact melee weapons.
+
+* Fixed the baphomet (NB: no English equivalent) evolution's sprite.
+
+* Fixed the tint and English name of Storm Bringer.
+
+* Fixed the hot spring tiles in Melkawn's underground Gamling hall (sic) so that they now reduce insanity.
+
+* Fixed the scripted name change that occurs for Miros and Karura.
+** In order to fix any existing issues with their name for saves from a previous version, a fix will be applied when entering Ruoza if their names are longer than they are supposed to be.
 
 
 ==1.96==
@@ -1066,7 +2043,7 @@ NB: Above changelog for 1.88R was the same as this version.
 ==1.76==
 '''3/1/2018'''
  [Changes and additions]
-* Added a new game mode filled with overpowered features. This one's for those who like things like save-scumming, afk leveling in idle games, brute forcing everything, and being very stronk and powerfull in general.
+* Added a new game mode filled with overpowered features. This one's for those who like things like save scumming, afk leveling in idle games, brute forcing everything, and being very stronk and powerfull in general.
 * Introduced a damage-reducing combo system to curb the effectiveness of overwhelming enemies with an excess of hand slots. This will apply to both the player's side as well as enemies.
 ** The 50th [to 59th] hit received by a target before its next turn will be reduced by 20%, the 60th [to 79th] hit by 30%, the 80th [to 100th] by 40%, the 100th attack onwards by 50%, and on on. The 200th attack a target receives before its next turn will end up doing only 1 damage.
 ** However, Continuous attacks, Dance of blow, Shadow rush, Knockout, and Fire a volley will not count towards the combo counter.
@@ -1098,7 +2075,7 @@ NB: Above changelog for 1.88R was the same as this version.
  [Changes and additions]
 * Added the ability to insert tags into custom NPC talk. Having a tag in a custom talk line will display the corresponding emoticon along with it. If the "atmosphere" evochat portraits are set [for that particular pet], then those will change with the line spoken as well. When a tag is used in an evochat line, then the corresponding [evochat portrait] for that tag will be displayed instead of the default for that evochat line.
 ** {Basic} - clears emotes currently being displayed when this line is spoken.
-** {Embarrassment}„ÄÄ- displays the blush icon when this line is spoken.
+** {Embarrassment}°°- displays the blush icon when this line is spoken.
 ** {Fun} - displays the musical note icon when this line is spoken.
 ** {Happy} - displays the heart icon when this line is spoken.
 ** {Angry} - displays the angry icon when this line is spoken. Atmosphere portrait is the same as Basic.
@@ -1577,7 +2554,7 @@ Use this only if you know what you're doing, and make a backup of save files use
 * Slightly reduced the fee for attending the Seminar. This is as low as it will go so that players will pay attention to the content.
 * Changed the portraits of 4 unique NPCs added in 1.65. Middle-age wizards are kind of hard to draw...
 * Added 2 new red books.
-* Made categories of instruments produce different "‚ô™" [speech bubbles]. Some of them were kind of hard to illustrate as text, so these might change in the future.
+* Made categories of instruments produce different "°§" [speech bubbles]. Some of them were kind of hard to illustrate as text, so these might change in the future.
 * Performing and harvesting quests will now automatically end if you leave the map. (The quests will be cleared if you meet the quotas.) Added an exit for the Party Time! map at the bottom.
 * Changed appearance rates and added more unique NPCs to the list that will appear in Party Time!. There is now a difference between North and South Tyris in terms of the NPCs that will appear, and people who shouldn't be together will no longer appear at the same location.
 * Greatly increased the chance of satisfying the audience when Fascination Dance succeeds.
@@ -2793,7 +3770,7 @@ Use this only if you know what you're doing, and make a backup of save files use
 ** However, there are also insane detectives and werewolves disguised as detectives. These will tell lies.
 ** Human detectives have a fixed chance of being the target of a werewolf attack.
 * Chests (the ones that weigh 300s) generated from this version and onwards will now rarely have rod of wishing in them. Whether the chest is one that has a chance of having a rod of wishing in it or not is determined when the chest is generated, and only some of these chests will actually have a rod of wishing in them.
-** Save-scumming is therefore pointless. It's the kind of thing that you might come across if you keep playing and get lucky.
+** save scumming is therefore pointless. It's the kind of thing that you might come across if you keep playing and get lucky.
 * The gauge attack for spells and magic devices will now only activate for attack spells/magic devices (except Meteor).
 * Changed the sprites of brown bear and grizzly. They are now brown and grey like their names suggest.
 * Added evolutions for low-level golems and bears.
@@ -3163,7 +4140,7 @@ All town board quests currently undertaken will be deleted during the update, an
 * Investing in the baker will increase the number of items in each stack.
 * Monsters from spellbook reading failure, from well quaffing, and from the equipment attribute that attracts monsters will now have the cIsSummoned bit flag, and will disappear after a few days.
 * NPCs with the Pickpocket skill will now obtain a portion of the target's gold (capped at 2000 gp), with the amount depending on the skill level. Pickpocket experience will also be received. This is to make Pickpocket useful for NPCs.
-* Added the {‚Äö¬µ‚Äö√´} variable for custom lines.
+* Added the {?¶Ã??} variable for custom lines.
 * {npc} in custom lines will no longer have to be changed to {nptc}, and both are usable and interchangeable.
 * Added the crimberry. It's a fruit that can be picked up in the wilderness, but cannot be used for cooking. When eaten, causes a slight sanity increase. Can be made into 10 crim ales via item fusion. Currently considering implementing the ability to make it into a drug.
 * Added coffee. Reduces sleepiness by a small amount when drunk by the player. Removes sleep status when drunk by NPCs.
@@ -3453,7 +4430,7 @@ All town board quests currently undertaken will be deleted during the update, an
 * Attribute special action now imbues attacks with only the element that the user has the highest resistance against. Greatly buffed its power and duration. Makouken, which works the same way, will be changed to a new martial arts special action in the future.
 * Stayers on the discarded ranch can now be moved. Item limit is now 400.
 * Eye of Mind skill has been changed from Perception to Will.
-* {you}, {sex}, {player}, {aka}, {npc}, {onii}, and {syujin} variables can now be used in custom lines aside from txtDialog (which is used in conversations). The NPC's tone can also be changed with {„ÅÇ„Çã}, {„Åå}, {„Åã}, {„Åã„Å™}, {„Åè„Çå}, {„Å†}, {„Çà}, {„Å†„Å™}, {„Å†„Çç}, {„Çã}, {„Åü„ÅÆ„ÇÄ}, {„ÅÆ„Å†}, {„Å™}, and {„Åè„Çå}
+* {you}, {sex}, {player}, {aka}, {npc}, {onii}, and {syujin} variables can now be used in custom lines aside from txtDialog (which is used in conversations). The NPC's tone can also be changed with {§¢§Î}, {§¨}, {§´}, {§´§ }, {§Ø§Ï}, {§¿}, {§Ë}, {§¿§ }, {§¿§Ì}, {§Î}, {§ø§Œ§‡}, {§Œ§¿}, {§ }, and {§Ø§Ï}
 * Added ability to customize lines used during Synchro hearts.
 * Monsters with the IsSummoned bit flag that are strung up with a sand bag, as well as NPCs that are neutral or above will no longer disappear.
 * Servants, the eight gods, as well as some other NPCs (Jure fanatic, <Gilbert> the carnel, etc) now start off worshipping a certain god. The god that other NPCs worship will no longer depend on the map they are on, and is now completely random. There will be a way to change the god that NPCs worship in the future.
@@ -4114,7 +5091,7 @@ All town board quests currently undertaken will be deleted during the update, an
 * Made trading slightly easier.
 * Adjusted drop rate for materials. Now you won't keep getting Garbage deep in the dungeons, but it also means you probably won't be finding 500 yen coins on easier floors.
 * Made material boxes and scroll of gain material have a chance of generating all kinds of material independent of the floor you're on and the type of gathering spot.
-* When uploading a showroom, it will automatically append "¬Å{¬ê¬ª" to the room name and the welcome message. To avoid issues, please delete showrooms created before 0.91 from here:
+* When uploading a showroom, it will automatically append "?{??" to the room name and the welcome message. To avoid issues, please delete showrooms created before 0.91 from here:
 ** http://hpcgi3.nifty.com/rfish/usercgi/clip.cgi
 ** NB: There may be no equivalent indicator for English showrooms?
 * Increased value of casino rewards. Casinos will now give scrolls of faith and potions of potential depending on the number of consecutive wins and the number of chips bet. Made it easier to win potions of cure corruption.

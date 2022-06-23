@@ -35,8 +35,8 @@
 "Welcome back."
 
 %txtDialog,JP    //話しかけた時のセリフ
-什么？
-（盯~){Angry}
+什么？{Question}{se0}{se1}
+（盯~){Angry}{se1}
 %txtDialog,EN
 Hi.
 What's up?
@@ -236,7 +236,36 @@ I'm fun!
 ああ、そうだ、そうだと思う。これも運命だ。
 信じるさ、君ともこうしてわかり合えたんだから。
 見えるよ、{player}…。見えるよ、みんなが…。
-%txtDialogH,EN
+%txtDialogH,EN	//happiness maxed during evochat
+Very happy!
+
+%txtMizuAsobi,JP    //【特別な気持ちいいこと】中のセリフ
+「あっ…」
+「いいっ」
+「うっ…！」{Embarrassment}
+「えっ！」
+「おっ·」
+%txtMizuAsobi,EN	//when special during evochat
+"Ah..."
+"Yes..."
+"Wow!!"
+"Phew!"
+"Oh...!"
+%txtMizuAsobiEnd,JP    //【特別な気持ちいいこと】終了時のセリフ
+「こういう生活を強制されたら、少しは骨抜きの人間になったって仕方ない」
+%txtMizuAsobiEnd,EN	//when special end of evochat
+"I was very felt good!"
+%txtTag,JP    //タッグ間のやりとりを見る時のセリフ
+私、本当にあの人殴りたくなってきた。
+私だって言いたいことはあるんだ！
+今日まで一緒にやって来た仲間じゃないですか。
+%txtTag,EN	//when talking tag team without you
+I'm fun!
+%txtTagEvo,JP    //タッグ間でevochat時のセリフ
+しかし認めなくちゃいけないんだ！目を開いて…。
+何も出来ないで…ああっ！
+そ、それ、だけ、なんですか？それだけで、おしまいなんですか！
+%txtTagEvo,EN	//when evochat without you
 Very happy!
 
 %txtShift,JP    //変異殻使用時のセリフ

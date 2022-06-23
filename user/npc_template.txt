@@ -39,231 +39,212 @@ bitOn.		"5,23"
 
 %txtDead,JP    //死亡時のセリフ
 「ちんだ」
-
 %txtDead,EN    //spoken on death
 "Oh I'm dead."
-
 %txtKilled,JP    //敵殺害時のセリフ
 「ころしたよー」
-
 %txtKilled,EN   //when killing an enemy
 "I killed it!"
-
 %txtWelcome,JP    //帰宅出迎えのセリフ
 「おかえり」
-
 %txtWelcome,EN    //staying at home and player enters the map
 "Welcome back?"
-
 %txtDialog,JP    //話しかけた時のセリフ
-なあに？{Question}
-（おとおとはあなたをじっとみている){Embarrassment}
+なあに？{Question}{se0}{se1}
+（おとおとはあなたをじっとみている){Embarrassment}{se0}
 %txtDialog,EN   //when talked to
 What's up?{Question}
 (The younger brother stares at you, reddening around the ears.){Embarrassment}
-
 %txtMaterial,JP    //マテリアル受取時のセリフ
 「これあげるねっ」
 「ほら！いっぱいあつめたんだよー！」
 %txtMaterial,EN    //when receiving materials
 "Here ya go!"
 "Look, I got so many of them!"
-
 %txtBfast,JP    //朝食イベント発生時のセリフ
 「{onii}ちゃんおはよー！」
 %txtBfast,EN	//breakfast event
 "Morning, {player}!"
-
 %txtNight,JP    //添い寝イベント発生時のセリフ
 「えへへ」
 （おとおとはぐぅぐぅねむっている)
 %txtNight,EN	//when sleep sharing
 "Ehehe..."
 (The younger brother is fast asleep.)
-
 %txtInsult,JP    //罵倒技能時のセリフ·攻め寄りの状態で鞭で叩いた時のセリフ
 「ばーか」
 %txtInsult,EN	//Insult special action, or whipped when low on servant-master value
 "You suck!"
-
 %txtInsult2,JP    //鞭で叩いてもらうようにねだった時のセリフ
 「うっわー…」
 %txtInsult2,EN	//when asked to whip the player
 "...seriously?"
-
 %txtDiscipline,JP    //鞭でアイテム拾い禁止、拾い食い禁止した時のセリフ
 「いたっ！」
 %txtDiscipline,EN	//forbidding items on the ground with whip
 "Ow, that hurt!"
-
 %txtDiscipline2,JP    //叩き慣れした状態で鞭で叩いた時のセリフ
 「くうん…·」
 %txtDiscipline2,EN	//when whipped, but used to getting whipped
 (The younger brother whines pleasurably...)
-
 %txtDisciplineOff,JP    //アイテム拾い禁止解除、拾い食い禁止解除時のセリフ
 「も、もうやめて…」{Embarrassment}
 %txtDisciplineOff,EN	//when allowing eating/picking items off the ground with whip
 "Please...stop..."{Embarrassment}
-
 %txtDisciplineEat,JP    //拾い食い禁止状態で食事を与えた時のセリフ
 「たべていいの？」
 %txtDisciplineEat,EN	//when given food while eating off ground is forbidden
 "I can eat this? Really?"
-
 %txtMeal,JP    		//「一緒に食事する」時のセリフ
 コレおいしいねー！
 はい·{onii}ちゃんもあーんして！
 %txtMeal,EN		//when having a meal together
 "Wow this is yummy!"
 "Open wide, {player}!"
-
 %txtCharge,JP    //味方がチャージ技能を発動した時のセリフ
 「ぼくが…まもるんだーっ！」
 %txtCharge,EN	//an ally uses Charge Attack special action
 "I'll protect you!"
-
 %txtChargeS,JP    //本人がチャージ技能を発動した時のセリフ
 「チャージ！」
 %txtChargeS,EN		//using Charge Attack special action
 "Charging!"
-
 %txtChargeA,JP    //本人がチャージ効果の乗った攻撃をする時のセリフ
 「いけぇっ！」
 %txtChargeA,EN	//using an attack powered up by Charge Attack
 "Taste this!"
-
 %txtKizuna,JP    //味方が魂のシンクロ技能を発動した時のセリフ
 「まだまけてないもん」
 %txtKizuna,EN	//an ally uses Synchro hearts special action
 "It's not over yet!"
-
 %txtSpecial,JP    //ゲージ技を発動する時のセリフ
 「くらえー」
 %txtSpecial,EN		//using a gauge attack
 "Take that!"
-
 %txtKiss,JP    //口づけされた時のセリフ
 「ちゅー」
 %txtKiss,EN		//when kissed
 "Mwah."
-
 %txtChoco,JP    //２月にチョコをもらった時のセリフ
 「たべて！」
 %txtChoco,EN	//giving handmade chocolate in February
 "Here!"
-
 %txtNade,JP    //魂の友以上の友好度でＰＣから愛撫の手を受けた時のセリフ
 「もう、くすぐったいよぉ」
 %txtNade,EN	//rubbed by player when at Soul Mate or above
 "That tickles!"
-
 %txtHug,JP    //魂の友以上の友好度でＰＣからスクイーズを受けた時のセリフ
 「{onii}ちゃん…すき」
 %txtHug,EN	//Squeezed by player when at Soul Mate or above
 "Love you too, {player}."
-
 %txtFawnOn,JP    //悩殺攻撃技能に抵抗できずメロメロになってる時のセリフ
 「かわいー！」
 「わ…さわってもいい？」
 %txtFawnOn,EN	//failing to resist Bewitch special action
 "It's so cuuute!"
 "Can... can I touch?"
-
 %txtMidNight,JP    //強制的に添い寝させられて怒っている時のセリフ
 「{onii}ちゃん、ひどいことしないで…」
 %txtMidNight,EN	//when angry at forced sleep sharing
 "Please don't be mean, {player}..."
-
 %txtRideOff,JP    //乗馬解除（ＰＣが乗っている場合）時のセリフ
 「つかれたぁ」
 %txtRideOff,EN	//when player dismounts after riding
 "I'm beat!"
-
 %txtRideOffPC,JP    //乗馬解除（ＰＣが乗られている場合）時のセリフ
 「また、おうまさんごっこしようね！」{Fun}
 %txtRideOffPC,EN	//dismounting player after riding
 "Let's play horsey again sometime soon!"{fun}
-
 %txtRideOn,JP    //乗馬開始（ＰＣが乗る場合）時のセリフ
 「むぎゅう」
 %txtRideOn,EN	//player mounts
 "Ooof."
-
 %txtRideOnPC,JP    //乗馬開始（ＰＣが乗られる場合）時のセリフ
 「わーい！」
 %txtRideOnPC,EN	//mounts player
 "Weee!"
-
 %txtLimit,JP    //添い寝時に眠気が限界に来た時のセリフ
 「{onii}ちゃん…ぼく、もう…！」
 %txtLimit,EN	//reaching limit during sleep sharing
 "I feel funny, {player}...!"
-
 %txtMultiple,JP    //多重詠唱魔法に参加する時のセリフ
 「ささやき、いのり、えいしょう、ねんじろー！」
 %txtMultiple,EN	//taking part in an Over-Ray spell
 "By our whispers, prayers, incantations, imagination combined!"
-
 %txtDrain,JP    //友好度：親友以上または主従度：従順以上でＰＣに吸血される時のセリフ
 「やさしくしてね…」
 %txtDrain,EN	//subjected to Drain Blood by player when at Fellow or Amenable
 "It's... it's not going to hurt, is it?"
-
 %txtCreate,JP    //夜なべして防具作った時のセリフ
 「ちょっとよふかししちゃったけど、へーきだから」
 %txtCreate,EN	//made equipment last night for handmade gift event
 "I slept a bit late last night, but I'm ok!"
-
 %txtBtalk,JP    //説得系技能を発動した時のセリフ
 「なかよくしよーよ！」
 「たたかうのあきたでしょ？」
 「ムダなていこうはやめろー！」
-%txtBtalk,EN
+%txtBtalk,EN	//When use persuasive skills
 "Let's get along!"
-
 %txtEXAct,JP    //添い寝時の専用行動選択肢　変換タグ無効
 目隠しする
 %txtEXAct,EN	//custom line during sleep sharing. {tags} won't work.
 Blindfold
-
 %txtEXReact,JP    //上記行動を選択した時の反応
 「{onii}ちゃん、どこ…」
 %txtEXReact,EN	//reaction when the above option the selected
 "Brother? {player}? Where are you, {player}...?"
-
 %txtDialogB,JP    //evochat開始時のセリフ
 なんだかきんちょうするね？
 {onii}ちゃん…。
 %txtDialogB,EN	//when evochat is initiated
 I'm kinda nervous... ehehe.
 {Player}...
-
 %txtDialogE,JP    //evochat時、困らせた場合のセリフ
 もー！やめてよー。
 いじわるしないで…。
 %txtDialogE,EN	//embarrassed during evochat
 No, don't do that...!
 Meanie...
-
 %txtDialogF,JP    //evochat時、喜ばせた場合のセリフ
 えへへ。
 やさしい{onii}ちゃんすきー！
 %txtDialogF,EN	//when happy during evochat
 Ehehe.
 You're so nice, {player}! I love you!
-
-
 %txtDialogH,JP    //evochat時、機嫌が最大の場合のセリフ
 しあわせー！
 うれしいなぁ…うれしいなぁ！
 %txtDialogH,EN	//happiness maxed during evochat
 I'm so happy...!
 Wow... Wow!
-
+%txtMizuAsobi,JP    //【特別な気持ちいいこと】中のセリフ
+「あっ…」
+「いいっ」
+「うっ…！」{Embarrassment}
+「えっ！」
+「おっ·」
+%txtMizuAsobi,EN	//when special during evochat
+"Ah..."
+"Yes..."
+"Wow!!"
+"Phew!"
+"Oh...!"
+%txtMizuAsobiEnd,JP    //【特別な気持ちいいこと】終了時のセリフ
+「はぁ…きもちよかった」
+%txtMizuAsobiEnd,EN	//when special end of evochat
+"I was very felt good!"
+%txtTag,JP    //タッグ間のやりとりを見る時のセリフ
+なかよしだよ～！
+まぁまぁ。
+%txtTag,EN	//when talking tag team without you
+I'm fun!
+%txtTagEvo,JP    //タッグ間でevochat時のセリフ
+{onii}ちゃんがみてるのに…。
+よーしよし！
+%txtTagEvo,EN	//when evochat without you
+Very happy!
 %txtShift,JP    //変異殻使用時のセリフ
 「へんしんっ！」{Fun}
 %txtShift,EN	//when using a shift core
 "Trans! Form!"{Fun}
-
 %endTxt

@@ -12,28 +12,30 @@ Number,Japanese title,English title,		1=randomly generated
 5,库莱姆莓中毒,Crimberry Addict,		1
 6,世界在旋转,Cat's Cradle,			1
 7,灵草的作用,Herb Effect,			1
-8,店的运作指南,Shopkeeper Guide,		1
+8,商店经营指南,Shopkeeper Guide,		1
 9,第一次的自家栽培,Easy Gardening,		1
-10,珍惜水源！,Water!,				1
+10,珍惜水！,Water!,				1
 11,对畜牧的建议,Breeder's Guide,		1
 12,神秘的手记,Strange Diary,			1
 13,来自金字塔的挑战书,Pyramid Invitation,	0
 14,卡牌游戏的规则书,Card Game Manual,	1
-15,地下城的运作指南,Dungeon Guide,	1
-16,被隐藏的木加弗定理,Wily Mujaf's Thesis,		0
+15,地城运营指南,Dungeon Guide,	1
+16,隐藏的木加弗定理,Wily Mujaf's Thesis,		0
 17,奈菲亚综合症,A Review on Nefian Psychosis,		1
 18,送礼的礼仪,Gifting Gifts,		1
 19,集团活动训练,An Exercise in Team-Building,	1
-20,冒险生活　＜518／春号＞,Adventurers Quarterly Spring '18,	1
-21,仇恨笔记,Bitter Last Words,		0
+20,冒险生活　＜518／春＞,Adventurers Quarterly Spring '18,	1
+21,充满怨恨的笔记本,Bitter Last Words,		0
 22,作战指示书,Mission Briefing,			1
-23,又是这一阶段？,Get on my level,		1
+23,还没有抵达这个阶段吗？,Get on my level,		1
 24,死灵术说明书,Mission Briefing,		1
 25,日志的秘密,Secrets of the journal,	0
-26,魔术讲义发布资料,SOR110 Introduction to Sorcery,		1
+26,魔法讲义阅读资料,SOR110 Introduction to Sorcery,		1
 27,采掘好啊,You dig mining?,		1
-28,哇娱乐项目？,What's in a performance?,		1
+28,什么是表演？,What's in a performance?,		1
 29,次元间力观测实验报告书,Dimensional Energy Report,	0
+30,关于委托的建议,Quest Advice,		0
+31,垂钓入门,Fishing Introduction,		0
 %END
 
 /Translation Note
@@ -64,8 +66,8 @@ today on!
 	written by 艾沃达纳的将军
 （注）非艾沃达纳士兵不得阅读！
 
-　迷路的诸位士兵们，茫然于该如何行动的
-诸位士兵们、你们不需要任何担心。和队伍
+　迷路的诸位士兵们、茫然于该如何行动的
+诸位士兵们，你们不需要任何担心。和队伍
 走散的时候该如何行动，就由我来作个简单
 的说明吧。
 
@@ -75,7 +77,7 @@ today on!
 韦尔尼斯前进即可。镇里有食物供给，如果
 攒了一笔小钱的话也可以购买其他的物资。
 
-　做了适当的准备之后、即可朝着镇东附近
+　做了适当的准备之后，即可朝着镇东附近
 的洞窟出发。那里对于想积累经验的新兵来
 说是最合适的地方，也能稍微赚到一些钱。
 
@@ -85,21 +87,21 @@ today on!
 生的迷宫后，立刻被恐怖的危险生物杀掉的
 事情时有发生。
 
-　要一直留意食物的储备量。
-食物很贵，但对于生存是必须的。虽然除了
-买取以外还有不少获得食物的方式，但随时
-注意肚子的饥饿程度仍是必须的。
+　要一直留意食物的储备量。食物很贵，但
+对于生存是必须的。虽然除了买取以外还有
+不少获得食物的方式，但随时注意肚子的饥
+饿程度仍是必须的。
 
 ■最终的目的是？
 
-　积累了足够的经验的话、就以莱希墨苏洞
+　积累了足够的经验的话，就以莱希墨苏洞
 穴为目标吧。那是奈菲亚的遗迹群之一，据
 说其中隐藏着能将我等艾沃达纳人引向繁荣
 的重大秘密。
 
-　至今为止仍没有人能到达洞穴最下层并
-活着归来。谁能解开这个迷宫的秘密，就
-会获得巨额的赏金。
+　至今为止仍没有人能到达洞穴最下层并活
+着归来。谁能解开这个迷宫的秘密，就会获
+得巨额的赏金。
 
 最后祝诸君马到成功！
 %END
@@ -427,33 +429,33 @@ I warned you.
 博物馆经营指南
 	written by 标本狂
 
-　对经营博物馆很好奇？给想经营博物馆
-的你几条建议。
+　对经营博物馆很好奇？给想经营博物馆的
+你几条建议。
 
-　博物馆，是通过向来客展示稀有的标本
-和卡片来赚取收入的设施。不管在博物馆
-里的哪都可以，只要把上述物品摆放出来
-就应该可以确认到博物馆当前的排名了。
+　博物馆，是通过向来客展示稀有的标本和
+卡片来赚取收入的设施。不管在博物馆里的
+哪都可以，只要把上述物品摆放出来应该就
+可以确认到博物馆当前的排名了。
 
-　每只标本或卡片都有着各自不同的稀有
-度。越是巨大的标本、越是难以获得的
-独特卡片，就越有其稀有价值。
+　每只标本或卡片都有着各自不同的稀有度
+。越是巨大的标本、越是难以获得的独特卡
+片，就越有其稀有价值。
 
-　需要注意的是，重叠在一起的物品将无
-法被展出。并且，所有种类重复的道具的
-稀有价值，将从第二个开始降低。
+　需要注意的是，重叠在一起的物品将无法
+被展出。并且，种类完全相同的道具的稀有
+价值，将从第二个开始降低。
 
-那么，请努力经营吧。我期待着你的博物
-馆成为人们的话题传到我耳中的那天哦。
+那么，请努力经营吧。我期待着你的博物馆
+成为人们的话题传到我耳中的那天哦。
 
-ps. 喔喔、差一点就忘了。初建时的博物
-馆很狭窄，觉得地方不够用的时候，就挖
-开墙壁来扩建吧。
+ps. 喔喔、差一点就忘了。初建时的博物馆
+很狭窄，觉得地方不够用的时候，就挖开墙
+壁来扩建吧。
 %END
 
 %4,EN
-Museum Administration Manual Mk.II
-ReWritten by Curator Schmidt
+Museum Administration Manual Mk.III
+Written by Curator Schmidt
 
 So you want to run a Museum do you?
 
@@ -527,21 +529,33 @@ and utterly ineffectual.
 
 The mightier the monster, the better
 value the card and Figure. Rare are
-the Cards with a Name or Title on 
-them. These indeed are best.
+the Figures with a Name or Title on 
+them. These so-called "Unique" 
+Figures indeed are best. And in 
+order to encourage more museums to 
+showcase these, I've set up a trust 
+that will reward museums based on the
+number of Unique Figures that they
+have on display, paid out on the 
+first of every month.
 
-While having a dragon's card is nice.
-having ten is just tacky. Variety is
-key. The more duplicates you have,
+Back on the topic, while having a 
+dragon's card is nice, having ten 
+is just tacky. Variety is key. 
+The more duplicates you have,
 the less they are worth.
 
 Oh and one more thing... the gnomes
 that build your museum have somewhat,
 oh, narrow tastes. you may have to 
-purchase a <designer board> to sculpt
-it into your own grandiose vision.
+bring in a <house board> or 
+<register> to sculpt it into your 
+own grandiose vision.
+
+
 
             -== Errata ==-
+
 Base cost: 		140,000 gp
 Maintenance cost:    1500 gp/month
 Income per rank:      100 gp/month
@@ -559,21 +573,21 @@ Happy Curating!
 库莱姆莓中毒
 
 
-　所谓库莱姆莓，是一种能够引发幻觉的
-名叫库莱姆的植物的果实。对库莱姆莓的
-滥用，主要体现在把晒干的果实当成嗜好
-品来使用。库莱姆莓中含有名为酩紫红质
-和酊清蛋白的麻药成分。
+　所谓库莱姆莓，是一种能够引发幻觉的名
+叫库莱姆的植物的果实。对库莱姆莓的滥用
+，主要体现在把晒干的果实当成嗜好品来使
+用。库莱姆莓中含有名为酩紫红质和酊清蛋
+白的麻药成分。
 
-　持续滥用的人，会变得无法仅仅满足于
-库莱姆莓的效果，有转向投用大麻和苏库
-麻等违禁药物的危险。
+　持续滥用的人，会变得无法仅仅满足于库
+莱姆莓的效果，有转向投用大麻和苏库麻等
+违禁药物的危险。
 
-　库莱姆莓中的酩紫红质和酊清蛋白会作
-用于人的中枢神经，引发中枢神经的兴奋
-和麻痹，从而造成幻觉。主要症状为产生
-幻觉、陷入酩酊、发狂发热等等。症状会
-在吃下果实的１５～６０分钟后产生。
+　库莱姆莓中的酩紫红质和酊清蛋白会作用
+于人的中枢神经，引发中枢神经的兴奋和麻
+痹，从而造成幻觉。主要症状为产生幻觉、
+陷入酩酊、发狂发热等等。症状会在吃下果
+实的１５～６０分钟后产生。
 
 %END
 
@@ -654,29 +668,28 @@ Round Eyes! Round Eyes! Round Eyes!
 	written by 灵草帝
 
 ●箭毒草
-具体效果依然不明。不过临床实验已经证
-明，万灵草对所有的能力都有良好的作用。
+具体效果依然不明。不过临床实验已经证明
+，箭毒草对所有的能力都有良好的作用。
 
 ●巨人力士
-这个就已经确认了。可以提高力量和耐久
-的能力以及它们的潜在能力。
+这个就已经确认了。可以提高力量和体质的
+能力与它们的潜在能力。
 
 ●梦魔草
 效果和巨人力士类似，不过看样子影响的是
 精神方面的能力。
 
 ●费力野草
-还不是十分明确。在近年来的学说中一般
-被认为有着增强感觉、感受神经能力的作
-用。
+还不是十分明确。在近年来的学说中一般被
+认为有着增强感知、感受神经能力的作用。
 
 ●铝镭尼亚
 将荷尔蒙活性化，让人变得非常想要H……
 …咳咳。也有着提高记忆力的效果。
 
 ●饱腹草
-这灵草的效果就是让你的肚子饱到像是要
-胀开一样。
+这灵草的效果就是让你的肚子饱到像是要胀
+开一样。
 %END
 
 %7,EN
@@ -690,25 +703,26 @@ is based entirely on it's so called
 "consecrated" state, which has been 
 clinically proven to be a real effect
 and not merely a placebo.
-Effect Status: Life Restorant
+Effect: All-around enhancement
 
 * Morgia [MOJIA DIPSACUS PILOSUS]
 Massive hormone Stimulant. Increases 
 muscle mass, strength and endurance.
-Blind-Test subjects recieved various
+Blind-Test subjects received various
 "consecrated" state herbs and thusly
-recieved differing returns. This only
+received differing returns. This only
 goes to prove that Gods do in fact
 exist, and that all our science is 
+
 meaningless in their might.
-Effect Status: Strength and Endurance
-	       enhancers
+Effect: Strength and Endurance
+	enhancement
 
 * Mareilon [MAREIRON DIPSACUS FEROX]
 Neuro-Chemical stimulant. Increases
 cognitive abilities. Level of effect
 entirely on "consecrated" state.
-Effect Status: Mental Enhancement
+Effect: Mental enhancement
 
 * Spenseweed [SUPENSUUIDO LONGIFOLIA]
 All effects as of yet are unknown,
@@ -717,18 +731,17 @@ who ingest it seem to be more "aware"
 and levels of perception may be up.
 More testing is needed to determine
 all side effects.
-Effect Status: Enchanced Perception
-
+Effect: Perception enhancement 
 
 
 * Alraunia [ARURONIA MARTYNIA LUTEA]
-Hormone-activated. Aphrodiasiac. 
+Hormone-activated. Aphrodisiac. 
 Thus extremely popular with the 
 locals. Oddly enough, it also appears
 to have some ability at improving 
 memory. Research still pending grant.
-Effect Status: Memory improvement,
-               Libido enhancement
+Effect: Memory and Libido
+	enhancement
 
 * Stomafilla [SUTOMAFIRIA HYPOGAEA]
 Upon contact with the stomach, the
@@ -736,9 +749,14 @@ herb expands and fills the cavity,
 leading the consumer to feel very 
 "bloated". Long term use and the 
 nutritional level of the plant has
-yet to be verified. 
+yet to be verified. There are also
+reports of it enhancing the user's
+speed, but most sporting competitions
+have yet to ban its use.
 
-Effect Status: Very Filling
+
+Effect: Satiety inducer, Speed
+	enhancement
 
 
 As more specimens are brought in and
@@ -754,7 +772,7 @@ Dr. Schmidt
 
 #####################################
 %8,JP
-店的运作指南
+商店经营指南
 	written by 熟练的店长
 
 　店的运作没有你想象中的那么困难。先把
@@ -762,28 +780,42 @@ Dr. Schmidt
 可以坐等定期的销售报告了。写长篇大论实
 在太麻烦了，所以就只写几条提示好了。
 
-* 来客的人数和店主的魅力，以及店面的等
+* 来客的人数与店主的魅力、以及店面的等
 级成正比。
 
-* 店面的等级，会随着贩卖品的数量达到一
-定程度而上升。
+* 即使是同样的商品，也会根据店主的交涉
+技能来改变卖出金额。店主的交涉技能与魅
+力的潜在能力可以用青铜币恢复。
+
+* 当销售的商品的数量达到一定程度后，店
+面的等级就会上升。
 
 * 店面的等级越高，来客就会带着越鼓的钱
 包来消费。
 
 * 因此，店面等级低的时候，高价的道具是
-无法卖去的。
+无法卖出去的。
 
 * 家具和货车里的货物不能拿来卖。
+
+* 如果某天卖出了商品，店主的业绩就会增
+加。积攒业绩的话，店主可以获得2个专长。
+
+* 根据销售额和来客人数积累雅卡点数。点
+数可以通过卡片来使用。
 
 　最后提醒一下，落到商店地面上的物品是
 会被自动当成商品的，千万不要因此而丢失
 了重要的物品。
+   不想卖的东西，为了让其他人知道是展示
+用的，可以通过装修用隔离绳区分开，或者
+用陈列柜盖上。在地砖一览中的第10和11
+行可以找到。
 %END
 
 %8,EN
 Shop Owning and Operational manual
-Re-rewritten by Schmidt the Fence
+Rewritten by Schmidt the Fence
 
 So, you think you can own a shop? I
 know, sitting on your arse all day
@@ -889,6 +921,14 @@ experience, which can go towards
 acquiring up to two special 
 shopkeeper feats.
 
+That's not all! Rack up yaca points
+based on how much you sell and how
+many customers visit. Spend them
+points by using the yaca point card,
+which every shop should come with
+thanks to the agreement with the
+Temple of Yacatect.
+
 Due to a vicious spat with the 
 local Furniture Union, we cannot 
 sell any spare furniture out of 
@@ -920,10 +960,7 @@ a mere 2000gp for an additional
 ten slots, and every subsequent
 1000gp for each 10 slots after.
 
-
-
-
-       -== Fiscal Information ==-
+	-== Fiscal Information ==-
 Base cost:            200,000 gp
 Maintenance cost:     5,000 gp/month
 Income per rank:      ??? gp/month**
@@ -969,12 +1006,21 @@ Good Business to you!
 　收获是最考验栽培能力的时候，如果你的
 技巧相当高，说不定收获后植物会留下新芽。
 
+　如果把有机物放在堆肥里，过几天就会变
+成肥料。因为使用肥料会使植物瞬间成长，
+枯萎的风险也会减少。
+
+　田地里也放有作物管理套装。用这个管理
+的话，只会对特定的植物有利，所以能收获
+的产物会被固定。各种劳动都能培育出什么
+就由你来亲眼确认吧。
+
 栽培能力越高收获的蔬菜或者水果的品质就
 越高。不过相应的，会引来以上等作物为目
 标的野生动物。击退一次的话暂时就不会再
 过来了…。
 
-在南提里斯有很多奇妙的植物种子。有机会
+在北提里斯有很多奇妙的植物种子。有机会
 的话请务必买来种在自己的田里，开始享受
 起自给自足的新生活吧。
 
@@ -984,133 +1030,99 @@ ps  也有雨天更适合进行收获的传闻。实际
 %END
 
 %9,EN
-Crop Growin' Fer City-Slickers
-by Jebediah Schmidt
+Easy Gardnin'
+by Valentina Schmidt
 
-So you reckon on joining us good folk
-in doin' an honest days work do ya?
+Thinkin' bout growin' yer own food?
+Whether yer jist lookin' ta fool 
+around with a bit o' herbs or ta 
+raise some serious garden stuff 
+like I have all my life, ya got the 
+right book.
 
-Well, you adventurers-types with yer
-big-ol' swords and fancy armor, might
-not got enough grit ta get the job
-done right, but we'll give you a shot
-at join us humble folk.
+First, ya got ta pick a time an'
+place ta plant some seeds. Seeds
+are best planted when it's raining
+an' on field tiles. Seeds planted 
+during rain are gonna wilt less 
+often, and those planted on
+a field that's found on farms an'
+those abandoned ranches will leave 
+a new seedling behind more often
+after harvest.
+Once ya've planted some seeds, it's 
+time ta watch em grow. If yer lucky 
+an' all goes well, the seed will 
+sprout an' grow over the course of 
+along half a month ta a month an' 
+bear fruit. If yer jist starting 
+off an' don't got none of a 
+Gardnin' Skill much - then ya'll 
+find near all of yer crops wilting 
+afore harvest, but don't give up.
 
-Ta start, you need ta have a green-
-Thumb, or "Gardening Skills" in your
-fancy city speak. If ya don't have 
-that skill afore a-startin' out ya
-gots a Yeek's chance on a skillet to
-get any plantin' done. So go get ta
-learnin' that first.
+Lastly is what I expect is 
+ev'rybody's favorite part. 
+Harvestin'. But first, know that 
+any plant that has fruited ain't 
+gonna wilt ever until ya harvest 
+it. An' what ya harvest will change 
+with the season. Meanin' the same 
+plant from the same seed is gonna 
+give different things next season.
 
-Next, since we got all the good land
-near the towns, ya'll have to set up
-elsewhere. Now, I could go on all day
-about what my Pappy and his Pappy say
-about soil, but I know you won't get
-but a yeek bite's worth of it, so 
-allow me to "summ-ar-ize" it fer ya:
+Harvestin' is where yer skill 
+matters the most. If ya got 
+a-plenty of it, ya'll find the crop 
+leavin' behind a seedlin' after 
+harvest more often.
 
-Time and Place. Them's crucial.
+Leave organic stuff on a compost 
+fer a few days ta turn it inta 
+fertilizer. Use that on yer crops 
+an' they'll be done growed up in no 
+time at all - aye, an' I really 
+mean no time. There won't even be 
+time fer em ta wilt.
 
-Ya'll might've noticed it rains more
-at certain times of the year. Thems
-the seasons, and the rainier it is,
-the better fer yer crops. 
+Ya'll find the crop management tools
+on the farm. Use it ta make only
+certain types of plants grow, which
+will ensure ya harvest only certain
+types of items. Try it out yerself
+ta see which treatment results in
+what crops.
 
-Place is easy. You might notice we
-like to plant on flat plains. There's
-a good reason fer it, and ya'll soon
-prolly figger out what it is. Avoid
-Snow, Mountains, and the only good
-thing that came from a forest is more
-trees, not crops.
+As yer Gardnin' skill increases, 
+the quality of fruits an' vegetables
+ya harvest will increase. An' that 
+also means heapin' gangs of dad-
+blasted wild animals are gonna come 
+a-visitin' like yeeks to Yowyn, so 
+be careful that ya don't git eat 
+up. Git em once an' they won't come 
+back fer a while though.
 
-Now buy a deed and claim yer land.
-Come Hell or High Ether it's yers!
+There's all sortsa crazy seeds an' 
+crops ta be found an' growed in 
+Norf Tyris. Good luck with your 
+farm, and happy tillin'!
 
-But Jebidah, ya sez, I ain't gots no
-seeds tah plant! Kin I have some o'
-yers? I'd say heck no! Seeds is the 
-lifeblood of any crop! Go finds yer
-own! Ya get seeds rarely, unless you 
-heads North near the Alter and finds 
-ya some.
 
-Once ya got some seeds, ya needs ta
-plant 'em. Now I like doin' it in the
-rain, as I reckon it's better for em.
-Jes stand in yer fields and 't'ool em
-into the soil all gentle like. Easy.
-Now, after that, ya gotta wait, as 
-they take time ta grow. 
 
-Thanks to that there Etherwind, crops
-only take about a week or so nowadays
-which gets my Pappy all in a tiff it
-does, as he reckons it oughta take a
-whole season like it did in his time
-and his Pappy's time. Anyhoo, after 
-they grow and get ripe, ya gots ta 
-pick em. At first ya'll bumble a bit,
-but once you get good enough, ya jus'
-might find more seeds once ya pick em
-rightly good enough.
-
-Then ya'll go and do it again!
-
-     -== Bits from my Pappy ==-
-Now some crops'll wither, and that's 
-life, so no grumblin' about fate and
-the winds and all that hackey-dackey.
-It'll happen less if ya bless ya seed
-AFORE ya go and plant it! Practice
-also helps keep the wither away too.
-
-'g'et yer crops when theys ripe, also
-'g'et yer withered ones away too as
-ya never know if it's a catchy sick.
-
-Seed Types:
-Fruit seed: grows them there fruits
-Vegetable seed: grows them vegetables
-Herb seed: Ah reckon it grows herbs
-Gem seed: grow ores and gems, honest!
-Unknown seed: ? Never Grew one o dese
-Artifact seed: Grows Fancy artifacts
-
-If ya needs seeds, and I know no real
-farmer that dain't, ya should worship
-Kumiromi. She likes her offerings all
-mushy-like, and there's always scraps
-ya don't need much.
-
-My Pappy's Unca once said that if ya
-'g'et yer crops in the rain it's gets 
-ya right better crop. Now I never was
-one to go pickin' in the rain, so's I
-don'ts knows fer sure iffin it's true
-or not. 
-
-      -== Them Numbery Bits ==-
-Deed: Bout' Forty Thousand or so
-      Pends on your yackin' n' dackin
-Now my Grammy, she could get a deal.
-Ya shoulda seen her get TWO sacks a
-Potatah's for one jug o' CrimShine.
-Course', our Still was made by my
-Pappy's Cousin's Unca. Still, with
-Crimberries bein' frowned on as crops
-ya have ta plant them all sneaky like
-in the back behind squash...
+P.S. I've heared tell that ya should
+also harvest on a rainy day. Does 
+it actually have any effect? My
+Pappy said his Pappy's Uncah 
+sweared up and down that it does, 
+but dogged if I know.
 %END
 
 
 
 #####################################
 %10,JP
-珍惜水源！
+珍惜水！
 	written by 愤怒的小艾歌
 
 　毫不珍惜地把水丢掉什么的最讨厌了！
@@ -1521,20 +1533,20 @@ Requiescat in pace...
 来自金字塔的挑战书
 	written by 金字塔之主徒瘟
 
-　汝作为有名的勇士，有权被招待至吾所
-居之金字塔中。
+　汝作为有名的勇士，有权被招待至吾所居
+之金字塔中。
 
-　尽管把这招待当作一种游戏即是。以汝
-之骁勇睿智，是能够漂亮地攻破吾之先祖
-所创之迷宫、还是就这样和多数的勇者一
-起败死，化作金字塔内之土灰？
+　尽管把这招待当作一种游戏即是。以汝之
+骁勇睿智，是能够漂亮地攻破吾之先祖所创
+之迷宫、还是就这样和多数的勇者一起败死
+，化作金字塔内之土灰？
 
-　理所当然地，吾之迷宫隐藏着与其危险
-性相应的财宝。记清这一点吧。
+　理所当然地，吾之迷宫隐藏着与其危险性
+相应的财宝。记清这一点吧。
 
-　对了，还有一点。汝无须预约葬礼。因
-沉眠于金字塔之守护兽，必将一点不剩地
-将汝之躯体吞噬。
+　对了，还有一点。汝无须预约葬礼。因沉
+眠于金字塔之守护兽，必将一点不剩地将汝
+之躯体吞噬。
 %END
 
 %13,EN
@@ -1587,91 +1599,85 @@ Face me if you dare!
 卡牌游戏的规则书（暂定）
 	written by 卡片达人
 
-·各玩家组成包含30张卡片的卡组来进
-行游戏。
+·各玩家组成包含30张卡片的卡组来进行游戏。
 
 ·卡片基本上分为生物和咒语两种类。
 
-·卡片由各自神之领域（domain）的不
-同来划分，进行游戏的期间，玩家的信
-仰为对该神之领域主神的信仰。
+·卡片由各自神之领域（domain）的不同来
+划分，进行游戏的期间，玩家的信仰为对该
+神之领域主神的信仰。
 
-·玩家开始游戏时分配的卡数和生命点
-数将和卡组里存在的神域的种类数成反
-比关系。（信仰的神越多神力越弱）
+·玩家开始游戏时分配的卡数和生命点数将和
+卡组里存在的神域的种类数成反比关系。
+（信仰的神越多神力越弱）
 
-·首先将对手的生命点减到0的玩家获得
-胜利。抽卡时卡组里没卡的场合，该玩
-家的生命点变成0
+·首先将对手的生命点减到0的玩家获得胜利
+。抽卡时卡组里没卡的场合，该玩家的生命
+点变成0
 
-·游戏开始时双方首先从卡组中分配一定
-数量的卡。
+·游戏开始时双方首先从卡组中分配一定数量
+的卡。
 
-·玩家的回合由开始阶段、抽卡阶段、主
-要阶段、结束阶段四个阶段组成。
+·玩家的回合由开始阶段、抽卡阶段、主要阶
+段、结束阶段四个阶段组成。
 
-·玩家在回合的开始阶段时，得到相当与
-自己魔力收入份量的魔力。另外，玩家
-自己场上的所有生物的HP恢复到最大值
-行动结束状态的怪兽恢复重置为行动状
-态。
+·玩家在回合的开始阶段时，得到相当与自己
+魔力收入份量的魔力。另外，玩家自己场上
+的所有生物的HP恢复到最大值行动结束状态
+的怪兽恢复重置为行动状态。
 
-·玩家在自己的抽卡阶段从卡组里抽取一
-张卡片。
+·玩家在自己的抽卡阶段从卡组里抽取一张卡
+片。
 
-·手持7张手牌的时候进行抽卡，需要在
-抽卡后把手牌中最左边的卡弃入墓地。
+·手持7张手牌的时候进行抽卡，需要在抽卡
+后把手牌中最左边的卡弃入墓地。
 
-·玩家在自己的主要阶段，可以消费魔力
-让生物出场，也可以发动咒语或是能力
-还可以让生物进行攻击。
+·玩家在自己的主要阶段，可以消费魔力让生
+物出场，也可以发动咒语或是能力还可以让
+生物进行攻击。
 
-·消费COST上的背景颜色是彩虹色的卡片
-必须要在自己场上拥有和COST数量一致的
-资源地卡时才能出场。
+·消费COST上的背景颜色是彩虹色的卡片必
+须要在自己场上拥有和COST数量一致的资
+源地卡时才能出场。
 
-·玩家在自己的回合仅有一次，可以把手
-牌中的一张卡奉纳给神。被奉纳的卡片将
-变为该卡片所属神域的资源地卡，并且额
-外再得到一点魔力。
+·玩家在自己的回合仅有一次，可以把手牌中
+的一张卡奉纳给神。被奉纳的卡片将变为该
+卡片所属神域的资源地卡，并且额外再得到
+一点魔力。
 
-·变为资源地卡的卡片，直到游戏结束前
-都当作资源地卡。每一张资源地卡产生一
-点的收入能力。
+·变为资源地卡的卡片，直到游戏结束前都当
+作资源地卡。每一张资源地卡产生一点的收
+入能力。
 
-·被破坏的卡以及咏唱结束的咒语卡要送
-去墓地。卡组没有卡的时候玩家无法进行
-抽卡。
+·被破坏的卡以及咏唱结束的咒语卡要送去墓
+地。卡组没有卡的时候玩家无法进行抽卡。
 
-·资源地卡以外的卡在场上最多只能存在
-8张，在场地没有空余的状态下，无论如
-何也无法使用更多卡片。
+·资源地卡以外的卡在场上最多只能存在8张，
+在场地没有空余的状态下，无论如何也无法
+使用更多卡片。
 
-·生物进行了攻击、防御、能力发动中的
-任意一种行动后，就会变成行动结束状态
-直到下次自己的回合之前都无法再行动。
+·生物进行了攻击、防御、能力发动中的任意
+一种行动后，就会变成行动结束状态直到下
+次自己的回合之前都无法再行动。
 
-·刚召唤的生物在那一回合被当成行动结
-束的状态，但是可以进行防御。
+·刚召唤的生物在那一回合被当成行动结束的
+状态，但是可以进行防御。
 
-·当玩家指定生物进行攻击时，可以对对
-方的生命点数进行攻击。
+·当玩家指定生物进行攻击时，可以对对方的
+生命点数进行攻击。
 
-·防御方的玩家，如果场上又未行动的生
-物，可以用来防御对方的攻击。
+·防御方的玩家，如果场上又未行动的生物，
+可以用来防御对方的攻击。
 
-·攻击被防御的场合，防御方的生命点数
-不会减少。但是进行防御的生物要扣掉相
-当于对方攻击生物攻击力的HP。同时攻击
-方的怪兽也要受到相当于防御生物攻击力
-的HP伤害。
+·攻击被防御的场合，防御方的生命点数不会
+减少。但是进行防御的生物要扣掉相当于对
+方攻击生物攻击力的HP。同时攻击方的怪兽
+也要受到相当于防御生物攻击力的HP伤害。
 
-·在魔力足够的情况下，防御方也可以从
-手中打出一张卡片来代替场上的怪兽进行
-防御。
+·在魔力足够的情况下，防御方也可以从手中
+打出一张卡片来代替场上的怪兽进行防御。
 
-·生物的HP被扣到0时，将从场上消灭送入
-墓地。
+·生物的HP被扣到0时，将从场上消灭送入墓地。
 
 ·操作说明
 决定键	选择
@@ -1690,13 +1696,12 @@ s键		投降
 
 ·COST为0的生物还未实装。
 
-·咒语卡片的入手办法，主要是从店里
-购买增强卡包来获得。每个卡包里有5
-张随机卡片。卡包购买等，有关卡片的
-交易是通过叫做「Trade.Token(TT)」
-的货币进行的。TT主要通过与冒险者的
-卡片对决或是参加卡片大会的结果来获
-得或是失去。
+·咒语卡片的入手办法，主要是从店里购买增
+强卡包来获得。每个卡包里有5张随机卡片。
+卡包购买等，有关卡片的交易是通过叫做
+「Trade.Token(TT)」的货币进行的。TT主
+要通过与冒险者的卡片对决或是参加卡片大
+会的结果来获得或是失去。
 
 %END
 
@@ -1732,8 +1737,8 @@ permits long-haul cargo. -
 #####################################
 
 %15,JP
-地下城的运作指南
-	written by 地下城领主
+地城运营指南
+	written by 地城领主
 
 　再稍微…多等一下哦！
 
@@ -1787,7 +1792,7 @@ South Tyris, Elona
 
 许有着千千万万的生命向神祈
 
-愿着噩梦的终止。。（无后续）
+愿着噩梦的终止。（无后续）
 
 
 
@@ -1879,65 +1884,68 @@ energy. Watching. Waiting. (The end.)
 #####################################
 %17,JP
 奈菲亚综合症
-	written by 泽那恩精神医生
+	written by 泽纳恩精神医生
 
-奈菲亚综合症，就是在奈菲亚内出现的一种
+奈菲亚综合症，就是一种在奈菲亚内出现的
 精神疾病。
 
 ·症状
-　大概有三个阶段，再之后会生命垂危。
+　大概有三个阶段，越后的阶段越是严重。
 
 
 阶段１
 　判断力降低。
-　其降低会有个体差异、经常有无视迷宫
-内有益道具，变得会经常冲入敌阵中央，
-但是不会影响到城镇内的生活。这个阶段
-的多为活跃着的冒险者。
+　其降低会有个体差异、经常有无视迷宫内
+有益道具，变得会经常冲入敌阵中央，但是
+不会影响到城镇内的生活。这个阶段的多为
+活跃着的冒险者。
 
 阶段２
 　认知力降低，变得无法客观的看待事物。
-有很多人变得不能认知到楼梯，因此困在
-迷宫里回不了家。
+有很多人变得不能认知到楼梯，因此困在迷
+宫里回不了家。
 
 阶段３
 　攻击性增强。
-　在这个阶段的同族或同伴会变得积极的向
-你攻击。
+　在这个阶段会变得积极地向同族或同伴攻
+击。
 　原理不明，相同阶段3的人基本不会自相残
-杀。虽然发病者有时会形成群体，但互相看起
-来并不认识。
-　本身攻击性极低的人在这个阶段看起来没有
-变化。
+杀。虽然发病者有时会形成群体，但互相看
+起来并不认识。
+　本身攻击性极低的人在这个阶段看起来没
+有变化。
 
 
 　阶段2的患者会一直在奈菲亚内徘徊，有时
-地壳变动后会与奈菲亚一起沉入地底。不过也
-有不少逃出迷宫的人。
+地壳变动后会与奈菲亚一起沉入地底。不过
+也有不少逃出迷宫的人。
 
 ·大致原因
-　有人说原因是奈菲亚的魔力，有人说是地磁
-力，哪种看起来似乎都有可能，但缺乏证据。
-　长久居住会引起症状恶化，但个体差异十分
-明显。
-　特别是冒险者与一些又名号的人，大多都处
-在阶段1。不明原因发病的人也有不少。
-　不管怎样，只要不是易感体质，就能好好的
-作为冒险者活动。
+　有人说原因是奈菲亚的魔力，有人说是地
+磁力，哪种看起来似乎都有可能，但缺乏证
+据。
+　长久呆在奈菲亚内会引起症状恶化，但个
+体差异十分明显。
+　特别是被称为冒险者的人们即使得病了大
+多也都处于阶段1。根本就没得病的也有不
+少。
+　与其这么说，不如说只有不会症状恶化的
+个体才能作为冒险者活动更为正确。
 
 ·对策
 　现在并没有治疗方法。
-　但有进行高耐性体质者与其他人的研究。
-　比如失去统帅的部队很容易发病，所以精
-神状态会影响病症。
-　发病的人离开奈菲亚的话症状就会减轻。
+　但有研究数据表明，具有耐性体质的人在
+同伴中的话，其他人也很难得病。
+　另外，也有失去统帅的部队集体得病的案
+例，因此可以认为精神状态会有很大的影响。
+　也有发病后离开奈菲亚症状改善的案例。
 
 ·大众认知
 　从古代开始人们就认为奈菲亚很危险，但
 不是基于奈菲亚综合症的判断。
-　认为清理奈菲亚内怪物没有什么危险的人
-也很多，过于自信结果发病的人从古至今都
-是源源不断的。（＊１）。
+　很多人误认为清理了奈菲亚内怪物就没有
+什么危险，过于自信地杀进去结果发病的人
+从古至今都是源源不断的。（＊１）。
 　一些国家禁止国民踏足奈菲亚，也会让军
 队做一些处理，但还远远不够。
 
@@ -1954,9 +1962,10 @@ energy. Watching. Waiting. (The end.)
 
 
 ＊１　
-　最早的记录是三千年前的文献上记载的，在
-奈菲亚内变奇怪了的英雄被人们恐惧的称作
-【迷宫附体】，最后被处刑了。
+　最早的记录是三千年前在库加雷托发现的
+文献上记载的，一位在奈菲亚内变得奇怪了
+的英雄被人们恐惧地称作「迷宫附体」，最
+后被处死了。
 
 %END
 
@@ -2122,16 +2131,16 @@ leading to his eventual execution.
 人了呢？
   
 　如果对方是很亲密的人，或者很急的时候
-那就没办法了，也有很多在意对年长者的直
-接递交的人。
+那就没办法了，也有很多年长者很介意被直
+接递交。
 　
-  在大部分地区，不把礼品放到对方脚下的
+	在大部分地区，不把礼品放到对方脚下的
 话都是很无礼的行为。当然，家人的话不这
 么做也是可以的。
 　
-  送礼时要留意，艾索里亚大陆的一些地区，
-放在脚下反而是无礼的，在这里被不认识的
-人用手递交了物品，也不能生气。
+	送礼时要留意，艾索里亚大陆的一些地区
+，放在脚下反而是无礼的，在这里被不认识
+的人用手递交了物品，也不能生气。
 
 　不同地方有不同的礼仪，旅行之前请好好
 确认当地礼仪吧。
@@ -2179,26 +2188,26 @@ visiting a place!
 #####################################
 %19,JP
 集团活动训练
-	written by 引率教官
+	written by 领队教官
 
 　今天大家就来两人一组的行动吧。
 
-　好！关系好的两人组队试试吧，左边的
-人要负责移动。
+　好！关系好的两人组队试试吧，左边的人
+要负责移动。
 
-　在地城战斗的时候，要好好看组合对手
-的动作哦！特别在与强敌的战斗，那会成
-为很好的经验。
+　在组合战斗的时候，要仔细观察组合对象
+的动作哦！特别在与强敌的战斗，那会成为
+很好的经验。
 
-　受到攻击的时候，体力更多的一方要保
-护同伴。
+　受到攻击的时候，体力更多的一方要保护
+同伴。
 　当然了，捡到钱的话一定要两人平分！
 
-　那边，两人一定要保持相同步调，啊，
-没有必要把两人的脚绑在一起的。
+　那边，两人一定要保持相同速度，啊，没
+有必要把两人的脚绑在一起的。
 
-　咦？没有人和你一组吗？那就教官我和
-你训练吧。
+　咦？没有人和你一组吗？那就教官我和你
+训练吧。
 
 
 %END
@@ -2239,7 +2248,7 @@ Alright, you can tag with me.
 
 #####################################
 %20,JP
-冒险生活　＜518／春号＞
+冒险生活　＜518／春＞
 	written by 女仆小姐 12岁
 
 　对冒险生活有帮助的各种情报，就由一直
@@ -2248,15 +2257,15 @@ Alright, you can tag with me.
 　如果被询问到自家必不可缺，经常使用的
 家具，你会先联想到什么呢。
  　
-  寝具，餐具，收纳家具，无论哪个都是丰
+　寝具，餐具，收纳家具，无论哪个都是丰
 富生活的重要的家具。
 　
-  ＜使用＞家具就可以发挥其效果，无论冰
-箱，书柜还是收纳家具，能让生活空间
-更加宽适，大家都想更加以活用呢。
+　＜使用＞家具就可以发挥其效果，无论冰
+箱，书柜还是收纳家具，能让生活空间更加
+宽适，大家都想更加以活用呢。
 
-　在打算添加新物件转换心情前，推荐先从好
-好环视家中进行整理开始哦。
+　在打算添加新物件转换心情前，推荐先从
+好好环视家中进行整理开始哦。
 
 
 %END
@@ -2293,8 +2302,8 @@ if you can't sort things out?
 
 #####################################
 %21,JP
-仇恨的笔记本
-	written by 泽那恩研究员
+充满怨恨的笔记本
+	written by 泽纳恩研究员
 
 　今天，被所长叫过去，还以为有什么事， 
 原来是去别研究所的转属命令
@@ -2378,10 +2387,10 @@ if you can't sort things out?
 ---------------------------------------
 
 　来视察的，据说是那位红之英雄的部下，
-说到红之英雄那是一位普通有名的军人，
-在研究员之间那可是能令人怀疑生化兵器的
-实用性而出名之人。曾经我也有因昆虫兵器
-的预算被消减而有过痛苦的回忆。
+说到红之英雄一般会认为那是一位有名的军
+人，但在研究员之间却是因为总是怀疑生化
+兵器的实用性而出名。曾经我也因为昆虫兵
+器的预算被其消减而有过痛苦的回忆。
 　不管什么都好，这可是能捣毁这腐败研究
 所的机会啊！我急忙把所有的问题点都写下，
 成功把它交给了正在回去的视察官。总算是
@@ -2402,13 +2411,13 @@ if you can't sort things out?
 
 ---------------------------------------
 
-　…结果，我没法立刻着手工作只能按照指
-示做着准备。
+　…结果，我没有时间做任何事，只能按照
+指示做着准备。
 　全被验者的魔蝎拉都活性化后，向他们投
 下了药物。如果是没有经过改造的人类一下
 子就会变成废人了，看来这烈药可不是虚有
 其表，马上全员都开始痛苦了。虽然也可能
-是魔蝎拉的作用反应。
+是魔蝎拉的作用。
 　除我之外的研究员全部，都用期待的眼神
 看着痛苦不堪的被验者们。虽然着手兵器开
 发的我没有资格谈论人道，但总觉得莫名火
@@ -2462,14 +2471,14 @@ if you can't sort things out?
 　急急忙忙用无线电向外面的家伙传达了现
 在的状况后，响起了很大的声音。以为发生
 什么而巡视四周的我们，看到了隔离区的隔
-壁降了下来。最尾端的研究员急忙跑过来时，
-隔壁已经完全降了下来。
+离墙壁降了下来。最末端的研究员急忙跑过
+来时，隔离墙壁已经完全降了下来。
 　无线电、没有回复。
 ---------------------------------------
 
 　对绝望的我们，茧毫不留情的伸出触手向
-我们来袭。。总算是全员都避开致命伤后退
-到了隔壁附近，这样下去谁都无法得救。
+我们来袭。总算是全员都避开致命伤后退到
+了隔离墙壁附近，这样下去谁都无法得救。
 　从深处，传来了某种冲击音。
 是被验者暴走，在敲打墙壁吗？
 虽然很在意怎么回事，但我还是没有避开那
@@ -2990,35 +2999,37 @@ damn       to hel
 作战指示书
 	written by 耶鲁士军少尉
 
-　本策略存在的目的是为了向和我们一
-同作战的冒险者说明如何服从命令，和
-传达与作战相关的注意事项。
+　本策略存在的目的是为了向和我们一同作
+战的冒险者说明如何服从命令，和传达与作
+战相关的注意事项。
 
-  首先的话是关于进行全体指令的话请
-用<指挥旗>。进行个人指令的话，请用
-技能来进行＜战斗指示＞
+　首先的话是关于进行全体指令的话请用
+<指挥旗>。进行个人指令的话，请用技能
+来进行＜战术指示＞。
 
-  接下来是各种指示的内容。
+　接下来是各种指示的内容。
   
-  首先是＜突击姿势＞，这是最大限度
-的进行索敌行动，积极对敌人进行追击
-火力全开，将所有敌人一个不剩的杀戮
-殆尽的指令。 
+　首先是＜突击姿态＞，这是最大限度的进
+行索敌行动，积极对敌人进行追击火力全开
+，将所有敌人一个不剩的杀戮殆尽的指令。 
 
-  然后是＜防御姿势＞，禁止一切攻击
-行动。注意敌人的行动。经常进行维持
-战线的妨碍或扰乱行动。遭到敌人的攻
-击会原地全力防守，等待我方支援。 
+　然后是＜防御姿态＞，禁止一切攻击行动
+。注意敌人的行动。经常进行维持战线的妨
+碍或扰乱行动。遭到敌人的攻击会原地全力
+防守，等待我方支援。 
 
-  最后是＜迎击姿势＞，进行周围的索
-敌行动。发现敌人就开始攻击。一定会
-留守在指令范围内，为了等待其他的指
-令而进行战力的温存。不会对敌人穷追
-猛打。
+　接下来是＜迎击姿态＞，进行周围的索敌
+行动。发现敌人就开始攻击。一定会留守在
+指令范围内，为了等待其他的指令而进行战
+力的温存。不会对敌人穷追猛打。
 
-   没有接受过培训的诸位，很难进行
-比这些更详细的指示了。关于更多详细
-的作战内容，我会在现场说明。以上。
+　最后是＜交涉姿态＞，不直接攻击敌人，
+而是用话术与歌曲削减其战意。目标是使敌
+人疲惫或撤退。
+
+　没有接受过培训的诸位，很难进行比这些
+更详细的指示了。关于更多详细的作战内容
+，我会在现场说明。以上。
 
 
 %END
@@ -3038,7 +3049,7 @@ Directives to each and everyone of
 you.
 
 Directives are simple, and there
-are only three of them.
+are only four of them.
 
 First off is "Onslaught". It means
 search and destroy. When I give
@@ -3060,7 +3071,7 @@ your fire. If you are under fire,
 hold your position the best you can,
 and wait for further orders.
 
-Lastly, we have "Intercept". Engage
+Third is "Intercept". Engage
 only enemies that are close by. Any
 skirmishes must be within range of
 the commander. If I don't see the
@@ -3068,6 +3079,12 @@ enemy, neither do you. Is that clear?
 Do not over-extend. Conserve your
 resources and wait for new orders.
 Do not pursue any enemy out of range.
+
+Lastly, we have "Talking". Do not
+attack any enemies, but speak
+or sing to them to break their will.
+Your aim will be to wear them down
+and get them to retreat.
 
 You have not been trained, so the
 instructions you will receive are
@@ -3078,27 +3095,29 @@ all.
 
 #####################################
 %23,JP
-又是这一阶段？
+还没有抵达这个阶段吗？
 	written by 自称被选中的人
 
-  各位之中有看过那玩意的人么，那到底叫啥
-啊。在人的脚底下闪光的东西。我叫它「斗志」
+　各位之中有多少人能看到那玩意的呢。在
+人脚底下闪耀橙色的灵气。我叫它「斗志」。
   
-  我啊自己也觉得看到那个很苦恼呢。只要看
-到就觉得介意，那东西在战斗中，气力会达到极
-限，另一方面，也可以被小心的抑制住。
+　我也曾为只有自己才能看到那个而很苦恼
+呢。不过只要仔细观察就会注意到，那东西
+会在战斗中随着情绪的高涨达到极限。反过
+来说，也可以通过控制情绪来抑制。
 　
-  到极限了就会闪着白色的光。那时候就可以
-吧自己所有的力量倾注出去，发挥出极限性能
-的一击。简单来说……就是很强力的追加攻击的
-预兆。
+　达到极限后斗志就会闪着白色的光。据说
+这时可以使出把所有技术倾注进去、充分发
+挥身上所有装备性能的一击。这是意志的体
+现…也就是强力追加攻击的预兆。
   
-  或许是我的错觉吧。但是感好像还有一个阶
-段。超越了临界点的斗志会放着淡绿色的光。
-能够让你在战斗中一瞬间支配时间的流动。
+　但不要误会了，这还只是不完美的阶段。
+超越了极限的斗志会绽放着淡绿色的光，能
+够让你在战斗中一瞬间支配时间的流动。
   
-  有一天你们也会达到这个阶段吧。但是。
-我觉得我会在这里等很久。  
+　总有一天你们也会明白的吧，只要你们能
+够抵达那个阶段的话。我会在这边耐心地等
+着你们的。  
 　
 %END
 
@@ -3156,48 +3175,54 @@ waiting.
 死灵术说明书
 	written by 无聊的死灵法师
 
-　最近已经受够了玩棋了。
-  总觉得就么把降灵术这种过去的遗物之类的
-东西，大胆的放在手里读的人。我给你这样的
-人传授初级的死灵术的话，还是挺有趣的。
+　最近下棋已经下腻了。
+　就这样让死灵术成为被遗忘的古物也挺不
+忍心的，难得你能读到这本书，就把初级的
+死灵术传授给你，以此消遣一番吧。
+
+　首先在棺材里加入适当的残骸，以魔力的
+结晶为核心，暂时用炼金术来培养尸体残骸
+，从而构成死灵们的躯壳。要诀就是要体会
+这里面隐藏的恶意。
+　如果只是量产可操纵的虾兵蟹将般的尸体
+，炼金术已经足以作为代替了。
+
+　想要制作一种真正的极品需要艺术的品味
+、完整的死灵术知识、经验的积累、经过严
+格筛选的「零件」，这些对于新手还早了
+100年呢。专用的纳米机械还有黏菌，现在
+估计哪里都得不到了吧。
   
-  最初在棺材里加入适当的残骸，以魔力结晶
-为核心，利用棺材来培养尸体残骸从而构成死
-灵们的临时的躯壳。要诀就是要体会这里面隐
-藏的恶意。
-  炼金术已经足以作为操作大量乱七八糟的尸
-体技术的代用品了。
-  
-  作为真正艺术与性感的死灵术的完全的知识，
-需要经验的积累。「零件」的严格筛选对于新
-手还早100年呢。专用的纳米机械还有黏菌，现
-在估计哪里都得不到了吧。
-  
-  制作出来的不死者的种类，因为残害的质地而
-不同，如果拿不好的残骸，勉强的做出形体的话
-也会因强度不足而自我崩坏。
+　虽然是能够制作出来的不死者种类，但因
+为残骸的品质不好，做不了太大型的不死者
+。就算可以勉强做出来形体，也会因强度不
+足而自己崩溃。
    
-   一度完成的不死者的棺材，可以加入其他的
-残骸来强化，根据种类，也会有不同的强化效果
-尽量的试一试吧。
+　成功完成的不死者棺材中可以加入其他的
+残骸来强化。强化时使用的残骸种类不同，
+也会有不同的强化效果，尽量试一试吧。强
+化后也可以用其他的残骸替换强化效果。
 　
-   毕竟是没有进行自我意志移植的不死者，脑
-袋并不聪明，连袭击人类也要你指挥才行。当然
-如果能好好利用的话，你也能获得不错的经验。
+　毕竟是没有进行自我意志移植的不死者，
+脑袋并不聪明，所以袭击哪个人类好要由你
+指挥。当然如果能好好利用的话，你也能获
+得不错的经验。
 
-  用来奴役的死尸们。请在事前就准备好，看
-着对手被这些打到了也会不断扑上来的死尸包
-围的绝望吧。
+　使役不死者最重要的是数量。总之事前准
+备好大量的不死者，不管是打倒还是被打倒
+都可以补上不死者，看着对手被死尸包围的
+绝望吧。
 
-  当然，作为法师的自己也会因此被削弱恢复
-和强化的行动。如果碰到一骑当千的对手的话
-可能一下就完蛋了。
-  这个时候就最好让它们去进行自爆特攻。看
-着被污秽的爆炸火花削弱的强者们，实在是相
-当愉快的事情。
+　姑且也可以通过消耗施术者的力量来恢复
+或强化不死者。不过如果碰到一骑当千的对
+手的话可能一下就完蛋了。
+　这个时候能派上用场的就是自爆特攻了。
+让不死者一块一块地团团围住爆炸吧。虽然
+这样消耗会很严重，但看着被污秽的爆炸火
+花削弱的强者们，实在是相当愉快的事情。
 
- ……差不多就这样吧？好了，你也快试试吧死
-灵术！ 
+　…差不多就这样吧？好了，你也快试试死
+灵术吧！ 
 
 %END
 
@@ -3295,24 +3320,25 @@ for yourself. Shoo.
 	written by 真之记者
 
 　现在每家一册的必需品就是自动日志：
-日志。你知道它的机能是怎么用的么？
+日志。你知道它的机制是怎样利用的么？
 
 　日志会自动记录接受的委托和工作，同时
 推测它们的难度。 
-  这里写的○等级相当，是说讨伐对象的级别
+　这里写的○等级推荐，是说讨伐对象的级别
 并不是冒险者自己的等级，所以自己的等级
 并不一定需要那么高。
 　准备齐全，等级大概在记录上显示的六成
 左右，你应该就可以完成那个任务了，有的
 任务完全不需要战斗。
 　 
-　另外，日志持有人的行动一部分自动会被
-记录。这些设定的表示与否可以在记录表示
-的项目里进行确认和变更。
+　另外，日志持有人的行动一部分会被自动
+记录。这些内容可以通过变更在设置中的记
+录显示条目来进行确认。
 
-  其他的在情报的链接里看同业者新闻，确认
-现在的各种指标与排名。
-  不知道该做什么的时候，就再看一下这个吧。
+　除此之外在与情报商的联系中看到同行的
+新闻，确认现在的各种指标与排名。
+　不知道该做什么的时候，或者想看看自己
+都做过什么的时候，就再看一下日志吧。
 %END
 
 %25,EN
@@ -3364,41 +3390,41 @@ doing.
 
 #####################################
 %26,JP
-魔术讲义发布资料
+魔法讲义阅读资料
 	written by 艾沃达纳中央学院初等部
 
-·玛娜
+·法力
 　是世界中普遍存在的原始的力量之源。海
 中也好，大气中也罢，大地之中都是存在的。
-各种生物也会在身体内积蓄玛娜的力量通过
-捕食对方来让玛娜移动。这就是魔力的连锁。
-只是，生物所持有的玛娜是有上限的，多余
+各种生物也会在身体内积蓄法力的力量通过
+捕食对方来让法力移动。这就是法力的连锁。
+只是，生物所持有的法力是有上限的，多余
 的会被释放出体外。
-  完全死掉之后，虽然尸体会留下少量的
-玛娜，但大部分会回归世界。
+　完全死掉之后，虽然尸体会留下少量的法
+力，但大部分会回归世界。
   
-  因为主要是用于魔力转换，魔法师间经常
-把玛娜≒魔力这样有微妙区别的词汇通用。
+　因为主要是用于转换成魔力，魔法师间经
+常把法力≒魔力这样有微妙区别的词汇通用。
 　
 ·魔力
-  为了方便魔术使用而把玛娜变换了形式的
-能源。玛娜直接使用的话作为魔术能源效率
+　为了方便魔法使用而把法力变换了形式的
+能源。法力直接使用的话作为魔法能源效率
 很低。所以很少有人直接按原始的方法去用。
-  魔术的素养，就被称呼为魔力，这种比较
+　魔法的素养，就被称呼为魔力，这种比较
 新的称呼在最近100年间广泛流传。
 
 ·ＭＰ
-  魔法数值。魔力（能源方面）的量的具体
+　魔法数值。魔力（能源方面）的量的具体
 数值。
 
 ·神力
-  神使用能力的必要能源。从贡品中抽取的信
-仰心和玛娜的化合物。和魔力是似是而非的东
+　神使用能力的必要能源。从贡品中抽取的信
+仰心和法力的化合物。和魔力是似是而非的东
 西。我国魔法师并不能再现。
 　
-  玛娜是水的话，魔力就是水管里的饮用水
+　法力是水的话，魔力就是水管里的饮用水
 （有水压）ＭＰ是水量，神力就是柠檬汽水
-的感觉来记忆就好了。  
+，以这样的感觉来记忆就好了。  
 %END
 
 %26,EN
@@ -3480,30 +3506,46 @@ of soda.
 采掘好啊
 	written by 凿岩机先生
 
-  我是博鲁代伊！我自己来讲我就是个把采掘
-发挥到极致的人。
+　我是波索尔！虽然是自夸自卖，但我是个
+把采掘发挥到了极致的人。
 
-　 开采很好哦。锻炼耐久力同时也能找到了
-物品。挖掘前进突破墙壁！自己的道路，要
-自己开拓！
+　采掘好啊。锻炼体质的同时也能找到物品
+。挖掘前进突破墙壁！自己的道路，要自己
+开拓！
 
-  对了。知道开采中从墙壁出来的道具根据
-地点不同吗？
+　对了。你知道采掘中从墙壁挖出来的道具
+会因地点不同而不同吗？
 
-  洞窟的话会有矿石，能确保大地神和治愈
-女神的贡品！原石加工也能卖好价钱！
-  深林的墙壁是食物的宝库，高价的黄金橡果
-四叶草之类都可能找到。  
+　洞窟·湖型奈菲亚的话会埋有矿石，如果要
+确保大地之神和治愈女神的贡品的话一定要去
+挖哦！用合成之壶对原石进行加工也能卖个好
+价钱！
+　森型奈菲亚的墙壁是稀有食物的宝库！不会
+腐坏而且轻的橡树果、价格高昂的黄金橡树果
+…一定是松鼠之类的将这些埋在墙里的吧。也
+许能找到幸运的四叶草哦。
   
-  塔楼·岩寨型的则可以获得石材，可以进行
-雕刻，不过我对艺术一窍不通！有可能找到别
-人藏着的金库呢。
-  还有……城市的墙壁里，藏着村民的钱啊，金
-块都会出来,放在衣橱里容易被偷，所以现在都
-流行放在墙壁里了。
+　塔·寨型奈菲亚则可以开采出石材。虽然可以
+通过合成进行雕刻，不过我对艺术一窍不通！
+除此之外还有可能找到别人以前藏着的金库呢。
+
+　巢窟型的墙壁上掩埋着在那里生活的生物的
+痕迹与蛋。就算是挖到粪便也不要哭哦。
+
+　陵园型的墙壁本身就是墓碑！挖的话会得到
+供品和棺材。报应？那是什么。能吃吗？
+
+　矿山型可以开采到矿物。与一般矿脉能挖到
+的矿石是不同的，不过不知道是不是开采光的
+才会出现！因为能够挖出不错的黏土，陶艺家
+会很开心的！
+
+　还有…城镇的墙壁里，藏着居民的钱和金块。
+放在衣柜里的话连衣柜都会被偷掉，所以现在
+比起衣柜存款，墙壁存款更加流行。
 　
-  好了，你也快挖，挖啊挖啊，比我挖的更深
-更强！成为这样吧！  
+　来吧，你也快挖，挖啊挖啊，像我一样挖得
+又深又强！挖吧！  
 %END
 
 %27,EN
@@ -3523,13 +3565,15 @@ And didja know that mining in
 different places will get you 
 different stuff? Betcha didn't.
 
-These cave nefia are filled with 
-ores, so you'll want to go to these 
-places if you want to give stuff to 
-the Gods of the Earth or Healin'. 
-Or if that's not your thing, you 
-could give 'em a little polish and 
-they'll fetch some good coin.
+These Cave and Lake nefia are 
+filled with ores, so you'll want 
+to go to these places if you want 
+to give stuff to the Gods of the 
+Earth or Healin'. Or if that's not 
+your thing, you could give 'em a 
+little polish by tossing them in
+a fusion pot and they'll fetch some 
+good coin.
 
 Forest nefia are full of food that 
 you won't find anywhere else. 
@@ -3551,6 +3595,27 @@ things. You'll also find safes
 that people hid in there a long 
 time ago.
 
+Nest nefia will have the remains
+and eggs of whatever lived in
+there. And a whole load of shit,
+which you're gonna have to wade
+through to find anything good.
+
+People bury their dead in the 
+walls of Cemeteries. Prolly just 
+out of habit for those people 
+used to stashing their stuff in 
+walls. Dig around for offerings and 
+coffins. Are you gonna get cursed 
+for doing that, you ask? Pssh 
+'course not. Waste not, want not.
+
+Mines yield ores. But not regular
+ores. Probably ran out of those.
+Wouldn't have become a nefia if
+they didn't, eh? There's lotsa
+clay here for pottery and stuff.
+
 Lesee... oh right. Towns. Mine 
 there and you might come across 
 the coins and gold bars that the 
@@ -3567,44 +3632,47 @@ Start mining!
 
 #####################################
 %28,JP
-呃娱乐项目？
+什么是表演？
 	written by 无名的旅行艺人
 
-  艺人招募委托的达成方法每个人不同
-整理好的结果，不要忘记。
-  不仅仅是一次，对方也很满意钱好几
-次都要披露新诀窍…有人这说了。但是
-速度不够！
+　个人对于完成招募艺人委托的方法进行了
+各种各样的尝试，为了避免忘掉将结果整理
+下来。
+　有人说要点是在对方满足或厌烦之前不断
+地表演。但是我的速度不够快！
 
-○演奏：演奏选择的乐器。会场虽然有乐器
-，但由于配备在范围上很不方便，携带一些
-比较好。用哪种乐器客人的满意度也不同。
-高兴的话钱和物品都会给你。
-并且，幻之乐器钉头史特拉第瓦里能把
-演奏的质量提高…。
+○演奏：用你选择的乐器进行演奏。会场中
+虽然也有乐器，但因为范围上会不方便，最
+好还是自带乐器。使用不同乐器客人的满意
+度也不同。作为打赏会送给你钱和道具。而
+且，梦幻之乐器斯特拉迪瓦里似乎能够提高
+打赏的质量…。
 
 ○合奏：与同伴合唱，同伴也会得到经验。
 不需要乐器。同伴的帮助会使得演奏比普通
-状态更容易成功，技能一定程度以上的话，
-旋律波动的质量也会上升。但是需要的时间
-就多，速度不快就很难赚钱得到高评价分。
+状态更容易成功，技能在一定程度以上的话，
+打赏的质量也会上升。但是会花费很多的时
+间与精力，所以和普通演奏相比会更容易浪
+费时间，速度不快就很难得到分数。
 
-○传教：神的美好，通过热情而灵巧的话语来
-演讲。也能让同伴获得经验的样子。满足的
-话，就能拿到布施的钱。异教徒都能顺利皈依
-，看上去比较容易能得到满足。
+○传教：通过热情的演讲和巧妙辞藻宣讲神
+的美好。也能让同伴获得经验。成功满足的
+话，就能拿到很多作为布施的钱，但是拿不
+到道具。如果你能让异教徒顺利皈依，好像
+会让人更加满意。
 
-○魅惑之舞：比演奏更短时间，简单的满足
-观众，来赚取点数的技巧。有魅力的话就容易
-成功，但是大家都看傻了的话，就拿不到什么
-了。
+○魅惑之舞：比演奏更短时间，满足观众更
+简单，适合得分的技巧。只要有魅力就很容
+易成功，问题是大家都会看得恍惚，拿不到
+什么打赏。
  
-○喷火杂耍：燃烧起来了。被烫伤，明明努力
-了，却没有人表扬我…。
-  一流的艺人能给大家带来满足的笑容，但是
-失败的话，就要被丢石头。已经不想被当傻瓜
-了。
-  最近妈妈也回老家去了……
+○喷火杂耍：燃烧起来了。明明忍着被烫伤
+一直努力地练习了，却没有人表扬我…。
+
+　虽然想成为一流的艺人能给大家带来满足
+与笑容，但是我失败了，还被扔了石头，已
+经有点心累了。
+　最近妈妈也总是叫我回老家…。
 
 （笔记在这里结束了）
 %END
@@ -3695,14 +3763,14 @@ home...
 次元间力观测实验报告书
 	written by 开发主任『加伯拉』
 
-  次元间力是人或物超越次元的作用力。自古
-以来就被人注意到了。但没有具体的观测成功
-例，一直被当作架空的学说对待。
+　次元间力是人或物超越次元的作用力。其
+存在很久以前就被人注意到了。但没有具体
+的观测成功例，一直被当作架空的学说对待。
 
-   为了确认「因次元之壁阻碍了次元间力，
-所以用机器很难观测到」这个假说，这次使用
-了次元歪曲装置来除去次元境界面的影响。共
-进行了两次实验。
+　为了确认「因次元之壁阻碍了次元间力，
+所以用机器很难观测到」这个假说，这次使
+用了次元歪曲装置来除去次元境界面的影响
+。进行了威尔帝·赫曼的第一实验与第二实验。
 这次使用的机器记录在附加资料的表1中。
 
 
@@ -3714,26 +3782,27 @@ home...
 
 
 
-  从附加资料图1到图6来看，普通情况下次元
-间力只发挥了０．００２５％的效率。
-特别是从第二实验，这与次元歪曲率成反比来
-看，这和阿丽安的能量定理相符。
-相同的存在之间的联系可以超越次元这一点也
-并不是夸张。
-  但是实验对象A与B移动至同一次元后，次元
-间力就立即消失了。
+　从附加资料图1到图6来看，普通情况下次
+元间力只发挥了０．００２５％的效率。
+特别是在第二实验中，从与次元歪曲率成反
+比来看，这和阿丽安的能量定理相符。
+相同的存在之间的联系可以超越次元这一点
+也并不是夸张。
+　但是实验对象A与B移动至同一次元后，次
+元间力就立即消失了。
 关于这个现象还需要进一步的实验。
 
-  关于能否利用这股能量，次元间的能量也是
-从高能量流向低能量，所以只要连结次元便可
-以获得无尽的能量。
-  但是，次元间力的谜还有很多，长期榨取能
-量对两个次元的影响也无法预测。就算没有任
-何影响，也有被对方视为侵略行为的可能。
+　关于能否利用这股能量，次元间的能量也
+是从高能量流向低能量，所以只要连结次元
+便可以获得无尽的能量。
+　但是，次元间力的谜还有很多，长期榨取
+能量对两个次元的影响也无法预测。就算没
+有任何影响，也会有被对方视为侵略行为的
+可能。
 
-  首先，我建议要了解多次元宇宙同一存在之
-间的联系是怎样的。通过研究这个机制，这样
-我们就可以将次元间通信实用化。
+　首先，我建议要了解多次元宇宙同一存在
+之间的联系是怎样的。通过研究这个机制，
+这样我们就可以将次元间通信实用化。
 
 
 
@@ -3827,4 +3896,312 @@ study the mechanism for that
 linkage to develop a practical 
 trans-dimensional communications 
 tool.
+%END
+
+#####################################
+%30,JP
+关于委托的建议
+	written by 爱担心的父亲
+
+写给我们的好孩子
+　我知道你已经准备要出门闯荡了。爸爸我
+在包裹底下放了点零钱。在把钱用光之前，
+去尽量完成委托，自己赚取生活费吧。
+　委托的种类有很多种。
+
+
+
+
+○收集物品的委托
+要领是先拿到物品再接受委托。
+这些物品基本上不是在野外能捡到就是在店
+里能买到。如果去野外的话记得不要惹打不
+过的野生动物。
+○从别人手中取得物品的委托
+先向守卫询问物主的位置，再去和物主交换
+物品吧。
+从其他渠道获得物品也没问题，去野外捡或
+去商店购买就行。
+
+○准备饭菜的委托
+在为生活打拼的阶段，准备食材做好料理可
+不是什么简单的事情。
+记得准备好食物再接下委托。
+运气好的话说不定商店里就能买到。
+
+○收获作物的委托
+野生动物会来捣乱，你要边处理动物边干活
+。收获作物也能够锻炼身体。
+如果得分高于委托数倍，就会得到额外报酬
+，也会得到青铜币，但初期可能很难吧。
+如果忘了交货箱在哪里，按*慢慢寻找吧。
+
+○讨伐怪物的委托
+你得先完成其他委托，准备好防具再来挑战。
+如果带了宠物，那也给宠物装备好防具吧。
+按i键就行。
+不认真准备就会被杀。哪怕最简单的委托也
+是如此。
+
+○送货委托
+因为要前往其他城镇，记得确保粮食和战斗
+力充足，记住城镇的位置关系。
+收货人的位置可以询问守卫。如果超过了时
+限，就会犯占有财物罪。
+○护卫委托
+这个委托也要去其他城镇。护卫对象死亡就
+算失败。如果护送距离很近，赌一把轻松赚
+钱也不赖。
+
+○排除落穴或地雷的委托
+如果没有陷阱知识技能就会干的很累。但也
+可以靠物质感知类魔法轻松完成。
+
+○表演委托
+不会演奏，传教或舞蹈的话就麻烦了。在高
+等级的人面前做拙劣的表演就会被杀，就算
+懂点表演，初期也先在乞丐和老人多的地方
+练习吧。
+
+　爸爸我知道的就这么多了。韦尔尼斯南面
+有一个冒险课堂，赚到钱后一定要去听一听。
+
+　另外，就算妈妈反对你饲养波球，你也不
+该和妈妈吵架吧。
+　如果在外面过得不顺心就回家吧，不要赌
+气了。爸爸我担心你走投无路也会宁愿沦为
+乞丐。外面的世界弱肉强食，你一定要保护
+好自己。
+　你爸爸我...还有妈妈，都希望你能幸福。
+　
+
+%END
+
+%30,EN
+Quest Advice
+	by Worried dad
+
+Son,
+    I know you've been planning to 
+leave. I've managed to scrounge up 
+some money - you can find it at the
+bottom of your belongings. It 
+should tide you over until you can 
+establish an income from taking 
+quests in towns.
+
+    You should know that there are 
+several types of quests though:
+
+- Item requests
+    The key to these is to have the 
+item before taking on the quest. 
+They often ask for stuff that can be 
+found lying around in the 
+wilderness or in shops.
+When going out to the wilderness, 
+you don't have to fight every wild 
+animal you come across.
+
+- Belongings requests
+    Ask a guard where you can find 
+the person who has the requested 
+item. Then talk to that guy, and 
+exchange some of your items for it. 
+Or, you can get it from just about 
+anywhere - from the wilderness or
+shops - the quest giver won't know 
+the difference.
+
+- Cooked dish requests
+    It's going to be hard to have 
+ingredients to cook the dishes they 
+want when you don't even have 
+enough to eat yourself. Take on
+these quests when you're not 
+struggling. If you're lucky, you 
+might find the ingredient you need 
+in a shop in town.
+
+- Harvesting requests
+    These are filled with wild 
+animals, so you'll need to be able 
+to fend them off at the very least. 
+These are decent for training 
+because you'll be pulling up lots 
+of crops from the ground.
+Exceed quota by several times and 
+they'll pay you more. They might 
+even give you a bronze coin too.
+But going over is going to be hard 
+when you're just starting off.
+If you forget where the delivery 
+chest is, don't panic - just look 
+around with the * key.
+- Monster slaying requests
+    Before taking these on, make 
+sure you are fully equipped with
+decent armour. If you have a pet, 
+make sure they are equipped as well 
+by handing them equipment while 
+'i'nteracting with them (using the 
+'i' key). If you don't, these WILL
+kill you. Yes, even the easiest ones.
+
+- Item delivery requests
+    You'll need to go to another 
+town to complete these. Have enough 
+food and be combat ready. Know  
+where you are and where you're going.
+In the destination town, you can 
+ask guards where the delivery 
+recipient is. If you don't deliver
+in time, they'll accuse you of 
+pocketing the item.
+- Escort requests
+    This one will also need you to 
+go to another town. If the escorted 
+target dies, the quest is failed. 
+These can be profitable if it's 
+only a short jog to the destination 
+and the client isn't in any sort of 
+danger.
+
+- Hole and mine removal requests
+    You won't last without the 
+Disarm Trap skill. Either that or 
+spells or items that allow you to 
+Sense or Detect Objects.
+
+- Performing requests
+    These are hard if you can't 
+perform, preach, or dance. If a 
+high level person sees you messing 
+up, he might kill you. So even if 
+you can perform, be sure to perform 
+only to beggars and old people 
+until you get proficient at it.
+
+
+
+
+    That's about all that I know. 
+There's a cram school south of Vernis
+where you can attend some seminars 
+to learn more, so you might want
+to go there when you have some 
+money to spare after finishing some
+quests.
+
+    It really didn't have to come 
+to this - the quarrel with Mom 
+about getting a pet putit and 
+everything.
+
+    If you don't manage, please
+don't be stubborn - come home.
+Given how headstrong you are,
+you'd probably rather resort to 
+begging on the streets, but know 
+that I'm worried about you. Do be 
+careful out there, and watch your 
+back. There are plenty of people 
+out there who thrive on preying on 
+others.
+
+    And also know that whatever
+you are, I - and your mother
+as well - hope that you are
+happy.
+
+Love,
+your dad
+%END
+
+#####################################
+%31,JP
+垂钓入门
+	written by 很会钓鱼的钓客
+
+　钓鱼就是把握时机抓鱼！鱼无论是吃还是
+贩卖都超级棒！如何，你也蠢蠢欲动了吧？
+　首先你需要钓鱼技能。没有的话就去韦尔
+尼斯的训练师那里学。
+
+　学会了技能，就该去买钓竿和鱼饵了。初
+期水蚤是最合适的。按B(或shift+b)安装鱼
+饵。一份饵可以用15～24次。
+　技能水平低的话，就算用高级鱼饵也是钓
+不上鱼的。技能每升10级换高1级的鱼饵比
+较好。如果你只能钓上垃圾，就是技能与鱼
+饵等级不匹配了。垃圾可是没什么用处的。
+
+　相同的鱼，根据大小价值也不同。虽然想
+钓大家伙，但这就只能看运气了。鱼大约8
+小时就会腐坏，立即烹饪或冷藏起来比较好
+。实在没办法的话，把鱼放在水里也不会腐
+坏。
+
+　其实…钓上来的鱼是可以投喂的。我是用
+合成之壶做的鱼食。喂鱼的话鱼的质量就会
+变好。鱼偶尔还会吐出道具。从来没有喂过
+鱼的人可能不知道这一点吧。
+
+%END
+
+%31,EN
+Fishing Introduction
+	by A proud fisherman
+
+Kill time, get fish!
+Two birds, one stone!
+Do I have you hooked?
+If so, read on!
+
+First you'll need the Fishing
+skill. Don't have it? Learn it
+from the trainer in Vernis!
+
+Next, you'll need to buy some
+fishing rod and bait. Water flea
+is best for beginners. 'B'lend  
+(Shift + b key) one to attach it to 
+your rod. One water flea is good 
+for 15-24 uses.
+
+
+The pricier and better baits won't 
+work if your Fishing skill isn't up 
+to snuff. Generally, you can switch 
+to a better bait every 10 skill 
+levels. If all you're reeling in is 
+junk, that means you don't have 
+enough skill to use that bait yet. 
+And junk is... junk! There's no use 
+for it.
+
+As for the fish - the amount 
+they'll fetch when sold depends on
+their size and weight. There's no 
+choosing the size of fish that bite 
+though. It's all up to Lady Ehekatl!
+
+Fish will also go bad in about
+8 hours, so you'll want to cook 
+them and cook often. Or you can 
+carry them around in a cooler box. 
+If you've got more fish than you 
+can carry (wow!), pop them in a 
+puddle on the ground. They won't go 
+bad that way, ever!
+
+Speaking of those fish in a puddle...
+you can do some tricks with them.
+I like to give mine ground bait, 
+crafted in a fusion pot. Fish will 
+grow in quality when you do, and
+they might even spit out a useful 
+item or two for you! If you're the 
+sort who never feeds their fishies, 
+you're missing out!
 %END

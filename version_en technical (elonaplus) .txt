@@ -1,6 +1,6 @@
-ï»¿The following detailed changelog is to help distinguish between
+The following detailed changelog is to help distinguish between
 bugs and game features. Contains spoilers and a breakdown of game data.
-â†“
+¡ý
 
 
 
@@ -58,6 +58,1093 @@ bugs and game features. Contains spoilers and a breakdown of game data.
 
 
 
+
+
+===2.09: detailed changelog===
+ [New item]
+* socks
+** Unlike sox, this is a usable 't'ool, not a weapon.
+** Rarely spawns upon the death of any enemy considered human.
+** Guaranteed to spawn when winning a duel regardless of whether the enemy was human or not.
+** Can be submitted in Urcaguary's quest; each of these count as 2 sox.
+** Using it inflicts 3 turns of Dim on a target regardless of the target's Dim resistance.
+** There is one unique NPC who will also get buffed by 3 turns of Boost and have all sorts of reactions to it.
+
+ [Replaced feats]
+* Ground Manipulater
+** Replaces the Defense feats.
+** Grants the Sand Cannon special action.
+** Grants Smash Ground upon level up when Constitution is 40 or greater.
+** Grants Rocrusher upon level up when Constitution is 70 or greater.
+** Grants Mogranic Aura upon level up when Constitution is 100 or greater.
+
+* Super Accel
+** Replaces the Agile feats.
+** The multiplier for Speed buff is 1.3 instead with this feat.
+** It also increases cap on the amount of Speed that can be added to the base stat by the buff from 800 to 1,000. The description of the buff does not reflect this increase.
+** There have been a lot of Speed- and turn-related changes lately, so this should mesh with those changes fairly well.
+
+ [New special actions]
+* Shining Throw
+** Learned upon level up when Throwing skill is 50 or greater - basically replaces Over Long Throw.
+** A mid-sized AOE PV/DV-element attack that is dependent on Throwing skill and Will attribute. Increases the user's gauge by 5% when used.
+** When Tactical Throw has been acquired, this special action has a low chance of getting used.
+** surya, <Strange old person>, fairy the shining, shine ogre, <Yacatect>, and <Hyper Yacatect> now use this.
+
+* Sand Cannon
+** Learned when the Ground Manipulater feat has been acquired.
+** A PV/DV-element breath-type AOE attack. Affected by Control Magic. 
+** Has a Constitution-dependent chance of inflicting Blind. Also inflicts 3 turns of Dyspnea (this will stack with any existing Dyspnea).
+** <Arasiel> now uses this instead of Insult.
+
+* Rocrusher
+** Learned upon level up when the Ground Manipulater feat has been acquired and Constitution is 70 or greater.
+** A 'W'ide-area special that deals Constitution-dependent damage to all enemies in sight. (The damage formula is similar to that of gauge attacks, except that this does less damage.)
+** The affected tiles will then be made impassable, 5 turns of Bind will be inflicted, and the [Rocrush] field state will be imposed.
+** When used, it grants a small amount of Constitution experience.
+** <Graveed> the gravity valley, gasyadokuro, muscle golem, and atlas now use this.
+
+* Mogranic Aura
+** Learned upon level up when the Ground Manipulater feat has been acquired and Constitution is 100 or greater.
+** Gives the user a buff of the same name that increases magic resistance by a Constitution-dependent amount. However, the user also gets afflicted by Emission status ailment (MP loss caused by this cannot be reduced by Magic Capacity skill due to the strength of the status ailment).
+** mega mole, talpidae, and super-dragonewt now use this.
+
+ [New imposable field state]
+* [Rocrush]
+* Whenever any character on the current map does a critical hit with a melee attack, their target's tile is marked impassable, and the target is inflicted with 2 turn of Bind (does not stack with any existing Bind).
+
+ [New NPCs]
+* eighty shaku
+** Level 98 giant. Female only.
+** Uses Eclipse Jail, Mist of Darkness, Rubbing, Squeeze, and Eye of brainwashing.
+
+* gigantes
+** Level 125 giant. Temper bit flag. Eating the corpse grants Constitution experience.
+* Uses Smash Ground and Cowering Smile.
+
+* surtr
+** Level 165 giant. Temper bit flag.
+** Will sometimes use Flame of Rage when afflicted with Fury. Uses Fire Bolt.
+
+* dark artificial giant
+** Level 195 giant. Float bit flag.
+** Uses MP Breath on low health. Uses Shining Wave and ZinlaiKyaku.
+
+* mag count
+** Level 48 rock. Hard corpse.
+** Draw Shadow and Sand Cannon.
+
+* e-mag duke
+** Level 123 rock. Hard corpse.
+** Sand Cannon, Linear Launcher, and Lightning Breath.
+
+* crystalian
+** Level 191 rock. Female only. Hard corpse.
+** Gem Power, Draw Shadow, Magic Storm, and Bewitch.
+
+
+===2.08: detailed changelog===
+ [New equipment attributes]
+* It inflicts massive damage to metals
+** The new "massive damage" equipment attribute. Melee and ranged weapons may spawn with this.
+** Additional damage is dealt to targets with the metal bit flag; the race of the target does not matter.
+** The amount of additional damage is greater than that of other similar equipment attributes such as the one for undead.
+** <Trishula>, <Solar Cane>, <Gerbera Cross>, <Axe of Destruction>, and <Zantetsu> now come with it.
+
+* It combine darkness and nether spells
+** Waist and neck equipment may spawn with this.
+** Casting a spell of either element procs additional damage of the other element.
+** The only elements that do not have a "combine ___ spells" equipment attribute are chaos, lightning, magic, and PV/DV, but chaos is already a blend of various things, and the magic and PV/DV elements are kind of special so they shouldn't get mixed with anything else.
+** <Pants of Ogre> now comes with this.
+** This replaces the reflect magic equipment attribute of <Vice Staff>.
+
+ [New bit flag ability]
+* You feel uplifted while casting
+** When casting a spell (includes taking part in Over-Ray), power gauge is increased by 5%.
+** When several spells are casted in a row, it counts only as 1 time even though 3 spells are casted.
+** The following evolved pets gain this bit flag: thanatos, magic scholar of Elea (NB: no English name. Evolved from wizard of Elea), will o'gre (NB: no English name. Evolved from dark soul, which is evolved from wisp/chaos cloud/electric cloud), dark dragon, and eternal exile (NB: neither of these have an English name. Both evolved from exile).
+
+ [New arrow-type spells]
+* Fire Claw
+** Fire element. suzaku, ninja, and <Aikage> the sinobi mask now use this.
+
+* Cold Blade
+** Cold element. <Leiki>, blizzard lizard, and <Kuroya> the looking universe now use this.
+
+* Lightning Spear
+** Lightning element. halloween children, eulderna summonknight, and <Lenas> the mage reporter now use this.
+
+* Mind Thorn
+** Illusion element. butterspy, great race of Yith, and tree incarnation now use this.
+
+* Poison Mucus
+** Poison element. oyaukamui, sepa, and tester now use this.
+
+* Sound Cannon
+** Sound element. <Karavika>, tsathoggua, and alkonost now use this.
+
+* Hydro Fang
+** PV/DV element. fin crocodile, manta rayarn, and nightmare shark now use this.
+
+ [New bolt-type spells]
+* Nether Bolt
+** Nether element. magic hawk moth, profanity priest, and curse drake now use this.
+
+* Poison Bolt
+** Poison element. universe invader, murder cockroach, and black baptist now use this.
+
+* Sound Bolt
+** Sound element. Shub-Niggurath, musical notadpole, and <Mefan> the bard now use this.
+
+* Chaos Bolt
+** Chaos element. Shub-Niggurath, wangnin, and sage of Elea now use this.
+
+* Nerve Bolt
+** Nerve element. grim reaper, dark elea, and black angel hair now use this.
+
+ [New ball-type spells]
+* Illusion Roar
+** Illusion element. the king in yellow, lunatyeek, and nightmare sheep now use this.
+
+* Anguish Jail
+** Nerve element. yokoshima enaga, sickfull older brother, and demon's soul now use this.
+
+ [Renamed existing spells]
+* Dark eye -> Darkness Wedge
+* Nerve Arrow -> Nerve Needle
+* Crystal Spear -> Magic Bolt
+* There are many more changes in the English version.
+* The corresponding spellbooks of the affected spells have also been renamed.
+
+
+===2.07: detailed changelog===
+ [Imposable field states]
+* <Order of Chaos>
+** Used for an Act III event. Cannot be overwritten or dispelled with Space retention.
+** It actually does nothing [and is for flavour purposes only].
+
+* <Doomsday sky>
+** Automatically imposed when Ragnarok begins. Cannot be overwritten or dispelled with Space retention. <Order of Chaos> has a higher priority.
+** AOE explosions that deal a fixed 1,000 damage will occur at random in the current map. Damage dealt is considered trap damage.
+
+* [E-Mag Cage]
+** All characters on the map have a unmitigable 50% chance of being Paralyzed for 1 turn at the start of their turns.
+** Any characters who receive any lightning-element damage will also lose 5sp. (This will work on characters with the bit flag that makes them immune to elemental damage.)
+
+* [Wire World]
+** Any character who is on the receiving end of any of the wire special actions will have a wire trap placed at their feet.
+** All wire traps are now able to hit floating characters, and the chance of evading [a wire trap] is set to zero. Traps can still be disarmed, though.
+
+ [Prerequisite for learning Space retention]
+* Learned upon level up when the player character is level 50 or above and has the Dimensional Move feat.
+
+ [New feat]
+* Magnetic Manipulate
+** Replaces the Concentration feat.
+** Grants the Magnecoat special action.
+** Grants Linear Launcher upon level up when Perception is 40 or greater.
+** Grants E-Mag Cage upon level up when Perception is 70 or greater.
+** Grants E-Mag Tornado upon level up when Perception is 100 or greater.
+
+ [New statuses]
+* Magnet-S/Magnet-N
+** Characters with the same polarity of status have a -20% chance of scoring critical hits (applied after all other modifiers) to each other. Regular physical attacks on each other will also do 0.9 times as much damage.
+** Characters with opposing polarities will have a +20% chance of scoring critical hits (applied after all other modifiers) to each other. Regular physical attacks on each other will also do 1.1 times as much damage.
+** When NPCs are afflicted by Magnet-S/Magnet-N status, they will have a corresponding icon displayed on them. This status is cleared when exiting and reentering the map.
+
+ [New special actions]
+* Magnecoat special action.
+** Granted by Magnetic Manipulate feat.
+** When used, it cycles the target's status from Magnet-S -> Magnet-N -> no status.
+
+* Linear Launcher 
+** Learned upon level up when the Magnetic Manipulate feat has been acquired and Perception is 40 or greater.
+** Select 1 item in the inventory to consume it and deal item weight- and user Perception-dependent PV/DV element damage. (Maximum damage is dealt when item is 50s.)
+** Damage dealt is doubled if the user has the Magnet-S or Magnet-N status.
+** Any effects that the item may proc when thrown will NOT occur in this case, nor can the item be recovered after launching it.
+** If the item is 10s or heavier, it applies 1 turn of Invert to the target if the target is not already afflicted by Invert.
+** When used by an NPC, it generates an ore piece and launches it.
+** Yerles conbat plane, yerles mortar, Yerles latest outfit soldier, <Orville> the soldier, and <Milis> the soldier will now use this.
+
+* E-Mag Cage
+** Learned upon level up when the Magnetic Manipulate feat has been acquired and Perception is 70 or greater.
+** A 'W'ide-area special action that deals Perception-dependent damage to all enemies in sight (damage calculation is similar to those of gauge attacks but is less powerful) while also applying Magnet-S status to them, then sets the current field state to [E-Mag Cage].
+** Grants a small amount of Perception experience when used.
+
+* E-Mag Tornado 
+** Learned upon level up when the Magnetic Manipulate feat has been acquired and Perception is 100 or greater.
+** Attacks in a straight line. Control Magic can [spare non-targets in its AOE].
+** Sets the status of targets to Magnet-N, deals a small amount of Perception-dependent lightning damage, and if they are not already afflicted by Bind, applies 3 turns of Bind.
+** Targets who had Magnet-S status before getting hit by this will have 2x damage dealt to them, and if they are not already afflicted by Bind, have 5 turns of Bind applied to them.
+** Yerles cyborg soldier, <Metal Vesda> the fire machine, <Melugast AO-I> the dimension driver, and <Melugast type0> the dimension driver now use this.
+
+* Wire World
+** Learned upon level up when the Strings Assassin feat has been acquired and Perception is 70 or greater.
+** A 'W'ide-area special action that deals Perception-dependent damage to all enemies in sight (damage calculation is similar to those of gauge attacks but is less powerful), places a wire trap at the targets' feet, and sets the field state to [Wire World].
+** Grants a small amount of Perception experience when used.
+** <Ajetalio> the seminar lecturer, hellstling, and atlach-nacha now use this when their gauge is 80% or greater. This affects instances of NPCs generated in previous versions of the game.
+
+
+===2.06: detailed changelog===
+ [Races with new PV and DV bonuses]
+* Races given PV bonus: slime, sheep, zombie, ent, armor, skeleton, wisp
+* Races given DV bonus: rabbit, cat, dog, rat, catsister
+
+ [New items]
+* dying cicada
+** Item of the junk category that does not usually spawn [in dungeons].
+** Spawns in town maps from August to September.
+** There won't be too many of these, so treat these as a seasonal rare item.
+** Throwing it at a target will cause a guaranteed 5 turns of Wince and 2 turns of Atrophy [if it hits].
+** After throwing it, it turns into locust fishing bait regardless of whether it hit the target or not.
+
+* golden mead
+** Alcohol that does not usually spawn.
+** When quaffed, causes Drunk status ailment and grants Perception experience.
+** When quaffed by the player character, it will also cause an out-of-body experience (works similar to design mode for deed maps).
+** That can be utilized to scout out maps so use these wisely.
+
+* jewel of M01-Garnet
+** Received when marrying in January; this item will be blessed.
+** Is an ore item that does not naturally spawn.
+** Can be sold. When given to an NPC, it greatly increases their Impress (it will not go into their inventory).
+** When given to an NPC whose anniversary is in January, it further increases Impress by a moderate amount.
+
+* jewel of M02-Amethyst
+** Received when marrying in February; this item will be blessed.
+** As above.
+
+* jewel of M03-Aquamarine
+** Received when marrying in March; this item will be blessed.
+** As above.
+
+* jewel of M04-Diamond
+** Received when marrying in April; this item will be blessed.
+** As above.
+
+* jewel of M05-Emerald
+** Received when marrying in May; this item will be blessed.
+** As above.
+
+* jewel of M06-Alexandrite
+** Received when marrying in June; this item will be blessed.
+** As above.
+
+* jewel of M07-Ruby
+** Received when marrying in July; this item will be blessed.
+** As above.
+
+* jewel of M08-Sardonyx
+** Received when marrying in August; this item will be blessed.
+** As above.
+
+* jewel of M09-Sapphire
+** Received when marrying in September; this item will be blessed.
+** As above.
+
+* jewel of M10-Opal
+** Received when marrying in October; this item will be blessed.
+** As above.
+
+* jewel of M11-Topaz
+** Received when marrying in November; this item will be blessed.
+** As above.
+
+* jewel of M12-Lapis Lazuli
+** Received when marrying in December; this item will be blessed.
+** As above.
+
+  [New NPCs]
+* wall hack cheatah
+** Level 32 cat. Floats. Insult.
+** Can enter impassable terrain except for doors.
+** Has a 1% chance of getting banned at the start of every one of its turns in combat, causing it to receive a lethal amount of damage.
+
+* auto aim cheatah
+** Level 121 cat. Homing Lazer.
+** Each of its regular ranged attacks are swapped for attacks that use magic ammo.
+** Has a 1% chance of getting banned at the start of every one of its turns in combat, causing it to receive a lethal amount of damage.
+
+* speed hack cheatah
+** Level 171 cat. Continuous attacks, Eye of dimness, Eye of Mana.
+** At the beginning of every one of its turns, it will temporarily set its Speed to 1,000,000, basically giving it 5 moves per player turn.
+** Has a 1% chance of getting banned at the start of every one of its turns in combat, causing it to receive a lethal amount of damage.
+
+* another world cheatah
+** Level 185 cat. Cure of Jua on low health, Nether Wave, Crystal Spear, Dominate, Speed.
+** Does not consume MP when casting spells (even when taking part in Over-Ray). Will expend MP as usual for other things.
+** Does not get banned.
+
+* <Scard> the happy swallow
+** Level 10 bird. Floats. Smile Field, Blade Turbulence.
+** When it visits your home and you pick the correct options, it will decide to stay.
+** Upon staying, it will spawn 5 young swallow (see below).
+** Talking to it will give you 3 of the aforementioned M jewels of current month. This is repeatable every 30 days.
+
+* <Oxode> the queen bee
+** Level 40 wasp. Floats. Collected Power, Nerve Arrow, Nether Arrow, Divine Wisdom, Nightmare.
+** When it visits your home and you pick the correct options, it will decide to stay.
+** Upon staying, it will spawn 3 magic bee (see below).
+** Talking to it will give you 4 of the aforementioned golden mead. This is repeatable every 30 days.
+** When rolling to check if a guest at your home should leave, it will spawn 3 magic bees when there are currently 5 or fewer magic bees on the map.
+** Magic bees on the map are considered guests, and have a chance of leaving your home like normal guests.
+** This means that the magic bees don't stick around; they are constantly going in and out of your home.
+
+* <Imarituka> the zasiki warai
+** Level 10 ghost. Floats. Vulnerable to "inflicts massive damage to undead".
+** Cowering Smile, Tickling Hell, Provoke.
+** When it visits your home and you pick the correct options, it will decide to stay.
+** Upon staying, the player's Luck attribute is [permanently] increased by 50.
+** But if it dies or when it is chased out by a guard, the player's Luck is [permanently] decreased by 51.
+
+* <Telhureza> the house guard
+** Level 92 drake. Voracity Fang, Love Crafting. Super Regene at low health.
+** When it visits your home and you pick the correct options, it will decide to stay.
+** You can direct it to attack certain NPCs in your home (works like getting guards to kick out NPCs).
+** It can visit even during early game, so you can treat it as a high-level guard dog (guard gecko?) for your home.
+
+* young swallow
+** Level 2 bird. Does not naturally spawn. Bewitch.
+
+* magic bee
+** Level 18 wasp. Female only. Floats. Temper bit flag. Does not naturally spawn.
+** When afflicted by Fury, uses Flame of Rage.
+** Fascination Dance, Squeeze, Nerve Arrow.
+
+
+===2.05: detailed changelog===
+ [New option that bartenders offer]
+* Order a special drink for 1 bronze coin.
+** It applies a new buff to all party members that increases all skill experience earned by 10%.
+** It's not as powerful as it looks because for low amounts of experience gained, some rounding down occurs after adding the 10%, resulting in lower actual bonus experience.
+
+ [New sub quest]
+* Started by talking to Amurdad.
+** Escort an NPC out of a 6-floor quest dungeon.
+** Teleport, Return, Escape, and saving the game are disabled while in the dungeon.
+** The conversation and the options presented in the dungeon are just flavour text and affect nothing.
+** The quest is failed if the escorted NPC dies, the player character dies, or when the time limit is reached. The player character will then be transported back.
+** The current map indicator will show which floor you're on. There are, however, several different variants of the map: forwards, backwards, backwards random, and backwards after failing. The variant used is independent of the floor indicated.
+** Clearing the quest for the first time will award the <Astral Sickle>. The second time and onwards will give a jewel of tear of god.
+** Once cleared, this quest has a low chance of becoming available again when the date changes and the player character is outside Amur-Cage.
+
+ [New items]
+* Lesimas Fragment
+** Guaranteed to drop from Act I's final boss.
+** When used on a target, it increases every single one of the target's attributes (except for Speed and Luck) to 50.
+** Can be reused after 240 hours.
+
+* Rehmido Fragment
+** Guaranteed to drop from Act II's final boss.
+** When used on a target, it increases every single one of the target's attributes (except for Speed and Luck) to 100.
+** Can be reused after 360 hours.
+
+* Chaos Fragment
+** Guaranteed to drop from Act III's final boss.
+** When used on a target, it increases every single one of the target's attributes (except for Speed and Luck) to 150.
+** Can be reused after 480 hours.
+
+* The above items are meant to give newly-recruited pets a leg up and save you some trouble in leveling up their attributes. They won't help with skill levels though.
+** The cooldown is there so that you can't buy slaves, increase their stats, then sell them again for a profit. It shouldn't be too restrictive unless you recruit a whole bunch of pets at a time.
+
+* G-Finger
+** Received from Sophia after clearing Act III. 1 hour cooldown.
+** Using it on an enemy at 1/10 hp or lower kills them instantly and creates a golden doll (see below) in their place.
+** Enemies killed like this will not drop any monster parts.
+
+* Photon Fairy
+** Received from Sophia after clearing Act III. 24 hour cooldown.
+** When used in a town for which your Authority/Praise is greater than 0, it increases your Authority there.
+** When used elsewhere, it increases your Fame.
+
+* Contradiction
+** Received from Sophia after clearing Act III. 2 hour cooldown.
+** It procs the Absolute protect and Clash Rush special actions in the same turn with 0 sp cost.
+** They will activate even if your power gauge is too low; it subtracts 25% from power gauge and activates the special actions anyway.
+
+* Bigamy Permit
+** Received from Sophia after clearing Act III.
+** When used on any NPC (even enemies) at Soul Mate status or above, it allows you to marry them.
+** You won't be able to recruit them as a pet, but you can make genes by picking the "Tell feelings" option that shows up after marriage.
+
+* golden doll
+** Does not spawn naturally. Is considered an ore.
+** Cannot be offered to god. Has the same sprite as the original character.
+
+* filtration bottle
+** Spawns randomly. Received when telling Lomias and Larnneire to get out of your home.
+** When used while standing in water, it gains max charges.
+** When used while not standing in water, it greatly increases hydration and slightly increases satiety.
+** Cannot be used on wells as that would overlap with the function of empty bottles.
+** Can be cursed or blessed, but that has no effect on its effect when used.
+
+
+===2.04: detailed changelog===
+ [New special actions]
+* Serious Begging
+** Learned when the player character wakes up with less than 500 gold.
+** Auto-turns occur, the Attract of nearby NPCs is consumed, and you receive an amount of gold dependent on the target's level.
+** When used by the player, blessed food may get thrown your way sometimes.
+** (Those food items ordered by rarity are sweet potato, stick bread, rice ball, and jerky).
+** It fails if the target has no Attract left, and when the user has more gold than the target.
+** Failing will not cause NPCs to throw rocks at you, but fame will decrease (amount decreased is the same as failing a town board quest) when receiving gold from [a pet].
+** Usable regardless of skill levels and attributes but yields neither points in a party time quest nor experience.
+** Newly-spawned beggar NPCs are now able to use this, and you can also direct pets [who are Amenable or above] to beg in towns.
+** Characters too weak for adventure now have a way to survive in exchange for their pride.
+
+* Tickling Hell
+** Learned upon level up by the player character when Dexterity is 30 or greater.
+** If the target is not already afflicted by Bind, Binds the target for 1 turn.
+** Deals SP damage to the target that is dependent on the user's Dexterity and resisted by the target's Constitution.
+** If the target's Perception is greater than its Dexterity, then power gauge is also decreased by 10%.
+** If the target's SP is less than half full, then it also gives the target a user Dexterity-dependent insanity check.
+** This deals no HP damage but is considered an attack.
+** harpy, dragon's pet harpy, roper, skogsra, performaid cocruel, halloween children, diabolic clown, titania, and town child now use this. (Only newly-spawned NPCs will have it.)
+
+ [New NPCs]
+* stray soul
+** Level 2 ghost. Does not spawn naturally. Undead resistance[s], floats. No special actions.
+
+* clinghost
+** Level 155 ghost. Undead resistance[s], floats. Squeeze and Scavenge. Close Suicide when health is low.
+
+* death fog
+** Level 153 wisp. Mist of Silence, Mist of Frailness, Mist of Darkness, Chaos eye, and Eye of Illusion.
+
+* hellabyrinth ruler
+** Level 151 lich. Does not spawn naturally. Undead resistance[s], floats. Shadow Step, Decapitation, Eye of Insanity, Blame Pain, Cowering Smile.
+
+
+===2.03: detailed changelog===
+ [New special actions]
+* Resonant Voice
+** When any of the Negotiation special actions (NB: Persuasion, Peculiar joke, Blended lie, Intimidation, Mysterious song) are used while gauge is 100% or greater, this special action will be used instead.
+** Subtracts 50% from 1 enemy's power gauge (can make power gauge negative) and deal Negotiation, Analysis, Will, and equipment +enhance value-dependent SP damage.
+** The damage calculation is the same as that of the Negotiation special actions. Unlike those special actions, however, this uses only 1 turn (NB: Negotiation special actions take 1 turn + 5 auto-turns) and there is no chance of failure.
+
+* Harmonic Assault	
+** Learned upon level up when the Empathy feat has been acquired, Negotiation skill is 50 or greater, and Analysis skill is 30 or greater.
+** Applies a buff of the same name to all allies in sight.
+** NPCs that have this buff and are set to "Talking" mode will provide support to other allied characters when they use the Negotiation special actions.
+** This "support" increases the chance of success of the special actions by a supporter's Analysis skill level-dependent amount. The additional chance from all supporting characters is summed up then added to the base chance.
+** The increase in chance is recalculated when the Negotiation special actions used, and again when the special action activates. (NB: Due to the 5 turn delay of Negotiation special actions.)
+** Characters with the buff will also no longer have their Negotiation special actions interrupted when receiving damage.
+
+* Jyusou Goushin
+** Attempts to apply curse of Will-dependent strength to every piece of equipment the user is wearing.
+** The curse cannot be prevented by the Exorcist feat, but will be prevented by the "protects you from cursing words" equipment attribute.
+** After rolling to curse, if at least 1 piece of equipment as been cursed, the user's HP is healed and the user receives a buff of the same name.
+** The amount healed and the strength of the buff depend on the user's Will and the number of pieces of equipment cursed (every piece doomed counts as two).
+** Attribute increases from the buff is capped at 666, but there is no cap in the increase in resistance to magic.
+** curse wood king, <13th step ghost>, profanity priest, diabolic clown, <Exossil>, <Ulzassil>, and <Ssil> the undead witch now have a chance to use this special action when they do not have its buff.
+** This affects instances of the aforementioned NPCs in existing saves.
+
+* Love Crafting
+** Has a 50% chance of attempting to apply Perception-dependent insanity to every single enemy in sight.
+** Is AOE unlike Eye of Insanity, but again, it works only half the time and its strength is also about half.
+** It also [has a 100% chance to] set an enemy's power gauge to -5% if their current power gauge is between 5 to 80%.
+** <Mad scientist>, Jure fanatic, cupid of death, <Insane Kumiromi>, <Kumiromi>, <Caim> the mad rich, wangnin, abyss animal, and lunatyeek will now use this.
+** This change does not affect instances of the aforementioned NPCs in existing saves.
+
+* Kijin Shibari
+** Learned upon level up when Literacy skill is 30 or greater.
+** Expend 10 of a selected scroll to apply 0 to 2 turns of Bind to all enemies on the map.
+** Also attempts to lower enemies' Dexterity by a Literacy skill-dependent amount. (Dexterity won't be lowered if the current value is already less than half of base value.)
+
+* Burn Scrolls
+** Learned upon level up when Literacy skill is 40 or greater.
+** Expend 20 of a selected scroll to apply Literacy skill and Magic attribute-dependent fire damage to 1 enemy.
+** Also removes 1 buff from the target.
+
+ [Changes to the AI of existing unique NPCs]
+* <King Cockroach>
+** Now has a high chance to use Shadow rush.
+** Used to be a pushover despite its size. Maybe it'll now be able to show intruders what "strength in numbers" means?
+
+* <Goda> the captain of orc
+** Now has a low chance to use Shadow rush. A bit more captain-y now.
+
+ [New NPCs]
+* pale inviter
+** Level 42 hand. Weak to "inflicts massive damage to undeads".
+** Multiple Gather, Touch of Fear, Squeeze, Rubbing.
+
+* ooteguchi		
+** Level 71 hand. Weak to "inflicts massive damage to undeads". Female only.
+** Voracity Fang, Squeeze, Eye of Illusion, Draw Shadow.
+
+* catgod hand
+** Level 101 hand.
+** Suspicious Hand, Shadow Step, BakuretuKen.
+
+* curse grappler
+** Level 124 hand. Weak to "inflicts massive damage to undeads".
+** Vindalian Jiu-jitsu, Squeeze, Psychic Wave, Jyusou Goushin.
+
+* janken king
+** Level 143 hand. Floats. Corpse gives Strength experience when eaten.
+** Shadow Step, Body Blow, Squeeze, Decapitation.
+
+* rats bringer
+** Level 74 drake. Weak to "inflicts massive damage to dragons". Floats.
+** Summon chaos (carnage rat).
+
+* wild wyrm
+** Level 117 drake. Weak to "inflicts massive damage to dragons". Floats.
+** Extermination Breath.
+
+* pteraiun
+** Level 154 drake. Weak to "inflicts massive damage to dragons". Floats.
+** Lightning Bolt, Lightning Breath, Shadow Step, Speed.
+
+* powerful great wyrm
+** Level 177 drake. Weak to "inflicts massive damage to dragons". Floats.
+** MP Breath, Gravity Sphere, Summon Monsters, Summon chaos (powerful great wyrm).
+
+ [New evolutions]
+* Male hand of the dead, hand of the chaos, and hand of the murderer evolve with another heart into hands of the winner and learn BakuretuKen.
+
+* Female hand of the dead, hand of the chaos, and hand of the murderer evolve with magic heart into hime ooteguchi and learn Melt Clinch.
+
+ [New items]
+* memory converter
+** Reward for clearing random Nefia.
+** Depending on the danger level, 1 to 5 is given as a reward. (Maximum of 5 is given at danger level 200.)
+** An additional 1 is given if the Nefia cleared was awakened.
+** An additional 1 is given if Nefia fever is in effect.
+** The item name specifies a skill; what skill it is depends on the boss' race.
+** Using it halves the skill level of that skill and gives 3 skill bonus points.
+** It cannot be used unless the skill's level is 5 or greater.
+** For lowering skills that a character doesn't need and increasing the ones that are actually useful.
+** Or for roleplaying purposes - lowering a skill that a character shouldn't be good at.
+
+* The 4 items listed below spawn randomly with a random colour.
+** They cannot be wished for because they have no name in the code.
+** All of them have an ammo capacity of 4. 
+** When used and ammo is 0, it will reload, taking 1 turn.
+** When used and ammo is 1 or greater, it will deal Strength and Marksman skill-dependent HP and MP damage to the target. It always hits and ignores defence.
+** Blend it with potions to increase its +enhance value. The +enhance value depends on the cumulative value of all potions blended with it.
+** When +enhanced, the damage calculation will also factor in the user's Magic attribute and the shooting animation will change. After firing, the +enhance value will be reset to 0.
+
+* super potioman - damage calculation multiplies Strength by 4/3.
+
+* battle potioman - firing it increases PV by 100 till the next turn.
+
+* crush potioman - procs grenade (dependent on user's Strength and Marksman skill) if used when remaining ammo is 1.
+
+* cf potioman - value of potions blended with it is multiplied by 3. The others have a maximum +enhance value of 3, but this one's maximum is 4. 
+
+* B-Da*an are probably not coming back in the Reiwa era and it's too hard to get a hold of Bott*eman toys, so I figured I'd at least enjoy them in-game.
+** Both of these toys shoot bottle caps. Potions are the Irvan equivalent [of PET bottles] because of their availability. Put these two facts together, and we get... the potioman!
+** There aren't any metal stoppers for potion bottles, so no metal potiomans.
+** The limited ammo, guaranteed hits, damage ignoring, and MP damage-dealing mean that these are supposed to be used on tough enemies. You could use them on regular enemies, but that'd be a huge waste.
+
+* These 4 items can also be modified by <Miral> the legendary smith once.
+** Modifying it will change the item's prefix and give the item an equipment attribute.
+** Its colour before modification determines its form and suffix after modification. Changing its colour afterwards will not affect its form and name.
+
+* Equipment attributes applied during modification and their effect:
+** (These equipment attributes are purely cosmetic; the game doesn't base item effect on whether the attributes are present or not. [The modification data is stored elsewhere.])
+** It gives a tremendous rotation to plug. Rolls to apply user's Strength-dependent Dim. Also rolls to decapitate (procs at 1/10 HP).
+** It has high basic power. Multiplies base damage by 1.1.
+** It fires two shots at the same time. Multiplies base damage by 1.8. Ammo consumption doubled.
+** It can shoot continuously. Reloading no longer takes a turn.
+** It allows precise shooting. There is no longer any variance in damage dealt. Damage dealt is always the maximum amount possible.
+** It confuses with a changing trajectory. Rolls to apply user's Dexterity-dependent confusion, decreases the target's evasion by 100 DV until the target's next turn, and deals a small amount of user's Dexterity-dependent SP damage.
+
+ [Artifact for exchange at Miral's]
+* nyoi mimikaki
+** 24 hours cooldown time. Can be used on adjacent tiles on any NPC (even hostile ones) as long as their Impress is at Fellow or above.
+** The inside of the ear is gross so it's been blurred out.
+
+* Cleaning an NPC's ears:
+
+* Option 1:
+** Put in carefully -> Put in all the way -> Carefully scrape
+** The player character's Dexterity and Perception and target's Constitution and Will are rolled against the target's base Speed. This option is displayed only if the roll succeeds.
+** If you manage to reach the 3rd stage, then the player character's Dexterity is rolled to determined the level (1 to 5) of earwax removed.
+** Round 2 then begins. Succeeding again will end the ear cleaning.
+** This won't give you any earwax items, but the greater the level of earwax removed, the greater the amount of Dexterity and Perception experience (for the player character) as well as Constitution and Will experience (for the target) received. Even for low levels [of earwax], the amount of experience given is comparable to herbed food.
+
+* Option 2:
+** Size adjustment
+** An option that shows only when the player character's Will successfully rolls against the target's Will. Resets Size expansion.
+
+* Option 3:
+** Size expansion -> Size large expansion -> Rupture of ear canal
+** Going all the way to the 3rd stage will roll to apply a fixed amount of bleed and end the session. Impress decreases by quite a bit but this is not considered an attack.
+
+* Option 4:
+** Thrust -> Stick in the ear -> Break through the eardrum
+** Going all the way to the 3rd stage will deal player character Strength-dependent sound damage.
+** Impress greatly decreases but is not considered an attack, so this can be used as a legal form of assassination.
+
+* When used on the player character and getting an NPC to clean your character's ears:
+
+* If the NPC is hostile, it deals Strength-dependent sound damage and ends.
+
+* Otherwise, it rolls NPC's Dexterity and Perception and player character's Constitution and Will against player character's Speed 3 times.
+** Upon success, it rolls the NPC's Dexterity to determine the level (1 to 5) of earwax removed.
+** The higher the level, the higher the experience given to the NPC's Dexterity and Perception and to the player character's Constitution and Will.
+** All of this happens twice per use.
+** When the roll fails, bleed is applied and it ends.
+
+
+===2.02: detailed changelog===
+ [New items]
+* manuscript
+** Does not spawn randomly. Junk item.
+
+* book
+** Has the appearance of a red book but is a different item. Does not have an item name. Does not spawn randomly.
+
+* operating board
+** Tool that does not spawn randomly. Using it has the same effect as a house board.
+** Can be offered to Mani.
+
+ [Effects of table furniture]
+* Using a big table, table, ragged table, comfortable table, academic table, or modern table will display the options listed below.
+** Other tables didn't seem suitable for writing, so those won't work.
+** All of the tables in the above list work the same way; there is no bonus for using a particular table.
+
+* Manuscript production
+** Your character goes into auto-turn. 1 idea is expended every turn to produce 1 manuscript.
+** Auto-turn does not end until interrupted or until there are no more ideas. Ideas cap at 100.
+** There are 7 tiers of manuscript quality, indicated by the modifier in the item name: paper scraps, noob, commonplace, good sense, cool, satisfied, and masterpiece.
+** As Literacy skill, Perception attribute, and Learning attribute increase, high-quality manuscripts will get produced more often.
+** Identifying manuscripts will immediately reveal their quality, unlike in real life.
+
+* Self-publishing
+** Uses the entire stack of selected manuscripts and 30,000 gold to produce 100 red books, already identified.
+** The quality of books inherit the manuscript quality. Cannot be used when there are fewer than 10 manuscripts in the selected stack.
+** The title of the book is randomly generated during creation, but has no effect on the book price.
+** The price of the book is dependent on the quality of manuscripts used in its creation and the number of manuscripts used (capped at 1,000).
+** The publishing cost is fixed no matter how many manuscripts go into the book, so publishing more manuscripts at a time will increase your profit.
+** Unlike in real life, books will fetch a decent price even if nobody has ever heard of the author.
+** [The first sale from a batch of 100 books] will also give a small amount of fame. (You won't be notified of the increase if the book was sold in your shop.)
+** The amount of fame gained is independent of the number of manuscripts in the book, and is solely dependent on book quality.
+** This means that you can sell a lot of books with few manuscripts in them to increase fame, or sell books with a lot of manuscripts to earn money.
+** Again, unlike in real life, you won't have to worry about unsold books, so you won't be able to reprint books - there won't be any more than 100 copies of a book.
+
+* Spellbook conversion
+** Halves the amount of spell stock for the selected spell. For every 1000 spell stock removed, create 1 spellbook with 1 charge of that spell.
+** Cannot be used for spells that do not have a corresponding spellbook, and for spells that you do not have 2,000 or more in spell stock.
+** For spells that have too much spell stock.
+
+ [New Act III sub quest]
+* Garziem
+** Talk to Garziem in Albedrion to move to another floor of the map. This new floor[, like towns,] gets regenerated once every few days.
+** There won't be any instructions from any NPCs, but what you have to do is work on tasks A, B, and C using the operating board provided.
+** (You can also use a house board if you brought one in.)
+** Working on a task spends stamina and time every turn. Success depends on Perception and Learning attributes.
+** Again, there won't be any specific details on how to do the tasks in-game, but A will not progress unless B is 500 or lower and your character's SP is at 50% or greater.
+** B will not progress unless C is even and your character doesn't Need Sleep.
+** C will not progress unless "Stay organized lightly" has been done 3 times or more and it is currently between 8am to 5pm.
+** The "Stay organized lightly" counter decreases by 1 at 12am (does not go negative), and is reset [to 0] when quitting the game.
+** After reducing task quota for all 3 tasks A, B, and C to 0, reporting to the NPC will reward you with a high potion of soma.
+** Reporting when A's quota is 500 or less from 12am-2am, when B's quota is 500 or less from 3am-5am, and when C's quota is 500 or less from 12pm-2pm will increase their quota. Just remember that the afternoon and late night is risky.
+** Picking "Stay organized lightly" 4 or more times and reporting to the NPC will reduce Impress, and reduce the number of times to 3. The message displayed changes up to 10 times, but there is otherwise no difference as long as the number of times is greater than 3.
+** Reporting between 12am-5am will change the map's BGM.
+** Talking to the NPC again after reporting task completion will offer different options.
+** If Impress is Amiable or above and the correct options are selected, the sub quest is cleared.
+** If you had lowered Impress by picking the "!!!" or "???" options in the previous choices, you'll have to raise it with love potions.
+** When reporting with 0 Impress, there will be a special dialogue that occurs, after which Impress decreases even more.
+** Regular conversations with NPCs on this map do not give the random Charisma-dependent increase in Impress.
+** The quest map regenerates every few days, so you can go nuts with nukes and meteors.
+** Going back out of the map [after clearing the sub quest] and talking to Garziem will award you with the N97 Cannon the first time.
+** After clearing the quest, there is a 1/10 chance that it will become available again every time the date changes while the player isn't in Albedrion.
+** The second time clearing the quest and onwards will reward a jewel of tear of god - the type depends on the time of day at which the reward is received.
+** This quest was made to resemble those retro puzzle games where conditions are unclear and hard to grasp.
+** But there's no time limit and you can brute-force it or figure it out with the in-game hints easily.
+** And once you figure it out it should be a piece of cake. Besides, the detailed changelog has all the details right here. It'll be a piece of cake, right???
+
+
+===2.01: detailed changelog===
+ [New items]
+* green dark orb, blue dark orb, crimson dark orb
+** Not randomly generated.
+** Each of these have 5 different subtypes with different effects.
+** If you obtain duplicates of any [subtype], feel free to sell it off.
+** Actual effects to be implemented in the future.
+
+ [New item fusion recipe]
+* dark fusion
+** Creates [1] out of the 3 aforementioned items at random.
+** The number of subtypes that can be created is limited when the player character's Disarm Trap skill level is not high enough.
+** Selecting dark fragments as the ingredient will put them into their own stack just like when crafting rubynus and the other gems.
+
+ [New NPC]
+* <Aime> the story teller
+** Level 15 spirit.
+** Uses Abyss in the eye, Divine Wisdom, Darkness Bolt, Chaos Ball, Draw Shadow, and Eye of Insanity.
+
+
+===2.00: detailed changelog===
+ [Changes to informer's menu selection]
+* Convey my message to other adventurers
+** Pick your target from a list and then it'll show you a list of messages to pick.
+** [Adventurers who have been recruited as] pets, as well as adventurers on the same map cannot be picked.
+** The messages are listed below. When a message activates it will get cleared.
+** If you select another message before a message activates, the new message will overwrite the current one.
+
+** Please cancel my message.
+*** Removes the message.
+
+** <I want to get along with you>
+*** Impress increases when talking to the target. If the target is currently hostile, entering the map the target is on will [remove the hostility].
+
+** <Please come to my house to play>
+*** This target will have a greatly increased priority to get picked when generating a visitor to your home.
+
+** <I love you!>
+*** Impress greatly increases when talking to the target if the target's Impress is at Fellow or above. If Impress is less than that, it slightly decreases. 
+
+** <I'm rooting for you!>
+*** Guaranteed to nullify the "realized the limitations and retired" event for that adventurer once.
+
+** <You don't have talents of  adventurer.>
+*** Guaranteed to cause the adventurer to "realized the limitations" and retire after fully recovering from injury.
+
+ [New NPCs]
+* <Yayauhqui Tezcatlipoca>
+** Level 1,200 god. Vulnerable to "inflicts massive damage to Gods", floats.
+** Distant Attack, Dimensional Move, Eye of Illusion, Attribute, Summon chaos (summons talon soldier that are 1/5 of own level that cannot be Dominated).
+** Has the ability to negate smokescreens during its turn.
+
+* <Jaldabaoth>The Chaos Child
+** Level 1,200 god. Vulnerable to "inflicts massive damage to Gods", floats. Bonus chaos resistance.
+** Eating corpse increases chaos resistance. Cancels Death Word on death.
+** Has these moves but will not use them in the final battle of the main quest: Shadow Step, Chaos Breath, Fire Ball.
+
+* <Orphe> the prince of lost kingdom
+** Level 155 servant. Uses Shining Wave, Hero.
+
+* <Orphe> the chaos disciple
+** Level 350 servant. Vulnerable to "inflicts massive damage to Gods", floats. Bonus chaos resistance.
+** Uses Chaos Ball, Shining Wave, Cowering Smile.
+
+ [Additional main quest content]
+* Talk to Leold to go to God's prison. Wish, 'P'raying, saving, and retreating are disabled as usual.
+** <The Chaos Child> is here, but will never move and will respawn upon defeat.
+** Defeat <Orphe> the chaos disciple to proceed to phase 2 of the event.
+** [They] have the summoned NPC bit flag so [they] won't drop anything.
+** Future versions may add an opportunity to fight them as well as other unique NPCs that the player hasn't had the opportunity to obtain the drops of yet.
+
+* From phase 2 till the end, all characters will take turns one after another regardless of their speed.
+** <Jaldabaoth>The Chaos Child's will use its unique special action Kamui during its turn, but the effects of that special action varies every turn it takes in the following manner:
+
+* #1 <Respiration of Creative Gods> - recovers 10% of the user's max HP, MP, and SP.
+* #2 <Roar of Fighting Gods> - sets user's power gauge to 200%.
+* #3 <Assault of Beast Gods> - uses 50% of power gauge to halve the current HP of all characters other than the user. Will fail to work if the user does not have enough SP.
+* #4 <Referee of Judicial Gods> - uses 50% of power gauge to roll to apply Punishment, Paralyze, and Death Word (can be resisted or nullified) to all characters other than the user. Will fail to work if the user does not have enough SP.
+* #5 <Grudge of Abominable Gods> - uses 50% of power gauge to apply 1d100 of insanity to all characters other than the user. Will fail to work if the user does not have enough SP.
+* #6 <Commandment of Hell Gods> - uses 50% of power gauge to halve the current power gauge and SP of all characters other than the user. Will fail to work if the user does not have enough SP.
+* #7 (Phase 2) <Elements Killing> - deals a series of small amounts of reducible 12-elemental damage to the player character. (11 of the basic elements plus PVDV element.)
+* #7 (Phase 4) <HOROBINOYARI> - deals 2x the player character's max HP in damage to the player character.
+
+* Surviving 3 sets of these attacks or reducing Jaldabaoth's HP to half of the maximum (you can't kill it) will cause the event to enter phase 3.
+
+* In phase 3, everything other than moving into another tile and physical attacks done this way is disabled.
+** Damage-over-time will occur every turn and HP regeneration is disabled.
+** There will be a counter at the top of the window which will be decreased whenever taking a lethal amount of damage, and the damage will be nullified.
+** The counter starts at 26, and increases for every pet in the list of pet that is at Friend Impress or above.
+** It also increases depending on [how many] sub quests have been cleared so far as well as other special event triggers. Some of these triggers increase the counter by 2 or more each.
+** Jaldabaoth will not do anything in this phase. Attacking Jaldabaoth will bring the event to phase 4.
+
+* In phase 4, whenever the player character does damage to Jaldabaoth, the counter will be decremented, but the damage will be increased by 5% of the maximum HP of the target.
+** This will be a race to kill the target before the counter runs out.
+** Damage dealt in this phase will not update the highest damage dealt record.
+** For a list of Jaldabaoth's actions, see the phase 2 list. Defeating Jaldabaoth will start the ending.
+
+* This event battle was balanced by taking into consideration how powerful the player character should be at this point.
+** The difficulty is set such that players should be able to clear this event on the first try except for maybe phase 2.
+** Even phase 2 should be manageable as long as the player has taken precautions against the debuffs, status ailments, and has sufficient elemental resistances. If the player also keeps the boss's power gauge low it gets even easier.
+** If the player character dies during this battle, the player will have to start [the battle] over again.
+
+* After the battle, Speed and Life upgrading with AP is no longer capped at 800 and 300 respectively.
+
+
+===1.995: detailed changelog===
+ [Skill groups that a day can have]
+* Training-day
+** Weight Lifting, Healing, Meditation, Magic Capacity, Heavy Armor, Medium Armor, Light Armor, Faith experience is tripled.
+
+* Combat-day
+** The 12 weapon skills, Tactics, Dual Wield, Two Hand, Shield, Evasion, Eye of Mind, Greater Evasion, Marksman experience is tripled.
+
+* Jobs-day
+** Negotiation, Investing, Carpentry, Tailoring, Alchemy, Jeweler, Gardening, Performing, Cooking, Fishing, Pickpocket experience is tripled.
+
+* Exploration-day
+** Stealth, Lock Picking, Detection, Mining, Disarm Trap, Traveling, Swimming, Riding experience is tripled.
+
+* Study-day
+** Literacy, Gene engineer, Anatomy, Analysis, Memorization, Casting, Magic Device, Control Magic experience is tripled.
+
+* One of these groups is picked at random when the day changes.
+* However, if the condition listed below has already been met for the selected group, it will attempt to pick a random group again, but only once.
+
+ [The 7 DESTINY triggers]
+* When the sum of experience earned for a group of skills by the player and all pets is above a threshold, +1 letter is gained for its corresponding group.
+* The experience earned for a group is tripled when it's that group's day. Experience gained from Traveling is also counted, so these conditions are easily met if you have a lot of pets with high potentials but lots of room to grow. (This should be when the player lacks equipment the most.)
+* Clearing at least 1 random Nefia grants +1 letter.
+* Sleeping 3 times grants +1 letter.
+* All conditions will be met eventually even if the player makes progress at a slow pace, unless it's a solo run and the player doesn't touch significant parts of the game. Which wouldn't be too bad either, since solo runs don't lack equipment as badly as large parties anyway.
+* When all 7 letters in DESTINY are displayed in the top left corner and the player character enters a newly-generated random Nefia floor, a sound effect will play, "You felt destiny on this floor...!" will display, 3 Godly pieces of equipment will be placed on the tile with gold pieces in the current floor, and all triggers reset. This will not happen on floors that do not have the gold piece tiles.
+* Grabbing these equips and clearing that Nefia while you're at it will cause the corresponding trigger to get activated again, as well as give debris for more skill experience.
+
+ [Analysis counter mechanics]
+* Counter increases by a greater amount when evading a regular attack than when getting hit by it. There is a cap of 100 on it.
+* The higher the receiver's Analysis skill compared to the attacker's Analysis skill, the greater the increase in the counter.
+* When counter is less than 100, it gives a small amount of Analysis skill experience. When counter is greater than 1, it gives a small amount of Memorization experience.
+* However, Continuous attack, Knockout, Shadow rush, Fire a volley, and critical hits will not increase the counter.
+* Analysis counter is shared by all allied characters.
+* It would be weird for characters of different factions to share their analysis, so non-allied characters will not analyze.
+
+ [New special actions]
+* Advanced Casting
+** Learned upon leveling up with Memorization skill level 10 or greater and Casting skill level 10 or greater.
+** Use it to activate Adv-Cast status for the player character. Use it again to disable.
+** When affected by Adv-Cast, casting difficulty and spell experience earned is tripled.
+** It does not increase spell experience earned from magic practice.
+
+* Data scan
+** Learned upon leveling up with at least Analysis skill level 30. Gives a buff of the same name when used.
+** When characters other than a character with the buff gets attacked, they will contribute more times to the analysis counter, making it go up quicker. However, the character with the buff will have his SP decreased by 2.
+** When doing a regular attack, the effective accuracy and evade will also be displayed in the log while the buff is active.
+** The accuracy will then be rolled against the evade. These values are not displayed for critical hits which are guaranteed to hit anyway or when the attack is evaded by special means.
+** Using Data scan when the buff is active will get rid of the buff.
+** When NPCs have the buff and the player uses it, the player character will be buffed and NPCs will have the buff removed.
+** Of the existing NPCs, lothrian agent, metal zilla, <Melget> the informer, <Mobile Communication Equipment>, and doctor <Gavela> now use this special action. (Only if they are spawned in this version.)
+** Pets with this will have a chance of using it when their SP is 80% or higher.
+** When used by non-allied NPCs, they will not buff themselves, instead resetting the analysis counter for themselves to 0. They will have a chance to use it when the analysis counter is 50 or greater.
+
+
+===1.99: detailed changelog===
+ [New evolutions]
+* talon soldier evolves into god talon soldier with god heart, and will receive +2 to their gauge every time they take damage.
+
+* fin crocodile evolves into cipiltontli with god heart, and gains a low chance of using Bound in Blood when at less than 50% HP and is not currently buffed by Contingency.
+
+ [New special action]
+* Liquid Manipulation
+** Learned during level up when Alchemy skill is 40 or greater and Control Magic skill is 30 or greater.
+** Applies the effect of the selected potion on all enemies in sight. (Effect is slightly lower than using it directly on a single target.)
+** Before applying the potion effect, it also deals user Alchemy and Control magic skill-dependent damage. Damage is reduced by target's PV and DV.
+** When used by an NPC, it generates an uncursed and unblessed potion of paralysis in their inventory and uses the skill with it.
+** <Beilgena> the artificial dragon, master archayeek, iris, profanity priest, oyaukamui, <Leiki>, meshera gamma, heqet, and <Ulzassil> will now use this. (But not if they were generated in a previous version of the game.)
+** iris, profanity priest, and heqet have also been given a bonus to their Alchemy skill in order to use this skill.
+** These characters now use Alchemical Rain: <Alfred> the cangnan wind, seiashin, cloudragon, and big sea hare. (But not if they were generated in a previous version of the game.)
+ 
+ [New items]
+* fishing introduction
+** Self-explanatory title. Not randomly spawned.
+
+* quest advice
+** Self-explanatory title. Not randomly spawned.
+
+* debris
+** 3 are spawned when a random Nefia is cleared. Not found randomly spawned.
+** Not spawned as clear rewards in the Void. When Wishing for it, a textbook will appear instead.
+** The item name will indicate what skill it is for and its LV (level). The skill is determined by the Nefia boss's race. (Skills were assigned to races such that they all drop desirable skill debris; whether they fit the race's image or not was a secondary concern.) Level of the item (max 999) depends on the floor's danger level.
+** Does not behave any differently when blessed or cursed. Cannot be used on non-pet NPCs.
+** Cannot be used if the target does not have the corresponding skill, or if potential in that skill is below 50%.
+** When used, it gives experience for the indicated skill. Amount of experience is based on the item's LV and the target's Memorization skill level (effect of the latter caps out at 1,000). It will also give item LV-dependent Memorization skill experience, and slightly increase insanity.
+** These were added for to make clearing difficult Nefia more rewarding and to make Memorization skill useful for NPCs. Useful for training hard-to-level skills or giving newly-recruited pets a leg up.
+
+ [Bonuses to starting skill levels for the various races]
+* largeanimal: Disarm Trap, Sense Quality, but decreased Healing skill
+* minotaur: Mining
+* eulderna: Investing
+* fairy: Cooking
+* asura: Carpentry
+* slime: Healing
+* dwarf: Gardening
+* zombie: Anatomy
+* elea: Cooking
+* rabbit: Detection, Traveling
+* sheep: Tailoring
+* worm: Mining, Stealth
+* beetle: Gardening
+* mushroom: Gardening
+* bat: Detection, Negotiation
+* lich: Gene engineer
+* bacteria: Gene engineer
+* spirit: Investing
+* eye: Gene engineer
+* wasp: Gardening, Pickpocket
+* hand: Carpentry, Cooking
+* snake: Swimming, Eye of Mind
+* armor: Heavy Armor
+* medusa: Alchemy
+* cupid: Investing
+* harpy: Performer
+* dinosaur: Healing
+* spider: Tailoring
+* golem: Alchemy
+* zanan: Gene engineer
+* rock: Marksman
+* piece: Tactics
+* rat: Riding
+* machine: Carpentry
+* wisp: Meditation
+* catsister: Jeweler
+* mutant: Gene engineer
+* yeek: Fishing
+* yith: Magic Device
+* horse: Weight Lifting, Riding
+* metal: Jeweler
+
+
+===1.98: detailed changelog===
+ [New conversation options]
+* I tell you my feelings.
+** Only shows up for pet NPCs.
+** Using it once for a pet will prevent it from showing up again for that particular pet. (It won't disappear if you cancel.)
+** It will show up again after sleeping.
+** Further options will show up after selecting it.
+** To prevent this from getting stale, there are 3 different flavour texts that can display depending on the day.
+** The top-most option will basically cancel it.
+** The 2nd to 4th will increase Impress by a slight amount if Impress is at Fellow or greater. The pet's reaction will change [in the Japanese version] depending on its style of speech. If the required level of Impress is not reached, these options will decrease it by a slight amount.
+** The 5th to 7th options will increase Impress by a slight amount.
+** The 8th to 10th will have a chance to cause confusion if Impress is at Fellow or greater. No other drawbacks.
+** These are for roleplaying getting closer to your pets through daily conversation and not just by showering them with gifts, and for depicting your character's personality and attitude towards others. (This is why there are several options that have the same outcomes.) Also for depicting tsunderes in the relationship instead of the standard head-over-heels-for-each-other.
+
+* <<Interest in a little tail t'night>>
+** Usable only in evochat. Reduces the player's Action by 1 when selected.
+** A counter increases or decreases depending on the options picked, and the player's and pet's SP will both decrease by random amounts.
+** When the counter reaches 0, the pet's Happiness will increase by 3.
+** Nothing will happen when cancelling before the counter reaches 0.
+** txtMizuAsobi customizes the pet's response while this is in progress, and txtDialogH customizes the pet's reaction when the counter hits 0.
+
+ [Means of transportation on the world map]
+* Obtained by reading the deed (spawned randomly) for them. Nothing happens when the deeds are read by a non-player character.
+** Only 1 of these can be owned at a time. Reading the deed for another type will overwrite the existing deed. (So as to prevent the player from swapping between vehicles for whichever fits the current needs.)
+** When you own a vehicle, talking to a deed-selling NPC will bring up the option to get rid of the vehicle and go back to walking.
+** When aboard any of these vehicles, the sprite and travelling sound effect will be changed, and pets you have with you will not be displayed. Dyeing the deed will dye the vehicle's sprite.
+** The time taken to travel on the world map is reduced to 3/5, and you will be able to move [at regular speed] in the wilderness even when the cart is overloaded.
+
+* deed of carriage
+** Maintenance costs 500/month.
+** Cargo limit is increased by 10 as long as you have this vehicle.
+
+* deed of truck
+** Maintenance costs 2000/month.
+** Cargo limit is increased by 20 as long as you have this vehicle.
+** When on a road tile, movement time is multiplied by another 3/5 (bringing effective movement time to 9/25 that of walking on foot).
+
+* deed of magic locomotive
+** Maintenance costs 10,000/month.
+** Cargo limit is increased by 30 as long as you have this vehicle.
+** Speed penalty when the cart is overloaded is halved. Will still not be able to move when overloaded by too much.
+** No movement speed penalty on snow.
+** Reduces player character's MP by a small amount for every tile travelled on the world map. However, will not cause damage or give Magic Capacity experience when MP goes negative.
+** Expensive, so when wishing for this deed a deed of carriage will show up instead.
+** If you have a custom item.bmp, note that it has been updated and now has the sprite for the side view of the carriage.
+
+* deed of land battleship
+** Maintenance costs 200,000/month.
+** Speed penalty when the cart is overloaded is halved. Will still not be able to move when overloaded by too much.
+** Cargo limit is increased by 100 as long as you have this vehicle.
+** Immune to the desert heat. Completely prevents monster and rogue encounters, but does not prevent encounters with assassins, the chestnut giant, and wandering vendors.
+** Also expensive, so wishing for this deed will cause a deed of carriage to show up instead.
+** To illustrate its size, the sprite has been stretched horizontally, doubling its width.
+
+
+===1.97: detailed changelog===
+ [New ether disease symptoms]
+* Your bones are popping out.
+** Cannot equip armour. Deals bleed damage to attackers - this stacks with the equipment attribute so nothing goes to waste.
+
+* You have a developed tail.
+** Cannot equip girdles. Bonus to Dexterity.
+
+* You have a big webbeds.
+** Cannot equip rings. Bonus to Swimming.
+
+* Your arms are thicker than your torso.
+** Cannot equip gloves. Bonus to Strength.
+
+* Your hands are blades.
+** Cannot equip gloves. Enables use of Decapitation special action. 
+
+* Your mouth is torn.
+** Charisma penalty. Enables use of Voracity Fang special action.
+
+* You have multiple mouths.
+** Constitution penalty. Halves the number of turns needed to eat an item.
+
+* Your libido is abnormal.
+** Will penalty. Maximum stamina x1.2.
+
+* Thin tentacles are growing from you.
+** When your melee or ranged physical attack hits, there is a 12.5% chance...
+** Or when interacting with an NPC, there is a 2% chance...
+** ...that tentacles will attack the target, dealing character level-dependent damage to the target. (Damage caps at level 1000.) Damage is reduced by target PV and DV.
+** The second stage of the disease (Thick tentacles are growing from you.) doubles the base damage of this attack.
+
+* The beautiful flower is blooming on you.
+** Immunity to pregnancy. (Check is performed before the "prevents aliens from entering your body" equipment attribute.) Regeneration penalty. Bonus to Charisma.
+
+ [New sleep events]
+* Dream Connect
+** Picks a random NPC who is at Friend Impress or above and increases their Impress.
+** Can select non-pet NPCs but not if they are dead.
+** If it cannot find any NPCs [at Friend or above], this event will be skipped.
+
+* Sheep Nightmare
+** Picking the top option gives a large amount of Evade skill experience, but has a 4% chance of turning into very powerful Nightmare.
+** Depending on character level and chance, you may be able to resist it with Holy Veil.
+** The bottom option has 2 possible outcomes, but neither of them have any benefits or drawbacks.
+
+* Dream?
+** An out of this world experience that has a chance of causing insanity no matter which option is picked.
+** Also has a 20% chance to give a large amount of Will experience.
+
+* Strange ___ Dream
+** Only 5 stages for now, with more to come in the future.
+** The options available should be clear enough as to what they do - you can choose the option to proceed to the next stage, go back to the previous, or to stay.
+** No matter which option you pick, these gives a small amount of Perception experience.
+** NB: Current stages are Strange Stairs Dream, Strange Cave Dream, Strange Twosome Dream, Strange Long Stairs Dream, Strange Gate Dream.
+
+ [New NPCs]
+* monoeye girl
+** Level 48 eye. Female only. Eating the corpse gives chance of paralysis and increased nerve resistance.
+** Bonus to Gene engineer skill. Uses Thread of Innervation and Eye of dimness.
+
+* providence gaze
+** Level 63 eye. Male only. Floats. Uses Homing Lazer, Provoke, and Curse.
+
+* hundred eyes
+** Level 100 eye. Floats. Corpse causes insanity. Mind-element martial arts.
+** Uses Nerve Breath, Draw Shadow, and Eye of Insanity.
+
+* horus eye
+** Level 123 eye. Male only. Vulnerable to "inflicts massive damage to Gods." Floats.
+** Uses Regeneration, Divine Wisdom, Darkness Bolt, Mind Bolt, Mist of Darkness, and Destiny dice.
+
+* seeing god eye
+** Level 160 eye. Vulnerable to "inflicts massive damage to Gods." Floats.
+** Uses Magic Storm, Lightning Bolt, Mist of Silence, and Space retention.
+
+ [New evolutions]
+* deformed eye and impure eye evolve with another heart into many eyes and learn Distant Attack 7.
+
+* Female/female?/bisexual floating eye, chaos eye, mad gaze, and death gaze evolve with magic heart into evil eye girl and learn Dancing Wire.
+
+ [New items]
+* <Clothworld>
+** Unique artifact armour.
+** Added to Miral's list of items available for exchange. Costs 40 small medals.
+** Usable as a 't'ool. Using it changes its sprite to the next one in a list.
+** It should work with most humanoid character sprites, so try using it with Item mark set.
+** Character with unusually large sprites or clothes won't fit so you'll have to find a new sprite or edit the sprite yourself.
+
+* <Bamagicar>
+** Unique artifact armour. Added to Stoke's list of items available for exchange with music tickets.
+
+* Bambnir
+** Unique artifact spear. Spawns randomly. Added as an Artifact lottery prize.
 
 
 ===1.96: detailed changelog===
@@ -2058,18 +3145,18 @@ These will work on different types of equipment (they won't work on unique artif
 
  [Adding equipment attributes with Garok's hammer]
 * These attributes all have effects that stack so that there is no disadvantage to having multiple pieces of equipment that have them.
-** Headï¼š sometimes nullifies damage #
-** Neckï¼š enhances your breath #
-** Backï¼š enhances your spells #
-** Bodyï¼š reflects magic #
-** Ringï¼š seven leagues effect #####
-** Armï¼š decreases physical damage taken #
-** Waistï¼š absolute piercing #
-** Legï¼š interlocking shooting mechanism #
-** Weaponï¼š extra melee attack #
-** Shootï¼š extra ranged attack #
-** Shieldï¼š proximity assist weapon#
-** Ammoï¼š critical #
+** Head£º sometimes nullifies damage #
+** Neck£º enhances your breath #
+** Back£º enhances your spells #
+** Body£º reflects magic #
+** Ring£º seven leagues effect #####
+** Arm£º decreases physical damage taken #
+** Waist£º absolute piercing #
+** Leg£º interlocking shooting mechanism #
+** Weapon£º extra melee attack #
+** Shoot£º extra ranged attack #
+** Shield£º proximity assist weapon#
+** Ammo£º critical #
 
  [New special action]
 * Mirror
@@ -3222,7 +4309,7 @@ The default shop has a 1/8 chance of cancelling the sale of an item. The food sh
  [Expanded main quest]
 * Placed <Marka> on F14 of the Cradle of Chaos. Will not respawn here after dying.
 * F15 is a floor that is randomly generated every time it is entered. Placed <Norne> and <Belphat> here. Defeating them will yield neither AP nor items.
-* <Mesheraã€€plant> has been made to not give AP nor items until the Ether blaster is obtained.
+* <Meshera¡¡plant> has been made to not give AP nor items until the Ether blaster is obtained.
 * You will be able to take <Belphat> along with you after talking to him. (Works just like <Poppy>)
 * Taking him along with you just once will set off the trigger to let you proceed along the main quest.
 * But you won't be able to go to F16 just yet.
