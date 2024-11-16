@@ -583,7 +583,24 @@ spirit
 	 actShine
 	 actRock
 	 actMogranic
-840
+840	 actLeading
+	 actPollen
+	 actGazeAne
+	 actYuketu
+	 actDensyo
+	 actHougou
+	 actPosing
+	 actShark
+	 actCustom
+	 actrsPotioman
+850	 actLimitP
+	 actLimiter
+	 actShadowJump
+	 actShadowHop
+	 actAccelN
+	 actrsRod
+	 actAtkJump
+	 actAtkDig
 
 -10000	 headActThrow
 -9999	 actThrowPotionMinor

@@ -1594,6 +1594,18 @@ Welcome home, {player}. You have {ref} waiting for you. Do you want to meet a gu
 %END
 
 
+%INMATE,JP			/Camp
+咕、杀了我！
+好想回家…。
+总有一天我会逃跑的。
+%END%
+
+%INMATE,EN			/Camp
+Damn, better yet, kill me!
+I want to go back home...
+Someday, I'll escape.
+%END
+
 ####################### Special #######################
 
 %BORED,JP			/when bored

@@ -247,4 +247,10 @@ Very happy!
 ¡¸¤Ø¤ó¤·¤ó¤Ã£¡¡¹{Fun}
 %txtShift,EN	//when using a shift core
 "Trans! Form!"{Fun}
+%txtLeading,JP    //‚€„eÖ¸Œ§¤òÊÜ¤±¤¿•r¤Î¥»¥ê¥Õ
+¡¸¤Ï©`¤¤¡¹
+¡¸¤¬¤ó¤Ð¤ë¤Í¤Ã¡¹
+¡¸¤Ø¤§¡«¡¹
+%txtLeading,EN	//when receiving Individual Leading
+"I'll do my best!"
 %endTxt

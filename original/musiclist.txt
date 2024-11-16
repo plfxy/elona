@@ -83,3 +83,6 @@ pinch2.mid			mcEvent1
 PSML516.mid		mcHome0
 taku01.mid		mcZangyou
 washi052.MID		mcMelan
+orc07.mid		mcChurch
+pop04.mid		mcSea1
+orgel01.mid		mcSea2

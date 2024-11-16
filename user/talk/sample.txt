@@ -1,244 +1,201 @@
 %txtCalm,JP    //非戦闘待機時のセリフ
-「谁？有人在看着我」{Question}
-「虽然不甘心…」
+「誰だ？誰かが私を見ている」{Question}
+「悔しいけど…」
 
-%txtCalm,EN
+%txtCalm,EN   //when not in combat
 "Weee."
 "Brother!"
 
 %txtAggro,JP    //交戦時のセリフ
-「这个家伙，还能动」
-「PK完之后能保证睡一觉好的吗？」
-「看见了。动作看得一清二楚！」
+「こいつ、動くよ」
+「戦いが終わったらぐっすり眠れるっていう保証がある？」
+「見える。動きが見える！」
 
-%txtAggro,EN
+%txtAggro,EN    //when turning hostile
 "Scum!"
 
 %txtDead,JP    //死亡時のセリフ
-「那么，我们的相遇算什么！」
-「这个就是、战、战斗」
-
-%txtDead,EN
+「では、この私たちの出会いはなんなんだ！」
+「これが、た、戦い」
+%txtDead,EN    //spoken on death
 "I'm dead."
-
 %txtKilled,JP    //敵殺害時のセリフ
-「无法弥补的事情…已经没办法弥补了…」
-「过份自信不是好事。」
-
-%txtKilled,EN
+「と、取り返しのつかない事を…取り返しのつかない事をしてしまった…」
+「自信があってやる訳じゃないのに」
+%txtKilled,EN   //when killing an enemy
 "I killed it."
-
 %txtWelcome,JP    //帰宅出迎えのセリフ
-「没错。那家伙、那家伙来了」
-
-%txtWelcome,EN
+「間違いない。やつだ、やつが来たんだ」
+%txtWelcome,EN    //staying at home and player enters the map
 "Welcome back."
-
 %txtDialog,JP    //話しかけた時のセリフ
-什么？{Question}{se0}{se1}
-（盯~){Angry}{se1}
-%txtDialog,EN
+なんだい？{Question}{se0}{se1}
+（ちっ){Angry}{se1}
+%txtDialog,EN   //when talked to
 Hi.
 What's up?
 Dude...
-
 %txtMaterial,JP    //マテリアル受取時のセリフ
 「人の善意を無視する奴は一生苦しむぞ」
-%txtMaterial,EN
+%txtMaterial,EN    //when receiving materials
 "I'll give this to you!"
-
 %txtBfast,JP    //朝食イベント発生時のセリフ
 「{player}、今日も元気だね」
-%txtBfast,EN
+%txtBfast,EN	//breakfast event
 "Good morning!"
-
 %txtNight,JP    //添い寝イベント発生時のセリフ
-「像这样靠近、四面来的攻击都打不到！」
-%txtNight,EN
+「こう近付けば、四方からの攻撃は無理だな！」
+%txtNight,EN	//when sleep sharing
 "ZZZ.."
-
 %txtInsult,JP    //罵倒技能時のセリフ·攻め寄りの状態で鞭で叩いた時のセリフ
-「这个就是我！」{Angry}
-「你不快点的话，人类会绝望的！」
-%txtInsult,EN
+「エゴだよそれは！」{Angry}
+「貴様ほど急ぎもしなければ、人類に絶望もしちゃいない！」
+%txtInsult,EN	//Insult special action, or whipped when low on servant-master value
 "You suck!"
 "You will die alone."
-
 %txtInsult2,JP    //鞭で叩いてもらうようにねだった時のセリフ
-「没出息的家伙！」
-%txtInsult2,EN
+「情けない奴ッ！」
+%txtInsult2,EN	//when asked to whip the player
 "You suck!"
 "You will die alone.
-
 %txtDiscipline,JP    //鞭でアイテム拾い禁止、拾い食い禁止した時のセリフ
-「打、打了…」{Angry}
-%txtDiscipline,EN
+「な、殴ったね…」{Angry}
+%txtDiscipline,EN	//forbidding items on the ground with whip
 "Stop!"
-
 %txtDiscipline2,JP    //叩き慣れした状態で鞭で叩いた時のセリフ
-「连老爸都没打过！」
-%txtDiscipline2,EN
+「親父にもぶたれたことないのに！」
+%txtDiscipline2,EN	//when whipped, but used to getting whipped
 "Stop!"
-
 %txtDisciplineOff,JP    //アイテム拾い禁止解除、拾い食い禁止解除時のセリフ
-「别再打了！」{Angry}
-%txtDisciplineOff,EN
+「二度もぶった！」{Angry}
+%txtDisciplineOff,EN	//when allowing eating/picking items off the ground with whip
 "Please...stop..."
-
 %txtDisciplineEat,JP    //拾い食い禁止状態で食事を与えた時のセリフ
-「啊…必须吃点东西…」
-%txtDisciplineEat,EN
+「あっ…食べなくちゃ…」
+%txtDisciplineEat,EN	//when given food while eating off ground is forbidden
 "Can I eat this food?"
-
 %txtMeal,JP    		//「一緒に食事する」時のセリフ
 食らえ！
-%txtMeal,EN
+%txtMeal,EN		//when having a meal together
 "This is delicious!"
-
 %txtCharge,JP    //味方がチャージ技能を発動した時のセリフ
-「不会放你过去的！」
-%txtCharge,EN
+「ここで食い止めてみせる！」
+%txtCharge,EN	//an ally uses Charge Attack special action
 "I will protect you!"
-
 %txtChargeS,JP    //本人がチャージ技能を発動した時のセリフ
-「滚开…{npcc}的力…」
-%txtCharge,EN
+「離れろ…{npcc}の力は」
+%txtChargeS,EN		//using Charge Attack special action
 "I started to charge from now."
-
 %txtChargeA,JP    //本人がチャージ効果の乗った攻撃をする時のセリフ
-「倒下吧！」
-%txtCharge,EN
+「落ちろっ！」
+%txtChargeA,EN	//using an attack powered up by Charge Attack
 "How about this attack?"
-
 %txtKizuna,JP    //味方が魂のシンクロ技能を発動した時のセリフ
-「人心善的一面是不能展现出来的」
-「{nptc}才不是只有帅点这么简单！」
-「站起来！站起来…！站起来{player}！」
-%txtKizuna,EN
+「人の心の光を、見せなけりゃならないんだ」
+「{nptc}は伊達じゃない！」
+「立ち上がれ！立ち上がれ…！立ち上がれ{player}！」
+%txtKizuna,EN	//an ally uses Synchro hearts special action
 "I will fight with you to the last...!"
-
 %txtSpecial,JP    //ゲージ技を発動する時のセリフ
-「这样如何！」
-「让这一切结束吧！这就那里！」
-%txtSpecial,EN
+「これでぇぇぇぇっ！」
+「やらせるか！そこだ！」
+%txtSpecial,EN		//using a gauge attack
 "Weee."
-
 %txtKiss,JP    //口づけされた時のセリフ
-「厉害…老爸竟然乐在其中」
-%txtKiss,EN
+「すごい…親父が熱中するわけだ」
+%txtKiss,EN		//when kissed
 "Woohoo!"
-
 %txtChoco,JP    //２月にチョコをもらった時のセリフ
-「从来没有这么开心过…」
-%txtChoco,EN
+「こんなに嬉しいことはない…」
+%txtChoco,EN	//giving handmade chocolate in February
 "Woohoo!"
-
 %txtNade,JP    //魂の友以上の友好度でＰＣから愛撫の手を受けた時のセリフ
-「那里！」
-「让大家担心了。没事」
-%txtNade,EN
+「そこ！」
+「心配かけたようだね。大丈夫だよ」
+%txtNade,EN	//rubbed by player when at Soul Mate or above
 "Weee."
-
 %txtHug,JP    //魂の友以上の友好度でＰＣからスクイーズを受けた時のセリフ
-「我喜欢{player}…」
-%txtHug,EN
+「私の好きな{player}…」
+%txtHug,EN	//Squeezed by player when at Soul Mate or above
 "Weee."
-
 %txtFawnOn,JP    //ファノーン技能に抵抗できずメロメロになってる時のセリフ
-「{npcc}太迷人了…」
-%txtFawnOn,EN
+「{npcc}がチャーミングすぎる…」
+%txtFawnOn,EN	//failing to resist Bewitch special action
 "Weee."
-
 %txtMidNight,JP    //強制的に添い寝させられて怒っている時のセリフ
 「人は同じ過ちを繰り返す。まったく…！」
-%txtMidNight,EN
+%txtMidNight,EN	//when angry at forced sleep sharing
 "ZZZ.."
-
 %txtRideOff,JP    //乗馬解除（ＰＣが乗っている場合）時のセリフ
-「太晚了…？」
-%txtRideOff,EN
+「遅すぎた…？」
+%txtRideOff,EN	//when player dismounts after riding
 "Weee."
-
 %txtRideOffPC,JP    //乗馬解除（ＰＣが乗られている場合）時のセリフ
-「我是{player}最熟练使用的。最、最熟练使用的…」
-%txtRideOffPC,EN
+「私が一番{player}を上手く使えるんだ。一番、一番上手く使えるんだ…」
+%txtRideOffPC,EN	//dismounting player after riding
 "Weee."
-
 %txtRideOn,JP    //乗馬開始（ＰＣが乗る場合）時のセリフ
-「准备突击！」
-%txtRideOn,EN
+「突撃をするぞ！」
+%txtRideOn,EN	//player mounts
 "Weee."
-
 %txtRideOnPC,JP    //乗馬開始（ＰＣが乗られる場合）時のセリフ
-「走！」
-%txtRideOnPC,EN
+「行きまーす！」
+%txtRideOnPC,EN	//mounts player
 "Weee."
-
 %txtLimit,JP    //添い寝時に眠気が限界に来た時のセリフ
 「ただ明日へと…永遠に」
-%txtLimit,EN
+%txtLimit,EN	//reaching limit during sleep sharing
 "Weee."
-
 %txtMultiple,JP    //多重詠唱魔法に参加する時のセリフ
 「まだ怒りに燃える闘志　巨大な敵を討て」
 「絶望に沈む悲しみ　渦巻く血潮を燃やせ」
-%txtMultiple,EN
+%txtMultiple,EN	//taking part in an Over-Ray spell
 "Weee."
-
 %txtDrain,JP    //友好度：親友以上または主従度：従順以上でＰＣに吸血される時のセリフ
 「…」
-%txtDrain,EN
+%txtDrain,EN	//subjected to Drain Blood by player when at Fellow or Amenable
 "Weee."
-
 %txtCreate,JP    //夜なべして防具作った時のセリフ
 「私が作ったのさ。コレってね」
-%txtCreate,EN
+%txtCreate,EN	//made equipment last night for handmade gift event
 "Weee."
-
 %txtBtalk,JP    //説得系技能を発動した時のセリフ
 「もういいんだ！みんなやめろ！！」
-「話を、僕にだって言いたいことあるんだ！！」
+「話を、私にだって言いたいことあるんだ！！」
 「こんなことで死んじゃつまらないからね」
-%txtBtalk,EN
+%txtBtalk,EN	//when use persuasive skills
 "Weee."
-
 %txtEXAct,JP    //添い寝時の専用行動選択肢　変換タグ無効
 目隠しする
-%txtEXAct,EN
+%txtEXAct,EN	//custom line during sleep sharing. {tags} won't work.
 To blindfold
-
 %txtEXReact,JP    //上記行動を選択した時の反応
 「まだだ！たかがメインカメラがやられただけだ！！」
-%txtEXReact,EN
+%txtEXReact,EN	//reaction when the above option the selected
 "Weee."
-
 %txtDialogB,JP    //evochat開始時のセリフ
 や、やってやる、やってやるぞ！
 何をしようというんです？
-%txtDialogB,EN
+%txtDialogB,EN	//when evochat is initiated
 I am somewhat pounding.
-
 %txtDialogE,JP    //evochat時、困らせた場合のセリフ
 だ、駄目だ、前へ進んじゃ駄目だ。
 光と人の渦がと、溶けていく。
 {player}、{player}は、私を愛してないの？
-%txtDialogE,EN
+%txtDialogE,EN	//embarrassed during evochat
 Please do not be mean...
-
 %txtDialogF,JP    //evochat時、喜ばせた場合のセリフ
 もういいのか？
 人はいつか時間さえ支配することができるさ。
 ははは、ありがとう。
-%txtDialogF,EN
+%txtDialogF,EN	//when happy during evochat
 I'm fun!
-
 %txtDialogH,JP    //evochat時、機嫌が最大の場合のセリフ
 ああ、そうだ、そうだと思う。これも運命だ。
 信じるさ、君ともこうしてわかり合えたんだから。
 見えるよ、{player}…。見えるよ、みんなが…。
 %txtDialogH,EN	//happiness maxed during evochat
 Very happy!
-
 %txtMizuAsobi,JP    //【特別な気持ちいいこと】中のセリフ
 「あっ…」
 「いいっ」
@@ -267,11 +224,15 @@ I'm fun!
 そ、それ、だけ、なんですか？それだけで、おしまいなんですか！
 %txtTagEvo,EN	//when evochat without you
 Very happy!
-
 %txtShift,JP    //変異殻使用時のセリフ
 「チェンジサイボーグ！！」
 「ビルドアーップ！」
-%txtShift,EN
+%txtShift,EN	//when using a shift core
 "Weee."
-
+%txtLeading,JP    //個別指導を受けた時のセリフ
+「やれるとは言えない」
+「やるしか無いんだ！」
+「分かってるよ！」
+%txtLeading,EN	//when receiving Individual Leading
+"I know!"
 %endTxt

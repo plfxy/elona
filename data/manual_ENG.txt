@@ -83,8 +83,8 @@ the spending of bonus points.
 
 Some skills consume Stamina Points (SP) when used.  The loss of SP
 results in increased fatigue, reduced speed, and an increased chance of
-skill failure.  Resting recovers SP.  SP is not listed on the character
-screen.  
+skill failure.  Resting recovers SP.  SP is displayed to the left of 
+your money.
 
 There are some skills that require items to use.  For example,
 performance requires an instrument, cooking requires cooking equipment
@@ -207,6 +207,12 @@ be more difficult.
 Blind: Your sight will become extremely narrow.
 Drunk: Similar to confusion, but you will be more vulnerable to enemy
 attack.
+Brainwashing: The equipment is randomly removed and cannot be re-equipped 
+during brainwashing.
+Brainwashed companions will attack you for up to 30 turns.
+
+MPoison: MP decreases every turn. Recovering MP will soften the number of 
+effect turns.
 
 Many abnormal states can be cured through the use of magic or potions.
 
@@ -253,7 +259,7 @@ armor; for instance, 60% penetration ignores 60% of the enemy's armor.
 
 Shield Fighter:
 When using a shield, you can only use one weapon, but you gain a bonus to
-your PV depending on your skill with a shield.
+your PV and DV depending on your skill with a shield.
 
 Two-handed Weapon Fighter:
 When wielding a weapon with two hands, your to-hit bonus and damage bonus
@@ -275,21 +281,20 @@ hit them and the less damage you will do.  The maximum range and damage
 based on range is given below.
 Arms Covered 1  2  3  4  5  6  7 
 ------------------------------------------
-  Short Bow  07-10-10-08-06-04-02
-   Long Bow  05-09-10-09-08-08-07
-   Skullbow  06-09-10-10-08-06-04
-   Crossbow  08-10-09-08-07-06-05
-   Throwing  09-10-08-07-02-02-02
-WeaponThrow  05-08-06-03-02-02-02
-      Rifle  09-10-08-06-03-02-02
-    Shotgun  10-08-05-02-02-02-02
-Machine Gun  08-10-10-09-08-07-04
+    Shotgun  20-20-10-05-05-05-05
+   Crossbow  15-15-10-10-10-05-05
+  Short Bow  10-15-15-10-10-05-05
+Machine Gun  10-10-15-15-10-05-05
+   Skullbow  05-10-10-15-15-10-05
  Photon Gun  10-10-10-10-10-10-10
-SniperRifle¡¡07-08-09-10-10-09-09
+   Pistol    15-15-15-10-05-05-05
+   Throwing  10-15-15-15-05-05-05
+   Long Bow  05-05-15-15-15-10-05
+SniperRifle  05-05-10-15-15-15-05
 ------------------------------------------
 For instance, when your distance is 1 -- the enemy is right next to you
 -- and you fire a longbow, the weapon's distance modifier is 05, or 50%.
-At a distance of three tiles, your hit modifier is 10, or 100% of
+At a distance of six tiles, your hit modifier is 10, or 100% of
 your basic hit.  For best attack power with the longbow, you must
 keep your distance, which you can verify with the look ('l') command.
 

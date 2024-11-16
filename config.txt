@@ -41,8 +41,8 @@ ignoreDislike.	"1"		1=displace harmless NPCs like town children when moving
 fullscreen.	"0"
 windowX.	"0"
 windowY.	"0"
-windowW.	"800"		screen width (min 800 dots) must be a multiple of 4
-windowH.	"600"		screen height(min 600 dots) must be a multiple of 4
+windowW.	"1280"		screen width (min 800 dots) must be a multiple of 4
+windowH.	"768"		screen height(min 600 dots) must be a multiple of 4
 windowAnime.	"0"		0=disable window pop up animation 1=enable
 scroll.		"1"
 scroll_run.	"1"
@@ -59,8 +59,8 @@ msg_addTime.	"1"
 title_dialog.	"0"
 
 (Sound)
-sound.		"1"
-music.		"1"
+sound.		"0"
+music.		"0"
 heartbeat.	"1"
 
 (Font)

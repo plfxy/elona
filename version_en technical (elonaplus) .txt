@@ -60,6 +60,1115 @@ bugs and game features. Contains spoilers and a breakdown of game data.
 
 
 
+===2.20: detailed changelog===
+ [New items]
+* deed of camp
+** Shops may sell these. Reading it on the world map builds a camp. Make your dream camp a reality!
+
+* float cage
+** Does not spawn randomly. The Camp starts out with 6 of these placed in it.
+** NPCs that can be dominated can be captured with one of these when their HP is less than 25% of maximum.
+** Greatly decreases the target's Impress and master/servant score.
+** NPCs that have been captured with this can be brought off the map as they are. They will use a pet slot like an escort NPC.
+** A float cage bit flag will be applied to the target that makes them unable to move and reduces the damage they take by half.
+** The options available when 'i'nteracting with them are limited just like for escort quest NPCs.
+** When they are made to wait in town or die and revive, they will still remain caged.
+** NPCs are not useful in this state, so you will need to bring them to the Camp to put them to work.
+** The requirements for using this are not as strict as monster balls which require targets to be lower than 10% HP and also have a level restriction. However, getting NPCs captured with a float cage to become a pet is more involved - the main use of NPCs caught this way is for labour.
+
+* slave spinner
+** Does not spawn randomly. The camp starts out with 1 placed in it. Can be used only in a Camp.
+** Causes 20 auto-turns if the player character uses it, yielding 3 Toil-Energy per turn but costs 5 SP per turn.
+** This shares the "You are bored" cooldown with training machines.
+
+* slave wheel
+** Does not spawn randomly. The camp starts out with 2 of these placed in it. Can be used only in a Camp.
+** Causes 60 auto-turns if the player character uses it, yielding 1 Toil-Energy per turn but costs 2 SP per turn.
+** This shares the "You are bored" cooldown with training machines.
+
+* Inmate Correction Manual
+** A red book that does not spawn randomly. The camp starts out with 1 placed in it.
+** I wrote and rewrote this to get the tone right and before I knew it, it was like this.
+** But this might par for the course for the people of Irva?
+
+ [New player-owned property]
+* Camp
+** Looks just like the Prison on the world map. Up to 100 items can be placed in it. Maintenance fees are 2,500gp per month.
+** Aside from the abovementioned new items, it will also have some items that are difficult to obtain like the guillotine, iron maiden, and giant's shackle.
+** House boards and similar items will offer the following options:
+
+* Removed from cage
+** Shows the list of NPCs with the float cage bit flag. Selecting an NPC will remove the bit flag from it and place a float cage on that spot.
+** This means that float cages are reusable unlike monster balls.
+** The selected NPC gets removed from the list of pets and gets an interned bit flag. Up to 30 NPCs can be interned at the camp at a time.
+** Unlike the Discarded Ranch, NPCs who die will not revive.
+
+* Move a inmate
+** Works just like moving a stayer in your home.
+
+* Change Toil-Lv 
+** Can be set anywhere from 0 to 3.
+
+* Exchange Toil-Energy 
+** Trade Toil-Energy for various items in a list. The exchange rate and items available are subject to change.
+** Every 72 hours, you will receive Toil-Energy upon entering the map. The amount received depends on the Toil-Lv and the master/servant score of each interned NPC.
+** The Life of every interned NPC is reduced by the Toil-Lv cubed. NPCs whose Life is 0 or less will die.
+** There is no Life reduction if Toil-Lv is set to 0.
+** The amount of Toil-Energy received from master/servant score is independent of Toil-Lv.
+** The attributes of NPCs do not matter, so whether you want to treat them as disposable or keep the Toil-Lv at 0 and raise the master/servant score, you should prioritize filling the Camp first for greatest efficiency.
+** Unlike yaca points, every Camp has a separate Toil-Energy value.
+** Up to 100,000 Toil-Energy can be accumulated per Camp.
+
+* Added a few options for the conversation window for interned NPCs (see below).
+** Their regular lines will be different if master/servant score is below 100.
+
+* <Darkness evochat>
+** Unimplemented because the exact details haven't been ironed out yet.
+** In general it should be like evochat but you do terrible things to raise their master/servant score.
+
+* I have decided to release you.
+** If master/servant is 150 or greater, they join you as a pet.
+** If master/servant is less than 150 and Impress is below 100, they turn hostile and attack you.
+** Otherwise, they will just disappear.
+
+* I have decided to execute you as a demonstration.
+** Kills them instantly.
+** All interned NPCs including those out of visual range will have their master/servant score increased, but their Impress decreased.
+** The lower their master/servant score, the higher the chance they will be afflicted by Fear.
+
+ [New special action]
+* God charge Rod
+** Procs when zapping a rod and expends 100% of the power gauge.
+** Has the usual gauge attack effects. This is actually the same as the Casting gauge attack asides from the following additional effect:
+** Gives +10 recharge power if used by an allied character.
+
+ [Elean band encounter]
+* They demand less gold than rogue attacks.
+* Picking any option other than "I will donate as you said" will cause them to attack.
+* The initial verbal exchange is written to seem preposterous.
+* You get to experience what it's like to be on the receiving end of violent rhetoric - with extra emphasis on the 'violent' part.
+* It's easy to just get angry or exasperated or dismissive, but when you are put on the spot, will you be able to point out where exactly the flaws in their logic are?
+* Moral of the story: it's important for everybody (yourself and myself included) to not accidentally have double standards/engage in hypocrisy and prejudice/believe everything you hear.
+
+ [New NPCs]
+* anabolic resistance
+** Level 115 bacteria. Unlike most meshera, eating it does not cause pregnancy.
+** Will not do anything when health is low.
+** Uses Eye of Insanity, Squeeze, and Melt Clinch.
+
+* monster bacteria
+** Level 74 bacteria.
+** Voracity Fang and Poison Breath. Has the splitting bit flag.
+
+* meshera unfinished
+** Level 60 bacteria.
+** When Meshera plant uses Summon chaos, this is the only NPC type that spawns.
+** Unlike most meshera, eating it does not cause pregnancy.
+** Uses Clash Rush on low health. Uses Distant Attack 7 and Eye of dimness.
+
+* bouncteria
+** Level 41 bacteria.
+** Uses Shadow Step and Touch of Weakness.
+
+* rough pirate
+** Base level 96 juere.
+** Uses Touch of Fear and Body Blow.
+
+* pirate musketeer
+** Base level 85 juere.
+** Uses Provoke.
+
+* instigator of Elea
+** Base level 66 juere.
+** Instigates Elean violence but isn't an Elea themselves.
+** Does not spawn randomly.
+** Insult on low health. Uses Collected Power and Blended lie.
+** Is unique, but like rogue boss will not have brackets around the name.
+** Drops trade goods on death.
+
+* mob of Elea
+** Level 55 elea.
+** Touch of Paralyze, Blame Pain, and Scavenge.
+
+* avenger of Elea
+** Level 34 elea.
+** Nether Sigh, Fire Claw, Mist of Darkness, and Mist of Silence.
+
+* avenger of Elea
+** Level 22 elea.
+** Healing Rain on low health.
+** Hydro Fang, Lightning Spear, and rarely Bound in Blood.
+
+ 
+ ===2.19: detailed changelog===
+ [About the new evochat options]
+* Selecting <Mind unlock> brings up the following options.
+** The success rate increases with as (player character Lock Picking + target Lock Picking + Impress or master-servant relation) increases.
+** (Success rate is capped at 90% for medium difficulty options, and capped at 80% for high difficulty options).
+** Evochat action points will decrease by 1 upon selecting the option, whether it fails or not.
+** Unlocking any of these relationships will raise the maximum Impress and master-servant relation attainable, up to a maximum of 999 depending on the player's Lock Picking + target's Lock Picking.
+** If the success rate is too low, you may want to train up Lock Picking for both parties or pick an easy route first and increase maximum Impress with that one. After all, if you want to get anywhere with a relationship, starting as friends is a tried-and-true strategy.
+
+* (Impress-type relationship. Unlock difficulty: Low) Fight together as allies. Initiates the Comrade route.
+
+* (Impress-type relationship. Unlock difficulty: Low) Let's be friends. Initiates the Friend route.
+
+* (Impress-type relationship. Unlock difficulty: Low) I want to compete with you. Initiates the Rival route.
+
+* (Impress-type relationship. Unlock difficulty: Medium) I'm in love with you. Initiates the Affection route.
+
+* (Impress-type relationship. Unlock difficulty: Medium) I want you to teach me various things. Initiates the Student route.
+
+* (Impress-type relationship. Unlock difficulty: High) I want to lead you. Initiates the Master route.
+
+* (Impress-type relationship. Unlock difficulty: High) I think of you as an important family member. Initiates the Family route.
+
+* (Master-servant-type relationship. Unlock difficulty: Low) I want to make a contract with you. Initiates the Contract route.
+
+* (Master-servant-type relationship. Unlock difficulty: Medium) You are my pet! Initiates the Owner route.
+
+* (Master-servant-type relationship. Unlock difficulty: High) I want you to pledge allegiance to me. Initiates the Loyalty route.
+
+* (Unlock difficulty: Medium) <I want to be your help...>
+** Help them with whatever is troubling them, raising the lower limit of their power gauge by 1.
+** Unlocking this will remove it from the list of options.
+** Will be reset by Maile when selecting the Relationship with ally option.
+
+* (Unlock difficulty: High) <Show the real you...>
+** Open a can of worms. InSANity lower limit gets raised to 10, power gauge lower limit gets permanently raised by 5.
+** Unlocking this will remove it from the list of options.
+** Will be reset by Maile when selecting the Relationship with ally option.
+
+ [About the relationship routes]
+* Only the most recently-selected route has an effect. Don't you just love it when you thought you were just friends, but turns out it was love?
+** Will be reset by Maile when selecting the Relationship with ally option.
+** These should pretty much cover everything, but detailed suggestions for improvements are welcome. (I can't add too many options though because the conversation window is already full enough as it is.)
+** All of the routes are the same at low Impress (Hate, Annoying, etc) because that's probably an accurate representation of what they feel.
+
+* Comrade route
+** Trust -> Ally -> Comrade -> BattleBond
+** This is basically the option to make progress while retaining the default Impress type of relationship.
+
+* Friend route
+** Friend -> Fellow -> Sworn Mate -> Soul Mate
+
+* Rival route
+** Competitor -> Rival -> *Rival* -> Fateful
+
+* Affection route
+** Affection -> Mutual -> Passionate -> Love
+
+* Student route
+** Student -> Successor -> Comparable -> *Disciple*
+
+* Master route
+** Teacher -> Master -> Respect -> LifeMaster
+
+* Family route
+** Family -> Dear -> Doting -> MatureLove
+
+* Contract route
+** Contract -> *Contract* -> Partner -> Co-Fate
+
+* Owner route
+** Amenable -> Owner -> Subjection -> Reliance
+** This is basically the option to make progress while retaining the default master-servant type of relationship.
+
+* Loyalty route
+** Allegiance -> Obedience -> Adoration -> Loyalty
+
+ [New random events]
+* Premonition of big catch
+** Occurs on coastal maps on the tiles with the fish icon.
+** Instantly receive 8 to 13 fish items.
+** Receive 16 to 26 instead if you are on a fishing ship.
+** The fish goes directly into your inventory, and will fail if there isn't enough space.
+** The type of fish received depends on which coastal map you are on:
+** Kapul coastal: seabream or manboo
+** Lumiest coastal: salmon or sardine
+** Devil coastal: sandborer or flatfish
+** Valm coastal: moonfish or globefish
+** Kurualm coastal: tuna or cutlassfish
+** You know how shops were selling fish that were unobtainable from fishing? Let's just say this is where they were coming from - caught out in the open ocean.
+
+* Shadow of a Ship
+** Occurs on coastal maps on the tiles with the ship icon.
+** Upon approaching it, if it is a merchant ship, it will behave just like a wandering vendor - you can buy and sell from them. The shop rank and strength of the NPC escorts work just like wandering vendors, but the types of items sold will resemble that of general vendors and it will have 10 times as much stock for every item.
+** There is a Cargo Wt-dependent chance that you will encounter a Pirate ship instead. The encounter chance is independent of player character level. The enemy strength is the same as a rogue encounter, but there is only 1 type of pirate trash mob that will spawn. Stats-wise, <the pirate captain> is the same as a rogue boss.
+** If your ship is a pirate ship, warship, or submarine, you can launch a preemptive strike before making contact.
+** If the target is a merchant ship, they will flee.
+** If the target is a pirate ship, their ship durability will be decreased by 1.
+** There is a chance that the target's ship may start the battle with Minor damage even if you didn't use a preemptive strike on them.
+
+** Ram your ship: chance of failing increases with target ship durability.
+** Failing it will decrease both your ship's and the target's durability by 1. Ramming is guaranteed to succeed if the target is a merchant ship.
+** Cannot be used if your own ship is About to sink. Upon success, you will board the target's ship and engage in combat with enemy NPCs.
+** When target ship durability reaches 0, the event concludes.
+** Sinking a pirate ship gives a fixed 1,000 fame.
+
+** Attack from a distance: cannot be selected unless your ship is a pirate ship, warship, or submarine.
+** If the target is a pirate ship, their durability will decrease by 1. There is a 50% chance they will counterattack, decreasing your ship durability by 1.
+** This option cannot be selected if the target is a pirate ship and your ship is About to sink.
+** When target ship durability reaches 0, it sinks and the event concludes. Merchant ships sink in 1 hit.
+** Sinking a pirate ship gives a fixed 1,000 fame. Sinking a merchant ship gives -10 karma.
+** You may have already noticed, but there is no point in sinking merchant ships, and you can't loot them if they're at the bottom of the ocean.
+
+** Run away: only available if the target is a pirate ship. Decrease your ship durability by 1 and concludes the event.
+** If it is already About to sink, durability will not be decreased, but fame will decrease instead.
+
+ [New items]
+* scroll of harvest
+** Has a low chance of spawning randomly.
+** Has the same effect as the harvest spell.
+
+* scroll of attract
+** Spawns randomly.
+** Brings 3 random enemies on the current map and places them next to you. Can be used like Dimensional Fishing except that this does not require Fishing skill.
+
+* high potion of agony
+** Can be crafted with item fusion, and can be thrown by potion-throwing NPCs.
+** Will attempt to apply Sleep, Poisoned, Paralyzed, Confused, and Blinded.
+** Potency increases proportionally with [danger level of current map] but at about half the rate compared to that of a high potion of disaster.
+** NB: "clear liquid" when unidentified. Japanese term when unidentified translates to "pain-bringing potion".
+
+* high potion of calamity
+** Can be crafted with item fusion, and can be thrown by potion-throwing NPCs.
+** Will attempt to apply Element Scar, Nightmare, Mist of Frailness, Slow, and Mist of Silence.
+** The number of turns all of these debuffs will last for is set to the debuff that lasts the shortest amount of time (i.e. Mist of Silence).
+** Potency and length of debuff increase proportionally with [danger level of current map].
+** NB: "clear liquid" when unidentified. Japanese term when unidentified translates to "curse-bringing potion".
+
+* high potion of physical
+** Can be crafted with item fusion. Does not spawn randomly.
+** Applies Holy Shield, Regeneration, Speed, and Feather at the same time, but the potency is less than what it would have been if the buffs were individually applied.
+** NB: "clear liquid" when unidentified. Japanese term when unidentified translates to "cutting-edge potion".
+
+ [Revamped potion throwing skill repertoire]
+* Minor potion throwing: potion of blindness, potion of confusion, potion of paralysis, poison, sleeping drug, and high potion of calamity.
+* Potion throwing: potions of slow, silence, weaken resistance, weakness, and high potion of agony. It's just not the same without the fire pillars from the molotovs, but it should be more practical to use now.
+* Greater potion throwing: bottle of sulfuric, love potion, gasoline, high potion of calamity, high potion of agony, and high potion of aqua sanctio.
+
+
+===2.18R: detailed changelog===
+ [New buffs]
+* Chain of Mana
+** Applied by Necro Force's Undead strengthen option.
+** Increases Tactics, Control Magic, and Casting.
+** Will make the character deal additional magic damage when doing physical damage attacks.
+		
+* Flame of Life
+** Applied by Necro Force's Undead restore option.
+** Increases fire resistance.
+** Every turn, it will also recover 2% of maximum HP, and reduce [the number of turns of] some debuffs the character is afflicted with.
+** The list of debuffs that Flame of Life will work on: Poisoned, MPoison, Sleep, Fear, Confused, Blinded, Paralyzed, Dim, Drunk, Bleeding, Atrophy, Brainwash, Dyspnea.
+
+ [New special action]
+* Accel Necro
+** Learned after using the necro remodel item fusion recipe.
+** Applies 50 turns of Gravity Accel, Speed, and Boost to every undead summoned by the user in sight.
+** The potency of the buff is dependent on the average of the player character's Control Magic and Will.
+** Every undead buffed will consume an amount of SP cost equal to 5% of the user's maximum SP.
+
+
+ ===2.18: detailed changelog===
+ [New items]
+* sazae
+** Food. Considered a type of fish. Can be cooked or offered to Ehekatl.
+** Randomly spawns on the Seabed, but has an extremely low chance of spawning elsewhere too.
+** Has a high chance of spawning in the Valm and Kurualm coastal regions.
+** NB: turban snail
+
+* hamaguri
+** As above.
+** Has a high chance of spawning in the Lumiest coastal region.
+** NB: clam
+
+* hotate
+** As above.
+** Has a high chance of spawning in the Port Kapul coastal region.
+** NB: scallop
+
+* mozuku
+** Edible, but cannot be cooked.
+** Randomly spawns on the Seabed, but has to be stolen with Pickpocket.
+** Has an extremely low chance of spawning elsewhere too.
+** Has a high chance of spawning in the Valm and Kurualm coastal regions.
+
+* kombu
+** As above.
+** Has a high chance of spawning in the Lumiest and Devil Cape coastal regions.
+
+* wakame
+** As above.
+** Has a high chance of spawning in all coastal regions.
+
+* The following items will also spawn randomly.
+** Reading any of them at Port Kapul, Lumiest, Devil Cape, Kurualm, or Valm will instantly transport you to their respective coastal maps.
+** deed of huge raft
+** deed of fishing ship
+** deed of pirate ship - wishing for this will spawn a deed of fishing ship
+** deed of cruise ship - wishing for this will spawn a deed of fishing ship
+** deed of warship - wishing for this will spawn a deed of fishing ship
+** deed of submarine - wishing for this will spawn a deed of fishing ship
+
+ [Coastal maps]
+* Works like a type of world map.
+** Dying here will take you to the Return point on the previous world map.
+** Like other world maps, 1 tile equals 1 mile, but travelling is slower here than on other world maps.
+** No structures such as shelters or deed buildings may be built on the Sea map.
+** Treasure maps cannot be read as they would be impossible to dig up.
+** Pressing the enter key on the surface brings you to the Seabed map.
+** To get back to the previous map, step on the mooring point. This is the tile that has an anchor symbol on it - you also get placed next to this tile when entering the coastal map.
+** If your boat sinks, you will have to swim. While swimming, every character will lose 1 SP per turn. They will also have the Wet status applied, and have a low Swimming skill-dependent chance of gaining additional Dyspnea on top of the Dypsnea they already have.
+** It may snow, but snow will not slow your movement speed.
+** The map has nothing on it and you will not have any random encounter battles for now.
+** Only some of the existing random events from previous versions of the game will occur while on the map.
+** The new random events (see below) will change the boat's status as follows:
+** No problems -> Minor damage -> Many troubles -> Dangerous -> About to sink -> Unnavigable
+** Once the boat is Unnavigable it can no longer be used to move around.
+** When the boat becomes Unnavigable or is currently Unnavigable, Wet status and 10 turns of Dyspnea is applied to all characters.
+
+ [New random events]
+* Raging Sea
+** Occurs when the weather is Hard rain or Etherwind, or may occur after some time.
+** The higher the ship's rank, the less frequently this event occurs.
+** The event cannot be negated with an aurora ring.
+** The [image] will change slightly if the weather is Hard rain or Etherwind.
+
+* The following events will occur only while riding on a boat.
+** For the first three events, certain options will not show up if you do not meet the prerequisites for them. (e.g. If you do not have space for more people/if you don't have the necessary items.)
+** So if you don't want to get a Karma penalty, make sure your boat isn't full and that you have the needed items on hand.
+
+* Swept Away
+** (Abandon): Karma -1
+** (Put on your ship): Drifter +1
+** (Throw 1 inner tube and leave): Lose 1 inner tube (cargo item)
+
+* After Escape
+** (Abandon): Karma -1
+** (Put on your ship): Drifter +1
+** (Throw 1 traveler's food and leave): Lose 1 traveler's food (cargo item)
+
+* Drifters
+** (Abandon collectively): Karma -3 to -10
+** (Put on your ship as much as you can): Drifters +3 to +10, capped by capacity
+** (Throw 1 inner tube and leave): Lose 1 inner tube (cargo item)
+
+* Aerial Threat
+** Won't occur at all when using the submarine.
+** Choosing to run away will roll a number dependent on the ship rank. If the roll fails, the ship's condition deteriorates by 1 rank.
+** Choosing to fight will cause no damage to pirate ships and warships. For other types of ship, the ship's condition will deteriorate by 1 rank.
+
+* Undersea Threat
+** Choosing to run away will roll a number dependent on the ship rank. If the roll fails, the ship's condition deteriorates by 1 rank.
+** Choosing to fight will cause no damage to warships and submarines. For other types of ship, the ship's condition will deteriorate by 1 rank.
+
+* Ship capacity:
+** huge raft - up to 2 drifters
+** fishing ship - up to 5 drifters
+** pirate ship - up to 10 drifters
+** cruise ship - up to 100 drifters
+** warship - up to 20 drifters
+** submarine - up to 5 drifters
+** If the boat sinks or the player character dies, all drifters are lost.
+** Returning to the mooring point gives +2 Karma per drifter.
+
+ [Seabed]
+* The sea's version of the Wilderness map. Exiting from the edge of the map returns you to your ship.
+** The map will have seamonster race enemies [and other objects] placed; enemy [and object] selection is dependent on deepest dungeon floor cleared.
+** Enemies that continuously spawn with the passage of turns are of seamonster race, and depend on deepest dungeon floor cleared.
+** Wet status is applied to all characters every turn. There is also a decent chance (that is dependent on Swimming skill) of getting afflicted with additional turns of Dyspnea.
+** The Swimming skill-dependent evasion modifier will work even when not on a water tile.
+** Uncooked fish will not rot (including those in your inventory) even when not on a water tile.
+** Wish will not work.
+** Weather effects will not be displayed, but this counts as outdoors so you will be subjected to the effects of Etherwind when it happens.
+** North Tyris and South Tyris seabed maps have a slightly different tint.
+
+ [New special actions]
+* Shadow Hop
+** Learned upon level up when Stealth skill is 20 or greater. Wide-area special action.
+** Expend half of maximum HP and summon 25 shade NPCs allied to the summoner.
+** The level of each shade is dependent on the user's [character level] and Stealth skill level. When the player character is the summoner, the level is capped at 3/2 times the deepest dungeon floor cleared.
+** The maximum HP of each shade is equal to the HP expended during the summoning, divided by 25. Upper limit is 2,000 and lower limit is 1.
+** When used by an NPC, the shades will have the same appearance and name as the summoner.
+** Fails to activate if the user's HP is less than half of the maximum.
+** It will also fail the second time onward for the same user until the user enters a new map.
+** Summoned shades will disappear when changing maps.
+** <Getuei>the ninja master and shadow now use this when they meet the requirements.
+
+* Shadow Jump
+** Learned upon level up when Stealth skill is 40 or greater. Wide-area special action.
+** Move to the target. (Is not considered a teleport). If the target is not currently afflicted with Bind, 5 turns of Bind is applied to it.
+** Flavour-wise, this allows the user to use shadows for moving around and binding targets.
+** This will affect targets who are not in sight.
+** That means that targets who teleport away to heal can be chased down with this special action.
+** Does not apply any damage, so you can target a non-hostile NPC to move to them.
+** It doesn't deal damage so that players can't use this to hit and run enemies.
+** It will fail when used by the steed currently being ridden or the right side of a tag team as they aren't allowed to move of their own volition.
+** <13th step ghost>, ghost, and ninja now use this.
+
+
+ ===2.17: detailed changelog===
+ [New special actions]
+* <Limit Power>
+** Learned by the player character when leveling up to level 20 or greater.
+** Temporarily decreases the attributes of the targeted player character/pet by a percentage. The range of percentages that Speed will be decreased by is smaller. Luck is unaffected.
+** Choose between different limiter levels - the higher the level, the greater the attribute reduction.
+** Enabling the limiter or switching limiter levels will reset the power gauge to 0.
+** Attributes cannot be restored by Restore Body or other similar methods. Buffs that increase the attributes remain unchanged.
+** HP and other stats will get recalculated as well, but your character may do surprisingly well in battle because character level, skill levels, and resistances remain unchanged.
+** If you feel you've over-leveled your character or want to give yourself a challenge, this feature is for you.
+** Or, you can go "Is that all you've got? I'm not even using half my strength" or "Mwahaha, a worthy adversary! Time to get a little serious" or "It's been a while since I've fought at full strength. Try not to die" and roleplay some character who usually suppresses their strength. Like a BBEG or something.
+	
+* <Limiter Vanish>
+** Learned by the player character when leveling up to level 20 or greater.
+** Completely remove the limiter placed on the selected character. Requires power gauge to be at 50% or greater (but will not consume any power gauge).
+** Recovers 50% of the original maximum HP, MP, and SP values.
+** Will also buff the character with Holy Shield, Feather, Attribution Shield, Super Regene, and Holy Veil. The strength of these buffs is dependent on the amount the attributes were previously decreased by the limiter.
+** Also deals damage to all enemies in sight. The damage is dependent on the amount the attributes were previously decreased by the limiter, limiter level, and character level. This damage is reducible by the target's Constitution.
+** Removing the limiter basically unleashes devastation on nearby enemies.
+
+ [New items]
+* white dark orb
+** A tool that does not randomly spawn. Created with the dark fusion item fusion recipe.
+** There are 6 types that each create different traps (see below).
+** Using it will consume 5 abyss power and place a trap of that type at your character's feet.
+** Like regular traps, they will disappear once set off by someone.
+** Unlike pitfalls, landmines, and string traps, however, these will work on floating characters.
+** Damage dealt by these traps is dependent on the player character's Magic Device and Disarm Trap skill levels. Strength of status ailment inflicted is dependent on Disarm Trap skill level and the danger level of the current map.
+** poison spear: PV/DV damage + chance to inflict Poisoned
+** sleepy spear: PV/DV damage + chance to inflict Sleep
+** ink spear: PV/DV damage +  chance to inflict Blinded
+** smelly spear: PV/DV damage +  chance to inflict Confused
+** paralyze spear: PV/DV damage + chance to inflict Paralyzed
+** vibrating spear: PV/DV damage + chance to inflict Dim
+
+* awake destone
+** Has a 1/10 chance of spawning when an NPC dies to damage that was not caused by an attack.
+** Will not spawn if rare loot trigger is not on, and will not drop from enemies that are too weak.
+** Stores the initial stats of the target that dropped it; those stats are summed together and multiplied by 1/10 to give the item level [that is displayed with the item name].
+** The higher the level, the higher the selling price, but you may find these far too valuable to sell.
+** When used, compares the user's INIT stat against that of character that dropped this. If the check passes, the user gains AP. The item will not be consumed if the check fails.
+** Gives 5 times the amount of AP compared to normal means.
+** Will not give the user's tag partner any AP.
+
+ [New NPCs]
+* chaoshaprincess ZEHLS
+** Level 184 mutant. Floats. Female only.
+** Cure of Jua on low health. Chaos Vortex, Nether Sigh, Holy Shield, Magic Bolt.
+		
+* chaoshaprincess DIBWL
+** Level 169 mutant. Floats. Female only. Temper bit flag.
+** Flame of Rage when enraged. Darkness Breath, Draw Shadow, Nightmare, Poison Storm.
+
+* chaoshaprincess VARGM
+** Level 144 mutant. Floats. Female only. Suitable for riding.
+** Linear Launcher, Smash Ground.
+
+* etherian plus
+** Level 130 mutant. Has a bonus to Swimming. Bit flag that deals bleed to attackers.
+** Decapitation, Voracity Fang.
+
+* chaoshaprincess CHRDH
+** Level 115 mutant. Floats. Female only. Suitable for riding.
+** Shadow Step, Continuous attacks, Smash Ground, Blade Turbulence.
+
+* chaoshaprincess FSSSY
+** Level 91 mutant. Floats. Female only. Has a bonus to Swimming.
+** Squeeze, Alchemical Rain, Love Crafting, Hydro Bolt.
+
+* chaoshaprincess FWBS
+** Level 74 mutant. Female only.
+** Shadow Step, Decapitation, Swarm.
+
+* chaoshaprincess MEM
+** Level 42 mutant. Female only.
+** Eye of dimness, Touch of Nerve, Downpour Spore, Aromageddon.
+
+* etherian
+** Level 27 mutant. Floats.
+** Touch of Poison, Gravity, Eye of Insanity, Dimensional Move.
+
+
+===2.16: detailed changelog===
+ [Daily quest]
+* Three of the following will be selected everyday.
+** Categories I and II will have one quest selected from each of them.
+** Completing a quest will add 1 to your point total at the end of a day. Meaning you can get up to 3 points per day.
+** Every 10 points earned will cause the reward item (see below) to get deposited into your salary chest.
+** The point total resets to 0 whenever it reaches 1000 so that the number doesn't get too long.
+
+* I: Actions
+** I will drink something. Dousing your character with something will work. Drain Blood and the drinks that come with traveler's food are also accepted. Drinking or dousing yourself with melted chocolate will not work. (NB: The drink part of eating traveler's food may happen only if your character is thirsty enough.)
+** I will walk on the world map. Can be cleared while riding a world-vehicle.
+** I wll have a conversation with someone. [sic] Cannot be cleared when the target is unconscious or asleep. Conversations with NPCs who have 0 Attract is fine though, as are scripted event conversations.
+** I will defeat high level enemy. The player character or a pet has to defeat a character who has a higher level than the player character.
+** I will tell someone how I feel.
+** I will visit Random Nefia. The Nefia does not have to be cleared for this to count.
+** I will visit Wilderness. Ambushes and other random encounters will count.
+** I will exercise until I feel lightly tired. The player character has to end the turn with low enough SP so that they are Tired or worse.
+
+* II: Adventurers should have a well-balanced diet
+** I will eat a meat. Any corpse will count. B-jerky and forbidden meat cannot be cooked, but these will also count.
+** I will eat an egg.
+** I will eat a vegetable. Jack lantern, mandrake salad, fried potato, and pop corn also accepted. Herbs and four-leaf clover are not accepted.
+** I will eat a fruit. If there's any confusion as to what's a fruit and what's a vegetable, refer to the type of cooked food that the item produces when cooked. Magic fruit and happy apple are accepted.
+** I will eat a bread. Sack of flour may be eaten raw and it will still count. Puff puff bread and stick bread are also accepted, but panty is of course not accepted.
+** I will eat a nut. Gold acorn and crimberry can't be cooked but are accepted.
+** I will eat a seafood. Again, this is based on the type of cooked food produced, so fish-like monster corpses do not count - those are considered meat.
+** I will eat a noodle.
+
+* III: Early to bed, early to rise. This is always chosen as the third quest. This is to railroad players into discovering the breakfast event.
+** I will go to sleep between 21:00 and 23:59.
+
+ [Daily quest rewards]
+* Res upper
+**  A tool that does not spawn randomly.
+** Permanently increases all resistances of the character it is used on by one rank.
+** The displayed resistances won't reflect any changes until two are used.
+** This basically works the same as eating corpses, though the amount of resistance given is different. They share the same cap, after which no more resistance can be gained. Neither method will give resistances to an element that the character is "Criticaly Weak" (sic) to.
+** Another difference is that if no more resistances can be gained from using this, it will prevent you from using the item. As such, you can't waste one of these even if you don't keep track of resistance gains.
+** Characters who have no resistances to an element will have their damage received reduced from 100% to 40% after just one use, so this will have a significant impact even if you have a lot of pets.
+** This can be used on anyone, but trying to use it on someone who doesn't have enough Impress will cause them to put up a fight since it's an injection.
+
+* DV fixer
+**  A tool that does not spawn randomly.
+** Permanently increases the DV modifier of the character it is used on by 10. It cannot be used on characters who already have 200 or greater in the modifier.
+** This can be used on anyone, but trying to use it on someone who doesn't have enough Impress will cause them to put up a fight since it's an injection.
+
+* PV fixer
+**  A tool that does not spawn randomly.
+** Permanently increases the PV modifier of the character it is used on by 10. It cannot be used on characters who already have 200 or greater in the modifier.
+** This can be used on anyone, but trying to use it on someone who doesn't have enough Impress will cause them to put up a fight since it's an injection.
+
+* Reward order:
+** Res -> DV -> PV -> DV -> PV -> DV -> PV -> Res (loops back to beginning)
+
+ [New items]
+* mana destone
+** Does not spawn randomly. A tool, not an ore.
+** Guaranteed to drop from NPCs who die from magic reaction.
+** Has a Lv that reflects the NPC's level. Selling price increases with its Lv.
+** Using it recovers 10% of total MP and gives Magic attribute experience proportional to its Lv.
+
+* fighting destone
+** Does not spawn randomly. A tool, not an ore.
+** Guaranteed to drop from enemies after defeating them with Persuasion special actions.
+** Has a Lv that reflects the NPC's level. Selling price increases with its Lv.
+** Using it recovers 10% of total SP and gives Constitution attribute experience proportional to its Lv.
+
+* X-Frame
+** Obtained when you talk to Gavela with a potioman that has been upgraded by Miral.
+** Usable on upgraded potiomans. Cannot be removed once attached to a potioman.
+** Added a second characteristic to the potioman. This cannot be the same characteristic as the first.
+** An "X" is appended to the potioman's item name after usage and its sprite will changed a bit.
+** Only one X-Frame can be used per potioman even if you have multiple X-Frames.
+** Using this will also grant the Custom Change special action (see below).
+
+ [New special action]
+* Custom Change
+** Change the second characteristic of a potioman equipped with an X-Frame.
+** This cannot be the same characteristic as the first.
+
+ [New gauge attack]
+* Hyper Plug Burst
+** Procs when the target is still alive after a potioman has been used and the user's power gauge is 100%. Expends the power gauge when used.
+** A Strength attribute-dependent gauge attack that has a chance of getting its damage reduced by the target's Greater Evasion.
+** After that, sets the potioman that was used to +3 (or +4 if it was a cf potioman), and if you have enough potion plugs, sets the number of bullets to 4.
+** Gives the user Marksman experience.
+** Is the same as other gauge attacks in other respects.
+ 
+ 
+ ===2.15: detailed changelog===
+ [New special actions
+* Posing
+** Increases the user's power gauge by 15% and decreases guard break gauge by 15%.
+** Of the existing NPCs, muscle golem, ooteguchi, heroyeek, magic hawk moth, <Oxode> the queen bee, <Snail> the android rider, and <Opatos> now have a low chance of using it when their power gauge is below 85% and their guard break gauge is 15% or greater. (This applies to NPCs spawned in previous versions of the game.)
+
+* Shark Trade
+** Places a fukagurumi (see below) into the target's inventory and decreases that target's power gauge by 20%.
+** Increases the user's power gauge by 20%. Fails if the target's inventory has no free space.
+** Of the existing NPCs, captain shark, raging shark, and nightmare shark now have a decent chance of using it when adjacent to their target and their power gauge is less than 80%. (This applies to NPCs spawned in previous versions of the game.)
+
+ [New items]
+* slime mold
+** Does not spawn randomly.
+** If the rare loot trigger is on:
+** slime has a low chance of dropping it, 
+** zombie girl has a decent chance of dropping it, and
+** gothic, requiem, and zombie queen have a high chance of dropping it.
+** Lets you select a corpse in your inventory. Consumes both the slime and the corpse to spawn a necro parts item (see below) that corresponds to a limb that the NPC the corpse was from had.
+** Cooked corpses, corpses generated in previous versions of the game, and nameless corpses cannot be used. Rotten corpses can be used.
+
+* necro parts
+** This isn't actually the name of the item when it spawns.
+** Does not spawn randomly.
+** When it spawns, its item name is based on the weight of the corpse it was made from and the limb that this corresponds to.
+** When used, it grants the target this body part. Usable on the player character.
+** Does not grant a limb if the recipient already has it.
+
+* fukagurumi
+** A junk-type item that does not spawn randomly. Usable as a chair.
+** Has a random name given to it when created.
+
+ [New NPCs]
+* SPChampion
+** Level 194 seamonster. Shadow Step, Continuous attacks, and Body Blow.
+** Has a decent chance of using Shark Trade when adjacent to target and has less than 80% power gauge.
+				
+* daganotosus
+** Level 176 seamonster. Spawns in swarms. Vulnerable to "inflicts massive damage to Gods."
+** Mist of Silence, Slow, Eye of Insanity, and Hydro Bolt.
+** Has a low chance of using Venotrate if its power gauge is high enough.
+
+* mostmuscylla
+** Level 73 seamonster. Female only. Uses Squeeze.
+** Has a low chance of using Posing when power gauge is below 85% and guard break gauge is 15% or above.
+
+* dosukebe sea anemone
+** Level 43 seamonster. Nightmare, Nerve Needle, Tickling Hell, and Eye of dimness.
+
+* dolphin soldier
+** Level 27 seamonster. Spawns in swarms. Uses Fire Breath.
+
+* provocasquid
+** Level 11 seamonster. Temper bit flag. Uses Provoke and Hydro Fang.
+** Uses Insult on low health.
+
+ [Changes to base damage calculation and user level-dependent damage modifiers]
+* The following were affected by changes in this version:
+** Blade Strings, Thread of Innervation, Shining Throw,
+** Smash Ground, Linear Launcher, Blood Stream, Homing Lazer, Destiny dice,
+** Eye of Illusion, Eye of Stiffen, Violent Garden, Anaphylaxis, Close Suicide, Suicide,
+** Blame Pain, Electric Shock, Burn Scrolls, Flame of Rage, the extra attacks from Resolution Hand procs,
+** Killing Dance counters,
+** Rocket Fire, Nuclear Fire, Hyper Dash, MP Breath, Extermination Breath,
+** panzerfaust X, atomic launcher, laser bazooka, high potion of aqua sanctio,
+** and mind damage received from eating food created with Hazard Recipe.
+* Others may be changed in future versions.
+ 
+ 
+ ===2.14: detailed changelog===
+ [New items]
+* dernefia
+** A flower that does not randomly spawn. Considered a junk item.
+** Probability of getting spawned increases as the danger level of the floor [within a Nefia] increases.
+** The probability starts out at 1/75 and caps at 1/20 at danger level 100. It does not spawn in floors that are randomly generated when reentering the map.
+** Greatly increases favor when offered to Jure of Healing (like coconut crabs for Ehekatl).
+** Recovers MP and SP when eaten due to the equipment attributes on it.
+
+* bottle cap
+** A junk item that does not randomly spawn. Has no use for now...
+** White when spawned from drinking juice, blue from mugi tea, red from cola.
+
+* b-dama
+** A junk item that does not randomly spawn. Has no use for now...
+** Can spawn blue, translucent, or patterned.
+	
+ [New special actions]
+* Direct Transfusion
+** Learned upon leveling up when Gene engineer skill is 10 or higher and Dexterity is 30 or higher.
+** Select two characters in adjacent tiles to transfuse blood between them. The player character may be one of them.
+** This is considered an attack on the character who has blood drawn, and a Gene engineer skill level-dependent bleed will be applied.
+** The blood recipient will have a Gene engineer skill level-dependent reduction in number of turns of bleed the character is afflicted with.
+
+* Electric Shock
+** Learned upon leveling up when Gene engineer skill is 25 or higher and Magic is 50 or higher.
+** If the user or the target is an enemy NPC, it deals Gene engineer skill level-dependent lightning damage 4 times.
+** If not, it halves the number of Dyspnea turns and completely removes any Unconscious or Sleep status ailments the target is suffering from.
+** There is a -1 karma penalty if the player uses it on any NPC.
+** Using this skill will give the user Gene engineer skill experience in most cases.
+
+* Instant Suture
+** Learned upon leveling up when Gene engineer skill is 45 or higher and Tailoring skill is 45 or higher.
+** If the user or the target is an enemy NPC, it applies 10 turns of Bind if the target is currently afflicted by less than 10 turns of Bind.
+** If not, it halves the number of Bleed status ailment turns.
+** Using this skill will give the user Tailoring skill experience in most cases.
+
+ [New NPC]
+* <Boyciana>
+* Level 20 bird. Floats. Vanish on low health. Does not randomly spawn.
+
+I may have put too much effort into making this feature so it's kind of complicated.
+You may want to read the following while playing or after playing around with it so that it makes more sense.
+
+ [About giving birth]
+* Using a SurvivabilityEXtenderX will ensure that the child born is female.
+* Using a SurvivabilityEXtenderY will ensure that the child born is male. Only the sex will be different; everything else will be the same.
+* When the target is an NPC, a player character Dexterity-dependent value + target's Impress + target's master/servant value will be rolled against the target's Strength to determine if the target resists.
+* Non-pet NPCs become immediately hostile when they resist.
+* The roll succeeds more easily if the target is asleep, unconscious, or has less than 1/8 HP remaining. There is no such roll when the target is the player character.
+* Using the item successfully will cause the target to enter phase 1. If the target is currently pregnant with a parasite, that parasite will be removed.
+* The target will also become immune to pregnancy during phases 1 and 2.
+* Every additional time the EXtender items are used during phase 1 will increase the number of children born later by 1.
+** Which means using it a total of 2 times will cause twins to be born, 3 times for triplets, and so on. Using X and Y once each will cause fraternal twins (i.e. one male and one female child) to be born. The upper limit is 9 male and 9 female, so be sure to have enough pet slots free.
+
+ [Phase 1]
+* There will be a blinking heart icon.
+* Drawing blood via Direct Transfusion, attacking with Drain Blood, attacking with Voracity Fang, finishing a little tail t'night, finishing a little tail t'night [in evochat], reaching the limit with Sleep Sharing, or making a gene will give you the target's gene and increase progress.
+* The former 3 types of actions will use only [the target character] to increase progress, while the latter 4 will use both [the target and the initiator of the action].
+* The highest base resistance of each of the first two targets a gene is obtained from will be used.
+* The NPC type is determined by last target a gene is obtained except when that target is the player character.
+* The later the action appears in the list above and the higher the target's base resistance, the greater the progress made when a gene is obtained in that manner.
+* Genes for a child do not have be all obtained from the same target.
+* It'll be faster to do this with high level monsters or by using the genes of some NPC with high resistances, but lower level genes will still suffice - you just need more of them.
+* When progress is 100% or greater, phase 2 begins.
+
+ [Phase 2]
+* There will be a large blinking heart icon.
+* Satiety decreases at double the rate. The greater the satiety gained from eating food, the greater the progress gained.
+* Vomiting due to eating cursed food or anorexia has no effect on progress.
+* When progress is 100% or greater, phase 2 ends.
+* The children will all be born at once and join as pets.
+* If there are more children than there are empty pet slots, those who cannot fit will disappear.
+* One <Boyciana> NPC will also spawn during birth that cannot be recruited as a pet.
+* If it is an NPC giving birth, all children will be of the same NPC type as the NPC.
+* If it is the player character giving birth, the children will be the same type as the last NPC a gene was obtained from.
+* The sex of the child depends completely on the X or Y item used even if it's a male-only or female-only NPC type.
+* The children spawn at level 1, age 0, are considered unique NPCs, and have no portraits, no items, 1/5 height, and 1/10 weight. You'll have to name them yourself too.
+* If you want two NPCs to have children, you'll definitely need to use Direct Transfusion to transfer genes between them. To feed a non-pet NPC, throw food at them when they're hungry.
+* There are no limitations on this feature - you can make your wife give birth using a whole bunch of goblin and orc genes. If you're shipping a couple of characters you can make them sire children, or even give birth to their children on their behalf. Or you could do ridiculous things like make your newborn twins have kids of their own. All that and more is possible. Not that there are any advantages of doing so. Feel free to act according to your moral compass.
+
+ [About the child who is born]
+* The two resistances gained during phase 1 will have 4 ranks added to each of them. (If these two are of the same element, 8 ranks will be added to it.)
+* The move set of the last NPC a gene was obtained from will apply. This does not include moves that are only used under certain circumstances. This means you can use a good move set to strengthen a weak NPC type.
+* A Blank Business Card cannot be used until the child is fully grown.
+* They start at -5 sprite size, and this is unaffected by using blessed or cursed milk on them.
+* They will grow in 5 stages, and their current stage is displayed in the conversation window below their portrait.
+* Investments can be made up to 10 times per growth stage.
+* Simply select the option to invest, spend Attract and gold pieces, and experience will be given to all skills in the selected category of skills. The amount of experience given is unaffected by skill training days (Training-day, Combat-day, etc).
+* Amount of skill experience gained depends on the player character's Learning attribute. Investing gives a slight amount of Investing skill experience to the player character.
+* Making the child do something they have an interest in will increase their Impress towards the player, pick a random skill 15 times and give twice as much experience as compared to when other options are picked. (When a skill that the child doesn't have gets picked, the experience is wasted.)
+* When 10 investments have been made for the current phase AND one of the following is fulfilled:
+** the child's level is 10 * growth phase or greater
+** the child's age is 3 * growth phase or greater
+* ...an option to <Acknowledge child's growth> will show up in the conversation window. Selecting it will advance the child to the next growth phase, increase their sprite size by 1, and raise their age to a predetermined value.
+
+ [Growth stages of children]
+* baby phase
+** All random events have a high chance of getting overwritten by a child crying event.
+** All random sleep events (except for Lucky Day, Treasure of Dream, and Quirk of Fate - the latter two give a treasure map and a statue of Ehekatl respectively) have a high chance of getting overwritten by your child crying event.
+** This chance is calculated separately for every child on the map who is neither asleep nor unconscious.
+** The options you pick will change the child's Impress and Master/Servant value towards you.
+** The correct option you have to pick will change depending on the child's state, so as their guardian it's best if you know what's going on.
+** When determining their state, the baby's stats have the following priorities: power gauge 0% < HP is 90% or below < Satiety is below Satisfied.
+** They have a 5% chance of falling asleep for 100 to 400 turns.
+** During combat, they also have a 20% chance of gambolling around (NB: "rolling fine!") and ending their turn.
+
+* NO phase
+** All random events have a decent chance of getting overwritten by your child whining.
+** This chance is calculated separately for every child on the map who is neither asleep nor unconscious.
+** The options you pick will have a slight effect on their Impress and Master/Servant value towards you.
+** During this phase, attempting to give them items or take items from them will have a 50% chance of failing. Very annoying.
+** They have a 5% chance of falling asleep for 50 to 200 turns.
+** During combat, they also have a 15% chance of "hopping and playing" around and ending their turn.
+
+* infancy phase
+** All random events have a low chance of getting overwritten by 1 of 3 events that may occur in their place.
+** This chance is calculated separately for every child on the map who is neither asleep nor unconscious.
+** The options you pick will have a slight effect on their Impress and Master/Servant value towards you.
+** They have a 5% chance of falling asleep for 50 to 200 turns between 11pm and 6am.
+** During combat, they have a 10% chance of "looking away with interest" and ending their turn.
+
+* growth phase
+** All random events have a slight chance of getting overwritten by 1 of 3 events that may occur in their place.
+** This chance is calculated separately for every child on the map who is neither asleep nor unconscious.
+** The options you pick will have no effect on anything.
+** They have a 2% chance of falling asleep for 50 to 200 turns between 11pm and 6am.
+** During combat, they have a 5% chance of "thinking with a serious face!" and ending their turn.
+
+* puberty phase
+** Their manner of speech and how they refer to themselves [in the Japanese version] will change to a random one when entering this phase.
+** All random events have a slight chance of getting overwritten by 1 of 3 events that may occur in their place.
+** This chance is calculated separately for every child on the map who is neither asleep nor unconscious.
+** They will have a 50% chance of refusing Directives or command flag orders.
+** In combat, the lower the master/servant value, the higher their chance (ranging from 5% to 20%) of simply ending their turn.
+** At the end of this phase, the child bit flag is removed and they will be considered a fully-fledged ally.
+ 
+ 
+===2.13: detailed changelog===
+ [Blackjack reward tiers]
+* The number of items you will receive every time you claim the reward has greatly increased, so be sure to have space in your inventory!
+** Reward Lv 1+ - Reward-Lv dependent armour. Item quality tier increases at Lv7, 14, 21, and 28.
+** Additional reward at Lv 5+ - gift
+** Additional reward at Lv 9+ - potion of cure corruption
+** Additional reward at Lv 11+ - unicorn horn
+** Additional reward at Lv 13+ - Blank Business Card
+** Additional reward at Lv 15+ - scroll of faith
+** Additional reward at Lv 17+ - high potion of wisdom
+** Additional reward at Lv 19+ - golden mead
+** Additional reward at Lv 23+ - potion of potential
+** Additional reward at Lv 25+ - SurvivabilityEXtenderX and SurvivabilityEXtenderY
+** Additional reward at Lv 27+ - master of diamond, master of heart, master of club, and master of spade. Second time claiming this tier and onwards will award the <Slash Joker> instead.
+** Additional reward at Lv 29+ - starfiber
+** Additional reward at Lv 31+ - craft repair kit
+** Additional reward at Lv 33+ - <super lure>. Second time claiming this tier and onwards will award the high potion of soma instead.
+** Additional reward at Lv 35+ - skeleton key. Second time claiming this tier and onwards will award the high potion of nektar instead.
+
+** All the "additional reward" tier items will be paid out only if the rare loot trigger is on.
+** If you want the item from a particular reward tier, just bet the number of chips required to reach it. Picking "I'm out" decreases reward level by 1 while winning increases it by 2, so adjust accordingly.
+** Reaching a reward tier will also unlock the precious item for that tier as a reward from the little sister quest. This is so that players who miss out on the reward due to a full inventory can still obtain it.
+
+ [New items with unimplemented effects]
+* master of diamond
+** Does not spawn randomly.
+** In the future, I intend to implement a play-style where you summon spirits from cards, and having the different types of spirits in poker hand combinations will proc certain effects.
+
+* master of heart
+** As above.
+
+* master of club
+** As above.
+
+* master of spade
+** As above.
+
+* SurvivabilityEXtenderX
+** Low chance of generating randomly.
+** Will be for making children, giving birth, and child rearing. Independent of the system for gene-making and incarnating an adventurer.
+
+* SurvivabilityEXtenderY
+** As above.
+
+ [New items]
+* laser bazooka
+** Generated randomly.
+** When used, does a single-target attack dependent on the user's Dexterity and Marksman skill level.
+** Increases the target's guard break gauge by 30.
+** Gives the user Dexterity and Marksman skill experience.
+** Can be recharged.
+** Basically a variant of the M202 special and panzerfaust X.
+
+* cork pack
+** Generated randomly.
+** Using it grants +100 potion plugs.
+** The spawn rate is rather low because this is a useless item unless you use potiomans.
+
+* starfiber
+** A tool that does not spawn randomly. Crafted with item fusion.
+** Use this to give the selected living weapon 75 experience.
+
+* spiritium
+** Spawns only when a treasure chest does not generate herbs as a reward.
+** Each has a subtype (listed below). Every subtype gives the same effects.
+** Cannot be used on non-pet NPCs. Up to 2 spiritium can be used per character.
+** Further spiritium usage causes the first [CHARA] trait to become the second, and the new spiritium becomes the first [CHARA] trait.
+** The same trait cannot be acquired twice. The different traits are more or less for flavour purposes.
+** Acquired traits are listed under Feats and Traits.
+** Acquiring the first trait grants +3 power gauge when entering a map.
+** Acquiring the second trait gives +1 power gauge whenever damage is received.
+** Spiritium types (this should cover just about everything, but more could be added in the future if there's a need for that): 
+
+** Cheerful
+** Carefully
+** Devoted
+** Lively
+** Confident
+** Humility
+
+** Quiet
+** Diligence
+** Innocent
+** Delicate
+** Gentle
+** Passionate
+
+** Evil
+** Lewd
+** Cynic
+** Ruthless
+** Warlike
+** Corrupt
+
+** Paranodic
+** Stubborn
+** Miser
+** Lazy
+** Stupid
+** Carefree
+
+** Whimsical
+** Despicable
+** Arrogance
+** Cowardly
+** Gloomy
+** Bizarre
+
+** Playful
+** Shy
+** Nervous
+** Vulgar
+** Perversity
+** Courageous
+
+
+===2.12: detailed changelog===
+ [New map]
+* the Church of Older Sister
+** A new map beneath Ludus.
+** Map regenerates after a few days.
+** Cannot be Returned to.
+** Enter this map by completing the Removal of sister quest and speaking to the older sister NPC.
+** It's like the mansion of younger sister but of a different flavour.
+
+ [New special actions]
+* Pollen cannon
+** Single-target ranged attack that does not deal any damage per se.
+** Rolls to apply all of the following at the same time: Wince, Chills, Blinded, Paralyzed, Confused, Dim, Poisoned, and a Perception debuff.
+** If the target's current Perception attribute is already less than half of base Perception, the debuff is not applied.
+** The strength of all debuffs is dependent on the user's character level.
+** Now you can suffer from pollen allergies even in game (ugh).
+
+* Eye of Ane
+** A joke special action that acts as the counterpart to little sister summoning.
+** Can be learned by speaking to the <Sister> NPC listed below.
+** When used by the player character, you will gain 1 ane power experience and the current "ane attribute" will change to a different one.
+** Gaining experience for all 13 ane attributes will cause ane power level to increase by 1.
+** Ane power is capped at the same value as the player character's level.
+** Current ane power and ane attribute can be determined by speaking to the <Sister> NPC.
+** When used, it heals the target's HP by an ane power-dependent amount by some unknown mechanism. (If used by NPCs, that HP recovery is dependent on their character level instead.)
+** It has no effect when used on older sister-type NPCs and will fail.
+** When successfully used, it also removes the user's Melancholy status ailment. Naturally, it does not alleviate the drug dependence associated with it.
+** This is considered an "Eye of ___"-type attack, so you can actually tack on other effects to it with Abyss in the eye. It can also be used to proc Mind Break when power gauge is full.
+
+
+ [New NPCs]
+* helraune
+** Level 183 mandrake. Female only.
+** Pollen cannon, Anaphylaxis, Poison Bolt, Nether Roar.
+** Has a chance of using Venotrate when power gauge is between 25 and 80% inclusive.
+
+* king hogweeder
+** Level 108 mandrake. Male only.
+** Pollen cannon, Touch of Poison, and Touch of Nerve.
+
+* hogweeder
+** Level 55 mandrake. Male only.
+** Pollen cannon, Provoke, and Poison Breath.
+
+* alraune
+** Level 36 mandrake. Female only.
+** Cure of Eris on low health. Uses Mind Thorn and Mist of Frailness.
+
+* kusosugi
+** Level 175 ent. Can spawn in swarms.
+** Uses Pollen cannon, Blame Pain, and Eye of Insanity.
+
+* hinocchio
+** Level 68 ent. Male only. Temper bit flag.
+** Uses Pollen cannon and Blended lie.
+
+* <Sister> the older sister
+** Level 70 roran. Suitable for riding.
+** Uses Mind Bolt, Illusion Roar, Eye of brainwashing, and Eye of Ane.
+
+ [New item]
+* anering
+** A tool that does not spawn randomly.
+** Obtain by speaking to the aforementioned <Sister> and picking the appropriate options. When obtained like this, it always spawns blessed.
+** Using it will recover the target's MP by a player character ane power-dependent amount.
+** The amount it recovers isn't that much, but if you carry a lot of these you can easily counter any MPoison ailments on any character.
+
+
+===2.11: detailed changelog===
+ [Effects of the Aurtehom]
+* Reading Aurtehom will cause one of the effects listed below.
+** Reading it, however, will decrease Abyss power and/or do SAN damage.
+** SAN damage is a roll to check if insanity increases. It can be mitigated with Mind resistance, with Jure's feat, or by being drunk.
+
+* [Abyss Leading]
+** Starts unlocked at 0 Abyss power.
+** Removes all items on the map that are unowned (i.e. can be picked up without Pickpocket) except for Aurtehom itself.
+** To prevent accidental usage, there is a confirmation dialogue that will show up after picking this option.
+** For every type of item removed, it increases Abyss power by 1. This had to be limited to 1 point per type of item or else gold pieces would give a lot of points.
+** This is a way of obtaining Abyss power other than by doing quests and reading ancient books. Also for cleaning Nefias.
+
+* [Phantom Swords]
+** Unlocked when Abyss power is 500 or above.
+** Does Literacy and Magic Device skill-dependent cut element damage to all enemies in sight. It also rolls to decapitate enemies that have less than 1/8 maximum HP left.
+
+* [Dark Expulsion]
+** Unlocked when Abyss power is 1000 or above.
+** Deals damage to instantly kill all enemies on the map that have the summoned bit flag.
+
+* [Lightless Gate]
+** Unlocked when Abyss power is 2000 or above.
+** Escape but without having to wait any turns.
+** Escape takes 5 to 14 turns and Return takes 15 to 29 turns. If you find that waiting this many turns will get you killed, you can use this during the Escape/Return cast to override it and bring you out instantly.
+
+* [Evil Guardians]
+** Unlocked when Abyss power is 3000 or above.
+** Summons the 3 types of dark guardians (see below) as allies.
+** They are not marked by the summoned bit flag but disappear when changing maps.
+** Their level when spawned is dependent on the player character's Magic Device and Literacy skill levels.
+** They won't spawn if there is already a dark guardian of the same type on the map.
+
+* [Beckoning Seabed]
+** Unlocked when Abyss power is 4000 or above.
+** A Literacy skill-dependent roll to silence all enemies in sight.
+** If [the target] is not already afflicted by Choked, inflicts 1 turn of Choke on them (equivalent to 15 turns of Dyspnea).
+
+* [Suffering Deads]
+** Unlocked when Abyss power is 5000 or above.
+** All dead NPCs who can be resurrected will get resurrected. Their Impress won't increase though.
+
+* [Merciless Flood]
+** Unlocked when Abyss power is 6000 or above.
+** Inflicts Literacy and Magic Device skill-dependent PV/DV element damage to every single character on the map and applies Wet to them.
+** Can be reflected.
+** All floor tiles are changed to water tiles.
+** Each wall tile has a chance of getting destroyed.
+
+* [Crazy Theater]
+** Unlocked when Abyss power is 6666 or above.
+** Sets the current field state to [Crazy Theater].
+** [This field state] increases damage dealt by all characters by a character Sanity-dependent multiplier (x2 damage dealt at 100 Sanity).
+** Damage received [by all characters] is also decreased by a character Sanity-dependent multiplier (x0.5 damage received at 100 Sanity).
+
+ [New NPCs]
+* green dark guardian
+** Level 30 god. Does not spawn naturally.
+** Floats. Eye of Insanity on low health. Eye of Illusion, Psychic Wave, Homing Lazer.
+
+* blue dark guardian
+** Level 30 god. Does not spawn naturally.
+** Floats. MP Breath on low health. Fire Bolt, Cold Blade, Heal Critical, Harvest Mana.
+
+* crimson dark guardian
+** Level 30 god. Does not spawn naturally.
+** Floats. Run Wildly on low health. Distant Attack, Acid Hurricane, 
+
+ [New item]
+* command whistle
+** An item that can randomly spawn. A type of junk.
+** Using it will decrease the guard break gauge of all characters in sight by 5%. This includes the user and enemies.
+** It has no effect on characters who are already in guard break state.
+
+ [New special action]
+* Individual Leading
+** Learned upon level up when the Natural Leader feat is acquired (the one that also grants Cheer) and Learning is 30 or greater.
+** Decreases the selected ally's guard break gauge by up to 50%, and increase the user's guard break gauge by the amount decreased.
+** If this brings the user's guard break gauge to 100% or greater, it sets it to 99%. The amount of guard break that "disappears" will affect the rate at which guard break gauge naturally decreases.
+** This special action fails if the target already has its guard broken or is out of sight.
+** Non-pet temporary NPC allies can also be selected as targets.
+** The flavour text for the target's reaction can be customized with dbModeTxtLeading.
+** Something I'd like to implement in the future is the ability to play a type of character that doesn't fight but is able to command allies effectively to win battles.
+
+
+===2.10: detailed changelog===
+ [New NPC]
+* <Talka> the long twintail
+** Level 15 cat race unique NPC.
+** Placed on the Truce Ground. NPC for an event not yet implemented.
+** Portrait and conversation content are placeholders.
+** Heal Critical on low health. Uses Speed.
+
+ [New item]
+* Aurtehom
+** Placed on the Truce Ground.
+** In the future, reading it will have an effect of your choosing but increase insanity.
+
+
 ===2.09: detailed changelog===
  [New item]
 * socks
@@ -4121,7 +5230,7 @@ The default shop has a 1/8 chance of cancelling the sale of an item. The food sh
 ** NB: This will say Distant Attack in-game, but it's a misnomer.
 
 [Changes to existing unique NPCs]
-* <Getuei>the ninja master
+* <Getuei> the ninja master
 ** No longer use decapitation. Will use Shadow Step, Blade Turbulence, and Struck Out instead.
 
 [Additions to the main quest]

@@ -36,6 +36,7 @@ Number,Japanese title,English title,		1=randomly generated
 29,次元间力观测实验报告书,Dimensional Energy Report,	0
 30,关于委托的建议,Quest Advice,		0
 31,垂钓入门,Fishing Introduction,		0
+32,矫正收容者的指南,Inmate Correction Manual,		1
 %END
 
 /Translation Note
@@ -4205,3 +4206,129 @@ item or two for you! If you're the
 sort who never feeds their fishies, 
 you're missing out!
 %END
+
+
+#####################################
+%32,JP
+矫正收容者的指南
+	written by 前辈管理员
+
+　恭喜收容所管理官出道！从现在开始，不断
+把出色的孩子被关在笼子里运送到收容所吧！
+　在收容所变得坦率的孩子，无论多么讨厌你
+也只能服从你了。可以作为玩赏用的收藏，成
+为伙伴也可以哦。
+
+　诶？如果只是做朋友的话就不用费事了吗？
+去买奴隶？因为有支配的魔法所以不需要？
+　你真是不懂啊。从一开始就顺从的孩子和用
+用魔法让它顺从的孩子不一样哦。这世上可是
+有让惹人厌的孩子无法逃避地劳动才能得到的
+能量！
+
+　好了，先用一下面板吧？
+
+　把抓来的孩子从笼子里带出来之后，设定劳
+动强度后让他们劳动！反正谁也跑不掉的，
+所以放置3天后再来看看就好了。
+　设定劳动强度越高，劳动能量就积攒的越多。
+但是越高就越消耗生命力。不过死了人的话，
+别忘记补充新的孩子哦？
+
+　收容所内的物品对获得能量没有有特别的影
+响，所以布局按你喜欢的来就好。
+　还有…越是坦率的好孩子就越能热心的劳动
+会产生很多劳动能量哦。
+　矫正成坦率的孩子非常简单！只需要处死几
+个人以儆效尤！包括用来处刑的孩子，凑齐人
+头会变得很轻松吧。
+
+　如何、要试试吗？那么，把坏孩子都进行矫
+正吧？
+
+
+%END
+
+%32,EN
+Inmate Correction Manual
+Written by You May Address Me As Sir
+
+Congratulations on your new
+internment camp!
+
+But before you start filling it 
+up, let's go over what it can do. 
+The ones that have been...
+conditioned at the camp will do 
+your bidding no matter how much 
+they hate your guts. At this 
+point you may add them to your 
+collection of playthings or have 
+them fight for you in battle.
+
+What's that you say? If you want 
+a pet just buy a slave? Just 
+cast dominate? Oh no no no no 
+you don't get it do you?
+
+They're different when you catch 
+them like this. They're not like 
+the ones that were broken with 
+magic or broken to begin with.
+
+They're feisty and fresh. The 
+OTHER thing your camp can do is 
+put them to work and harness 
+that energy.
+
+Now. Try using your house board.
+
+Take one of them out of its 
+cage, set a toil level, and 
+watch it go!
+Don't worry, it won't be going 
+anywhere, so you can kick back, 
+relax, and check back in about
+3 days.
+
+The higher the toil level, the 
+more toil energy you get. But! 
+It will also expend more of its 
+life doing the tasks given, so 
+don't forget to replenish the 
+dead ones mmmmkay?
+
+The interior design of the camp
+won't affect how much energy you 
+get. Open concept minimalistic 
+camp? Marvelous. Old-fashioned 
+and homey gulag? Go for it.
+The sky's the limit.
+
+And lastly, the ones that have 
+become more submissive to you 
+yield more toil energy.
+
+
+
+But Sir, you may ask, how did 
+you do it? How do you get them 
+to stop being rebellious?
+Why, the answer is simple.
+Just kill some of them. The 
+remaining ones will fall in 
+line. Works every time.
+
+Just remember. If you're 
+earmarking some for killing,
+don't forget to grab a few more 
+the next time you replenish your 
+stock.
+
+Easy, right? Now get going, chop 
+chop. These naughty things 
+aren't going to discipline
+themselves.
+%END
+
+#####################################
