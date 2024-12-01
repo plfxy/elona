@@ -59,7 +59,7 @@ msg_addTime.	"1"
 title_dialog.	"0"
 
 (Sound)
-sound.		"0"
+sound.		"1"
 music.		"0"
 heartbeat.	"1"
 
